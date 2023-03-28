@@ -1,4 +1,12 @@
-# Waku Message UID (v2)
+# Waku Message UID (v3)
+
+# Goal
+
+Definition of a Waku message identifier that can be used to:
+
+- Identify a message unequivocally.
+- Check message integrity.
+- Perform signature-based filtering (authentication and authorization).
 
 # Context and previous attempts
 
@@ -43,20 +51,12 @@ At the moment of writing, the **Waku Store** protocol provides an API supporting
 
 However, there is a limitation when verifying missing messages in a node's history. Downloading large amounts of data, in the order of hundreds of megabytes or even gigabytes, is not a time and bandwidth-efficient method for this task.
 
-# Goal
-
-Definition of a Waku message uniqueness identifier that can be used to deduplicate Waku messages across the solution.
-
-# No goal
-
-- Build a blockchain. Consistency guarantees between archive-capable nodes are out of the scope of the present document.
-- Address or mitigate [all vulnerabilities](https://www.researchgate.net/publication/342734066_GossipSub_Attack-Resilient_Message_Propagation_in_the_Filecoin_and_ETH20_Networks) to which Waku Relay (and Gossipsub) are susceptible.
-
 # Use cases
 
 - Message deduplication in the network.
 - Message deduplication in the Waku Archive backend (e.g., in a shared backend setup).
 - Bandwidth-efficient Waku Archive synchronization.
+- Message signing and signature-validation-based filtering (e.g., for DoS mitigation).
 
 # Requirements
 
@@ -65,16 +65,17 @@ Definition of a Waku message uniqueness identifier that can be used to deduplica
 - Not leaking information (e.g., sender's key).
 - Application specific (e.g., lexicographic sortable).
 - Uniqueness is global to the network.
-    - Global to all the nodes publishing in a certain network (pub-sub topic).
-    - Global to the Gossipsub’s pub-sub topics certain store node is subscribed to.
-- Act as a message integrity check.
-- As an open network, all nodes should be able to perform a message ID validation.
+    - Global to all the nodes publishing in a specific network (pub-sub topic).
+    - Global to the Gossipsub’s pub-sub topics specific store node is subscribed to.
+- Act as a message integrity check and, optionally, as a signature.
+    - In an open and permissionless network, all nodes should be able to perform a message ID validation.
+    - As a private network, relayer nodes should be able to perform signature-based filtering.
 
 # Pre-requites
 
 ## The Waku Message’s `meta` attribute
 
-The Waku Message’s `meta` attribute is an arbitrary application-specific variable-length byte array with a maximum length limit of 32 bytes (2^256 possibilities).
+The Waku Message’s `meta` attribute is an arbitrary application-specific variable-length byte array with a maximum length limit of 64 bytes (2^512 possibilities).
 
 The message’s `meta` field MUST be present and have a length greater than zero in the non-ephemeral messages (those persisted by the Waku Archive durability service).
 
@@ -82,27 +83,66 @@ The message’s `meta` field MUST be present and have a length greater than zero
 
 The Waku Message UID is a two-part variable length identifier that can unequivocally identify and deduplicate the messages in a Waku network.
 
-The MUID comprises two parts: *message checksum* and **application-specific variable-length metadata.**
+The MUID comprises two parts: *message signature* and *application-specific optional and* ****variable-length metadata.****
 
 ```rust
-muid: [u8; 64] = concat(checksum, metadata)
+muid: [u8; 129] = concat(signature, metadata)
 ```
 
-The maximum length for the MUID is 64 bytes.
+The maximum length for the MUID is 128 bytes.
 
-## The *checksum* part
+## The *metadata* part
 
-It is a computable 32 bytes fixed-length checksum based on the content of the Waku Message. It is defined as follows:
+It is an application-specific variable length and optional part extracted from the Waku Message’s `meta` attribute.
+
+## The ***signature*** part
+
+The *signature* part of the message's unique identifier guarantees the integrity of the message payload. Depending on the relay network admission requirements, different schemas can be used.
 
 ```rust
-checksum: [u8; 32] = sha256(network_topic, WakuMessage.topic, WakuMessage.meta, WakuMessage.payload)
+signature: [u8; 65] = concat(sign_schema_id, singing_fn(checksum))
+```
+
+### The signature schema identifier
+
+The checksum signature bytes are preceded by a byte that indicates which hashing and signing schemas were utilized for the message. 
+
+The high nibble of the byte specifies the hashing schema:
+
+- 0x**0**X → *sha256*-based **deterministic hashing schema
+
+The low nibble defines the signing schema.
+
+- 0xX**0** → No checksum signature (raw hash bytes)
+- 0xX**1** → ECDSA signature
+
+For example, a message’s signed checksum using *ECDSA* to sign a ***sha256*** checksum should be preceded by a byte of value `0x01`.
+
+### The *checksum*
+
+It is based on a computable fixed-length checksum calculated from the content of the Waku Message. And it is defined as follows:
+
+```rust
+checksum: [u8; hash_len] = hash_fn(network_topic, WakuMessage.topic, WakuMessage.meta, WakuMessage.payload)
 ```
 
 The *checksum* part ensures the integrity of the Waku Message contained in the Gossipsub payload. As any node in the network can compute it, the message integrity can be verified.
 
-## The *metadata* part
+### The ***signature***
 
-It is an application-specific part extracted from the Waku Message’s `meta` attribute.
+Optionally, a message *checksum* can be signed using a signing function (e.g., **ECDSA**). Signing the checksum of a message can be used for authentication and authorization purposes.
+
+```rust
+signed_checksum: [u8, 64] = signing_fn(checksum, signing_key)
+```
+
+## Gossipsub message ID compatibility
+
+For backward compatibility with the most extended message ID computation schema, the MUID can be set to the *sha256* hash of the message payload
+
+```rust
+muid: [u8; 32] = sha256(network_topic, WakuMessage.topic, WakuMessage.meta, WakuMessage.payload)
+```
 
 # Message uniqueness considerations
 
@@ -129,13 +169,15 @@ These are some example schemas that could be used:
     - **PRO:** Negligible collision probability (if the content is well thought), contains metadata, non-traceable (looks like random data).
     - **CON:** High complexity, not-so-performant generation (hashing, encryption), not sortable at archive query time.
 
-# Waku Relay: deduplication and integrity
+# Waku Relay: deduplication, integrity check, and DoS mitigation
 
 Based on the low collision probability of some of the schemas described above, this MUID could be used as the message and seen caches key.
 
-A message that reuses the same ID with a different payload within the *Message Cache* window won’t be relayed. In the same way, if it is replayed within the **Seen Cache** window, it won’t be received by subscribers.
+A message that reuses the same ID with a different payload within the ***Message Cache*** window won’t be relayed. In the same way, if it is replayed within the **Seen Cache** window, it won’t be received by subscribers.
 
-Additionally, as all nodes can compute the **checksum** part of a message ID, a validator can be integrated to guarantee the Waku Message integrity.
+Additionally, if an open and permissionless network is desirable, no asymmetric key signing should be performed on the message checksum. This way, all nodes can compute the **signature** part of a message ID, and any relay node in the network can check the Waku Message integrity.
+
+On the other hand, if a private network is desirable (e.g., to mitigate DoS attacks), the message checksum should be signed using a cryptographic signing algorithm (e.g., ***ECDSA***). To distinguish only the valid messages, a remote relayer node participating on a network, i.e., holding the public key of the network, should perform the *signature* validation and reject the messages that do not pass the validation.
 
 # Waku Archive and Waku Store: durable streams
 
