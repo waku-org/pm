@@ -42,12 +42,7 @@
   description: Issue related to the test suite with no expected consequence to production code
   color: 277196
 
-# Waku Product labels
-- name: rqt:platforms
-  description: Requirement coming from a platform
-  color: A51BB5
-
-# Tracks primarily within Secure Messaging or Waku Product project
+# Tracks
 - name: track:rln
   description: RLN Track (Secure Messaging/Applied ZK), e.g. relay and applications
   color: C89BC6
@@ -90,3 +85,8 @@
 - name: track:go-waku-productionization
   description: go-waku productionization track (Waku Product)
   color: 9DEA79
+
+# Epics/Milestones
+- name: E:2023-light-protocols
+  description: https://github.com/waku-org/pm/issues/25
+  color: FEF445
