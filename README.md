@@ -57,3 +57,13 @@ Ideally, every:
 - _Epic_ GH issue contains a list of planned _Milestones_.
 - _Milestone_ GH issue contains list of planned and completed _Tasks_.
 
+## Work Tracking per Year
+
+### 2023
+
+**Priority Tracks**: https://notes.status.im/Uz9HeCwZTDSYyOq36Q54cA#a
+
+**Epics** (WIP):
+- 
+- https://github.com/waku-org/pm/issues/25 `E:2023-light-protocols`
+
