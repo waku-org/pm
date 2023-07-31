@@ -36,8 +36,11 @@
   description: Infra, devops, CI and related tasks
   color: 277196
 - name: milestone
-  description: Milestone issue with a subset of issues within a specific track
+  description: Tracks a subteam milestone
   color: 1CC0B0
+- name: epic
+  description: Tracks a yearly team epic (only for waku-org/pm repo)
+  color: 07544B
 - name: test
   description: Issue related to the test suite with no expected consequence to production code
   color: 277196
