@@ -64,6 +64,6 @@ Ideally, every:
 **Priority Tracks**: https://notes.status.im/Uz9HeCwZTDSYyOq36Q54cA#a
 
 **Epics** (WIP):
-- 
+
 - https://github.com/waku-org/pm/issues/25 `E:2023-light-protocols`
 
