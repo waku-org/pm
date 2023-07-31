@@ -57,6 +57,16 @@ Ideally, every:
 - _Epic_ GH issue contains a list of planned _Milestones_.
 - _Milestone_ GH issue contains list of planned and completed _Tasks_.
 
+### Reporting
+
+**Monthly**:
+
+- Report progress of each _Epic_
+- Report _Milestones_ that were closed last months and expected to be closed next month
+- Other relevant items (RISK, etc)
+
+**Weekly**: Report progress on each **active** _Milestone_ per subteam.
+
 ## Work Tracking per Year
 
 ### 2023
