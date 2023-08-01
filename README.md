@@ -57,6 +57,8 @@ Ideally, every:
 - _Epic_ GH issue contains a list of planned _Milestones_.
 - _Milestone_ GH issue contains list of planned and completed _Tasks_.
 
+Note: GitHub `milestone` functionality is **not** used as part of this process.
+
 ### Reporting
 
 **Monthly**:
