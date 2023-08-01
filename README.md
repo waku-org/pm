@@ -33,12 +33,12 @@ The Google Sheet will soon be replaced by a dashboard that extract data using Gi
 
 ### Terminology
 
-| Name           | Number of                           | Timeframe                            | Team Scope       | Description                                                                 |
-|----------------|-------------------------------------|--------------------------------------|------------------|-----------------------------------------------------------------------------|
-| Priority Track | 3-5                                 | Set yearly                           | Whole Team       | Focus set for the year, must be aligned with Logos Collective's priorities. |
-| Epic           | 2-3 per _Priority Track_, total<=10 | Set yearly, delivered quarterly-ish  | Several subteams | Identified deliverables for each _Priority Track_.                          |
-| Milestone      | Some per Epic                       | Set quarterly-ish, delivered monthly | One subteam      | Steps to deliver an _Epic_.                                                 |
-| Task           | Many per Milestone                  | Set monthly-ish, delivered weekly    | One individual   | Smallest chunk of work to be delivered.                                     |  
+| Name           | Number of                           | Timeframe                            | Team Scope                              | Description                                                                 |
+|----------------|-------------------------------------|--------------------------------------|-----------------------------------------|-----------------------------------------------------------------------------|
+| Priority Track | 3-5                                 | Set yearly                           | Whole Team                              | Focus set for the year, must be aligned with Logos Collective's priorities. |
+| Epic           | 2-3 per _Priority Track_, total<=10 | Set yearly, delivered quarterly-ish  | Several subteams                        | Identified deliverables for each _Priority Track_.                          |
+| Milestone      | Some per Epic                       | Set quarterly-ish, delivered monthly | One subteam or external team (e.g. DST) | Steps to deliver an _Epic_.                                                 |
+| Task           | Many per Milestone                  | Set monthly-ish, delivered weekly    | One individual                          | Smallest chunk of work to be delivered.                                     |  
 
 ### GitHub Usage
 
