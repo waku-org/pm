@@ -18,7 +18,7 @@ The current reporting requirements are 2 folds:
 
 #### 1. Weekly Reporting
 
-Weekly reporting by subteam of progress on milestones. See https://notes.status.im/waku-2023-report as the initiating document
+Weekly reporting by subteam of progress on milestones.
 
 #### 2. Monthly Reporting
 
@@ -68,6 +68,21 @@ Note: GitHub `milestone` functionality is **not** used as part of this process.
 - Other relevant items (RISK, etc)
 
 **Weekly**: Report progress on each **active** _Milestone_ per subteam.
+
+Every Friday, all team members must add a comment to the `Milestone` GH issue they worked on the past week or planned to work on next week.
+
+The comment must have the following MarkDown format:
+
+```angular2html
+**Weekly Update**
+
+_achieved_: what was achieved last week; must remain on one line.
+_next_: what will be worked on next week; must also remain on one line.
+_blocker_: any blocking items.
+```
+Omit the lines which are not relevant.
+
+On Monday, project lead or responsible person for report can run the https://github.com/fryorcraken/milestone-update script to generate a report and post it in the Logos Discord.
 
 ## Work Tracking per Year
 
