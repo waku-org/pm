@@ -73,7 +73,7 @@ Every Friday, all team members must add a comment to the `Milestone` GH issue th
 
 The comment must have the following MarkDown format:
 
-```angular2html
+```md
 **Weekly Update**
 
 _achieved_: what was achieved last week; must remain on one line.
