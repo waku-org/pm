@@ -9,7 +9,7 @@ assignees: ''
 
 2023 Milestones: https://notes.status.im/s/iylE6wdli#
 
-**Epic label**: `label`
+**Epic label**: `E:2023-name`
 <!-- Remove tracks as needed -->
 **Priority Tracks**: Secure Scalability, Production Readiness, Growth, Generating Revenue (Sustainability & Longevity).
 **Due date**:
