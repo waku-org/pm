@@ -86,7 +86,7 @@
   description: go-waku productionization track (Waku Product)
   color: 9DEA79
 
-# Epics/Milestones
+# Epics
 - name: E:2023-light-protocols
   description: https://github.com/waku-org/pm/issues/25
   color: FEF445
