@@ -82,7 +82,7 @@ _blocker_: any blocking items.
 ```
 Omit the lines which are not relevant.
 
-On Monday, project lead or responsible person for report can run the https://github.com/fryorcraken/milestone-update script to generate a report and post it in the Logos Discord.
+On Monday, project lead or responsible person for report can run the [milestone-update](https://github.com/fryorcraken/milestone-update) script to generate a report and post it in the Logos Discord.
 
 ## Work Tracking per Year
 
