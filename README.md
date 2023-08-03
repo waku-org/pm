@@ -48,7 +48,7 @@ For each:
 
 - _Epic_, there is a GH issue under the https://github.com/waku-org/pm repo.
 - _Epic_, there is a label with format `E:<year>-<epic title>` created across all relevant https://github.com/waku-org/ repos.
-- _Milestone_, there is a GH issue under the relevant https://github.com/waku-org/ repo with related _Epic_ label and `milestone` label assigned.
+- _Milestone_, there is a GH issue under the relevant https://github.com/waku-org/ repo with related _Epic_ label and `milestone` label assigned. The GH issue is assigned to the _owner_ of the milestone.
 - _Task_, there is a GH issue and/or pull request under the relevant https://github.com/waku-org/ repo with related _Epic_ label.
 
 Hence, correct _Epic_ label must be assigned to all GH issues/pull requests representing a _Milestone_ or _Task_.
