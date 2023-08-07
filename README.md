@@ -33,12 +33,14 @@ The Google Sheet will soon be replaced by a dashboard that extract data using Gi
 
 ### Terminology
 
-| Name           | Number of                           | Timeframe                            | Team Scope                              | Description                                                                 |
-|----------------|-------------------------------------|--------------------------------------|-----------------------------------------|-----------------------------------------------------------------------------|
-| Priority Track | 3-5                                 | Set yearly                           | Whole Team                              | Focus set for the year, must be aligned with Logos Collective's priorities. |
-| Epic           | 2-3 per _Priority Track_, total<=10 | Set yearly, delivered quarterly-ish  | Several subteams                        | Identified deliverables for each _Priority Track_.                          |
-| Milestone      | Some per Epic                       | Set quarterly-ish, delivered monthly | One subteam or external team (e.g. DST) | Steps to deliver an _Epic_.                                                 |
-| Task           | Many per Milestone                  | Set monthly-ish, delivered weekly    | One individual                          | Smallest chunk of work to be delivered.                                     |  
+| Name           | Number of                           | Timeframe                            | Team Scope                              | Owner       | Description                                                                 |
+|----------------|-------------------------------------|--------------------------------------|-----------------------------------------|-------------|-----------------------------------------------------------------------------|
+| Priority Track | 3-5                                 | Set yearly                           | Whole Team                              | Waku Lead   | Focus set for the year, must be aligned with Logos Collective's priorities. |
+| Epic           | 2-3 per _Priority Track_, total<=10 | Set yearly, delivered quarterly-ish  | Several subteams                        | Waku Lead   | Identified deliverables for each _Priority Track_.                          |
+| Milestone      | Some per Epic                       | Set quarterly-ish, delivered monthly | One subteam or external team (e.g. DST) | Team Member | Steps to deliver an _Epic_.                                                 |
+| Task           | Many per Milestone                  | Set monthly-ish, delivered weekly    | One individual                          | Team Member | Smallest chunk of work to be delivered.                                     |  
+
+Owner = person responsible for the delivery of the milestone and related reporting.
 
 ### GitHub Usage
 
@@ -46,7 +48,7 @@ For each:
 
 - _Epic_, there is a GH issue under the https://github.com/waku-org/pm repo.
 - _Epic_, there is a label with format `E:<year>-<epic title>` created across all relevant https://github.com/waku-org/ repos.
-- _Milestone_, there is a GH issue under the relevant https://github.com/waku-org/ repo with related _Epic_ label and `milestone` label assigned.
+- _Milestone_, there is a GH issue under the relevant https://github.com/waku-org/ repo with related _Epic_ label and `milestone` label assigned. The GH issue is assigned to the _owner_ of the milestone.
 - _Task_, there is a GH issue and/or pull request under the relevant https://github.com/waku-org/ repo with related _Epic_ label.
 
 Hence, correct _Epic_ label must be assigned to all GH issues/pull requests representing a _Milestone_ or _Task_.
@@ -69,7 +71,7 @@ Note: GitHub `milestone` functionality is **not** used as part of this process.
 
 **Weekly**: Report progress on each **active** _Milestone_ per subteam.
 
-Every Friday, all team members must add a comment to the `Milestone` GH issue they worked on the past week or planned to work on next week.
+Every Friday, all team members must add a comment to the `Milestone` GH issue they own and worked on the past week or planned to work on next week.
 
 The comment must have the following MarkDown format:
 
