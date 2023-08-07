@@ -78,7 +78,7 @@ The comment must have the following MarkDown format:
 ```md
 **Weekly Update**
 
-_achieved_: what was achieved last week; must remain on one line.
+_achieved_: what was achieved this week; must remain on one line.
 _next_: what will be worked on next week; must also remain on one line.
 _blocker_: any blocking items.
 ```
