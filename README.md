@@ -80,7 +80,7 @@ The comment must have the following MarkDown format:
 
 _achieved_: what was achieved this week; must remain on one line.
 _next_: what will be worked on next week; must also remain on one line.
-_blocker_: any blocking items.
+_blocker_: any blocking items. Do not include the line if no blocker. 
 ```
 Omit the lines which are not relevant.
 
