@@ -44,6 +44,9 @@
 - name: test
   description: Issue related to the test suite with no expected consequence to production code
   color: 277196
+- name: release-notes
+  description: Issue/PR needs to be evaluated for inclusion in release notes highlights or upgrade instructions
+  color: fb3c99
 
 # Tracks
 - name: track:rln
