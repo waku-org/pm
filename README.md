@@ -78,11 +78,12 @@ The comment must have the following MarkDown format:
 ```md
 **Weekly Update**
 
-_achieved_: what was achieved this week; must remain on one line.
-_next_: what will be worked on next week; must also remain on one line.
-_blocker_: any blocking items. Do not include the line if no blocker. 
+- _achieved_: what was achieved this week; must remain on one line.
+- _next_: what will be worked on next week; must also remain on one line.
+- _blocker_: any blocking items. Do not include the line if no blocker. 
 ```
-Omit the lines which are not relevant.
+
+**Omit the lines which are not relevant.**
 
 On Monday, project lead or responsible person for report can run the [milestone-update](https://github.com/fryorcraken/milestone-update) script to generate a report and post it in the Logos Discord.
 
