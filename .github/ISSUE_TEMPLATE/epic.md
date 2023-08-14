@@ -26,15 +26,6 @@ assignees: ''
 
 ## Eco Dev
  
-- [ ] Milestone title or link
-...
+- [ ] research: Milestone title or link 
+- ...
 
-## Research
-
-- [ ] Milestone title or link
-
-## nwaku
-
-## js-waku
-
-## go-waku
