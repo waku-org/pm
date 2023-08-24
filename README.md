@@ -33,12 +33,12 @@ The Google Sheet will soon be replaced by a dashboard that extract data using Gi
 
 ### Terminology
 
-| Name           | Number of                           | Timeframe                            | Team Scope                              | Owner       | Description                                                                 |
-|----------------|-------------------------------------|--------------------------------------|-----------------------------------------|-------------|-----------------------------------------------------------------------------|
-| Priority Track | 3-5                                 | Set yearly                           | Whole Team                              | Waku Lead   | Focus set for the year, must be aligned with Logos Collective's priorities. |
-| Epic           | 2-3 per _Priority Track_, total<=10 | Set yearly, delivered quarterly-ish  | Several subteams                        | Waku Lead   | Identified deliverables for each _Priority Track_.                          |
-| Milestone      | Some per Epic                       | Set quarterly-ish, delivered monthly | One subteam or external team (e.g. DST) | Team Member | Steps to deliver an _Epic_.                                                 |
-| Task           | Many per Milestone                  | Set monthly-ish, delivered weekly    | One individual                          | Team Member | Smallest chunk of work to be delivered.                                     |  
+| Name            | Number of                           | Timeframe                            | Team Scope                              | Owner       | Description                                                                 |
+|-----------------|-------------------------------------|--------------------------------------|-----------------------------------------|-------------|-----------------------------------------------------------------------------|
+| Priority Track  | 3-5                                 | Set yearly                           | Whole Team                              | Waku Lead   | Focus set for the year, must be aligned with Logos Collective's priorities. |
+| (Key) Milestone | 2-3 per _Priority Track_, total<=10 | Set yearly, delivered quarterly-ish  | Several subteams                        | Waku Lead   | Identified deliverables for each _Priority Track_.                          |
+| Epic            | Some per Milestone                  | Set quarterly-ish, delivered monthly | One subteam or external team (e.g. DST) | Team Member | Steps to deliver a _Milestone_.                                             |
+| Task            | Many per Epic                       | Set monthly-ish, delivered weekly    | One individual                          | Team Member | Smallest chunk of work to be delivered.                                     |  
 
 Owner = person responsible for the delivery of the milestone and related reporting.
 
@@ -46,18 +46,18 @@ Owner = person responsible for the delivery of the milestone and related reporti
 
 For each:
 
-- _Epic_, there is a GH issue under the https://github.com/waku-org/pm repo.
-- _Epic_, there is a label with format `E:<year>-<epic title>` created across all relevant https://github.com/waku-org/ repos.
-- _Milestone_, there is a GH issue under the relevant https://github.com/waku-org/ repo with related _Epic_ label and `milestone` label assigned. The GH issue is assigned to the _owner_ of the milestone.
+- _Milestone_, there is a GH issue under the https://github.com/waku-org/pm repo with `milestone` label assigned
+- _Milestone_, there is a label with format `E:<year>-<milestoje title>` created across all relevant https://github.com/waku-org/ repos (see [labels.yml](./.github/labels.yml)).
+- _Epic_, there is a GH issue under the relevant https://github.com/waku-org/ repo with related _Milestone_ label (`E:...`) and `epic` label assigned. The GH issue is assigned to the _owner_ of the epic.
 - _Task_, there is a GH issue and/or pull request under the relevant https://github.com/waku-org/ repo with related _Epic_ label.
 
-Hence, correct _Epic_ label must be assigned to all GH issues/pull requests representing a _Milestone_ or _Task_.
+Hence, correct _Milestone_ label must be assigned to all GH issues/pull requests representing a _Milestone_ or _Task_.
 This will enable the usage of the new reporting dashboard and reduce manual maintenance.
 
 Ideally, every:
 
-- _Epic_ GH issue contains a list of planned _Milestones_.
-- _Milestone_ GH issue contains list of planned and completed _Tasks_.
+- _Milestone_ GH issue contains a list of planned _Epics_.
+- _Epic_ GH issue contains list of planned and completed _Tasks_.
 
 Note: GitHub `milestone` functionality is **not** used as part of this process.
 
@@ -65,13 +65,13 @@ Note: GitHub `milestone` functionality is **not** used as part of this process.
 
 **Monthly**:
 
-- Report progress of each _Epic_
-- Report _Milestones_ that were closed last months and expected to be closed next month
+- Report progress of each _Milestone_
+- Report _Epics_ that were closed last months and expected to be closed next month
 - Other relevant items (RISK, etc)
 
-**Weekly**: Report progress on each **active** _Milestone_ per subteam.
+**Weekly**: Report progress on each **active** _Epic_ per subteam.
 
-Every Friday, all team members must add a comment to the `Milestone` GH issue they own and worked on the past week or planned to work on next week.
+Every Friday, all team members must add a comment to the _Epic_ GH issue they own and worked on the past week or planned to work on next week.
 
 The comment must have the following MarkDown format:
 
@@ -93,7 +93,16 @@ On Monday, project lead or responsible person for report can run the [milestone-
 
 **Priority Tracks**: https://notes.status.im/Uz9HeCwZTDSYyOq36Q54cA#a
 
-**Epics** (WIP):
+**Milestones** (WIP):
 
-- https://github.com/waku-org/pm/issues/25 `E:2023-light-protocols`
-
+- `E:2023-light-protocols` https://github.com/waku-org/pm/issues/25
+- `E:2023-10k-users` https://github.com/waku-org/pm/issues/12
+- `E:2023-1mil-users` https://github.com/waku-org/pm/issues/31
+- `E:2023-dev-rel-assets` https://github.com/waku-org/pm/issues/32
+- `E:2023-peer-mgmt` https://github.com/waku-org/pm/issues/33
+- `E:2023-qa` https://github.com/waku-org/pm/issues/34
+- `E:2023-metrics` https://github.com/waku-org/pm/issues/35
+- `E:2023-eco-growth` https://github.com/waku-org/pm/issues/36
+- `E:2023-rln` https://github.com/waku-org/pm/issues/37
+- `E:2023-incentivize-operators` https://github.com/waku-org/pm/issues/38
+- `E:2023-many-platforms` https://github.com/waku-org/pm/issues/42
