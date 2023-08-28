@@ -47,7 +47,7 @@ Owner = person responsible for the delivery of the milestone and related reporti
 For each:
 
 - _Milestone_, there is a GH issue under the https://github.com/waku-org/pm repo with `milestone` label assigned
-- _Milestone_, there is a label with format `E:<year>-<milestoje title>` created across all relevant https://github.com/waku-org/ repos (see [labels.yml](./.github/labels.yml)).
+- _Milestone_, there is a label with format `E:<year>-<milestone title>` created across all relevant https://github.com/waku-org/ repos (see [labels.yml](./.github/labels.yml)).
 - _Epic_, there is a GH issue under the relevant https://github.com/waku-org/ repo with related _Milestone_ label (`E:...`) and `epic` label assigned. The GH issue is assigned to the _owner_ of the epic.
 - _Task_, there is a GH issue and/or pull request under the relevant https://github.com/waku-org/ repo with related _Epic_ label.
 
