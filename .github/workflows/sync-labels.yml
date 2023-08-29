@@ -24,6 +24,7 @@ jobs:
             waku-org/js-waku
             waku-org/js-waku-examples
             waku-org/js.waku.guide
+            waku-org/metrics.waku.org
             waku-org/nwaku
             waku-org/pm
             waku-org/research
