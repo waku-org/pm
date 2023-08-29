@@ -1,31 +1,43 @@
 ---
 name: Epic Issue Template
-about: Track Epics
+about: Track Epics (usually created in a repo that is **not** waku-org/pm)
 title: "[Epic] "
 labels: epic
 assignees: ''
 
 ---
 
-2023 Milestones: https://notes.status.im/s/iylE6wdli#
+<!-- Please ensure you are assigning the matching milestone label to this epic -->
+<!-- All _active_ (being worked on) epics MUST have an owner (GitHub assignee) -->
 
-**Epic label**: `E:2023-name`
-<!-- Remove tracks as needed -->
-**Priority Tracks**: Secure Scalability, Production Readiness, Growth, Generating Revenue (Sustainability & Longevity).
+**Planned start date**:
 **Due date**:
 
 # Summary
 
 <!-- Provide a high level summary of the Epic -->  
 
-# Justification
+# Acceptance Criteria
 
-<!-- Justify the Epic in the context of the priority tracks and project/collective strategies -->
+<!-- describe the deliverable of this milestone and its attributes in plain English -->
 
-# Milestones
+# Tasks
 
-## Eco Dev
- 
-- [ ] research: Milestone title or link 
-- ...
+<!--
 
+Breakdown of the work
+
+- [ ] Task 1
+- [ ] Link to GitHub issue tracking task 2
+
+-->
+
+# RAID (Risks, Assumptions, Issues and Dependencies)
+
+<!-- List dependencies on other milestones (avoid dependencies on tasks) -->
+
+<!-- List dependencies on other teams -->
+
+<!-- List any risks or assumptions that will be cleared as work progresses -->
+
+<!-- List any GitHub issues that tracks any blocker or any of the items above -->

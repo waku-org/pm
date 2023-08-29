@@ -1,43 +1,29 @@
 ---
 name: Milestone Issue Template
-about: Track Milestones
+about: Track Key Milestones (usually tracked in waku-org/pm repo)
 title: "[Milestone] "
 labels: milestone
 assignees: ''
 
 ---
 
-<!-- Please ensure you are assigning the matching epic label to the milestone -->
-<!-- All _active_ (being worked on) milestones MUST have an owner (GitHub assignee) -->
+2023 Key Milestones: https://notes.status.im/s/iylE6wdli#
 
-**Planned start date**:
+**Milestone label**: `E:2023-name`
+<!-- Remove tracks as needed -->
+**Priority Tracks**: Secure Scalability, Production Readiness, Growth, Generating Revenue (Sustainability & Longevity).
 **Due date**:
 
 # Summary
 
 <!-- Provide a high level summary of the Milestone -->  
 
-# Acceptance Criteria
+# Justification
 
-<!-- describe the deliverable of this milestone and its attributes in plain English -->
+<!-- Justify the Milestone in the context of the priority tracks and project/collective strategies -->
 
-# Tasks
+# Epics
 
-<!--
+- [ ] research: Milestone title or link 
+- ...
 
-Breakdown of the work
-
-- [ ] Task 1
-- [ ] Link to GitHub issue tracking task 2
-
--->
-
-# RAID (Risks, Assumptions, Issues and Dependencies)
-
-<!-- List dependencies on other milestones (avoid dependencies on tasks) -->
-
-<!-- List dependencies on other teams -->
-
-<!-- List any risks or assumptions that will be cleared as work progresses -->
-
-<!-- List any GitHub issues that tracks any blocker or any of the items above -->
