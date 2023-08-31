@@ -26,52 +26,41 @@ Monthly reporting is now handled by the Logos insight team.
 
 ### Terminology
 
-| Name            | Number of                                 | Timeframe                              | Team Scope                                   | Owner                       | Description                                                                 |
-|-----------------|-------------------------------------------|----------------------------------------|----------------------------------------------|-----------------------------|-----------------------------------------------------------------------------|
-| Priority Track  | 3-5                                       | Set yearly                             | Whole Team                                   | Waku Lead                   | Focus set for the year, must be aligned with Logos Collective's priorities. |
-| (Key) Milestone | 1-3 per year                              | Set yearlyish                          | Most subteams                                | Waku Lead                   | Key achievements for the Waku project, historical milestones.               |
-| Epic of Epics   | Several per milestone                     | Set for a milestone, delivered monthly | Several subteams or external team (e.g. DST) | Team Member (likely a lead) | Chunk of a _Milestone across all clients.                                   |
-| Epic            | One per subteam for a given epic of epics | Delivered monthly                      | One subteam                                  | Team Member                 | Chunk of a _Milestone for a given client.                                   |
-| Task            | Many per Epic                             | Set monthly-ish, delivered weekly      | One individual                               | Team Member                 | Smallest chunk of work to be delivered.                                     |  
+| Name            | Number of                               | Timeframe                              | Team Scope                                   | Owner                       | Description                                                                 |
+|-----------------|-----------------------------------------|----------------------------------------|----------------------------------------------|-----------------------------|-----------------------------------------------------------------------------|
+| Priority Track  | 3-5                                     | Set yearly                             | Whole Team                                   | Waku Lead                   | Focus set for the year, must be aligned with Logos Collective's priorities. |
+| (Key) Milestone | 1-3 per year                            | Set yearly-ish                         | Most subteams                                | Waku Lead                   | Key achievements for the Waku project, historical milestones.               |
+| Epic            | Several per milestone                   | Set for a milestone, delivered monthly | Several subteams or external team (e.g. DST) | Team Member (likely a lead) | Chunk of a _Milestone_ across all clients.                                  |
+| Task            | Many per Epic                           | Set monthly-ish, delivered weekly      | One subteam or individual                    | Team Member                 | May be one or several piece of work, client specific.                       |  
 
-Owner = person responsible for the delivery of the milestone and related reporting.
+Owner = person responsible for the delivery and related reporting, may not be doing all the work.
 
 ### GitHub Usage
 
 A _Milestone_:
 - MUST have a matching GH issue in the https://github.com/waku-org/pm repo with `milestone` label assigned.
-- MUST have a GH Milestone in https://github.com/waku-org/pm repo, to which relevant _Epics of epics_ are added.
+- MUST have a GH Milestone in https://github.com/waku-org/pm repo, to which relevant _Epics_ are added.
 - SHOULD have a roadmap to delivery done at planning phase, the GH milestone is then used to track progress.
 
-An _Epic of epics_:
+An _Epic_:
 - MUST have a matching GH issue in the https://github.com/waku-org/pm with `epic` label assigned.
 - MUST have a label with format `E:<epic name>` created across all relevant https://github.com/waku-org/ repos (see [labels.yml](./.github/labels.yml)).
 - SHOULD be added to a GH Milestone.
-- SHOULD list _Epics_ present in other repos.
-
-An _Epic_:
-- MUST have a matching GH issue under the relevant https://github.com/waku-org/ repo, that
-  - MUST BE labelled with related _Epic of epics_ label (`E:...`)
-  - MUST BE labelled `epic` label.
-  - MUST be assigned to the _owner_ of the _Epic_.
-  - SHOULD contain a list of _Tasks_ in its issue description.
+- MAY list _Tasks_ present in other repos.
 
 A _Task_:
-- MAY be tracked as a todo item in an _Epic_ GH Issue,
-- OR MAY be tracked as GH issue
-  - that SHOULD be labelled with related _Epic of epics_ label (`E:...`),
+- MAY be tracked as a todo item in a GH Issue (_Task_ or _Epic_),
+- OR MAY be tracked as a single GH issue
+  - that MUST be labelled with related _Epic_ label (`E:...`),
 - OR MAY be tracked as a GH Pull Request
-  - that SHOULD be labelled with related _Epic of epics_ label (`E:...`).
-
+    - that MUST be labelled with related _Epic_ label (`E:...`),
+- MUST have an _acceptance criteria_ and/or a list of _tasks_ (that can be other GH issues).
 
 Which means, in terms of _navigation_:
 
 - Work for a Milestone is described in the related GitHub issue and tracked in the GitHub milestone.
-- In the GitHub milestone, we have a list of _Epics of epics_ to be achieved, the _Epics of epics_ are being closed as the work is done across all clients.
-- To look at remaining work for an _epics of epics_, one need to look at all issues (_epics_ and _tasks_) with the corresponding _epic of epics_ label (`E:...`)
-
-Finally, ideally an _Epic of epics_ do list the _epics_ as a todo list in the GH issue description, but it's not mandatory for tracking.
-The same way, an _Epic_ should list the _tasks_ as a todo list in the GH issue description, but it's not mandatory as long as the _acceptance criteria_ is clearly defined.
+- In the GitHub milestone, we have a list of _Epics_ to be achieved, the _Epics_ are being closed as the work is done across all clients.
+- To look at remaining work for an _Epic_, one need to look at all issues/PRs (_Tasks_) with the corresponding _Epic_ label (`E:...`)
 
 ### Reporting
 
@@ -79,9 +68,11 @@ The same way, an _Epic_ should list the _tasks_ as a todo list in the GH issue d
 
 Handled by insight team
 
-**Weekly**: Report progress on each **active** _Epic_ per subteam.
+**Weekly**: Report progress on each **active** _Epic_ or _Task_ per subteam.
 
-Every Friday, all team members must add a comment to the _Epic_ GH issue they own and worked on the past week or planned to work on next week.
+Every Friday, all team members must add a comment to the GH issues they own and worked on the past week or planned to work on next week.
+
+If work is done on several _Tasks_ related to the same _Epic_, team member is free to do their weekly update in common parent issue.
 
 The comment must have the following MarkDown format:
 
