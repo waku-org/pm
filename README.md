@@ -70,7 +70,7 @@ Handled by insight team
 
 **Weekly**: Report progress on each **active** _Epic_ or _Task_ per subteam.
 
-Every Friday, all team members must add a comment to the GH issues they own and worked on the past week or planned to work on next week.
+Every Friday, all team members must add a comment to the GH **issues** (not pull request) they own and worked on the past week or planned to work on next week.
 
 If work is done on several _Tasks_ related to the same _Epic_, team member is free to do their weekly update in common parent issue.
 
