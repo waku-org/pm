@@ -126,3 +126,4 @@
 - name: E:2023-many-platforms
   description: https://github.com/waku-org/pm/issues/42
   color: e99695
+- name: "E:2.1: Production testing of existing protocols"
