@@ -22,23 +22,17 @@ Weekly reporting by subteam of progress on milestones.
 
 #### 2. Monthly Reporting
 
-Monthly reporting is currently done in a private Google Sheet and has the following sections:
-- Progress on yearly milestones (10 milestones as defined in https://notes.status.im/Uz9HeCwZTDSYyOq36Q54cA#, now marked as _Epics_).
-- Key achievements/highlights of previous month
-- Planned achievement for next month
-- RAID: Risks, Assumptions, Issues and Dependencies
-- Identified Market Opportunities
-
-The Google Sheet will soon be replaced by a dashboard that extract data using GitHub with the ability to organise the data by epic using GitHub labels.
+Monthly reporting is now handled by the Logos insight team.
 
 ### Terminology
 
-| Name            | Number of                           | Timeframe                            | Team Scope                              | Owner       | Description                                                                 |
-|-----------------|-------------------------------------|--------------------------------------|-----------------------------------------|-------------|-----------------------------------------------------------------------------|
-| Priority Track  | 3-5                                 | Set yearly                           | Whole Team                              | Waku Lead   | Focus set for the year, must be aligned with Logos Collective's priorities. |
-| (Key) Milestone | 2-3 per _Priority Track_, total<=10 | Set yearly, delivered quarterly-ish  | Several subteams                        | Waku Lead   | Identified deliverables for each _Priority Track_.                          |
-| Epic            | Some per Milestone                  | Set quarterly-ish, delivered monthly | One subteam or external team (e.g. DST) | Team Member | Steps to deliver a _Milestone_.                                             |
-| Task            | Many per Epic                       | Set monthly-ish, delivered weekly    | One individual                          | Team Member | Smallest chunk of work to be delivered.                                     |  
+| Name         | Number of                                 | Timeframe                              | Team Scope                          | Owner                       | Description                                                                   |
+|--------------|-------------------------------------------|----------------------------------------|-------------------------------------|-----------------------------|-------------------------------------------------------------------------------|
+| Priority Track | 3-5                                       | Set yearly                             | Whole Team                          | Waku Lead                   | Focus set for the year, must be aligned with Logos Collective's priorities.   |
+| (Key) Milestone | 1-3 per year                              | Set yearlyish                          | Most subteams                       | Waku Lead                   | This are key achievements for the Waku projects, they are historic milestones. |
+| Epic of Epics | Several per milestone                     | Set for a milestone, delivered monthly | Several or external team (e.g. DST) | Team Member (likely a lead) | Chunk of a _Milestone.                                                        |
+| Epic   | One per subteam for a given epic of epics | Delivered monthly                      | One subteam                         | Team Member                 | Chunk of a _Milestone.                                                        |
+| Task         | Many per Epic                             | Set monthly-ish, delivered weekly      | One individual                      | Team Member                 | Smallest chunk of work to be delivered.                                       |  
 
 Owner = person responsible for the delivery of the milestone and related reporting.
 
@@ -46,28 +40,32 @@ Owner = person responsible for the delivery of the milestone and related reporti
 
 For each:
 
-- _Milestone_, there is a GH issue under the https://github.com/waku-org/pm repo with `milestone` label assigned
-- _Milestone_, there is a label with format `E:<year>-<milestone title>` created across all relevant https://github.com/waku-org/ repos (see [labels.yml](./.github/labels.yml)).
-- _Epic_, there is a GH issue under the relevant https://github.com/waku-org/ repo with related _Milestone_ label (`E:...`) and `epic` label assigned. The GH issue is assigned to the _owner_ of the epic.
-- _Task_, there is a GH issue and/or pull request under the relevant https://github.com/waku-org/ repo with related _Epic_ label.
+- _Milestone_, there is a GH issue in the https://github.com/waku-org/pm repo with `milestone` label assigned
+- _Milestone_, there is a GH Milestone in https://github.com/waku-org/pm repo, to which relevant _Epics of epics_ are added.
+- _Epic of epics_, there is a GH issue in the https://github.com/waku-org/pm with `epic` label assigned.
+- _Epic of epics_, there is the label with format `E:<epic name>` created across all relevant https://github.com/waku-org/ repos (see [labels.yml](./.github/labels.yml)).
+- _Epic_, there is a GH issue under the relevant https://github.com/waku-org/ repo with related _Epic of epics_ label (`E:...`) and `epic` label assigned. The GH issue is assigned to the _owner_ of the epic.
+- _Task_, there is a GH issue and/or pull request under the relevant https://github.com/waku-org/ repo with related _Epic of epics_ label (`E:...`).
 
-Hence, correct _Milestone_ label must be assigned to all GH issues/pull requests representing a _Milestone_ or _Task_.
+Hence, correct _Epic of epics_ (`E:...`) label must be assigned to all GH issues/pull requests representing a _Epic_ or _Task_.
 This will enable the usage of the new reporting dashboard and reduce manual maintenance.
 
-Ideally, every:
+Also note that GitHub milestones and GitHub issues for _Epic of epics_ are both limited to the https://github.com/waku-org/pm repo. We are not duplicate GitHub milestones across the repo..
 
-- _Milestone_ GH issue contains a list of planned _Epics_.
-- _Epic_ GH issue contains list of planned and completed _Tasks_.
+Which means, in terms of _navigation_:
 
-Note: GitHub `milestone` functionality is **not** used as part of this process.
+- Work for a Milestone is described in the related GitHub issue and tracked in the GitHub milestone.
+- In the GitHub milestone, we have a list of _Epics of epics_ to be achieved, the _epics of epics_ are being closed as the work is done across all clients.
+- To look at remaining work for an _epics of epics_, one need to look at all issues (_epics_ and _tasks_) with the corresponding _epic of epics_ label (`E:...`)
+
+Finally, ideally an _Epic of epics_ do list the _epics_ as a todo list in the GH issue description, but it's not mandatory for tracking.
+The same way, an _Epic_ should list the _tasks_ as a todo list in the GH issue description, but it's not mandatory as long as the _acceptance criteria_ is clearly defined.
 
 ### Reporting
 
 **Monthly**:
 
-- Report progress of each _Milestone_
-- Report _Epics_ that were closed last months and expected to be closed next month
-- Other relevant items (RISK, etc)
+Handled by insight team
 
 **Weekly**: Report progress on each **active** _Epic_ per subteam.
 
@@ -93,7 +91,7 @@ On Monday, project lead or responsible person for report can run the [milestone-
 
 **Priority Tracks**: https://notes.status.im/Uz9HeCwZTDSYyOq36Q54cA#a
 
-**Milestones** (WIP):
+**Milestones** (to be changed):
 
 - `E:2023-light-protocols` https://github.com/waku-org/pm/issues/25
 - `E:2023-10k-users` https://github.com/waku-org/pm/issues/12
