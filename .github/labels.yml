@@ -135,3 +135,9 @@
 - name: "E:REST API service node"
   description: https://github.com/waku-org/pm/issues/82
   color: bfd4f2
+- name: "E:Static sharding"
+  description: https://github.com/waku-org/pm/issues/15
+  color: b60205
+- name: "E:Opt-in message signing"
+  description: https://github.com/waku-org/pm/issues/20
+  color: 10C366
