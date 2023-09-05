@@ -129,7 +129,7 @@
 - name: "E:2.1: Production testing of existing protocols"
   description: https://github.com/waku-org/pm/issues/49
   color: e99695
-- name: "E:NodeJS Bindings"
+- name: "E:NodeJS Library"
   description: https://github.com/waku-org/pm/issues/81
   color: fef2c0
 - name: "E:REST API service node"
