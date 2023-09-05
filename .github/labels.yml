@@ -132,3 +132,6 @@
 - name: "E:NodeJS Bindings"
   description: https://github.com/waku-org/pm/issues/81
   color: fef2c0
+- name: "E:REST API service node"
+  description: https://github.com/waku-org/pm/issues/82
+  color: bfd4f2
