@@ -141,3 +141,6 @@
 - name: "E:Opt-in message signing"
   description: https://github.com/waku-org/pm/issues/20
   color: 10C366
+- name: "E:PostgreSQL"
+  description: https://github.com/waku-org/pm/issues/84
+  color: 35DCCC
