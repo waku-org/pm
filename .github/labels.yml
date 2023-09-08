@@ -126,21 +126,29 @@
 - name: E:2023-many-platforms
   description: https://github.com/waku-org/pm/issues/42
   color: e99695
-- name: "E:2.1: Production testing of existing protocols"
-  description: https://github.com/waku-org/pm/issues/49
-  color: e99695
-- name: "E:NodeJS Library"
-  description: https://github.com/waku-org/pm/issues/81
-  color: fef2c0
-- name: "E:REST API service node"
-  description: https://github.com/waku-org/pm/issues/82
-  color: bfd4f2
+
+## [Milestone] Waku Network Can Support 10K Users
 - name: "E:Static sharding"
   description: https://github.com/waku-org/pm/issues/15
   color: b60205
 - name: "E:Opt-in message signing"
   description: https://github.com/waku-org/pm/issues/20
   color: 10C366
+
+## [Milestone] Support Many Platforms
+- name: "E:NodeJS Library"
+  description: https://github.com/waku-org/pm/issues/81
+  color: fef2c0
+- name: "E:REST API service node"
+  description: https://github.com/waku-org/pm/issues/82
+  color: bfd4f2
+
+## [Milestone] Waku Network can Support 1 Million Users
 - name: "E:PostgreSQL"
   description: https://github.com/waku-org/pm/issues/84
   color: 35DCCC
+
+## [Milestone] Waku Network Gen 0
+- name: "E:2.1: Production testing of existing protocols"
+  description: https://github.com/waku-org/pm/issues/49
+  color: e99695
