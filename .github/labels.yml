@@ -155,3 +155,6 @@
 - name: "E:2.1: Production testing of existing protocols"
   description: https://github.com/waku-org/pm/issues/49
   color: e99695
+- name: "E:2.2: Sharded capability discovery for light protocols"
+  description: https://github.com/waku-org/pm/issues/63
+  color: 92A880
