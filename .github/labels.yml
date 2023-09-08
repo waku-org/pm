@@ -152,6 +152,9 @@
 - name: "E:1.2: Autosharding for autoscaling"
   description: https://github.com/waku-org/pm/issues/65
   color: 5319e7
+- name: "E:1.3: Node bandwidth management mechanism"
+  description: https://github.com/waku-org/pm/issues/66
+  color: 8A5EE0
 - name: "E:1.4: Sharded peer management and discovery"
   description: https://github.com/waku-org/pm/issues/67
   color: 244B5B
