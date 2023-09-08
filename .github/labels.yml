@@ -173,6 +173,9 @@
 - name: "E:2.3: Basic distributed Store services"
   description: https://github.com/waku-org/pm/issues/64
   color: 37BEA9
+- name: "E:3.1: DoS requirements and design"
+  description: https://github.com/waku-org/pm/issues/69
+  color: B342EA
 - name: "E:3.2: Basic DoS protection in production"
   description: https://github.com/waku-org/pm/issues/70
   color: DF42D5
