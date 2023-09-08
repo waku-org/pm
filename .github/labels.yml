@@ -155,7 +155,7 @@
 - name: "E:2.1: Production testing of existing protocols"
   description: https://github.com/waku-org/pm/issues/49
   color: e99695
-- name: "E:2.2: Sharded capability discovery for light protocols"
+- name: "E:2.2: Sharded cap discovery for light protocols"
   description: https://github.com/waku-org/pm/issues/63
   color: 92A880
 - name: "E:3.2: Basic DoS protection in production"
