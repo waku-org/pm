@@ -88,22 +88,6 @@ The comment must have the following MarkDown format:
 
 On Monday, project lead or responsible person for report can run the [milestone-update](https://github.com/fryorcraken/milestone-update) script to generate a report and post it in the Logos Discord.
 
-## Work Tracking per Year
+## Milestones
 
-### 2023
-
-**Priority Tracks**: https://notes.status.im/Uz9HeCwZTDSYyOq36Q54cA#a
-
-**Milestones** (to be changed):
-
-- `E:2023-light-protocols` https://github.com/waku-org/pm/issues/25
-- `E:2023-10k-users` https://github.com/waku-org/pm/issues/12
-- `E:2023-1mil-users` https://github.com/waku-org/pm/issues/31
-- `E:2023-dev-rel-assets` https://github.com/waku-org/pm/issues/32
-- `E:2023-peer-mgmt` https://github.com/waku-org/pm/issues/33
-- `E:2023-qa` https://github.com/waku-org/pm/issues/34
-- `E:2023-metrics` https://github.com/waku-org/pm/issues/35
-- `E:2023-eco-growth` https://github.com/waku-org/pm/issues/36
-- `E:2023-rln` https://github.com/waku-org/pm/issues/37
-- `E:2023-incentivize-operators` https://github.com/waku-org/pm/issues/38
-- `E:2023-many-platforms` https://github.com/waku-org/pm/issues/42
+https://github.com/waku-org/pm/milestones
