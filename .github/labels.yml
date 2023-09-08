@@ -164,6 +164,9 @@
 - name: "E:2.2: Sharded cap discovery for light protocols"
   description: https://github.com/waku-org/pm/issues/63
   color: 92A880
+- name: "E:2.3: Basic distributed Store services"
+  description: https://github.com/waku-org/pm/issues/64
+  color: 37BEA9
 - name: "E:3.2: Basic DoS protection in production"
   description: https://github.com/waku-org/pm/issues/70
   color: DF42D5
