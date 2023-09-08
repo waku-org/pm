@@ -158,3 +158,6 @@
 - name: "E:2.2: Sharded capability discovery for light protocols"
   description: https://github.com/waku-org/pm/issues/63
   color: 92A880
+- name: "E:3.2: Basic DoS protection in production"
+  description: https://github.com/waku-org/pm/issues/70
+  color: DF42D5
