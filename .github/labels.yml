@@ -149,6 +149,9 @@
   color: 35DCCC
 
 ## [Milestone] Waku Network Gen 0
+- name: "E:1.1 Network requirements and task breakdown"
+  description: https://github.com/waku-org/pm/issues/62
+  color: 20A609
 - name: "E:1.2: Autosharding for autoscaling"
   description: https://github.com/waku-org/pm/issues/65
   color: 5319e7
