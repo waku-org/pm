@@ -185,3 +185,9 @@
 - name: "E:3.2: Basic DoS protection in production"
   description: https://github.com/waku-org/pm/issues/70
   color: DF42D5
+
+
+## Automated Release Processes
+- name: "E:Automated release processes"
+  description: https://github.com/waku-org/pm/issues/86
+  color: 0052cc
