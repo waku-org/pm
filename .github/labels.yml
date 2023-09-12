@@ -187,7 +187,10 @@
   color: DF42D5
 
 
-## Automated Release Processes
+## [Milestone] Quality Assurance processes are in place
 - name: "E:Automated release processes"
   description: https://github.com/waku-org/pm/issues/86
   color: 0052cc
+- name: "E:End-to-end testing"
+  description: https://github.com/waku-org/pm/issues/34
+  color: bfd4f2
