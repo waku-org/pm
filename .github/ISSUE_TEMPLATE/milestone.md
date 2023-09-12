@@ -1,6 +1,6 @@
 ---
 name: Milestone Issue Template
-about: Track Key Milestones (usually tracked in waku-org/pm repo)
+about: Track Key Milestones
 title: "[Milestone] "
 labels: milestone
 assignees: ''

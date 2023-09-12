@@ -1,6 +1,6 @@
 ---
 name: Epic Issue Template
-about: Track Epics (usually created in a repo that is **not** waku-org/pm)
+about: Track Epics
 title: "[Epic] "
 labels: epic
 assignees: ''
