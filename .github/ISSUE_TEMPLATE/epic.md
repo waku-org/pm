@@ -7,12 +7,9 @@ assignees: ''
 
 ---
 
-<!-- Please ensure you are assigning the matching milestone label to this epic -->
-<!-- All _active_ (being worked on) epics MUST have an owner (GitHub assignee) -->
 
+<!-- Use GitHub Project fields "due date" and "planned start" to set dates -->
 **Epic label**: `E:...`
-**Planned start date**:
-**Due date**:
 
 # Summary
 
@@ -24,6 +21,7 @@ assignees: ''
 
 # Tasks
 
+<!-- can be generated using the `epics` command of https://github.com/fryorcraken/milestone-update/ -->
 <!--
 
 Breakdown of the work
