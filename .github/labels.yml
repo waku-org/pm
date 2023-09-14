@@ -148,6 +148,9 @@
 - name: "E:REST API service node"
   description: https://github.com/waku-org/pm/issues/82
   color: bfd4f2
+- name: "E:RLN non-native SDKs"
+- description: https://github.com/waku-org/pm/issues/88
+- color: 3CDF39
 
 ## [Milestone] Waku Network can Support 1 Million Users
 - name: "E:PostgreSQL"
