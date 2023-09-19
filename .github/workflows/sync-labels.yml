@@ -18,6 +18,7 @@ jobs:
             waku-org/docs.waku.org
             waku-org/go-noise
             waku-org/go-waku
+            waku-org/go-zerokit-rln
             waku-org/internal-waku-outreach
             waku-org/js-noise
             waku-org/js-rln
