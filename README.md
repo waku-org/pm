@@ -46,6 +46,7 @@ An _Epic_:
 - MUST have a matching GH issue in the https://github.com/waku-org/pm with `epic` label assigned.
 - MUST have a label with format `E:<epic name>` created across all relevant https://github.com/waku-org/ repos (see [labels.yml](./.github/labels.yml)).
 - SHOULD be added to a GH Milestone.
+- SHOULD have a `Planned Start` and `Due Date` set (these are GitHub projects fields you can find in the `Projects` section of the issue view sidebar).
 - MAY list _Tasks_ present in other repos.
 
 A _Task_:
@@ -55,6 +56,15 @@ A _Task_:
 - OR MAY be tracked as a GH Pull Request
     - that MUST be labelled with related _Epic_ label (`E:...`),
 - MUST have an _acceptance criteria_ and/or a list of _tasks_ (that can be other GH issues).
+
+Finally, for _Tasks_ that do not belong to a given _Epic_ or _Milestone_:
+- MUST have either labels:
+  - `bug`: This is a bug, likely reported by a user
+  - `enhancement`: This is an enhancement out of the scope of the technical roadmap, likely reported by a user
+    - Major enhancements should be carefully reviewed and prioritized.
+  - `documentation`: Documentation improvement or correction.
+  - `dependencies`: Upgrade dependencies in a timely manner to avoid time wasting when the dependency upgrade becomes critical.
+
 
 Which means, in terms of _navigation_:
 

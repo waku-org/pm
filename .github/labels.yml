@@ -20,9 +20,6 @@
 - name: invalid
   description: This doesn't seem right
   color: e4e669
-- name: question
-  description: Further information is requested
-  color: d876e3
 - name: wontfix
   description: This will not be worked on
   color: ffffff
@@ -47,6 +44,9 @@
 - name: release-notes
   description: Issue/PR needs to be evaluated for inclusion in release notes highlights or upgrade instructions
   color: fb3c99
+- name: dependencies
+  description: Pull requests that update a dependency file or issues that track it
+  color: 0366d6
 
 # Tracks
 - name: track:rln
