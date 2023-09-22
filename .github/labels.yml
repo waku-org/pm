@@ -116,9 +116,6 @@
 - name: E:2023-rln
   description: https://github.com/waku-org/pm/issues/37
   color: E9B7A4
-- name: E:2023-many-platforms
-  description: https://github.com/waku-org/pm/issues/42
-  color: e99695
 
 ## Orphan Epics
 - name: "E:Define network and community metrics"
