@@ -93,6 +93,8 @@
   color: 9DEA79
 
 # Epics
+
+## Old Epics to Remove
 - name: E:2023-light-protocols
   description: https://github.com/waku-org/pm/issues/25
   color: FEF445
@@ -108,9 +110,6 @@
 - name: E:2023-peer-mgmt
   description: https://github.com/waku-org/pm/issues/33
   color: 6D5261
-- name: E:2023-qa
-  description: https://github.com/waku-org/pm/issues/34
-  color: 16E66F
 - name: E:2023-metrics
   description: https://github.com/waku-org/pm/issues/35
   color: 2B4DAF
