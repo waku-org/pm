@@ -94,23 +94,6 @@
 
 # Epics
 
-## Old Epics to Remove
-- name: E:2023-dev-rel-assets
-  description: https://github.com/waku-org/pm/issues/32
-  color: FACBD4
-- name: E:2023-peer-mgmt
-  description: https://github.com/waku-org/pm/issues/33
-  color: 6D5261
-- name: E:2023-metrics
-  description: https://github.com/waku-org/pm/issues/35
-  color: 2B4DAF
-- name: E:2023-eco-growth
-  description: https://github.com/waku-org/pm/issues/36
-  color: 9CC0E8
-- name: E:2023-rln
-  description: https://github.com/waku-org/pm/issues/37
-  color: E9B7A4
-
 ## Orphan Epics
 - name: "E:Define network and community metrics"
   description: https://github.com/waku-org/pm/issues/35
