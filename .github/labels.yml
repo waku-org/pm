@@ -158,6 +158,9 @@
 - name: "E:PostgreSQL"
   description: https://github.com/waku-org/pm/issues/84
   color: 35DCCC
+- name: "E:Node for professional operators"
+  description: https://github.com/waku-org/pm/issues/92
+  color: 6E7C80
 
 ## [Milestone] Waku Network Gen 0
 - name: "E:1.1 Network requirements and task breakdown"
@@ -191,7 +194,7 @@
   description: https://github.com/waku-org/pm/issues/70
   color: DF42D5
 - name: "E:3.4: Production and memberships on mainnet"
-  description: https://github.com/waku-org/pm/issues/70
+  description: https://github.com/waku-org/pm/issues/87
   color: e99695
 
 
