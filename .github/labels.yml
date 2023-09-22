@@ -95,9 +95,6 @@
 # Epics
 
 ## Old Epics to Remove
-- name: E:2023-10k-users
-  description: https://github.com/waku-org/pm/issues/12
-  color: 0052cc
 - name: E:2023-1mil-users
   description: https://github.com/waku-org/pm/issues/31
   color: 24B684
