@@ -95,9 +95,6 @@
 # Epics
 
 ## Old Epics to Remove
-- name: E:2023-light-protocols
-  description: https://github.com/waku-org/pm/issues/25
-  color: FEF445
 - name: E:2023-10k-users
   description: https://github.com/waku-org/pm/issues/12
   color: 0052cc
