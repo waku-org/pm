@@ -191,6 +191,9 @@
 - name: "E:3.2: Basic DoS protection in production"
   description: https://github.com/waku-org/pm/issues/70
   color: DF42D5
+- name: "E:3.4: Production and memberships on mainnet"
+  description: https://github.com/waku-org/pm/issues/70
+  color: e99695
 
 
 ## [Milestone] Quality Assurance processes are in place
