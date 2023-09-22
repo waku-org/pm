@@ -131,6 +131,9 @@
 - name: "E:Define network and community metrics"
   description: https://github.com/waku-org/pm/issues/35
   color: 2B4DAF
+- name: "E:Comprehensive dev testing"
+  description: https://github.com/waku-org/pm/issues/90
+  color: 088DF8
 
 
 ## [Milestone] Waku Network Can Support 10K Users
