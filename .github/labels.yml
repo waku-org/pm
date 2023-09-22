@@ -96,80 +96,80 @@
 
 ## Orphan Epics
 - name: "E:Define network and community metrics"
-  description: https://github.com/waku-org/pm/issues/35
+  description: See https://github.com/waku-org/pm/issues/35 for details
   color: 2B4DAF
 - name: "E:Comprehensive dev testing"
-  description: https://github.com/waku-org/pm/issues/90
+  description: See https://github.com/waku-org/pm/issues/90 for details
   color: 088DF8
 
 
 ## [Milestone] Waku Network Can Support 10K Users
 - name: "E:Static sharding"
-  description: https://github.com/waku-org/pm/issues/15
+  description: See https://github.com/waku-org/pm/issues/15 for details
   color: b60205
 - name: "E:Opt-in message signing"
-  description: https://github.com/waku-org/pm/issues/20
+  description: See https://github.com/waku-org/pm/issues/20 for details
   color: 10C366
 
 ## [Milestone] Support Many Platforms
 - name: "E:NodeJS Library"
-  description: https://github.com/waku-org/pm/issues/81
+  description: See https://github.com/waku-org/pm/issues/81 for details
   color: fef2c0
 - name: "E:REST API service node"
-  description: https://github.com/waku-org/pm/issues/82
+  description: See https://github.com/waku-org/pm/issues/82 for details
   color: bfd4f2
 - name: "E:RLN non-native SDKs"
-  description: https://github.com/waku-org/pm/issues/88
+  description: See https://github.com/waku-org/pm/issues/88 for details
   color: 3CDF39
 
 ## [Milestone] Waku Network can Support 1 Million Users
 - name: "E:PostgreSQL"
-  description: https://github.com/waku-org/pm/issues/84
+  description: See https://github.com/waku-org/pm/issues/84 for details
   color: 35DCCC
 - name: "E:Cater for professional operators"
-  description: https://github.com/waku-org/pm/issues/92
+  description: See https://github.com/waku-org/pm/issues/92 for details
   color: 6E7C80
 
 ## [Milestone] Waku Network Gen 0
 - name: "E:1.1 Network requirements and task breakdown"
-  description: https://github.com/waku-org/pm/issues/62
+  description: See https://github.com/waku-org/pm/issues/62 for details
   color: 20A609
 - name: "E:1.2: Autosharding for autoscaling"
-  description: https://github.com/waku-org/pm/issues/65
+  description: See https://github.com/waku-org/pm/issues/65 for details
   color: 5319e7
 - name: "E:1.3: Node bandwidth management mechanism"
-  description: https://github.com/waku-org/pm/issues/66
+  description: See https://github.com/waku-org/pm/issues/66 for details
   color: 8A5EE0
 - name: "E:1.4: Sharded peer management and discovery"
-  description: https://github.com/waku-org/pm/issues/67
+  description: See https://github.com/waku-org/pm/issues/67 for details
   color: 244B5B
 - name: "E:1.5: Launch and dogfood integrated WN MVP"
-  description: https://github.com/waku-org/pm/issues/68
+  description: See https://github.com/waku-org/pm/issues/68 for details
   color: 195A49
 - name: "E:2.1: Production testing of existing protocols"
-  description: https://github.com/waku-org/pm/issues/49
+  description: See https://github.com/waku-org/pm/issues/49 for details
   color: e99695
 - name: "E:2.2: Sharded cap discovery for light protocols"
-  description: https://github.com/waku-org/pm/issues/63
+  description: See https://github.com/waku-org/pm/issues/63 for details
   color: 92A880
 - name: "E:2.3: Basic distributed Store services"
-  description: https://github.com/waku-org/pm/issues/64
+  description: See https://github.com/waku-org/pm/issues/64 for details
   color: 37BEA9
 - name: "E:3.1: DoS requirements and design"
-  description: https://github.com/waku-org/pm/issues/69
+  description: See https://github.com/waku-org/pm/issues/69 for details
   color: B342EA
 - name: "E:3.2: Basic DoS protection in production"
-  description: https://github.com/waku-org/pm/issues/70
+  description: See https://github.com/waku-org/pm/issues/70 for details
   color: DF42D5
 - name: "E:3.4: Production and memberships on mainnet"
-  description: https://github.com/waku-org/pm/issues/87
+  description: See https://github.com/waku-org/pm/issues/87 for details
   color: e99695
 
 
 ## [Milestone] Quality Assurance processes are in place
 - name: "E:Automated release processes"
-  description: https://github.com/waku-org/pm/issues/86
+  description: See https://github.com/waku-org/pm/issues/86 for details
   color: 0052cc
 - name: "E:End-to-end testing"
-  description: https://github.com/waku-org/pm/issues/34
+  description: See https://github.com/waku-org/pm/issues/34 for details
   color: bfd4f2
