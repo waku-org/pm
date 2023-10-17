@@ -101,6 +101,9 @@
 - name: "E:Comprehensive dev testing"
   description: See https://github.com/waku-org/pm/issues/90 for details
   color: 088DF8
+- name: "E:Basic design for service incentivization"
+  description: See https://github.com/waku-org/pm/issues/96 for details
+  color: 0e8a16
 
 
 ## [Milestone] Waku Network Can Support 10K Users
