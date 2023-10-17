@@ -170,7 +170,6 @@
   description: See https://github.com/waku-org/pm/issues/87 for details
   color: e99695
 
-
 ## [Milestone] Quality Assurance processes are in place
 - name: "E:Automated release processes"
   description: See https://github.com/waku-org/pm/issues/86 for details
