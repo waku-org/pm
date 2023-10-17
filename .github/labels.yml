@@ -104,7 +104,9 @@
 - name: "E:Basic service incentivization"
   description: See https://github.com/waku-org/pm/issues/96 for details
   color: 0e8a16
-
+- name: "E:Presentation Readiness"
+  description: See https://github.com/waku-org/pm/issues/95 for details
+  color: 95D888
 
 ## [Milestone] Waku Network Can Support 10K Users
 - name: "E:Static sharding"
