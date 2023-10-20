@@ -115,6 +115,9 @@
 - name: "E:Opt-in message signing"
   description: See https://github.com/waku-org/pm/issues/20 for details
   color: 10C366
+- name: "E:Targeted Status Communities dogfooding"
+  description: See https://github.com/waku-org/pm/issues/97 for details
+  color: 10C313
 
 ## [Milestone] Support Many Platforms
 - name: "E:NodeJS Library"
