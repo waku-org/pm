@@ -107,6 +107,9 @@
 - name: "E:Presentation Readiness"
   description: See https://github.com/waku-org/pm/issues/95 for details
   color: 95D888
+- name: "E:RLN on mainnet"
+  description: see https://github.com/waku-org/pm/issues/98 for details
+  color: 54D412
 
 ## [Milestone] Waku Network Can Support 10K Users
 - name: "E:Static sharding"
