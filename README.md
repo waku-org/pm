@@ -58,8 +58,9 @@ However, subsequent/other changes may be picked up in parallel or sequentially b
 For that, dependencies must be clearly stated and team members must assigned in progress issues to themselves in GitHub.
 
 The program manager should ensure that epics are getting the right assignee in a timely fashion.
-For example, when research work starts for a given epic, epic owners from development team should be assigned so they know to participate in dicussions.
-Program manager should also ensure that issues are being created in a timely fashion.
+For example, when research work starts for a given epic, epic owners from development team should be assigned, so they know to participate in discussions.
+Program manager should also ensure that issues are being created in a timely fashion,
+an is encouraged to use client PM call as a forum to check epics to be assigned.
 For example, when PoC is near completion then breaking down the work should be started.
 
 ### GitHub Usage
