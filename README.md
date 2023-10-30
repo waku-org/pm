@@ -55,7 +55,10 @@ Epic owner must:
 It is likely that the epic owner will do the core change or first change for a given epic.
 However, subsequent/other changes may be picked up in parallel or sequentially by other team members.
 
-For that, dependencies must be clearly stated and team members must assigned in progress issues to themselves in GitHub.
+Hence:
+- dependencies must be clearly stated in _Task_ issue description
+- Team members must assign _Task_ issues to themselves when work starts
+- Team member must update issues to track progress
 
 The program manager should ensure that epics are getting the right assignee in a timely fashion.
 For example, when research work starts for a given epic, epic owners from development team should be assigned, so they know to participate in discussions.
