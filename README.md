@@ -18,7 +18,7 @@ The current reporting requirements are 2 folds:
 
 #### 1. Weekly Reporting
 
-Weekly reporting by subteam of progress on milestones.
+Weekly reporting on work progress by milestones.
 
 #### 2. Monthly Reporting
 
@@ -28,12 +28,43 @@ Monthly reporting is now handled by the Logos insight team.
 
 | Name            | Number of                               | Timeframe                              | Team Scope                                   | Owner                       | Description                                                                 |
 |-----------------|-----------------------------------------|----------------------------------------|----------------------------------------------|-----------------------------|-----------------------------------------------------------------------------|
-| Priority Track  | 3-5                                     | Set yearly                             | Whole Team                                   | Waku Lead                   | Focus set for the year, must be aligned with Logos Collective's priorities. |
-| (Key) Milestone | 1-3 per year                            | Set yearly-ish                         | Most subteams                                | Waku Lead                   | Key achievements for the Waku project, historical milestones.               |
-| Epic            | Several per milestone                   | Set for a milestone, delivered monthly | Several subteams or external team (e.g. DST) | Team Member (likely a lead) | Chunk of a _Milestone_ across all clients.                                  |
+| (Key) Milestone | 1-3 per year                            | Set yearly-ish/as needed               | Most subteams                                | Waku Lead                   | Key achievements for the Waku project, historical milestones.               |
+| Epic            | Several per milestone                   | Set for a milestone, delivered monthly | Several subteams or external team (e.g. DST) | Team Members                | Chunk of a _Milestone_ across all clients.                                  |
 | Task            | Many per Epic                           | Set monthly-ish, delivered weekly      | One subteam or individual                    | Team Member                 | May be one or several piece of work, client specific.                       |  
 
-Owner = person responsible for the delivery and related reporting, may not be doing all the work.
+### Epic Owner Responsibilities
+
+Each epic should have an owner per affected subteam (research, js-waku, go-waku, nwaku).
+
+The epic owner is responsible for breaking down the work in smaller issues in the related repo.
+
+For research team, it is expected that most of the research work is done by the epic owner, which includes:
+- Capturing problem statement
+- Designing protocol/solution
+- Implementing PoC in reference implementation
+- Running tests/simulations to confirm behaviour (to be offloaded to test engineer once hired)
+
+For development teams, it is expected that design/break down is done by epic owner.
+But actual workcan be picked up by other team member.
+Epic owner must:
+
+- Understand the change and its implications,
+- Liaise with researcher for any doubt or questions or design issues related to specific client/use case,
+- Create issues (_Tasks_) to break down work in client repo, include an _acceptance criteria_ in each issue to ensure that the objective/end goal/behaviour is clearly described.
+
+It is likely that the epic owner will do the core change or first change for a given epic.
+However, subsequent/other changes may be picked up in parallel or sequentially by other team members.
+
+Hence:
+- dependencies must be clearly stated in _Task_ issue description
+- Team members must assign _Task_ issues to themselves when work starts
+- Team member must update issues to track progress
+
+The program manager should ensure that epics are getting the right assignee in a timely fashion.
+For example, when research work starts for a given epic, epic owners from development team should be assigned, so they know to participate in discussions.
+Program manager should also ensure that issues are being created in a timely fashion,
+an is encouraged to use client PM call as a forum to check epics to be assigned.
+For example, when PoC is near completion then breaking down the work should be started.
 
 ### GitHub Usage
 
@@ -48,6 +79,7 @@ An _Epic_:
 - SHOULD be added to a GH Milestone.
 - SHOULD have a `Planned Start` and `Due Date` set (these are GitHub projects fields you can find in the `Projects` section of the issue view sidebar).
 - MAY list _Tasks_ present in other repos.
+- MUST have one assignee **per subteam**, who represent the epic owner.
 
 A _Task_:
 - MAY be tracked as a todo item in a GH Issue (_Task_ or _Epic_),
