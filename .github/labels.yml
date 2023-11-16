@@ -175,7 +175,7 @@
 - name: "E:3.4: Production and memberships on mainnet"
   description: See https://github.com/waku-org/pm/issues/87 for details
   color: e99695
-  name: "E:4.1: Basic front end for node operator"
+- name: "E:4.1: Basic front end for node operator"
   description: See https://github.com/waku-org/pm/issues/100 for details
   color: 1D4E15
 
