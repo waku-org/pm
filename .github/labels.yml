@@ -47,6 +47,9 @@
 - name: dependencies
   description: Pull requests that update a dependency file or issues that track it
   color: 0366d6
+- name: release
+  description: Tracks releases
+  color: B4FFA8
 
 # Tracks
 - name: track:rln
