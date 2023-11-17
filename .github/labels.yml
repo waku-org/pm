@@ -175,6 +175,9 @@
 - name: "E:3.2: Basic DoS protection in production"
   description: See https://github.com/waku-org/pm/issues/70 for details
   color: DF42D5
+- name: "E:3.3: Membership for Status Communities"
+  description: See https://github.com/waku-org/pm/issues/71 for details
+  color: 536D4F
 - name: "E:3.4: Production and memberships on mainnet"
   description: See https://github.com/waku-org/pm/issues/87 for details
   color: e99695
