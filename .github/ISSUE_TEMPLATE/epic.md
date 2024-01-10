@@ -17,7 +17,7 @@ assignees: ''
 
 # Acceptance Criteria
 
-<!-- describe the deliverable of this milestone and its attributes in plain English -->
+<!-- describe the deliverable of this epic and its attributes in plain English -->
 
 # Tasks
 
