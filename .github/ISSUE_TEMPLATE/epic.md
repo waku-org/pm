@@ -1,7 +1,7 @@
 ---
 name: Epic Issue Template
 about: Track Epics
-title: "[Epic] "
+title: "[Research/nwaku/go-waku/js-waku/docs/QA/Eco-Dev] "
 labels: epic
 assignees: ''
 

@@ -7,11 +7,7 @@ assignees: ''
 
 ---
 
-2023 Key Milestones: https://notes.status.im/s/iylE6wdli#
-
 **Milestone**: <!-- URL to the GitHub Milestone -->
-<!-- Remove tracks as needed -->
-**Priority Tracks**: Secure Scalability, Production Readiness, Growth, Generating Revenue (Sustainability & Longevity).
 
 # Summary
 
