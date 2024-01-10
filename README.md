@@ -103,6 +103,23 @@ flowchart LR
     end
 ```
 
+### Engineering-Only Milestones
+
+Some milestones may not involve the Waku Research team. In this case, the flow still applies but `E:Research` is skipped.
+
+### Chat SDK and other Special SDK Work
+
+The Chat SDK team is focusing on go-waku integration in status-go and follows Status' PM for issues and labelling.
+
+Once the team starts building an independent Chat (or other) SDK, the flow will be as above but with research handled by VAC/ACZ and only one dev team:
+
+| Epic Prefix | Owner Sub-team | Output                                             | Description                                                |
+|-------------|----------------|----------------------------------------------------|------------------------------------------------------------|
+| `E:ACZ`     | Vac/ACZ        | RFC                                                | RFC describing a specific, likely agnostic protocol        | 
+| `E:SDK`     | Chat SDK       | PoC and then MVP quality software, Application RFC | Implement the ACZ RFC, define API and application protocol |
+
+Handover to QA, Docs, Eco Dev with MVP quality software is still expected down the track but may be pending growing teams.
+
 ### Accountability
 
 Each epic should have an owner per subteam.
