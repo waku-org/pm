@@ -110,7 +110,9 @@ Which means, in terms of _navigation_:
 
 Handled by insight team
 
-**Weekly**: Report progress on each **active** _Epic_ or _Task_ per sub-team.
+**Weekly**:
+
+Report progress on each **active** _Epic_ or _Task_ per sub-team.
 
 Every Friday, all team members must add their update in the appropriate discord thread *WITH LINKS* to the GitHub **issues** (not pull requests) they own and worked on over the past week and/or plan to work on next week.
 
