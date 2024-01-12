@@ -19,7 +19,7 @@ assignees: ''
 
 # Epics
 
-- research: 
+- research: <URL to Research Epic>
 - js-waku: 
 - nwaku: 
 - go-waku:

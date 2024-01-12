@@ -32,7 +32,6 @@ Monthly reporting is now handled by the Logos insight team.
 
 | Name         | Number of             | Timeframe                                      | Team Scope                                      | Owner                  | Description                                           |
 |--------------|-----------------------|------------------------------------------------|-------------------------------------------------|------------------------|-------------------------------------------------------|
-| Deliverable  | 3-5 per year          | Set yearly for grant request                   | Waku Team                                       | Waku Lead              | TBD                                                   |
 | Milestone    | ?                     | Pencilled for the year, planned for 2 quarters | Most subteams                                   | Waku Lead              | A, or cohesive set of, feature(s).                    |
 | Epic         | Several per milestone | Set for a milestone                            | Usually one subteam or external team (e.g. DST) | Subteam Lead or Member | Milestone work for a given subteam.                   |
 | Task         | Many per Epic         | Set monthly-ish, delivered weekly              | One subteam or individual                       | Team Member            | May be one or several piece of work, client specific. |  
@@ -50,22 +49,20 @@ A *Milestone*:
 
 A *milestone* is divided in *Epics*. Each *epic* is assigned to a given subteam.
 
-Waku lead is accountable for the delivery of a *milestone*.
-
 Each Waku subteam lead (or selected member) is accountable for the delivery of their epic.
 
 Typically, each *milestone* will be divided in the following *epics*:
 
-| Epic Prefix  | Owner Sub-team          | Output                                                                             | Description                                                                                                                                                                              |
-|--------------|-------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `E:Research` | Waku Research           | PoC, RFC, Protocol Simulations/Studies                                             | Initial work done by the research team to create or change a protocol. Engineering-only Milestones may not have such epic                                                                |
-| `E:nwaku`    | nwaku                   | MVP quality software                                                               | Bring software to MVP level, proceed with re-architecture of PoC if needed, ensure functionality is usable, refine APIs, auto-generated/API documentation, ensure interoperability works |
-| `E:js-waku`  | js-waku                 | MVP quality software, including all supported env (e.g. React Native)              | Implement protocol in js-waku, same as nwaku.                                                                                                                                            |
-| `E:go-waku`  | go-waku                 | MVP quality software, include all supported bindings (i.e. C and Rust)             | Implement protocol in go-waku. May not always be relevant - need to conclude multiple client discussion. Otherwise, same as nwaku.                                                       |
-| `E:QA`       | Vac/DST                 | RFC-based + functionality based tests, both unit and integration tests.            | Test engineers take over and complete unit tests + add scenarios in integration test framework. In future, also add scenario to benchmark suite.                                         |
-| `E:Dogfood`  | js-waku, go-waku, nwaku | Lab example updates, own nodes updated, etc.                                       | Each dev team proceed by dogfooding the feature/API by using it themselves. Whether it is running their own node, or updating a selected number of examples.                             |
-| `E:Docs`     | Doc                     | Documentation (not auto-generated)                                                 | Document the new feature across all implementations, using the dogfooding output as handover material from engineering teams.                                                            |
-| `E:Eco-Dev`  | Eco Dev                 | Dev Rel assets (examples, video tutorial, etc), comms plan (X threads, blog posts) | Dev Rel can now prepare assets to push the feature to developers, comms can prepare copies to communicate about it, BD can push it to projects and partners.                             |
+| Epic Label Prefix | Owner Sub-team          | Output                                                                             | Description                                                                                                                                                                              |
+|-------------------|-------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `E:Research`      | Waku Research           | PoC, RFC, Protocol Simulations/Studies                                             | Initial work done by the research team to create or change a protocol. Engineering-only Milestones may not have such epic                                                                |
+| `E:nwaku`         | nwaku                   | MVP quality software                                                               | Bring software to MVP level, proceed with re-architecture of PoC if needed, ensure functionality is usable, refine APIs, auto-generated/API documentation, ensure interoperability works |
+| `E:js-waku`       | js-waku                 | MVP quality software, including all supported env (e.g. React Native & Web)        | Implement protocol in js-waku, same as nwaku.                                                                                                                                            |
+| `E:go-waku`       | go-waku                 | MVP quality software, include all supported bindings (i.e. C and Rust)             | Implement protocol in go-waku. May not always be relevant - need to conclude multiple client discussion. Otherwise, same as nwaku.                                                       |
+| `E:QA`            | Vac/DST                 | RFC-based + functionality based tests, both unit and integration tests.            | Test engineers take over and complete unit tests + add scenarios in integration test framework. In future, also add scenario to benchmark suite.                                         |
+| `E:Dogfood`       | js-waku, go-waku, nwaku | Lab example updates, own nodes updated, etc.                                       | Each dev team proceed by dogfooding the feature/API by using it themselves. Whether it is running their own node, or updating a selected number of examples.                             |
+| `E:Docs`          | Doc                     | Documentation (not auto-generated)                                                 | Document the new feature across all implementations, using the dogfooding output as handover material from engineering teams.                                                            |
+| `E:Eco-Dev`       | Eco Dev                 | Dev Rel assets (examples, video tutorial, etc), comms plan (X threads, blog posts) | Dev Rel can now prepare assets to push the feature to developers, comms can prepare copies to communicate about it, BD can push it to projects and partners.                             |
 
 ```mermaid
 flowchart LR
@@ -159,12 +156,12 @@ an is encouraged to use client PM call as a forum to check epics to be assigned,
 
 The following handovers are defined:
 
-| Handover                      | Expectations when handing over                                                                            | Expectations when accepting handover                                                                  |
-|-------------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Research to development teams | - RFC PR is merged <br /> - PoC PR is merged                                                              | - RFC content and PoC are reviewed <br /> - Own code and functionality <br /> - Own minor RFC changes |  
-| Development teams to QA       | - Happy path and selected  error path tests exist <br /> - APIs are implemented to enable interop testing | - Review RFC <br /> - Review existing tests                                                           |
-| Development teams to Docs     | - Working usage of API is provided <br /> - Auto-generated documentation for public API is present        | - Review examples <br /> - Understands functionality <br />                                           | 
-| Docs to Eco Dev               | - Docs PR is merged with functioning code                                                                 | - Understands functionality <br /> - Execute guides                                                   |
+| Handover                      | Expectations when handing over                                                                           | Expectations when accepting handover                                                                  |
+|-------------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| Research to development teams | - RFC PR is merged <br /> - PoC PR is merged                                                             | - RFC content and PoC are reviewed <br /> - Own code and functionality <br /> - Own minor RFC changes |  
+| Development teams to QA       | - Happy path and selected error path tests exist <br /> - APIs are implemented to enable interop testing | - Review RFC <br /> - Review existing tests                                                           |
+| Development teams to Docs     | - Working usage of API is provided <br /> - Auto-generated documentation for public API is present       | - Review examples <br /> - Understands functionality <br />                                           | 
+| Docs to Eco Dev               | - Docs PR is merged with functioning code                                                                | - Understands functionality <br /> - Execute guides                                                   |
 
 
 The group or person handing over is expected to initiate a sync (meeting) or async (chat or GitHub) discussion to go through the output and overview.
