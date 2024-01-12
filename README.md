@@ -110,25 +110,34 @@ Which means, in terms of _navigation_:
 
 Handled by insight team
 
-**Weekly**: Report progress on each **active** _Epic_ or _Task_ per subteam.
+**Weekly**: Report progress on each **active** _Epic_ or _Task_ per sub-team.
 
-Every Friday, all team members must add a comment to the GH **issues** (not pull request) they own and worked on the past week or planned to work on next week.
+Every Friday, all team members must add their update in the appropriate discord thread *WITH LINKS* to the GitHub **issues** (not pull requests) they own and worked on over the past week and/or plan to work on next week.
 
-If work is done on several _Tasks_ related to the same _Epic_, team member is free to do their weekly update in common parent issue.
+If work is done on several *Tasks* related to the same *Epic*, team members are free to link the common parent *Epic* issue.
 
-The comment must have the following MarkDown format:
+Please include an update for the following categories:
+
+- achieved: what was achieved this week.
+- next: what will be worked on next.
+- blocked: blocking items, not required if no blockers exist.
+
+On Mondays PM compiles the updates following sign-off from sub-team Leads and publishes to https://roadmap.logos.co.
+
+### Process Flow
 
 ```md
-**Weekly Update**
-
-- _achieved_: what was achieved this week; must remain on one line.
-- _next_: what will be worked on next week; must also remain on one line.
-- _blocker_: any blocking items. Do not include the line if no blocker. 
+Submit Updates (Everyone) - Friday
+         │
+         ▼
+Review/Signoff (Leads) - Monday
+         │
+         ▼
+Compile (PM) - Monday
+         │
+         ▼
+Publish (PM) - Tuesday
 ```
-
-**Omit the lines which are not relevant.**
-
-On Monday, project lead or responsible person for report can run the [milestone-update](https://github.com/fryorcraken/milestone-update) script to generate a report and post it in the Logos Discord.
 
 ## Milestones
 
