@@ -10,6 +10,12 @@ The Waku Team is currently split in the following subteams:
 - Waku Development (nwaku, js-waku, go-waku)
 - Waku Eco Dev (DevRel, Docs)
 
+## Tracks
+
+The concept of tracks is used to categorize the projects tackled in the Waku ecosystem.
+
+See TRACKS.md for details.
+
 ## Work Tracking and Reporting Guidelines
 
 ### Requirements
@@ -75,7 +81,7 @@ A _Milestone_:
 
 An _Epic_:
 - MUST have a matching GH issue in the https://github.com/waku-org/pm with `epic` label assigned.
-- MUST have a label with format `E:<epic name>` created across all relevant https://github.com/waku-org/ repos (see [labels.yml](./.github/labels.yml)).
+- MUST have a label with format `E:<epic name>`.
 - SHOULD be added to a GH Milestone.
 - SHOULD have a `Planned Start` and `Due Date` set (these are GitHub projects fields you can find in the `Projects` section of the issue view sidebar).
 - MAY list _Tasks_ present in other repos.
