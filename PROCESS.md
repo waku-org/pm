@@ -1,5 +1,19 @@
 # Work Tracking and Project Management Process
 
+## Motivation and Goal
+
+Implement the following attribute when delivering:
+
+1. Clear tracking of work across the teams so that when we says that a milestone is delivered, then:
+   - it is usable by all types of users (operators, web devs, system devs).
+   - It is documented (docs, dev rel)
+   - It is of high quality (QA, Dogfooding)
+2. Items (epic, milestones) can be easily be closed and marked as complete thanks to:
+    - Minimal external dependencies
+    - Minimal intra-team dependency
+    - Finite, well-define scope.
+3. Each milestone and the effort needed to achieve it has a clear value thanks to a well-defined, value-driven, minimal, scope.
+
 ## Terminology and Scope
 
 | Name         | Number of             | Timeframe                                      | Team Scope                                      | Owner                  | Description                                           |
