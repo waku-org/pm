@@ -18,6 +18,25 @@ WIP
 
 Finish https://github.com/waku-org/pm/issues/66.
 
+### Bindings
+
+Provide functioning bindings over nwaku in the following environments:
+
+- NodeJS
+- Rust (swap go-waku with nwaku)
+- Golang
+
+### Serve Limited Content Topic (Store)
+
+Enable store service to only serve specific content topics.
+Note that decentralized peer discovery for content topics is scheduled at a later stage, meaning that application
+developers would likely need to pass or hardcode list of store node or an enrtree in their client.
+
+Risk: Need to cater for scenarios where a node connect to a store that does not support their content topic.
+TODO: Should a small change to metadata protocol be planned? Should this be a research item instead?
+
+Ref: https://github.com/waku-org/pm/issues/64
+
 ### User Pays Own RLN Membership
 
 Provide a developer-ready API for a user to generate their own credentials and insert them.
@@ -37,6 +56,9 @@ Ref: (B) https://github.com/waku-org/pm/issues/102
 This is a continuation of [Project Pays RLN Memberships for Users](#project-pays-rln-memberships-for-users).
 However, requirements are stricter to preserve the privacy of the special user.
 
+TODO: This could be postponed to a future date, depending on appetite, acceptable properties for Status Communities
+usage and properties of [Project Pays RLN Memberships for Users](#project-pays-rln-memberships-for-users) solution.
+
 Ref: (C) https://github.com/waku-org/pm/issues/102
 
 ### RLN Credentials Security and Multiple Devices
@@ -45,14 +67,20 @@ Define how users should handle their credentials and provide the tooling for it.
 Define whether RLN credentials should be shared between application or devices.
 May also scope the work to enable sharing credentials between devices, or done as separate milestone.
 
+Note: Support needed from RLNP2P team.
+
 ### Composing Waku Protocols to Improve Reliability
 
 Provide recommendation in a form of a library to compose the Waku protocols to minimize message loss at a protocol level.
 This is both for relay and non-relay node.
-The aim is to provide an opinionated library that use Waku in a generalized manner.
+The aim is to provide opinionated libraries that use Waku in a generalized manner.
 The library may not fit all use-case and can always be bypassed or forked.
 Finally, the expectation is not 100% reliability but simply increased reliability for common scenarios.
-Application level solution for more certitued are covered as part of [Minimum Viable Data Synchronization](#minimum-viable-data-synchronization).
+Application level solution for more certitude are covered as part of [Minimum Viable Data Synchronization](#minimum-viable-data-synchronization).
+
+This is part of the general SDK strategy and expected to be implemented in each language:
+- JavaScript for Browser using js-waku
+- Rust/Golang/JavaScript for Node using nwaku bindings.
 
 ### Fault-Tolerant Usage of Web3 Providers
 
@@ -74,13 +102,13 @@ Note: Bluetooth, network mesh and internet outage are not in the scope of this m
 
 Enable node operators to serve js-waku browser clients without acquiring a domain name.
 
+Note: WebRTC Direct and webtransport support needed in nim-libp2p and js-libp2p.
+
 ### Relay in The Browser
 
 Understand and progress on the viability of using Waku Relay in the browser.
 
-### NodeJS Library
-
-Provide a NodeJS package to enable user to run a relay node with Node.
+Note: Support from js-libp2p maintainer needed.
 
 ### Waku React Native
 
@@ -106,6 +134,15 @@ Not a milestone per se.
 Review and potentially implement operator request feature requests.
 Requests may come from Status Community operators.
 
+### Ad hoc Network Formation
+
+Design and implement a protocol that uses TWN to negotiate the creation of an alternative small network that would enable lower-latency or higher bandwidth transfer.
+
+### Unscheduled
+
+- Serve only Content Topic Specific messages (filter, light push)
+- Merge js-waku and NodeJS-nwaku APIs to enable usage of single SDK for JavaScript on all environments.
+
 ## Chat SDK Milestones
 
 ### Static Sharding Integration in Status
@@ -116,10 +153,28 @@ Complete static sharding integration in Status app and provide support for any i
 
 See https://github.com/vacp2p/research/issues/177
 
+### Use of nwaku in status-go
+
+Identify, plan and start the execution of replacing go-waku with nwaku in status-go. 
+Output for 2024 is a feasibility study is done, action plan is drafted and work has started.
+
+The action plan need to take in account the intent to provide Status chat protocol as libraries decoupled from status-go.
+Yet, full dependency on said libraries should not be blocking.
+
 ### Chat SDK PoC 1
 
-TODO: decide on the scope of a first JS SDK for Chat.
-This is likely to include accommodating the selected protocols to use the Waku Network Gen 0.
+Provide and consume JS library that enable a project to use Waku for chat purposes over TWN.
+Exact scope to be define later. Likely either existing Status Chat 1:1 protocol or [Ethereum Address to Secure Channel](#ethereum-address-to-secure-channel).
+
+This library usage should be demonstrated in a web app a la wakuplay as part of dogfooding effort.
+
+### Extract 1 Status protocol from status-go
+
+This may or may not be the same item as [Chat SDK PoC 1](#chat-sdk-poc-1) as the consideration to be made are different
+(market potential vs engineering feasibility within status-go context).
+
+This needs to be done with [Use of nwaku in status-go](#use-of-nwaku-in-status-go) with a bigger picture of status-go
+future architecture in mind.
 
 ### Minimum Viable Data Synchronization
 
@@ -130,3 +185,15 @@ The aim is to review and improve the protocol and library using Status feedback,
 ### Ethereum Address to Secure Channel
 
 Working MVP of https://rfc.vac.dev/spec/70/.
+
+### Unscheduled – 2025 Priority
+
+- Private group chat SDK
+- Wakuplay usage to dogfood private group chat
+- Support of Waku Objects and make it consumable
+
+## Other SDK Milestones
+
+### External Wallet Authentication and Transaction for Webapp
+
+Enable a web app to use Waku to request wallet signature for authentication and transaction purposes.
