@@ -9,11 +9,11 @@ MW means _man-week_: Effort time for an individual to complete the project.
 
 ### The Waku Whitepaper
 
-    **Goal:** On completion, Waku will have an academically rigorous whitepaper explaining the what, why and how of Waku protocols
-    **Research tracks:** All
-    **Estimated date of completion:** 2024Q4
-    **Estimated effort:**
-        - research: 4 MW
+- **Goal:** On completion, Waku will have an academically rigorous whitepaper explaining the what, why and how of Waku protocols
+- **Research tracks:** All
+- **Estimated date of completion:** 2024Q4
+- **Estimated effort:**
+  - research: 4 MW
 
 As set out in [https://github.com/waku-org/research/issues/7](https://github.com/waku-org/research/issues/7).
 The document itself may source from one or more academic papers published and presented throughout the year.
@@ -21,12 +21,12 @@ Total length should be around 15 pages.
 
 ### Waku RFC Review
 
-**Goal:** On completion, the set of RFCs for Waku will be simplified, reasonably up to date and accessible.
-**Research tracks:** All
-**Estimated date of completion:** 2024Q1
-**Estimated effort:**
-- research: 3 MW
-- docs/eco-dev: 1 MW
+- **Goal:** On completion, the set of RFCs for Waku will be simplified, reasonably up to date and accessible.
+- **Research tracks:** All
+- **Estimated date of completion:** 2024Q1
+- **Estimated effort:**
+  - research: 3 MW
+  - docs/eco-dev: 1 MW
 
 Review our Waku RFC strategy, review the content of the most important RFCs, improve RFC indexing and ensure that
 important RFCs are easily identified and accessible.
@@ -67,14 +67,14 @@ Review the most important Waku RFCs:
 
 ### Store v3-beta - message hashes
 
-**Goal:** After this upgrade, the network will provide distributed and synchronised store services.
-**Research tracks:** Message Reliability
-**Estimated date of completion:** 2024Q2
-**Estimated effort:**
-- research: 5 MW
-- nwaku
-- js-waku
-- docs/eco-dev:
+- **Goal:** After this upgrade, the network will provide distributed and synchronised store services.
+- **Research tracks:** Message Reliability
+- **Estimated date of completion:** 2024Q2
+- **Estimated effort:**
+  - research: 5 MW
+  - nwaku
+  - js-waku
+  - docs/eco-dev:
 
 An improved version of the Store protocol, marking a crucial increment towards a synchronisation protocol:
 
@@ -89,16 +89,16 @@ hashes as index/cursor, can be used as a starting point.
 
 ### Store v3 - store synchronisation
 
-**Goal:** Upgrade the Store service capability in the network from a collection of local, unsynchronised,
+- **Goal:** Upgrade the Store service capability in the network from a collection of local, unsynchronised,
 semi-centralised (trusted) service nodes to a decentralised service capability in the network with inter-node synchronisation.
-**Research tracks:** Message Reliability
-**Estimated date of completion:** 2024Q2
-**Estimated effort:**
-- research: 9 MW
-- nwaku:
-- js-waku:
-- go-waku:
-- docs/eco-dev
+- **Research tracks:** Message Reliability
+- **Estimated date of completion:** 2024Q2
+- **Estimated effort:**
+  - research: 9 MW
+  - nwaku:
+  - js-waku:
+  - go-waku:
+  - docs/eco-dev
 
 Building on Store v3-beta, this version of Store includes basic synchronisation between nodes.
 This will probably include:
@@ -117,14 +117,14 @@ IMO (iii) should be pursued as the preferred option, as far as possible.
 
 ### Store Incentivisation (first iteration/POC)
 
-**Goal:** The network will provide proof of concept for incentivised store protocol
-**Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
-**Estimated date of completion:** 2024Q2
-**Estimated effort:**
-- research: 5 weeks
-- nwaku
-- js-waku
-- docs/eco-dev:
+- **Goal:** The network will provide proof of concept for incentivised store protocol
+- **Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
+- **Estimated date of completion:** 2024Q2
+- **Estimated effort:**
+  - research: 5 weeks
+  - nwaku
+  - js-waku
+  - docs/eco-dev:
 
 A POC incentivisation mechanism that incorporates POC versions of the three Waku service incentivisation elements:
 
@@ -138,14 +138,14 @@ A POC incentivisation mechanism that incorporates POC versions of the three Waku
 
 ### General Service Protocol Incentivisation (first iteration/POC)
 
-**Goal:** The network will provide proof of concept for incentivised service protocols
-**Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
-**Estimated date of completion:** 2024Q2
-**Estimated effort:**
-- research: 5 weeks
-- nwaku
-- js-waku
-- docs/eco-dev:
+- **Goal:** The network will provide proof of concept for incentivised service protocols
+- **Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
+- **Estimated date of completion:** 2024Q2
+- **Estimated effort:**
+  - research: 5 weeks
+  - nwaku
+  - js-waku
+  - docs/eco-dev:
 
 This expands store incentivisation to other protocols:
 
@@ -154,11 +154,11 @@ This expands store incentivisation to other protocols:
 
 ### Roadmap Towards Incentivisation on Mainnet
 
-**Goal:** Publish a breakdown clarifying the roadmap to push incentivization to mainnet.
-**Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
-**Estimated date of completion:** 2024Q3
-**Estimated effort:**
-- research: 3 weeks
+- **Goal:** Publish a breakdown clarifying the roadmap to push incentivization to mainnet.
+- **Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
+- **Estimated date of completion:** 2024Q3
+- **Estimated effort:**
+  - research: 3 weeks
 
 The research and design necessary to come up with a roadmap to productionised incentivisation, including:
 
@@ -168,12 +168,12 @@ The research and design necessary to come up with a roadmap to productionised in
 
 ### Capability Service Discovery
 
-**Goal:** After this upgrade, the network will support decentralised service (e.g. store, filter) discovery on shards.
-**Research tracks**: Secure Scaling, Restricted Run
-**Estimated date of completion:** 2024Q2
-**Estimated effort:**
-- research: 6 MW
-- ...
+- **Goal:** After this upgrade, the network will support decentralised service (e.g. store, filter) discovery on shards.
+- **Research tracks**: Secure Scaling, Restricted Run
+- **Estimated date of completion:** 2024Q2
+- **Estimated effort:**
+  - research: 6 MW
+  - ...
 
 Implement a strategy for Waku nodes to discover and maintain a healthy connectivity to the set of service peers
 necessary for their configured applications. In the Waku Network nodes can opt to provide a range of services
@@ -185,12 +185,11 @@ See https://github.com/waku-org/research/issues/74.
 
 ### Content Service Discovery
 
-**Goal:** After this upgrade, the network will support service discovery on content topics
-**Research tracks**: Secure Scaling, Restricted Run
-**Estimated date of completion:** 2024Q4
-
-**Estimated effort:** 
-- research 6 MW
+- **Goal:** After this upgrade, the network will support service discovery on content topics
+- **Research tracks**: Secure Scaling, Restricted Run
+- **Estimated date of completion:** 2024Q4
+- **Estimated effort:** 
+  - research 6 MW
 
 Implement a strategy for Waku nodes to discover service peers necessary for their configured applications based on the
 content topics configured on those service nodes. In the Waku Network nodes can opt to provide a range of services
@@ -209,12 +208,12 @@ bandwidth capping, resource-restricted options and a clear evaluation of what is
 
 ### RLN in resource-restricted clients
 
-**Goal:** Using RLN in resource-restricted provide fair user experience in terms of initial setup and performance.
-**Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
-**Estimated date of completion:** 2024Q3
-**Estimated effort:**
-- research: 8 weeks
-- js-waku...
+- **Goal:** Using RLN in resource-restricted provide fair user experience in terms of initial setup and performance.
+- **Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
+- **Estimated date of completion:** 2024Q3
+- **Estimated effort:**
+  - research: 8 weeks
+  - js-waku...
 
 Enabling RLN proof generation and verification within light clients.
 Different options are set out in [https://github.com/waku-org/research/issues/45](https://github.com/waku-org/research/issues/45).
@@ -223,11 +222,11 @@ became the key focus of this effort.
 
 ### RLNv2
 
-**Goal:** Improved flexibility of the rate limit (from 1 msg/epoch to N msg/epoch), providing better dimensioning for bandwidth capping.
-**Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
-**Estimated date of completion:** 2024Q3
-**Estimated effort:**
-- research: 4 weeks
+- **Goal:** Improved flexibility of the rate limit (from 1 msg/epoch to N msg/epoch), providing better dimensioning for bandwidth capping.
+- **Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
+- **Estimated date of completion:** 2024Q3
+- **Estimated effort:**
+  - research: 4 weeks
 
 Moving from RLNv1 to RLNv2 to allow better bandwidth dimensioning in the network. This will allow a message allocation
 per day per registered publisher, providing better statistical guarantees for network bandwidth usage.
@@ -236,11 +235,11 @@ See: [https://github.com/waku-org/research/issues/22](https://github.com/waku-or
 
 ### Maturing RLN variables/parameters revision (staking, contract/chain, token)
 
-**Goal:** A review of RLN security parameters and functionality in preparation for mainnet deployment.
-**Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
-**Estimated date of completion:** 2024Q3
-**Estimated effort:**
-- research: 3 weeks
+- **Goal:** A review of RLN security parameters and functionality in preparation for mainnet deployment.
+- **Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
+- **Estimated date of completion:** 2024Q3
+- **Estimated effort:**
+  - research: 3 weeks
 
 Analyse RLN deployment in TWN Gen 0 and evaluate its DoS protection performance.
 
