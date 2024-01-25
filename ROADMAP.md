@@ -9,13 +9,11 @@ MW means _man-week_: Effort time for an individual to complete the project.
 
 ### The Waku Whitepaper
 
----
-**Goal:** On completion, Waku will have an academically rigorous whitepaper explaining the what, why and how of Waku protocols
-**Research tracks:** All
-**Estimated date of completion:** 2024Q4
-**Estimated effort:**
-  - research: 4 MW
----
+    **Goal:** On completion, Waku will have an academically rigorous whitepaper explaining the what, why and how of Waku protocols
+    **Research tracks:** All
+    **Estimated date of completion:** 2024Q4
+    **Estimated effort:**
+        - research: 4 MW
 
 As set out in [https://github.com/waku-org/research/issues/7](https://github.com/waku-org/research/issues/7).
 The document itself may source from one or more academic papers published and presented throughout the year.
