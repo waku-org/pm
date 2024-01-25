@@ -65,7 +65,7 @@ Review the most important Waku RFCs:
 - consider marking some specifications as "stagnant" indicating that they're not being focused on
 - deprecate RFCs that are no longer relevant
 
-### Store v3-beta - message hashes
+### Store v3-beta - Message Hashes
 
 - **Goal:** After this upgrade, the network will provide distributed and synchronised store services.
 - **Research tracks:** Message Reliability
@@ -198,13 +198,6 @@ service operators and nodes. Any peer in the network trying to make use of these
 a service node matching its desired set of content topics. Note that the cardinality of all possible content topics
 (infinite) may be too high for integration into existing DHTs/shared discovery methods. Alternative approaches could
 include advertising on a separate pubsub topic, advertisements published on the configured content topics, etc.
-
-## Milestone: TWN - Rate-limiting Upgrade (RU)
-
-**Goal:** After this upgrade, the network will show maturity in how it limits rate, with better dimensioning for
-bandwidth capping, resource-restricted options and a clear evaluation of what is needed to improve DoS protection.
-**[Research tracks:](https://www.notion.so/Waku-Research-ac7941c0ece84dc6b2948ec02b3cb695?pvs=21)** Secure Scaling, Restricted Run, Rate Limiting
-**Estimated date of completion:** 30/09/2024
 
 ### RLN in resource-restricted clients
 
