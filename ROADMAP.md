@@ -18,6 +18,11 @@ WIP
 
 Finish https://github.com/waku-org/pm/issues/66.
 
+### PostgreSQL Maintenance
+
+Work on how to best handle PostgreSQL database growth and pruning is in progress and must completed to enable node operators
+to handle database growth in an easy and non-disruptive manner.
+
 ### Bindings
 
 Provide functioning bindings over nwaku in the following environments:
@@ -142,6 +147,7 @@ Design and implement a protocol that uses TWN to negotiate the creation of an al
 
 - Serve only Content Topic Specific messages (filter, light push)
 - Merge js-waku and NodeJS-nwaku APIs to enable usage of single SDK for JavaScript on all environments.
+- Review DB choices for embedded, and datacenter node.
 
 ## Chat SDK Milestones
 
@@ -164,7 +170,7 @@ Yet, full dependency on said libraries should not be blocking.
 ### Chat SDK PoC 1
 
 Provide and consume JS library that enable a project to use Waku for chat purposes over TWN.
-Exact scope to be define later. Likely either existing Status Chat 1:1 protocol or [Ethereum Address to Secure Channel](#ethereum-address-to-secure-channel).
+Exact scope to be defined later. Likely either existing Status Chat 1:1 protocol or [Ethereum Address to Secure Channel](#ethereum-address-to-secure-channel).
 
 This library usage should be demonstrated in a web app a la wakuplay as part of dogfooding effort.
 
@@ -173,7 +179,7 @@ This library usage should be demonstrated in a web app a la wakuplay as part of 
 This may or may not be the same item as [Chat SDK PoC 1](#chat-sdk-poc-1) as the consideration to be made are different
 (market potential vs engineering feasibility within status-go context).
 
-This needs to be done with [Use of nwaku in status-go](#use-of-nwaku-in-status-go) with a bigger picture of status-go
+This needs to be done with [use of nwaku in status-go](#use-of-nwaku-in-status-go) in mind with a bigger picture of status-go
 future architecture in mind.
 
 ### Minimum Viable Data Synchronization
