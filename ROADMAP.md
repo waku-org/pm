@@ -14,7 +14,7 @@ MW means _man-week_: Effort time for an individual to complete the project.
 **Research tracks:** All
 **Estimated date of completion:** 2024Q4
 **Estimated effort:**
-- research: 4 MW
+  - research: 4 MW
 ---
 
 As set out in [https://github.com/waku-org/research/issues/7](https://github.com/waku-org/research/issues/7).
