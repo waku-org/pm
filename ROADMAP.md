@@ -277,7 +277,7 @@ Finish https://github.com/waku-org/pm/issues/66.
 Work on how to best handle PostgreSQL database growth and pruning is in progress and must completed to enable node operators
 to handle database growth in an easy and non-disruptive manner.
 
-### Bindings
+### Bindings (NodeJS, Rust, Golang)
 
 Provide functioning bindings over nwaku in the following environments:
 
@@ -479,8 +479,10 @@ Enable a web app to use Waku to request wallet signature for authentication and 
 8. RLN contract audited, reviewed and deployed to mainnet (RLNP2P, Smart Contract)
 9. Investigate feasibility/risks for RLN on L2, recommend a specific L2 if any (RLNP2P, Tokenomics, Smart Contract)
 10. Risk/attack analysis for RLN. How do we recover after an attack? (RLNP2P, Tokenomics)
-11. Deliver a cryptographic protocol to enable setting up a secure channel for 1:1 and private group chat purposes from 
+11. Deliver WebRTC Direct support in nim-libp2p (P2P)
+12. Deliver WebTransport support in nim-libp2p (P2P)
+13. Deliver a cryptographic protocol to enable setting up a secure channel for 1:1 and private group chat purposes from 
     an Ethereum address (ACZ).
-12. Support in terms of cryptographic security, especially in regards of extending the Waku noise protocol if such a
+14. Support in terms of cryptographic security, especially in regards of extending the Waku noise protocol if such a
     need arises from Waku adoption (ACZ).
 
