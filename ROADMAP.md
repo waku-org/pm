@@ -1,9 +1,10 @@
-# Waku Roadmap 2024
+# Waku Roadmap 2024 (Draft)
 
-This live document acts as a high overview of the work likely to be tackled for Waku.
+This live document acts as a high overview of the work to be tackled for Waku in 2024.
+
+**This is still a draft**.
+
 Actual planning and execution is done through GitHub issues and [milestones](https://github.com/waku-org/pm/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Amilestone).
-
-MW means _man-week_: Effort time for an individual to complete the project.
 
 ## Deliverable
 
@@ -24,8 +25,6 @@ not part of the list of requirements for Status in 2024.
 - **Deliverables**: (3)
 - **Research tracks:** All
 - **Estimated date of completion:** 2024Q4
-- **Estimated effort:**
-  - research: 4 MW
 
 As set out in [https://github.com/waku-org/research/issues/7](https://github.com/waku-org/research/issues/7).
 The document itself may source from one or more academic papers published and presented throughout the year.
@@ -37,9 +36,6 @@ Total length should be around 15 pages.
 - **Deliverables**: (3)
 - **Research tracks:** All
 - **Estimated date of completion:** 2024Q1
-- **Estimated effort:**
-  - research: 3 MW
-  - docs/eco-dev: 1 MW
 
 Review our Waku RFC strategy, review the content of the most important RFCs, improve RFC indexing and ensure that
 important RFCs are easily identified and accessible.
@@ -84,11 +80,6 @@ Review the most important Waku RFCs:
 - **Deliverables**: (2), (3)
 - **Research tracks:** Message Reliability
 - **Estimated date of completion:** 2024Q2
-- **Estimated effort:**
-  - research: 5 MW
-  - nwaku
-  - js-waku
-  - docs/eco-dev:
 
 An improved version of the Store protocol, marking a crucial increment towards a synchronisation protocol:
 
@@ -108,12 +99,6 @@ semi-centralised (trusted) service nodes to a decentralised service capability i
 - **Deliverables**: (2), (3)
 - **Research tracks:** Message Reliability
 - **Estimated date of completion:** 2024Q2
-- **Estimated effort:**
-  - research: 9 MW
-  - nwaku:
-  - js-waku:
-  - go-waku:
-  - docs/eco-dev
 
 Building on Store v3-beta, this version of Store includes basic synchronisation between nodes.
 This will probably include:
@@ -136,11 +121,6 @@ IMO (iii) should be pursued as the preferred option, as far as possible.
 - **Deliverables**: (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
 - **Estimated date of completion:** 2024Q2
-- **Estimated effort:**
-  - research: 5 weeks
-  - nwaku
-  - js-waku
-  - docs/eco-dev:
 
 A POC incentivisation mechanism that incorporates POC versions of the three Waku service incentivisation elements:
 
@@ -158,11 +138,6 @@ A POC incentivisation mechanism that incorporates POC versions of the three Waku
 - **Deliverables**: (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
 - **Estimated date of completion:** 2024Q2
-- **Estimated effort:**
-  - research: 5 weeks
-  - nwaku
-  - js-waku
-  - docs/eco-dev:
 
 This expands store incentivisation to other protocols:
 
@@ -175,8 +150,6 @@ This expands store incentivisation to other protocols:
 - **Deliverables**: (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
 - **Estimated date of completion:** 2024Q3
-- **Estimated effort:**
-  - research: 3 weeks
 
 The research and design necessary to come up with a roadmap to productionised incentivisation, including:
 
@@ -190,9 +163,6 @@ The research and design necessary to come up with a roadmap to productionised in
 - **Deliverables**: (2), (3)
 - **Research tracks**: Secure Scaling, Restricted Run
 - **Estimated date of completion:** 2024Q2
-- **Estimated effort:**
-  - research: 6 MW
-  - ...
 
 Implement a strategy for Waku nodes to discover and maintain a healthy connectivity to the set of service peers
 necessary for their configured applications. In the Waku Network nodes can opt to provide a range of services
@@ -208,8 +178,6 @@ See https://github.com/waku-org/research/issues/74.
 - **Deliverables**: (1), (2), (3)
 - **Research tracks**: Secure Scaling, Restricted Run
 - **Estimated date of completion:** 2024Q4
-- **Estimated effort:** 
-  - research 6 MW
 
 Implement a strategy for Waku nodes to discover service peers necessary for their configured applications based on the
 content topics configured on those service nodes. In the Waku Network nodes can opt to provide a range of services
@@ -225,9 +193,6 @@ include advertising on a separate pubsub topic, advertisements published on the 
 - **Deliverables**: (1), (~2), (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
 - **Estimated date of completion:** 2024Q3
-- **Estimated effort:**
-  - research: 8 weeks
-  - js-waku...
 
 Enabling RLN proof generation and verification within light clients.
 Different options are set out in [https://github.com/waku-org/research/issues/45](https://github.com/waku-org/research/issues/45).
@@ -240,8 +205,6 @@ became the key focus of this effort.
 - **Deliverables**: (1), (~2), (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
 - **Estimated date of completion:** 2024Q3
-- **Estimated effort:**
-  - research: 4 weeks
 
 Moving from RLNv1 to RLNv2 to allow better bandwidth dimensioning in the network. This will allow a message allocation
 per day per registered publisher, providing better statistical guarantees for network bandwidth usage.
@@ -254,8 +217,6 @@ See: [https://github.com/waku-org/research/issues/22](https://github.com/waku-or
 - **Deliverables**: (~2), (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
 - **Estimated date of completion:** 2024Q3
-- **Estimated effort:**
-  - research: 3 weeks
 
 Analyse RLN deployment in TWN Gen 0 and evaluate its DoS protection performance.
 
