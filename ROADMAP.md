@@ -337,6 +337,7 @@ Ref: https://github.com/waku-org/pm/issues/64
 ### User Pays Own RLN Membership
 
 - **Deliverables**: (1)
+- **Tracking issue**: https://github.com/waku-org/pm/issues/108
 
 Provide a developer-ready API for a user to generate their own credentials and insert them.
 
