@@ -1,15 +1,27 @@
-# Waku Roadmap
+# Waku Roadmap 2024
 
 This live document acts as a high overview of the work likely to be tackled for Waku.
 Actual planning and execution is done through GitHub issues and [milestones](https://github.com/waku-org/pm/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Amilestone).
 
 MW means _man-week_: Effort time for an individual to complete the project.
 
+## Deliverable
+
+Waku commits to 3 deliverables (WIP):
+
+1. RLN membership growth
+2. Status Support
+3. Progress on Censorship-resistance, Privacy and Sustainability. 
+
+(~2) expresses that while this deliverable is expected to be needed by Status, it's usage may not happen in 2024 and is
+not part of the list of requirements for Status in 2024.
+
 ## Research Milestones
 
 ### The Waku Whitepaper
 
 - **Goal:** On completion, Waku will have an academically rigorous whitepaper explaining the what, why and how of Waku protocols
+- **Deliverables**: (3)
 - **Research tracks:** All
 - **Estimated date of completion:** 2024Q4
 - **Estimated effort:**
@@ -22,6 +34,7 @@ Total length should be around 15 pages.
 ### Waku RFC Review
 
 - **Goal:** On completion, the set of RFCs for Waku will be simplified, reasonably up to date and accessible.
+- **Deliverables**: (3)
 - **Research tracks:** All
 - **Estimated date of completion:** 2024Q1
 - **Estimated effort:**
@@ -68,6 +81,7 @@ Review the most important Waku RFCs:
 ### Store v3-beta - Message Hashes
 
 - **Goal:** After this upgrade, the network will provide distributed and synchronised store services.
+- **Deliverables**: (2), (3)
 - **Research tracks:** Message Reliability
 - **Estimated date of completion:** 2024Q2
 - **Estimated effort:**
@@ -91,6 +105,7 @@ hashes as index/cursor, can be used as a starting point.
 
 - **Goal:** Upgrade the Store service capability in the network from a collection of local, unsynchronised,
 semi-centralised (trusted) service nodes to a decentralised service capability in the network with inter-node synchronisation.
+- **Deliverables**: (2), (3)
 - **Research tracks:** Message Reliability
 - **Estimated date of completion:** 2024Q2
 - **Estimated effort:**
@@ -118,6 +133,7 @@ IMO (iii) should be pursued as the preferred option, as far as possible.
 ### Store Incentivisation (first iteration/POC)
 
 - **Goal:** The network will provide proof of concept for incentivised store protocol
+- **Deliverables**: (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
 - **Estimated date of completion:** 2024Q2
 - **Estimated effort:**
@@ -139,6 +155,7 @@ A POC incentivisation mechanism that incorporates POC versions of the three Waku
 ### General Service Protocol Incentivisation (first iteration/POC)
 
 - **Goal:** The network will provide proof of concept for incentivised service protocols
+- **Deliverables**: (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
 - **Estimated date of completion:** 2024Q2
 - **Estimated effort:**
@@ -155,6 +172,7 @@ This expands store incentivisation to other protocols:
 ### Roadmap Towards Incentivisation on Mainnet
 
 - **Goal:** Publish a breakdown clarifying the roadmap to push incentivization to mainnet.
+- **Deliverables**: (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Protocol Incentivization
 - **Estimated date of completion:** 2024Q3
 - **Estimated effort:**
@@ -169,6 +187,7 @@ The research and design necessary to come up with a roadmap to productionised in
 ### Capability Service Discovery
 
 - **Goal:** After this upgrade, the network will support decentralised service (e.g. store, filter) discovery on shards.
+- **Deliverables**: (2), (3)
 - **Research tracks**: Secure Scaling, Restricted Run
 - **Estimated date of completion:** 2024Q2
 - **Estimated effort:**
@@ -186,6 +205,7 @@ See https://github.com/waku-org/research/issues/74.
 ### Content Service Discovery
 
 - **Goal:** After this upgrade, the network will support service discovery on content topics
+- **Deliverables**: (1), (2), (3)
 - **Research tracks**: Secure Scaling, Restricted Run
 - **Estimated date of completion:** 2024Q4
 - **Estimated effort:** 
@@ -202,6 +222,7 @@ include advertising on a separate pubsub topic, advertisements published on the 
 ### RLN in resource-restricted clients
 
 - **Goal:** Using RLN in resource-restricted provide fair user experience in terms of initial setup and performance.
+- **Deliverables**: (1), (~2), (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
 - **Estimated date of completion:** 2024Q3
 - **Estimated effort:**
@@ -216,6 +237,7 @@ became the key focus of this effort.
 ### RLNv2
 
 - **Goal:** Improved flexibility of the rate limit (from 1 msg/epoch to N msg/epoch), providing better dimensioning for bandwidth capping.
+- **Deliverables**: (1), (~2), (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
 - **Estimated date of completion:** 2024Q3
 - **Estimated effort:**
@@ -229,6 +251,7 @@ See: [https://github.com/waku-org/research/issues/22](https://github.com/waku-or
 ### Maturing RLN variables/parameters revision (staking, contract/chain, token)
 
 - **Goal:** A review of RLN security parameters and functionality in preparation for mainnet deployment.
+- **Deliverables**: (~2), (3)
 - **Research tracks:** Secure Scaling, Restricted Run, Rate Limiting
 - **Estimated date of completion:** 2024Q3
 - **Estimated effort:**
@@ -270,14 +293,21 @@ See [https://github.com/waku-org/research/issues/69](https://github.com/waku-org
 
 ### Node Bandwidth Management Mechanism
 
+- **Deliverables**: (1), (2)
+
+
 Finish https://github.com/waku-org/pm/issues/66.
 
 ### PostgreSQL Maintenance
+
+- **Deliverables**: (2)
 
 Work on how to best handle PostgreSQL database growth and pruning is in progress and must completed to enable node operators
 to handle database growth in an easy and non-disruptive manner.
 
 ### Bindings (NodeJS, Rust, Golang)
+
+- **Deliverables**: (1)
 
 Provide functioning bindings over nwaku in the following environments:
 
@@ -287,9 +317,13 @@ Provide functioning bindings over nwaku in the following environments:
 
 ### Bindings - Mobile
 
+- **Deliverables**: (1)
+
 Verify and demonstrate that the Golang and Rust bindings work on mobile environments (Android and iOS).
 
 ### Serve Limited Content Topic (Store)
+
+- **Deliverables**: (1), (2)
 
 Enable store service to only serve specific content topics.
 Note that decentralized peer discovery for content topics is scheduled at a later stage, meaning that application
@@ -302,11 +336,15 @@ Ref: https://github.com/waku-org/pm/issues/64
 
 ### User Pays Own RLN Membership
 
+- **Deliverables**: (1)
+
 Provide a developer-ready API for a user to generate their own credentials and insert them.
 
 Ref: (A) https://github.com/waku-org/pm/issues/102
 
 ### Project Pays RLN Memberships for Users
+
+- **Deliverables**: (1)
 
 Provide a developer-ready API and software to enable developers to fund membership for users.
 Some concession regarding the privacy of the developer/project infra may be acceptable (e.g. project hosts a REST API to
@@ -315,6 +353,8 @@ exchange private commitment).
 Ref: (B) https://github.com/waku-org/pm/issues/102
 
 ### Special User Pays RLN Memberships for Other Users
+
+- **Deliverables**: (1), (~2)
 
 This is a continuation of [Project Pays RLN Memberships for Users](#project-pays-rln-memberships-for-users).
 However, requirements are stricter to preserve the privacy of the special user.
@@ -326,6 +366,8 @@ Ref: (C) https://github.com/waku-org/pm/issues/102
 
 ### RLN Credentials Security and Multiple Devices
 
+- **Deliverables**: (1), (~2)
+
 Define how users should handle their credentials and provide the tooling for it.
 Define whether RLN credentials should be shared between application or devices.
 May also scope the work to enable sharing credentials between devices, or done as separate milestone.
@@ -333,6 +375,8 @@ May also scope the work to enable sharing credentials between devices, or done a
 Note: Support needed from RLNP2P team.
 
 ### Composing Waku Protocols to Improve Reliability
+
+- **Deliverables**: (1), (2)
 
 Provide recommendation in a form of a library to compose the Waku protocols to minimize message loss at a protocol level.
 This is both for relay and non-relay node.
@@ -347,10 +391,14 @@ This is part of the general SDK strategy and expected to be implemented in each 
 
 ### Fault-Tolerant Usage of Web3 Providers
 
+- **Deliverables**: (1), (~2), (3)
+
 Review the usage of Web3 Providers and provide a fault-tolerant strategy to ensure that The Waku Network cannot be DOS'd by Web3 Provider outage.
 Strategies such as the software ability to fallback to alternative providers or usage of Ethereum Light Client and Portal network should be considered.
 
 ### Waku Relay and Discv5 in a Hostile, Restricted or Subpar Online Network
+
+- **Deliverables**: (1), (3)
 
 Proceed with a multi-client analysis of Waku Relay's performance in a somewhat online hostile or subpar network and the ability for a relay node to remain connected when said network:
 - Hackathon with poor internet connectivity
@@ -363,11 +411,15 @@ Note: Bluetooth, network mesh and internet outage are not in the scope of this m
 
 ### TLS-less Browser Connections
 
+- **Deliverables**: (1), (3)
+
 Enable node operators to serve js-waku browser clients without acquiring a domain name.
 
 Note: WebRTC Direct and webtransport support needed in nim-libp2p and js-libp2p.
 
 ### Relay in The Browser
+
+- **Deliverables**: (3)
 
 Understand and progress on the viability of using Waku Relay in the browser.
 
@@ -375,29 +427,41 @@ Note: Support from js-libp2p maintainer needed.
 
 ### Waku React Native
 
+- **Deliverables**: (1)
+
 Provide a functioning React Native library on both Android and iOS.
 Likely using js-waku to enable multi-platform development (browser, iOS, Android).
 
 ### JSON RPC Deprecation
 
+- **Deliverables**: (1)
+
 Deprecate nwaku and go-waku JSON RPC API and replace its usage with REST API across the repos (tests).
 
 ### General Status Support
 
+- **Deliverables**: (2)
+
 Prioritize Status requirements, bugs or issues.
 
 ### Developer Experience Feedback
+
+- **Deliverables**: (1)
 
 Expected to receive and action feedback from the usage of Waku libraries.
 Feedback may be consolidated in a milestone.
 
 ### Operator Feature Requests
 
+- **Deliverables**: (2)
+
 Not a milestone per se.
 Review and potentially implement operator request feature requests.
 Requests may come from Status Community operators.
 
 ### Ad hoc Network Formation
+
+- **Deliverables**: (1), (3)
 
 Design and implement a protocol that uses TWN to negotiate the creation of an alternative small network that would enable lower-latency or higher bandwidth transfer.
 
@@ -411,13 +475,19 @@ Design and implement a protocol that uses TWN to negotiate the creation of an al
 
 ### Static Sharding Integration in Status
 
+- **Deliverables**: (2)
+
 Complete static sharding integration in Status app and provide support for any issue encountered.
 
 ### Status Community Scaling
 
+- **Deliverables**: (2)
+
 See https://github.com/vacp2p/research/issues/177
 
 ### Use of nwaku in status-go
+
+- **Deliverables**: (~2)
 
 Identify, plan and start the execution of replacing go-waku with nwaku in status-go. 
 Output for 2024 is a feasibility study is done, action plan is drafted and work has started.
@@ -427,12 +497,16 @@ Yet, full dependency on said libraries should not be blocking.
 
 ### Chat SDK PoC 1
 
+- **Deliverables**: (1)
+
 Provide and consume JS library that enable a project to use Waku for chat purposes over TWN.
 Exact scope to be defined later. Likely either existing Status Chat 1:1 protocol or [Ethereum Address to Secure Channel](#ethereum-address-to-secure-channel).
 
 This library usage should be demonstrated in a web app a la wakuplay as part of dogfooding effort.
 
 ### Extract 1 Status protocol from status-go
+
+- **Deliverables**: (1)
 
 This may or may not be the same item as [Chat SDK PoC 1](#chat-sdk-poc-1) as the consideration to be made are different
 (market potential vs engineering feasibility within status-go context).
@@ -442,11 +516,15 @@ future architecture in mind.
 
 ### Minimum Viable Data Synchronization
 
+- **Deliverables**: (1)
+
 Provide a Minimum Viable Data Synchronization protocol that developer can use to ensure the delivery of messages in their protocol.
 Note the [protocol](https://rfc.vac.dev/spec/2/) and a [Golang library](https://github.com/vacp2p/mvds) already exist.
 The aim is to review and improve the protocol and library using Status feedback, implement the protocol for the browser and provide documentation.
 
 ### Ethereum Address to Secure Channel
+
+- **Deliverables**: (1)
 
 Working MVP of https://rfc.vac.dev/spec/70/.
 
@@ -459,6 +537,8 @@ Working MVP of https://rfc.vac.dev/spec/70/.
 ## Other SDK Milestones
 
 ### External Wallet Authentication and Transaction for Webapp
+
+- **Deliverables**: (1)
 
 Enable a web app to use Waku to request wallet signature for authentication and transaction purposes.
 
