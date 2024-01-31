@@ -39,23 +39,24 @@ Each Waku subteam lead (or selected member) is accountable for the delivery of t
 
 Typically, each *milestone* will be divided in the following *epics*:
 
-| Epic Label Prefix | Owner Sub-team          | Output                                                                             | Description                                                                                                                                                                              |
-|-------------------|-------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `E:research`      | Waku Research           | PoC, RFC, Protocol Simulations/Studies                                             | Initial work done by the research team to create or change a protocol. Engineering-only Milestones may not have such epic                                                                |
-| `E:nwaku`         | nwaku                   | MVP quality software                                                               | Bring software to MVP level, proceed with re-architecture of PoC if needed, ensure functionality is usable, refine APIs, auto-generated/API documentation, ensure interoperability works |
-| `E:js-waku`       | js-waku                 | MVP quality software, including all supported env (e.g. React Native & Web)        | Implement protocol in js-waku, same as nwaku.                                                                                                                                            |
-| `E:go-waku`       | go-waku                 | MVP quality software, include all supported bindings (i.e. C and Rust)             | Implement protocol in go-waku. May not always be relevant - need to conclude multiple client discussion. Otherwise, same as nwaku.                                                       |
-| `E:qa`            | Vac/DST                 | RFC-based + functionality based tests, both unit and integration tests.            | Test engineers take over and complete unit tests + add scenarios in integration test framework. In future, also add scenario to benchmark suite.                                         |
-| `E:dogfood`       | js-waku, go-waku, nwaku | Lab example updates, own nodes updated, etc.                                       | Each dev team proceed by dogfooding the feature/API by using it themselves. Whether it is running their own node, or updating a selected number of examples.                             |
-| `E:docs`          | Doc                     | Documentation (not auto-generated)                                                 | Document the new feature across all implementations, using the dogfooding output as handover material from engineering teams.                                                            |
-| `E:eco-dev`       | Eco Dev                 | Dev Rel assets (examples, video tutorial, etc), comms plan (X threads, blog posts) | Dev Rel can now prepare assets to push the feature to developers, comms can prepare copies to communicate about it, BD can push it to projects and partners.                             |
+| Epic Label Prefix | Owner Sub-team           | Output                                                                             | Description                                                                                                                                                                                                                                  |
+|-------------------|--------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `E:research`      | Waku Research            | PoC, RFC, Protocol Simulations/Studies                                             | Initial work done by the research team to create or change a protocol. Engineering-only Milestones may not have such epic                                                                                                                    |
+| `E:nwaku`         | nwaku                    | MVP quality software                                                               | Bring software to MVP level, proceed with re-architecture of PoC if needed, ensure functionality is usable, refine APIs, auto-generated/API documentation, ensure interoperability works                                                     |
+| `E:js-waku`       | js-waku                  | MVP quality software, including all supported env (e.g. React Native & Web)        | Implement protocol in js-waku, same as nwaku.                                                                                                                                                                                                |
+| `E:bindings`      | nwaku                    | MVP quality software for supported bindings (WIP)                                  | Expose new protocol/features on binding APIs.                                                                                                                                                                                                |
+| `E:go-waku`       | go-waku                  | MVP quality software, include all supported bindings (i.e. C and Rust)             | Implement protocol in go-waku, only if needed by Status app.                                                                                                                                                                                 |
+| `E:qa`            | Vac/DST                  | RFC-based + functionality based tests, both unit and integration tests.            | Test engineers take over and complete unit tests + add scenarios in integration test framework. In future, also add scenario to benchmark suite.                                                                                             |
+| `E:dogfood`       | js-waku, nwaku, bindings | Lab example updates, own nodes updated, etc.                                       | Each dev team proceed by dogfooding the feature/API by using it themselves. Whether it is running their own node, or updating a selected number of examples. Go-waku can dogfood directly in status-go.                                      |
+| `E:docs`          | Doc                      | Documentation (not auto-generated)                                                 | Document the new feature across all implementations, using the dogfooding output as handover material from engineering teams. This includes both coding guides but also a presentation ready visual documentation of the protocol behaviour. |
+| `E:eco-dev`       | Eco Dev                  | Dev Rel assets (examples, video tutorial, etc), comms plan (X threads, blog posts) | Dev Rel can now prepare assets to push the feature to developers, comms can prepare copies to communicate about it, BD can push it to projects and partners.                                                                                 |
 
 ```mermaid
 flowchart LR
     subgraph milestone [Milestone]
       scope[Define scope and estimate]    
     end
-    subgraph researchE [E:Research]
+    subgraph researchE [E:research]
       scope-->research[RFC + Protocol Simulation + PoC]    
     end
     subgraph nwakuE [E:nwaku]
@@ -67,20 +68,23 @@ flowchart LR
     subgraph go-wakuE [E:go-waku]
       research-- Handover -->go-waku[MVP, API, Code doc, unit test]
     end
-    subgraph qaE [E:QA]
+    subgraph go-wakuE [E:bindings]
+        research-- Handover -->go-waku[API, Code doc, unit test]
+    end
+    subgraph qaE [E:qa]
       nwaku--Handover-->QA[QA, extended, interop and RFC-based testing]
       js-waku--Handover-->QA
       go-waku--Handover-->QA
     end
-    subgraph dogfoodE [E:Dogfood]
+    subgraph dogfoodE [E:dogfood]
       nwaku-->Dogfooding[Developer use new software and API, interoperability]
       js-waku-->Dogfooding
       go-waku-->Dogfooding
     end
-    subgraph docsE [E:Docs]
-      Dogfooding-- Handover -->Docs[Update and create guides]
+    subgraph docsE [E:docs]
+      Dogfooding-- Handover -->Docs[Update and create guides and protocol documentation]
     end
-    subgraph ecodevE [E:Eco-Dev]
+    subgraph ecodevE [E:eco-dev]
       Dogfooding-- Handover -->Eco-Dev[Dev Rel and BD assets, plan Comms]
       Docs-->Eco-Dev
     end
@@ -88,7 +92,7 @@ flowchart LR
 
 ### Engineering-Only Milestones
 
-Some milestones may not involve the Waku Research team. In this case, the flow still applies but `E:Research` is skipped.
+Some milestones may not involve the Waku Research team. In this case, the flow still applies but `E:research` is skipped.
 
 ### Chat SDK and other Special SDK Work
 
@@ -96,17 +100,17 @@ The Chat SDK team is focusing on go-waku integration in status-go and follows St
 
 Once the team starts building an independent Chat (or other) SDK, the flow will be as above but with research handled by VAC/ACZ and only one dev team:
 
-| Epic Prefix | Owner Sub-team | Output                                             | Description                                                |
-|-------------|----------------|----------------------------------------------------|------------------------------------------------------------|
-| `E:ACZ`     | Vac/ACZ        | RFC                                                | RFC describing a specific, likely agnostic protocol        | 
-| `E:SDK`     | Chat SDK       | PoC and then MVP quality software, Application RFC | Implement the ACZ RFC, define API and application protocol |
+| Epic Prefix  | Owner Sub-team | Output                                             | Description                                                |
+|--------------|----------------|----------------------------------------------------|------------------------------------------------------------|
+| `E:acz`      | Vac/ACZ        | RFC                                                | RFC describing a specific, likely agnostic protocol        | 
+| `E:chat sdk` | Chat SDK       | PoC and then MVP quality software, Application RFC | Implement the ACZ RFC, define API and application protocol |
 
 Handover to QA, Docs, Eco Dev with MVP quality software is still expected down the track but may be pending growing teams.
 
 ### Accountability
 
 Each epic should have an owner per subteam.
-Most epics will have a unique owner (e.g. a Waku Research team member owns a `E:Research` epic).
+Most epics will have a unique owner (e.g. a Waku Research team member owns a `E:research` epic).
 For _Dogfood_ and _QA_ epics, one owner per client should be set.
 
 The epic owner is responsible for breaking down the work in smaller issues in the related repo.
