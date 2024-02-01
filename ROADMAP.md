@@ -358,12 +358,23 @@ This is part of the general SDK strategy and expected to be implemented in each 
 Review the usage of Web3 Providers and provide a fault-tolerant strategy to ensure that The Waku Network cannot be DOS'd by Web3 Provider outage.
 Strategies such as the software ability to fallback to alternative providers or usage of Ethereum Light Client and Portal network should be considered.
 
+### Waku in the Browser on Unreliable Network
+
+- **Deliverables**: (1)
+
+During Hackathon, venue network and Internet access can be limited or unreliable.
+Hackers mostly build web apps during hackathons, using js-waku in the browser.
+
+A strategy needs to be defined on how to improve js-waku reliability in such context.
+The deliverable can be a mix of solutions:
+- Document how to easily run a nwaku node locally and have js-waku connect to it
+- Understand and document how to run nwaku node in the venue's LAN and define how to easily get js-waku to connect to it
+
 ### Waku Relay and Discv5 in a Hostile, Restricted or Subpar Online Network
 
 - **Deliverables**: (1), (3)
 
 Proceed with a multi-client analysis of Waku Relay's performance in a somewhat online hostile or subpar network and the ability for a relay node to remain connected when said network:
-- Hackathon with poor internet connectivity
 - prevent incoming connections
 - Usage of proxy or VPN to access Internet
 - Mix of WAN/LAN configuration.
@@ -371,7 +382,7 @@ Proceed with a multi-client analysis of Waku Relay's performance in a somewhat o
 
 Note: Bluetooth, network mesh and internet outage are not in the scope of this milestone. 
 
-### TLS-less Browser Connections
+### FQDN-less Browser Connections
 
 - **Deliverables**: (1), (3)
 
