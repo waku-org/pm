@@ -279,8 +279,10 @@ Provide functioning bindings over nwaku in the following environments:
 ### Bindings - Mobile
 
 - **Deliverables**: (1)
-
+  
 Verify and demonstrate that the Golang and Rust bindings work on mobile environments (Android and iOS).
+Note that a review of client side protocols may be needed to ensure that nwaku uses the right protocols on mobile
+(e.g. circuit relay as a client).
 
 ### Serve Limited Content Topic (Store)
 
