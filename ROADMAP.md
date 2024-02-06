@@ -427,6 +427,12 @@ Prioritize Status requirements, bugs or issues.
 Expected to receive and action feedback from the usage of Waku libraries.
 Feedback may be consolidated in a milestone.
 
+### Waku Node on Raspberry Pi and Dappnode
+
+Maintain nwaku node packages/images for Raspberry Pi and Dappnode.
+
+Note: intent is to have the heavy work done via grant/bounties.
+
 ### Operator Feature Requests
 
 - **Deliverables**: (2)
