@@ -272,6 +272,7 @@ to handle database growth in an easy and non-disruptive manner.
 
 Provide functioning bindings over nwaku in the following environments:
 
+- C
 - NodeJS
 - Rust (swap go-waku with nwaku)
 - Golang
