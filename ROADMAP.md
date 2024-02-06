@@ -446,6 +446,7 @@ Design and implement a protocol that uses TWN to negotiate the creation of an al
 - Serve only Content Topic Specific messages (filter, light push)
 - Merge js-waku and NodeJS-nwaku APIs to enable usage of single SDK for JavaScript on all environments.
 - Review DB choices for embedded, and datacenter node.
+- All Waku protocols on bindings: it would be a large scope to have all protocols available in bindings so the bindings scope will be limited until value is demonstrated.
 
 ## Chat SDK Milestones
 
