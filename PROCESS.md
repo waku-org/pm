@@ -31,6 +31,13 @@ A *Milestone*:
 3. **Transversal:** While the vertical scope of a milestone should be minimal, the delivery should be complete in terms of research, engineering, QA, documentation and dev rel assets so that the feature can be pushed to users once the milestone is marked as complete. Feedback loops should be as small as possible to ensure the value of a milestone is measured in a timely manner.
 4. **Attached Estimate:** An estimate should be associated with the milestone to facilitate the measurement of potential ROI. Additionally, tracking the estimate versus the actual progress is crucial for identifying any deviation and making informed decisions (e.g., deciding whether to continue if we learn the estimate is likely to be overrun).
 
+## Milestone scoping process flow
+
+1. *Milestone outline defined* - Objective, scope and deliverables outlined in Milestone Issue.
+2. Epic and tasks discussed and scoped in description - break down Milestones into Epics and specific tasks within the Epics, detailing the work required to accomplish each Epic.
+3. Revision and Acceptance - Milestone is reviewd by Lead, revision round if necessary and accepted.
+4. Kickoff scheduled and executed
+
 ## Epics and Workflow
 
 A *milestone* is divided in *Epics*. Each *epic* is assigned to a given subteam.
