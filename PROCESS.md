@@ -33,7 +33,7 @@ A *Milestone*:
 
 ## Milestone scoping process flow
 
-1. *Milestone outline defined* - Objective, scope and deliverables outlined in Milestone Issue.
+1. Milestone outline defined - Objective, scope and deliverables outlined in Milestone Issue.
 2. Epic and tasks discussed and scoped in description - break down Milestones into Epics and specific tasks within the Epics, detailing the work required to accomplish each Epic.
 3. Revision and Acceptance - Milestone is reviewd by Lead, revision round if necessary and accepted.
 4. Kickoff scheduled and executed
