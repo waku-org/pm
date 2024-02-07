@@ -30,7 +30,7 @@ As set out in [https://github.com/waku-org/research/issues/7](https://github.com
 The document itself may source from one or more academic papers published and presented throughout the year.
 Total length should be around 15 pages.
 
-### Waku RFC Review
+### [Waku RFC Review](https://github.com/waku-org/pm/issues/130)
 
 - **Goal:** On completion, the set of RFCs for Waku will be simplified, reasonably up to date and accessible.
 - **Deliverables**: (3)
@@ -74,7 +74,7 @@ Review the most important Waku RFCs:
 - consider marking some specifications as "stagnant" indicating that they're not being focused on
 - deprecate RFCs that are no longer relevant
 
-### Store v3-beta - Message Hashes
+### [Store v3-beta - Message Hashes](https://github.com/waku-org/pm/issues/131)
 
 - **Goal:** After this upgrade, the network will provide distributed and synchronised store services.
 - **Deliverables**: (2), (3)
@@ -92,7 +92,7 @@ An improved version of the Store protocol, marking a crucial increment towards a
 The [proposed PR](https://github.com/waku-org/waku-proto/pull/10/files) to simplify the Store protocol and use message
 hashes as index/cursor, can be used as a starting point.
 
-### Store v3 - store synchronisation
+### [Store v3 - store synchronisation](https://github.com/waku-org/pm/issues/132)
 
 - **Goal:** Upgrade the Store service capability in the network from a collection of local, unsynchronised,
 semi-centralised (trusted) service nodes to a decentralised service capability in the network with inter-node synchronisation.
@@ -252,7 +252,7 @@ See [https://github.com/waku-org/research/issues/69](https://github.com/waku-org
 
 ## Engineering Milestones
 
-### Node Bandwidth Management Mechanism
+### [Node Bandwidth Management Mechanism](https://github.com/waku-org/pm/issues/66)
 
 - **Deliverables**: (1), (2)
 
@@ -266,7 +266,7 @@ Finish https://github.com/waku-org/pm/issues/66.
 Work on how to best handle PostgreSQL database growth and pruning is in progress and must completed to enable node operators
 to handle database growth in an easy and non-disruptive manner.
 
-### Bindings (NodeJS, Rust, Golang)
+### [Bindings (NodeJS, Rust, Golang)](https://github.com/waku-org/pm/issues/121)
 
 - **Deliverables**: (1)
 
@@ -285,7 +285,7 @@ Verify and demonstrate that the Golang and Rust bindings work on mobile environm
 Note that a review of client side protocols may be needed to ensure that nwaku uses the right protocols on mobile
 (e.g. circuit relay as a client).
 
-### Serve Limited Content Topic (Store)
+### [Serve Limited Content Topic (Store)](https://github.com/waku-org/pm/issues/122)
 
 - **Deliverables**: (1), (2)
 
@@ -298,7 +298,7 @@ possible update of the metadata protocol.
 
 Ref: https://github.com/waku-org/pm/issues/64
 
-### User Pays Own RLN Membership
+### [User Pays Own RLN Membership](https://github.com/waku-org/pm/issues/108)
 
 - **Deliverables**: (1)
 - **Tracking issue**: https://github.com/waku-org/pm/issues/108
@@ -339,7 +339,7 @@ May also scope the work to enable sharing credentials between devices, or done a
 
 Note: Support needed from RLNP2P team.
 
-### Composing Waku Protocols to Improve Reliability
+### [Composing Waku Protocols to Improve Reliability](https://github.com/waku-org/pm/issues/114)
 
 - **Deliverables**: (1), (2)
 
@@ -373,7 +373,7 @@ The deliverable can be a mix of solutions:
 - Document how to easily run a nwaku node locally and have js-waku connect to it
 - Understand and document how to run nwaku node in the venue's LAN and define how to easily get js-waku to connect to it
 
-### Waku Relay and Discv5 in a Hostile, Restricted or Subpar Online Network
+### [Waku Relay and Discv5 in a Hostile, Restricted or Subpar Online Network](https://github.com/waku-org/pm/issues/123)
 
 - **Deliverables**: (1), (3)
 
@@ -401,14 +401,14 @@ Understand and progress on the viability of using Waku Relay in the browser.
 
 Note: Support from js-libp2p maintainer needed.
 
-### Waku React Native
+### [Waku React Native](https://github.com/waku-org/pm/issues/124)
 
 - **Deliverables**: (1)
 
 Provide a functioning React Native library on both Android and iOS.
 Likely using js-waku to enable multi-platform development (browser, iOS, Android).
 
-### JSON RPC Deprecation
+### [JSON RPC Deprecation](https://github.com/waku-org/pm/issues/125)
 
 - **Deliverables**: (1)
 
@@ -449,7 +449,7 @@ Design and implement a protocol that uses TWN to negotiate the creation of an al
 
 ## Chat SDK Milestones
 
-### Static Sharding Integration in Status
+### [Static Sharding Integration in Status](https://github.com/waku-org/pm/issues/126)
 
 - **Deliverables**: (2)
 
@@ -490,7 +490,7 @@ This may or may not be the same item as [Chat SDK PoC 1](#chat-sdk-poc-1) as the
 This needs to be done with [use of nwaku in status-go](#use-of-nwaku-in-status-go) in mind with a bigger picture of status-go
 future architecture in mind.
 
-### Minimum Viable Data Synchronization
+### [Minimum Viable Data Synchronization](https://github.com/waku-org/pm/issues/128)
 
 - **Deliverables**: (1)
 
@@ -498,7 +498,7 @@ Provide a Minimum Viable Data Synchronization protocol that developer can use to
 Note the [protocol](https://rfc.vac.dev/spec/2/) and a [Golang library](https://github.com/vacp2p/mvds) already exist.
 The aim is to review and improve the protocol and library using Status feedback, implement the protocol for the browser and provide documentation.
 
-### Ethereum Address to Secure Channel
+### [Ethereum Address to Secure Channel](https://github.com/waku-org/pm/issues/129)
 
 - **Deliverables**: (1)
 
