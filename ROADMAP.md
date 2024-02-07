@@ -361,7 +361,7 @@ This is part of the general SDK strategy and expected to be implemented in each 
 Review the usage of Web3 Providers and provide a fault-tolerant strategy to ensure that The Waku Network cannot be DOS'd by Web3 Provider outage.
 Strategies such as the software ability to fallback to alternative providers or usage of Ethereum Light Client and Portal network should be considered.
 
-### Waku in the Browser on Unreliable Network
+### [Waku in the Browser on Unreliable Network](https://github.com/waku-org/pm/issues/137)
 
 - **Deliverables**: (1)
 
