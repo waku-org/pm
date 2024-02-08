@@ -33,11 +33,11 @@ A *Milestone*:
 
 ## Milestone scoping process flow
 
-Phase 1: Waku lead defines the scope within the milestone. The scope is then discussed asynchronously in the comments of the Github issue by relevant subteams and stakeholders, scope of Epics and subtasks are defined.
+Phase 1: Waku lead defines the scope within the Milestone. The scope is then discussed asynchronously in the comments of the Github issue by relevant subteams and stakeholders, scope of Epics and subtasks are defined.
 
 Phase 2: During a Waku PM call, the team reviews the Milestone to confirm scope or identify areas that require additional scoping.
 
-Phase 3: If the scope is agreed upon, the team can now create epics and schedule work.
+Phase 3: If the scope is agreed upon, the team can proceed to create Epics and schedule work for kickoff.
 
 ## Epics and Workflow
 
