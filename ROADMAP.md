@@ -527,15 +527,15 @@ Enable a web app to use Waku to request wallet signature for authentication and 
 2. Continue QA work: improve test coverage from a RFC and Status usage angle, including interoperability test run
    between nwaku and go-waku, and once done, js-waku and nwaku. Considerations should be made to also include status-go (DST).
 3. Simulate or model status-go behaviour based on the result of Waku large scale simulations. (DST)
-4. Secure RLN credentials: for example in [CryptKeeper](https://github.com/CryptKeeperZK) (RLNP2P)
-5. Support in improving RLN usage on resource-restricted devices (RLNP2P)
-6. Secure way of delegating acquisition of memberships as described in [RLN Design Patterns](https://github.com/waku-org/pm/issues/102) (RLNP2P)
+4. Secure RLN credentials: for example in [CryptKeeper](https://github.com/CryptKeeperZK) (ACZ)
+5. Support in improving RLN usage on resource-restricted devices (ACZ)
+6. Secure way of delegating acquisition of memberships as described in [RLN Design Patterns](https://github.com/waku-org/pm/issues/102) (ACZ)
 7. Fee structure for RLN memberships: come up with a comprehensive strategy for RLN memberships, perhaps following 
    the [NFT-like approach](https://forum.vac.dev/t/ens-like-nfts-for-rln/243). Strategy should consider cost structures
-   like Harberger tax, dev/node compensation and project sustainability, security, etc (RLNP2P, Tokenomics, Smart Contract)
-8. RLN contract audited, reviewed and deployed to mainnet (RLNP2P, Smart Contract)
-9. Investigate feasibility/risks for RLN on L2, recommend a specific L2 if any (RLNP2P, Tokenomics, Smart Contract)
-10. Risk/attack analysis for RLN. How do we recover after an attack? (RLNP2P, Tokenomics)
+   like Harberger tax, dev/node compensation and project sustainability, security, etc (ACZ, Tokenomics, Smart Contract)
+8. RLN contract audited, reviewed and deployed to mainnet (ACZ, Smart Contract)
+9. Investigate feasibility/risks for RLN on L2, recommend a specific L2 if any (ACZ, Tokenomics, Smart Contract)
+10. Risk/attack analysis for RLN. How do we recover after an attack? (ACZ, Tokenomics)
 11. Deliver WebRTC Direct support in nim-libp2p (P2P)
 12. Deliver WebTransport support in nim-libp2p (P2P)
 13. Deliver a cryptographic protocol to enable setting up a secure channel for 1:1 and private group chat purposes from 
