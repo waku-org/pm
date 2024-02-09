@@ -31,6 +31,14 @@ A *Milestone*:
 3. **Transversal:** While the vertical scope of a milestone should be minimal, the delivery should be complete in terms of research, engineering, QA, documentation and dev rel assets so that the feature can be pushed to users once the milestone is marked as complete. Feedback loops should be as small as possible to ensure the value of a milestone is measured in a timely manner.
 4. **Attached Estimate:** An estimate should be associated with the milestone to facilitate the measurement of potential ROI. Additionally, tracking the estimate versus the actual progress is crucial for identifying any deviation and making informed decisions (e.g., deciding whether to continue if we learn the estimate is likely to be overrun).
 
+## Milestone scoping process flow
+
+Phase 1: Waku lead defines the scope within the Milestone. The scope is then discussed asynchronously in the comments of the GitHub issue by relevant subteams and stakeholders, scope of Epics and subtasks are defined.
+
+Phase 2: During a Waku PM call, the team reviews the Milestone to confirm scope or identify areas that require additional scoping.
+
+Phase 3: If the scope is agreed upon, the team can proceed to create Epics and schedule work for kickoff.
+
 ## Epics and Workflow
 
 A *milestone* is divided in *Epics*. Each *epic* is assigned to a given subteam.
