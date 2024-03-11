@@ -420,7 +420,7 @@ Deprecate nwaku and go-waku JSON RPC API and replace its usage with REST API acr
 
 Prioritize Status requirements, bugs or issues.
 
-### Developer Experience Feedback
+### [Developer Experience Feedback](https://github.com/waku-org/pm/issues/152)
 
 - **Deliverables**: (1)
 
