@@ -420,7 +420,7 @@ Deprecate nwaku and go-waku JSON RPC API and replace its usage with REST API acr
 
 Prioritize Status requirements, bugs or issues.
 
-### [Developer Experience Feedback](https://github.com/waku-org/pm/issues/152)
+### Developer Experience Feedback
 
 - **Deliverables**: (1)
 
@@ -433,7 +433,7 @@ Maintain nwaku node packages/images for Raspberry Pi and Dappnode.
 
 Note: intent is to have the heavy work done via grant/bounties.
 
-### Operator Feature Requests
+### [Operator Feature Requests](https://github.com/waku-org/pm/issues/152)
 
 - **Deliverables**: (2)
 
