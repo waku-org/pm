@@ -259,7 +259,7 @@ See [https://github.com/waku-org/research/issues/69](https://github.com/waku-org
 
 Finish https://github.com/waku-org/pm/issues/66.
 
-### PostgreSQL Maintenance
+### [PostgreSQL Maintenance](https://github.com/waku-org/pm/milestone/9)
 
 - **Deliverables**: (2)
 
