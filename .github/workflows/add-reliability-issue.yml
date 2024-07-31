@@ -1,0 +1,17 @@
+name: Add Reliability Issue to Project
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  add-to-project:
+    name: Add reliability issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if label is 'reliability'
+        if: github.event.label.name == 'reliability'
+        uses: actions/add-to-project@v0.3.0
+        with:
+          project-url: https://github.com/orgs/waku-org/projects/51
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
