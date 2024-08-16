@@ -9,7 +9,7 @@ jobs:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v1.2.0
+      - uses: actions/add-to-project@v1.0.2
         with:
           project-url: https://github.com/orgs/waku-org/projects/2
           github-token: ${{ secrets.ADD_TO_WAKU_PROJECT_PAT }}
