@@ -75,22 +75,22 @@ flowchart LR
     subgraph go-wakuE [E:go-waku]
       research-- Handover -->go-waku[MVP, API, Code doc, unit test]
     end
-    <!-- subgraph go-wakuE [E:bindings]
+    subgraph go-wakuE [E:bindings]
         research-- Handover -->go-waku[API, Code doc, unit test]
-    end -->
-    <!-- subgraph qaE [E:qa]
+    end
+    subgraph qaE [E:qa]
       nwaku--Handover-->QA[QA, extended, interop and RFC-based testing]
       js-waku--Handover-->QA
       go-waku--Handover-->QA
-    end -->
-    <!-- subgraph dogfoodE [E:dogfood]
+    end
+    subgraph dogfoodE [E:dogfood]
       nwaku-->Dogfooding[Developer use new software and API, interoperability]
       js-waku-->Dogfooding
       go-waku-->Dogfooding
-    end -->
-    <!-- subgraph docsE [E:docs]
+    end
+    subgraph docsE [E:docs]
       Dogfooding-- Handover -->Docs[Update and create guides and protocol documentation]
-    end -->
+    end
     subgraph ecodevE [E:eco-dev]
       Dogfooding-- Handover -->Eco-Dev[Dev Rel and BD assets, plan Comms]
       Docs-->Eco-Dev
