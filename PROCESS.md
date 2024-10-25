@@ -52,10 +52,8 @@ Typically, each *milestone* will be divided in the following *epics*:
 | `E:research`      | Waku Research            | PoC, RFC, Protocol Simulations/Studies                                             | Initial work done by the research team to create or change a protocol. Engineering-only Milestones may not have such epic                                                                                                                    |
 | `E:nwaku`         | nwaku                    | MVP quality software                                                               | Bring software to MVP level, proceed with re-architecture of PoC if needed, ensure functionality is usable, refine APIs, auto-generated/API documentation, ensure interoperability works                                                     |
 | `E:js-waku`       | js-waku                  | MVP quality software, including all supported env (e.g. React Native & Web)        | Implement protocol in js-waku, same as nwaku.                                                                                                                                                                                                |
-| `E:bindings`      | nwaku                    | MVP quality software for supported bindings (WIP)                                  | Expose new protocol/features on binding APIs.                                                                                                                                                                                                |
 | `E:qa`            | Vac/DST                  | RFC-based + functionality based tests, both unit and integration tests.            | Test engineers take over and complete unit tests + add scenarios in integration test framework. In future, also add scenario to benchmark suite.                                                                                             |
-<!-- | `E:go-waku`       | go-waku                  | MVP quality software, include all supported bindings (i.e. C and Rust)             | Implement protocol in go-waku, only if needed by Status app.                                                                                                                                                                                 | -->
-
+<!-- | `E:go-waku`       | go-waku                  | MVP quality software, include all supported bindings (i.e. C and Rust)             | Implement protocol in go-waku, only if needed by Status app.                                                                                                                                          <!-- | `E:bindings`      | nwaku                    | MVP quality software for supported bindings (WIP)                                  | Expose new protocol/features on binding APIs.                                                                                                                                                                                                | -->                                       | -->
 <!-- | `E:dogfood`       | js-waku, nwaku, bindings | Lab example updates, own nodes updated, etc.                                       | Each dev team proceed by dogfooding the feature/API by using it themselves. Whether it is running their own node, or updating a selected number of examples. Go-waku can dogfood directly in status-go.                                      | -->
 <!-- | `E:docs`          | Doc                      | Documentation (not auto-generated)                                                 | Document the new feature across all implementations, using the dogfooding output as handover material from engineering teams. This includes both coding guides but also a presentation ready visual documentation of the protocol behaviour. | -->
 <!-- | `E:eco-dev`       | Eco Dev                  | Dev Rel assets (examples, video tutorial, etc), comms plan (X threads, blog posts) | Dev Rel can now prepare assets to push the feature to developers, comms can prepare copies to communicate about it, BD can push it to projects and partners.                                                                                 | -->
@@ -77,22 +75,22 @@ flowchart LR
     subgraph go-wakuE [E:go-waku]
       research-- Handover -->go-waku[MVP, API, Code doc, unit test]
     end
-    subgraph go-wakuE [E:bindings]
+    <!-- subgraph go-wakuE [E:bindings]
         research-- Handover -->go-waku[API, Code doc, unit test]
-    end
-    subgraph qaE [E:qa]
+    end -->
+    <!-- subgraph qaE [E:qa]
       nwaku--Handover-->QA[QA, extended, interop and RFC-based testing]
       js-waku--Handover-->QA
       go-waku--Handover-->QA
-    end
-    subgraph dogfoodE [E:dogfood]
+    end -->
+    <!-- subgraph dogfoodE [E:dogfood]
       nwaku-->Dogfooding[Developer use new software and API, interoperability]
       js-waku-->Dogfooding
       go-waku-->Dogfooding
-    end
-    subgraph docsE [E:docs]
+    end -->
+    <!-- subgraph docsE [E:docs]
       Dogfooding-- Handover -->Docs[Update and create guides and protocol documentation]
-    end
+    end -->
     subgraph ecodevE [E:eco-dev]
       Dogfooding-- Handover -->Eco-Dev[Dev Rel and BD assets, plan Comms]
       Docs-->Eco-Dev
