@@ -19,6 +19,7 @@ Implement the following attribute when delivering:
 | Name         | Number of             | Timeframe                                      | Team Scope                                      | Owner                  | Description                                           |
 |--------------|-----------------------|------------------------------------------------|-------------------------------------------------|------------------------|-------------------------------------------------------|
 | Milestone    | ?                     | Pencilled for the year, planned for 2 quarters | Most subteams                                   | Waku Lead              | A, or cohesive set of, feature(s).                    |
+| Deliverable         | Several per milestone | Set for a milestone                            | Subtean leads | Subteam Lead or Member | Milestone work for a given subteam.                   |
 | Epic         | Several per milestone | Set for a milestone                            | Usually one subteam or external team (e.g. DST) | Subteam Lead or Member | Milestone work for a given subteam.                   |
 | Task         | Many per Epic         | Set monthly-ish, delivered weekly              | One subteam or individual                       | Team Member            | May be one or several piece of work, client specific. |  
 
