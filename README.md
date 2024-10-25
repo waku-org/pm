@@ -21,21 +21,11 @@ See [PROCESS.md](./PROCESS.md)
 
 ### Requirements
 
-The current reporting requirements are twofold:
-
-#### 1. Weekly Reporting
+#### Weekly Reporting
 
 Weekly reporting provides an insight on the progress by milestones.
 
-#### 2. Monthly Reporting
-
-Monthly reporting is now handled by the Logos insight team.
-
 ### Reporting
-
-**Monthly**:
-
-Handled by insight team
 
 **Weekly Updates**:
 
