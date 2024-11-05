@@ -8,7 +8,7 @@ Implement the following attribute when delivering:
    - it is usable by all types of users (operators, web devs, system devs).
    - It is documented (docs, dev rel)
    - It is of high quality (QA, Dogfooding)
-2. Items (Milestones, Deliverables Epics, Tasks) can easily be closed and marked as complete thanks to:
+2. Items (Milestones, Deliverables, Epics, Tasks) can easily be closed and marked as complete thanks to:
     - Minimal external dependencies
     - Minimal intra-team dependency
     - Finite, well-define scope.
@@ -19,7 +19,7 @@ Implement the following attribute when delivering:
 | Name         | Number of             | Timeframe                                      | Team Scope                                      | Owner                  | Description                                           |
 |--------------|-----------------------|------------------------------------------------|-------------------------------------------------|------------------------|-------------------------------------------------------|
 | Milestone    | ?                     | Pencilled for the year, planned for 2 quarters | Most subteams                                   | Waku Lead              | A, or cohesive set of, feature(s).                    |
-| Deliverable         | Several per milestone | Set for a milestone                            | Subtean leads | Subteam Lead or Member | Milestone work for a given subteam.                   |
+| Deliverable         | Several per milestone | Set for a milestone                            | Subteam leads | Waku Lead | Deliverable may be the result of the work of one, some or all Waku subteams.                   |
 | Epic         | Several per deliverable | Set for a deliverable                            | Usually one subteam or external team (e.g. DST) | Subteam Lead or Member | Milestone work for a given subteam.                   |
 | Task         | Several per Epic         | Set monthly-ish, delivered weekly              | One subteam or individual                       | Team Member            | May be one or several piece of work, client specific. |q
 
@@ -58,45 +58,6 @@ Typically, each *milestone* will be divided in the following *epics*:
 <!-- | `E:dogfood`       | js-waku, nwaku, bindings | Lab example updates, own nodes updated, etc.                                       | Each dev team proceed by dogfooding the feature/API by using it themselves. Whether it is running their own node, or updating a selected number of examples. Go-waku can dogfood directly in status-go.                                      | -->
 <!-- | `E:docs`          | Doc                      | Documentation (not auto-generated)                                                 | Document the new feature across all implementations, using the dogfooding output as handover material from engineering teams. This includes both coding guides but also a presentation ready visual documentation of the protocol behaviour. | -->
 <!-- | `E:eco-dev`       | Eco Dev                  | Dev Rel assets (examples, video tutorial, etc), comms plan (X threads, blog posts) | Dev Rel can now prepare assets to push the feature to developers, comms can prepare copies to communicate about it, BD can push it to projects and partners.                                                                                 | -->
-
-```mermaid
-flowchart LR
-    subgraph milestone [Milestone]
-      scope[Define scope and estimate]    
-    end
-    subgraph researchE [E:research]
-      scope-->research[RFC + Protocol Simulation + PoC]    
-    end
-    subgraph nwakuE [E:nwaku]
-      research-- Handover -->nwaku[MVP, API, Code doc, unit test]
-    end
-    subgraph js-wakuE [E:js-waku]
-      research-- Handover -->js-waku[MVP, API, Code doc, unit test]
-    end
-    subgraph go-wakuE [E:go-waku]
-      research-- Handover -->go-waku[MVP, API, Code doc, unit test]
-    end
-    subgraph go-wakuE [E:bindings]
-        research-- Handover -->go-waku[API, Code doc, unit test]
-    end
-    subgraph qaE [E:qa]
-      nwaku--Handover-->QA[QA, extended, interop and RFC-based testing]
-      js-waku--Handover-->QA
-      go-waku--Handover-->QA
-    end
-    subgraph dogfoodE [E:dogfood]
-      nwaku-->Dogfooding[Developer use new software and API, interoperability]
-      js-waku-->Dogfooding
-      go-waku-->Dogfooding
-    end
-    subgraph docsE [E:docs]
-      Dogfooding-- Handover -->Docs[Update and create guides and protocol documentation]
-    end
-    subgraph ecodevE [E:eco-dev]
-      Dogfooding-- Handover -->Eco-Dev[Dev Rel and BD assets, plan Comms]
-      Docs-->Eco-Dev
-    end
-```
 
 ### Engineering-Only Milestones
 
