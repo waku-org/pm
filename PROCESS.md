@@ -8,25 +8,26 @@ Implement the following attribute when delivering:
    - it is usable by all types of users (operators, web devs, system devs).
    - It is documented (docs, dev rel)
    - It is of high quality (QA, Dogfooding)
-2. Items (epic, milestones) can be easily be closed and marked as complete thanks to:
+2. Items (Milestones, Deliverables, Epics, Tasks) can easily be closed and marked as complete thanks to:
     - Minimal external dependencies
     - Minimal intra-team dependency
     - Finite, well-define scope.
-3. Each milestone and the effort needed to achieve it has a clear value thanks to a well-defined, value-driven, minimal, scope.
+3. Each milestone and the effort needed to achieve it has a clear value thanks to a well-defined, value-driven, and minimal scope.
 
 ## Terminology and Scope
 
 | Name         | Number of             | Timeframe                                      | Team Scope                                      | Owner                  | Description                                           |
 |--------------|-----------------------|------------------------------------------------|-------------------------------------------------|------------------------|-------------------------------------------------------|
 | Milestone    | ?                     | Pencilled for the year, planned for 2 quarters | Most subteams                                   | Waku Lead              | A, or cohesive set of, feature(s).                    |
-| Epic         | Several per milestone | Set for a milestone                            | Usually one subteam or external team (e.g. DST) | Subteam Lead or Member | Milestone work for a given subteam.                   |
-| Task         | Many per Epic         | Set monthly-ish, delivered weekly              | One subteam or individual                       | Team Member            | May be one or several piece of work, client specific. |  
+| Deliverable         | Several per milestone | Set for a milestone                            | Subteam leads | Waku Lead | Deliverable may be the result of the work of one, some or all Waku subteams.                   |
+| Epic         | Several per deliverable | Set for a deliverable                            | Usually one subteam or external team (e.g. DST) | Subteam Lead or Member | Milestone work for a given subteam.                   |
+| Task         | Several per Epic         | Set monthly-ish, delivered weekly              | One subteam or individual                       | Team Member            | May be one or several piece of work, client specific. |
 
 ## Milestone Definition
 
 A *Milestone*:
 
-1. **Provides a tangible user benefit:** The milestone should aim to provide a distinct benefit or feature to the user, whether they are end users, operators or developers. In some case, a milestone may be a bundle of small features. The bundle of features should be cohesive and the benefit to the users should be easy to summarize. Most likely, a bundle milestone will be scoped to a given track.
+1. **Provides a tangible user benefit:** The milestone should aim to provide a distinct benefit or feature to the user, whether they are end users, operators, or developers. In some cases, a milestone may be a bundle of small features. The bundle of features should be cohesive and the benefit to the users should be easy to summarize. Most likely, a bundled milestone will be scoped to a given track.
 2. **Minimal Scope:** The milestone should be trimmed to a minimal scope, encompassing only what is *just enough* to assess the potential impact of these features on the project's metrics (e.g. number of users, revenue). This means descoping any advanced features and aiming for a MVP-level delivery.
 3. **Transversal:** While the vertical scope of a milestone should be minimal, the delivery should be complete in terms of research, engineering, QA, documentation and dev rel assets so that the feature can be pushed to users once the milestone is marked as complete. Feedback loops should be as small as possible to ensure the value of a milestone is measured in a timely manner.
 4. **Attached Estimate:** An estimate should be associated with the milestone to facilitate the measurement of potential ROI. Additionally, tracking the estimate versus the actual progress is crucial for identifying any deviation and making informed decisions (e.g., deciding whether to continue if we learn the estimate is likely to be overrun).
@@ -39,9 +40,9 @@ Phase 2: During a Waku PM call, the team reviews the Milestone to confirm scope 
 
 Phase 3: If the scope is agreed upon, the team can proceed to create Epics and schedule work for kickoff.
 
-## Epics and Workflow
+## Workflow
 
-A *milestone* is divided in *Epics*. Each *epic* is assigned to a given subteam.
+A *Milestone* is divided into *Deliverables*. A *Deliverable* is divided into *Epics*. Each *Epic* is assigned to a given subteam.
 
 Each Waku subteam lead (or selected member) is accountable for the delivery of their epic.
 
@@ -52,51 +53,11 @@ Typically, each *milestone* will be divided in the following *epics*:
 | `E:research`      | Waku Research            | PoC, RFC, Protocol Simulations/Studies                                             | Initial work done by the research team to create or change a protocol. Engineering-only Milestones may not have such epic                                                                                                                    |
 | `E:nwaku`         | nwaku                    | MVP quality software                                                               | Bring software to MVP level, proceed with re-architecture of PoC if needed, ensure functionality is usable, refine APIs, auto-generated/API documentation, ensure interoperability works                                                     |
 | `E:js-waku`       | js-waku                  | MVP quality software, including all supported env (e.g. React Native & Web)        | Implement protocol in js-waku, same as nwaku.                                                                                                                                                                                                |
-| `E:bindings`      | nwaku                    | MVP quality software for supported bindings (WIP)                                  | Expose new protocol/features on binding APIs.                                                                                                                                                                                                |
-| `E:go-waku`       | go-waku                  | MVP quality software, include all supported bindings (i.e. C and Rust)             | Implement protocol in go-waku, only if needed by Status app.                                                                                                                                                                                 |
 | `E:qa`            | Vac/DST                  | RFC-based + functionality based tests, both unit and integration tests.            | Test engineers take over and complete unit tests + add scenarios in integration test framework. In future, also add scenario to benchmark suite.                                                                                             |
-| `E:dogfood`       | js-waku, nwaku, bindings | Lab example updates, own nodes updated, etc.                                       | Each dev team proceed by dogfooding the feature/API by using it themselves. Whether it is running their own node, or updating a selected number of examples. Go-waku can dogfood directly in status-go.                                      |
-| `E:docs`          | Doc                      | Documentation (not auto-generated)                                                 | Document the new feature across all implementations, using the dogfooding output as handover material from engineering teams. This includes both coding guides but also a presentation ready visual documentation of the protocol behaviour. |
-| `E:eco-dev`       | Eco Dev                  | Dev Rel assets (examples, video tutorial, etc), comms plan (X threads, blog posts) | Dev Rel can now prepare assets to push the feature to developers, comms can prepare copies to communicate about it, BD can push it to projects and partners.                                                                                 |
-
-```mermaid
-flowchart LR
-    subgraph milestone [Milestone]
-      scope[Define scope and estimate]    
-    end
-    subgraph researchE [E:research]
-      scope-->research[RFC + Protocol Simulation + PoC]    
-    end
-    subgraph nwakuE [E:nwaku]
-      research-- Handover -->nwaku[MVP, API, Code doc, unit test]
-    end
-    subgraph js-wakuE [E:js-waku]
-      research-- Handover -->js-waku[MVP, API, Code doc, unit test]
-    end
-    subgraph go-wakuE [E:go-waku]
-      research-- Handover -->go-waku[MVP, API, Code doc, unit test]
-    end
-    subgraph go-wakuE [E:bindings]
-        research-- Handover -->go-waku[API, Code doc, unit test]
-    end
-    subgraph qaE [E:qa]
-      nwaku--Handover-->QA[QA, extended, interop and RFC-based testing]
-      js-waku--Handover-->QA
-      go-waku--Handover-->QA
-    end
-    subgraph dogfoodE [E:dogfood]
-      nwaku-->Dogfooding[Developer use new software and API, interoperability]
-      js-waku-->Dogfooding
-      go-waku-->Dogfooding
-    end
-    subgraph docsE [E:docs]
-      Dogfooding-- Handover -->Docs[Update and create guides and protocol documentation]
-    end
-    subgraph ecodevE [E:eco-dev]
-      Dogfooding-- Handover -->Eco-Dev[Dev Rel and BD assets, plan Comms]
-      Docs-->Eco-Dev
-    end
-```
+<!-- | `E:go-waku`       | go-waku                  | MVP quality software, include all supported bindings (i.e. C and Rust)             | Implement protocol in go-waku, only if needed by Status app.                                                                                                                                          <!-- | `E:bindings`      | nwaku                    | MVP quality software for supported bindings (WIP)                                  | Expose new protocol/features on binding APIs.                                                                                                                                                                                                | -->                                       | -->
+<!-- | `E:dogfood`       | js-waku, nwaku, bindings | Lab example updates, own nodes updated, etc.                                       | Each dev team proceed by dogfooding the feature/API by using it themselves. Whether it is running their own node, or updating a selected number of examples. Go-waku can dogfood directly in status-go.                                      | -->
+<!-- | `E:docs`          | Doc                      | Documentation (not auto-generated)                                                 | Document the new feature across all implementations, using the dogfooding output as handover material from engineering teams. This includes both coding guides but also a presentation ready visual documentation of the protocol behaviour. | -->
+<!-- | `E:eco-dev`       | Eco Dev                  | Dev Rel assets (examples, video tutorial, etc), comms plan (X threads, blog posts) | Dev Rel can now prepare assets to push the feature to developers, comms can prepare copies to communicate about it, BD can push it to projects and partners.                                                                                 | -->
 
 ### Engineering-Only Milestones
 
@@ -119,7 +80,6 @@ Handover to QA, Docs, Eco Dev with MVP quality software is still expected down t
 
 Each epic should have an owner per subteam.
 Most epics will have a unique owner (e.g. a Waku Research team member owns a `E:research` epic).
-For _Dogfood_ and _QA_ epics, one owner per client should be set.
 
 The epic owner is responsible for breaking down the work in smaller issues in the related repo.
 
@@ -147,8 +107,8 @@ Hence:
 
 The program manager should ensure that epics are getting the right assignee in a timely fashion.
 For example, when research work starts for a given milestone, epic owners from development team should be assigned, so they know to participate in discussions.
-Program manager should also ensure that issues are being created in a timely fashion,
-an is encouraged to use client PM call as a forum to check epics to be assigned, for example when a given epic is near completion.
+
+Program manager should also ensure that issues are being created in a timely fashion, and is encouraged to use client PM call as a forum to check epics to be assigned, for example when a given epic is near completion.
 
 ### Handovers
 
@@ -158,9 +118,6 @@ The following handovers are defined:
 |-------------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | Research to development teams | - RFC PR is merged <br /> - PoC PR is merged                                                             | - RFC content and PoC are reviewed <br /> - Own code and functionality <br /> - Own minor RFC changes |  
 | Development teams to QA       | - Happy path and selected error path tests exist <br /> - APIs are implemented to enable interop testing | - Review RFC <br /> - Review existing tests                                                           |
-| Development teams to Docs     | - Working usage of API is provided <br /> - Auto-generated documentation for public API is present       | - Review examples <br /> - Understands functionality <br />                                           | 
-| Docs to Eco Dev               | - Docs PR is merged with functioning code                                                                | - Understands functionality <br /> - Execute guides                                                   |
-
 
 The group or person handing over is expected to initiate a sync (meeting) or async (chat or GitHub) discussion to go through the output and overview.
 
@@ -169,37 +126,59 @@ Once the handover is accepted, the given epic can be closed.
 ### GitHub Usage
 
 A _Milestone_:
-- MUST have a matching GitHub issue in the https://github.com/waku-org/pm repo with `milestone` label assigned.
-- MUST have a GitHub Milestone in https://github.com/waku-org/pm repo, to which relevant _Epics_ are added.
+- MUST have a GitHub Milestone in https://github.com/waku-org/pm repo, to which relevant _Deliverables_ are added.
 - The GitHub milestone MUST be used to track progress.
 
+A _Deliverable_:
+- MUST be defined as an issue in the https://github.com/waku-org/pm repo.
+- MUST be included in its parent _Milestone_.
+- MUST have an _Output_ section in the description detailing the result of work of the Deliverable.
+- MUST have a `Planned Start` and `Due Date` set
+
 An _Epic_:
-- MUST have a matching GitHub issue in the https://github.com/waku-org/pm repo.
-- MUST have a label with format `E:<prefix> <epic name>`.
-- SHOULD be added to a GitHub Milestone.
-- SHOULD have a `Planned Start` and `Due Date` set (these are GitHub projects fields you can find in the `Projects` section of the issue view sidebar).
+- MUST have a matching GitHub issue in the relevant team's repo.
+- MUST have a label with format `Epic`.
+- MUST be added to the description of the parent _Deliverable_ issue.
+- MUST have a `Planned Start` and `Due Date` set (these are GitHub projects fields you can find in the `Projects` section of the issue view sidebar).
 - MAY list _Tasks_ present in other repos.
 - MUST have assignee(s), who represent the epic owner (see [accountability](#accountability))
 
 A _Task_:
-- MAY be tracked as a todo item in a GitHub Issue (_Task_ or _Epic_),
-- OR MAY be tracked as a single GH issue
-    - that MUST be labelled with related _Epic_ label (`E:...`),
-- OR MAY be tracked as a GH Pull Request
-    - that MUST have a reference to the related GitHub _Task_ or _Epic_ issue
+- MUST be tracked as a todo item in a GitHub Issue (_Deliverable_ or _Epic_)
 - MUST have an _acceptance criteria_ and/or a list of _tasks_ (that can be other GH issues).
 
-Finally, for _Tasks_ that do not belong to a given _Epic_ or _Milestone_:
-- MUST have either labels:
-    - `bug`: This is a bug, likely reported by a user
-    - `enhancement`: This is an enhancement out of the scope of the technical roadmap, likely reported by a user
-        - Major enhancements should be carefully reviewed and prioritized.
-    - `documentation`: Documentation improvement or correction.
-    - `dependencies`: Upgrade dependencies in a timely manner to avoid time wasting when the dependency upgrade becomes critical.
-
+Finally, for _Tasks_ that do not belong to a given _Epic_ or _Deliverable_:
+- MUST qualify as, and have one of the following labels:
+  - `bug`: This is a bug, likely reported by a user
+  - `maintenance`: This is maintenance work that is out of the scope of the technical roadmap
 
 Which means, in terms of _navigation_:
+- Work for a Milestone is described in the [Roadmap](https://roadmap.logos.co/waku/waku-milestones) and tracked in the GitHub milestone in the pm repo.
+- In the GitHub milestone, we have a list of _Deliverables_ to be achieved, the _Deliverables_ are being closed as the work is done and handed over.
 
-- Work for a Milestone is described in the related GitHub issue and tracked in the GitHub milestone.
-- In the GitHub milestone, we have a list of _Epics_ to be achieved, the _Epics_ are being closed as the work is done and handed over.
-- To look at remaining work for an _Epic_, one need to look at all issues (_Tasks_) with the corresponding _Epic_ label (`E:...`)
+### Responsibilities
+
+| Task                                                        | Responsible     | Accountable     |
+| ----------------------------------------------------------- | --------------- | --------------- |
+| Set Milestones and Deliverables in master document          | Waku Lead       | Insights       |
+| Create GitHub milestones and deliverables issues in pm repo | Program Manager | Waku Lead       |
+| Create epic for team                                        | Team Lead       | Program Manager |
+| Create issues, PR (tasks) and link them to **epics**             | Team Member     | Team Lead       |
+| Close epic                                                  | Team Lead       | Program Manager |
+| Close deliverable                                           | Waku Lead       | Program Manager |
+| Handover to Vac-QA, Vac-DST                                 | Team Lead       | Vac PoC (?)     |
+| Proceed with Dogfooding                                     | Team Lead       | Waku Lead       |
+
+Responsible: who does the work
+Accountable:  delegates and reviews
+
+Waku Lead: @fryorcraken
+Program Manager: @chair28980
+Team Lead: @plopezlpz @Ivansete-status @jm-clius @weboko
+VAC PoC: @jm-clius
+
+### TLDR
+
+- Milestones and Deliverables are defined in the pm repo
+- Deliverables have many epics, one epic per subteam
+- Team lead is responsible to ensure Vac-QA is aware of changes, but no need to create a QA epic
