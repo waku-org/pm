@@ -180,5 +180,5 @@ VAC PoC: @jm-clius
 ### TLDR
 
 - Milestones and Deliverables are defined in the pm repo
-- Deliverables have many epics, one epic per team
+- Deliverables have many epics, one epic per subteam
 - Team lead is responsible to ensure Vac-QA is aware of changes, but no need to create a QA epic
