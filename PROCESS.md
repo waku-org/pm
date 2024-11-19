@@ -21,7 +21,7 @@ Implement the following attribute when delivering:
 | Milestone    | ?                     | Pencilled for the year, planned for 2 quarters | Most subteams                                   | Waku Lead              | A, or cohesive set of, feature(s).                    |
 | Deliverable         | Several per milestone | Set for a milestone                            | Subteam leads | Waku Lead | Deliverable may be the result of the work of one, some or all Waku subteams.                   |
 | Epic         | Several per deliverable | Set for a deliverable                            | Usually one subteam or external team (e.g. DST) | Subteam Lead or Member | Milestone work for a given subteam.                   |
-| Task         | Several per Epic         | Set monthly-ish, delivered weekly              | One subteam or individual                       | Team Member            | May be one or several piece of work, client specific. |q
+| Task         | Several per Epic         | Set monthly-ish, delivered weekly              | One subteam or individual                       | Team Member            | May be one or several piece of work, client specific. |
 
 ## Milestone Definition
 
@@ -133,29 +133,49 @@ A _Deliverable_:
 - MUST be defined as an issue in the https://github.com/waku-org/pm repo.
 - MUST be included in its parent _Milestone_.
 - MUST have an _Output_ section in the description detailing the result of work of the Deliverable.
+- MUST have a `Planned Start` and `Due Date` set
 
 An _Epic_:
 - MUST have a matching GitHub issue in the relevant team's repo.
 - MUST have a label with format `Epic`.
 - MUST be added to the description of the parent _Deliverable_ issue.
-- SHOULD have a `Planned Start` and `Due Date` set (these are GitHub projects fields you can find in the `Projects` section of the issue view sidebar).
+- MUST have a `Planned Start` and `Due Date` set (these are GitHub projects fields you can find in the `Projects` section of the issue view sidebar).
 - MAY list _Tasks_ present in other repos.
 - MUST have assignee(s), who represent the epic owner (see [accountability](#accountability))
 
 A _Task_:
-- MAY be tracked as a todo item in a GitHub Issue (_Deliverable_ or _Epic_)
+- MUST be tracked as a todo item in a GitHub Issue (_Deliverable_ or _Epic_)
 - MUST have an _acceptance criteria_ and/or a list of _tasks_ (that can be other GH issues).
 
 Finally, for _Tasks_ that do not belong to a given _Epic_ or _Deliverable_:
-- MUST have either labels:
+- MUST qualify as, and have one of the following labels:
   - `bug`: This is a bug, likely reported by a user
-  - `maintenance`: This is maintenence work that is out of the scope of the technical roadmap
-  - `dependencies`: Upgrade dependencies in a timely manner to avoid time wasting when the dependency upgrade becomes critical.
+  - `maintenance`: This is maintenance work that is out of the scope of the technical roadmap
 
 Which means, in terms of _navigation_:
 - Work for a Milestone is described in the [Roadmap](https://roadmap.logos.co/waku/waku-milestones) and tracked in the GitHub milestone in the pm repo.
 - In the GitHub milestone, we have a list of _Deliverables_ to be achieved, the _Deliverables_ are being closed as the work is done and handed over.
 
+### Responsibilities
+
+| Task                                                        | Responsible     | Accountable     |
+| ----------------------------------------------------------- | --------------- | --------------- |
+| Set Milestones and Deliverables in master document          | Waku Lead       | Insights       |
+| Create GitHub milestones and deliverables issues in pm repo | Program Manager | Waku Lead       |
+| Create epic for team                                        | Team Lead       | Program Manager |
+| Create issues, PR (tasks) and link them to **epics**             | Team Member     | Team Lead       |
+| Close epic                                                  | Team Lead       | Program Manager |
+| Close deliverable                                           | Waku Lead       | Program Manager |
+| Handover to Vac-QA, Vac-DST                                 | Team Lead       | Vac PoC (?)     |
+| Proceed with Dogfooding                                     | Team Lead       | Waku Lead       |
+
+Responsible: who does the work
+Accountable:  delegates and reviews
+
+Waku Lead: @fryorcraken
+Program Manager: @chair28980
+Team Lead: @plopezlpz @Ivansete-status @jm-clius @weboko
+VAC PoC: @jm-clius
 
 ### TLDR
 
