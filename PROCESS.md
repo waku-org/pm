@@ -182,3 +182,8 @@ VAC PoC: @jm-clius
 - Milestones and Deliverables are defined in the pm repo
 - Deliverables have many epics, one epic per subteam
 - Team lead is responsible to ensure Vac-QA is aware of changes, but no need to create a QA epic
+
+### To Do
+- Add FURPS steps
+- for each P, DST Sim and Grafana panel required
+- ...
