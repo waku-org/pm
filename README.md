@@ -61,3 +61,29 @@ Publish (PM) - Monday
 ## Milestones
 
 https://github.com/waku-org/pm/milestones
+
+## RLN Smart Contract Deployment
+
+### Purpose and Functionality
+
+The RLN (Rate-Limiting Nullifier) smart contract is designed to manage memberships and rate-limiting nullifiers. It allows adding and removing members, as well as retrieving information about members.
+
+### Deployment Instructions
+
+To deploy the RLN smart contract to a Layer 2 mainnet, follow these steps:
+
+1. Ensure you have Node.js and npm installed on your machine.
+2. Install the required dependencies by running `npm install` in the project directory.
+3. Update the `scripts/deploy.js` file with your Infura project ID and private key.
+4. Run the deployment script using the command `node scripts/deploy.js`.
+
+### Interacting with the Deployed Contract
+
+Once the RLN smart contract is deployed, you can interact with it using the following functions:
+
+- `addMember(address _memberAddress, uint256 _rateLimit, uint256 _nullifier)`: Adds a new member to the contract.
+- `removeMember(address _memberAddress)`: Removes an existing member from the contract.
+- `getMember(address _memberAddress)`: Retrieves information about a specific member.
+- `getAllMembers()`: Retrieves information about all members in the contract.
+
+Refer to the `contracts/RLN.sol` file for the complete implementation of the RLN smart contract.
