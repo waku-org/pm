@@ -44,6 +44,8 @@ Github: https://github.com/waku-org/pm/milestones
 
 ![milestone-image](img/milestone.png)
 
+<img src="img/milestone.png" width="400" height="300">
+
 ## Deliverables
 
 ### Creation
@@ -63,6 +65,8 @@ For each team involved in work for the Deliverable, the Lead for that team shoul
 Create or add sub issues to the deliverable by using Github’s new “sub-issue” feature:
 
 ![sub-issues-image](img/sub-issues.png)
+
+<img src="img/sub-issues.png" width="400" height="300">
 
 ## Maintenance Deliverable
 
