@@ -145,3 +145,16 @@ Waku Lead: @fryorcraken
 Program Manager: @chair28980
 Team Lead: @plopezlpz @Ivansete-status @jm-clius @weboko
 VAC PoC: @jm-clius
+
+## FURPS
+
+Fore each *milestone*, FURPS headlines are defined by the Waku Lead.
+
+[FURPS](https://www.marcinziemek.com/blog/content/articles/8/article_en.html) are defined as:
+- F: Functionality
+- U: Usability
+- R: Reliability
+- P: Performance
+- S: Supportability
+
+For each (R) and (P) headline, a grafana dashboard should be produced as output for the given *milestone*.
