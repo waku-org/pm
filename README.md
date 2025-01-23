@@ -42,7 +42,7 @@ Milestones are defined in the Waku roadmap and tracked as Github in this repo.
 Roadmap: https://roadmap.logos.co/waku/waku-milestones
 Github: https://github.com/waku-org/pm/milestones
 
-<img src="img/milestone.png" width="400" height="300">
+<img src="img/milestone.png" width="500" height="375">
 
 ## Deliverables
 
@@ -70,4 +70,4 @@ This Maintenance Deliverable tracks all work not specifically described in the W
 
 [2025 H1 Maintenance Deliverable](https://github.com/waku-org/pm/issues/275)
 
-<img src="img/maintenance.png" width="300" height="200">
+<img src="img/maintenance.png" width="500" height="375">
