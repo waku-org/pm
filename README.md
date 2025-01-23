@@ -8,14 +8,12 @@ The Waku Team is comprised of the following subteams:
 - Waku Development nwaku, js-waku, go-waku
 - Waku Chat
 
-The Waku Team also gets the support from other Logos groups, in particular:
+The Waku Team is also supported by other Logos groups, in particular:
 
 - [VAC/DST](https://vac.dev/): Distributed System Testing Team for simulations and QA/Testing
 - Comms Hub: For communications, marketing, digital content, etc.
 
-## Work Tracking and Project Management Process
-
-See [PROCESS.md](./PROCESS.md)
+*For tracking and project management processes please see* [PROCESS.md](./PROCESS.md)
 
 ## Reporting Guidelines
 
