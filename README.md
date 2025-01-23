@@ -42,8 +42,6 @@ Milestones are defined in the Waku roadmap and tracked as Github in this repo.
 Roadmap: https://roadmap.logos.co/waku/waku-milestones
 Github: https://github.com/waku-org/pm/milestones
 
-![milestone-image](img/milestone.png)
-
 <img src="img/milestone.png" width="400" height="300">
 
 ## Deliverables
@@ -66,12 +64,10 @@ Create or add sub issues to the deliverable by using Github’s new “sub-issue
 
 ![sub-issues-image](img/sub-issues.png)
 
-<img src="img/sub-issues.png" width="400" height="300">
-
 ## Maintenance Deliverable
 
 This Maintenance Deliverable tracks all work not specifically described in the Waku roadmap covering Maintenance, Bugs, and Tests.
 
 [2025 H1 Maintenance Deliverable](https://github.com/waku-org/pm/issues/275)
 
-![maintenance-deliverable-image](img/maintenance.png)
+<img src="img/maintenance.png" width="300" height="200">
