@@ -41,7 +41,7 @@ Phase 3: If the scope is agreed upon, the team can proceed to create Epics and s
 
 ## Workflow
 
-A *Milestone* is divided into *Deliverables*. A *Deliverable* is divided into work that is assigned to a given subteam.
+A *Milestone* is divided into *Deliverables*. A *Deliverable* is divided into *Tasks* that are assigned to a given subteam.
 
 Typically, each *milestone* will be divided in the following *deliverables*:
 
