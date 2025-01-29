@@ -31,51 +31,21 @@ A *Milestone*:
 3. **Transversal:** While the vertical scope of a milestone should be minimal, the delivery should be complete in terms of research, engineering, QA, documentation and dev rel assets so that the feature can be pushed to users once the milestone is marked as complete. Feedback loops should be as small as possible to ensure the value of a milestone is measured in a timely manner.
 4. **Attached Estimate:** An estimate should be associated with the milestone to facilitate the measurement of potential ROI. Additionally, tracking the estimate versus the actual progress is crucial for identifying any deviation and making informed decisions (e.g., deciding whether to continue if we learn the estimate is likely to be overrun).
 
-## Milestone scoping process flow
-
-Phase 1: Waku lead defines the scope within the Milestone. The scope is then discussed asynchronously in the comments of the GitHub issue by relevant subteams and stakeholders, scope of tasks are defined.
-
-Phase 2: During a Waku PM call, the team reviews the Milestone to confirm scope or identify areas that require additional scoping.
-
-Phase 3: If the scope is agreed upon, the team can proceed to create Epics and schedule work for kickoff.
-
 ## Workflow
 
 A *Milestone* is divided into *Deliverables*. A *Deliverable* is divided into *Tasks* that are assigned to a given subteam.
 
-Typically, each *milestone* will be divided in the following *deliverables*:
-
-### Engineering-Only Milestones
-
-Some milestones may not involve the Waku Research team.
-
-### Chat and other Special SDK Work
-
-The Chat team is focusing on go-waku integration in status-go and follows Status' PM for issues and labelling.
-
-Once the team starts building an independent Chat (or other) SDK, the flow will be as above but with research handled by VAC/ACZ and only one dev team.
-
-Handover to VAC QA and VAC DST with MVP quality software is still expected down the track but may be pending growing teams.
-
-### Deliverables
-
 ### Accountability
 
-For research team, it is expected that most of the research work is done by the epic owner, which includes:
-- Capturing problem statement
-- Designing protocol/solution
-- Implementing PoC in reference implementation
-- Running tests/simulations to confirm behaviour (to be offloaded to test engineer)
-
-For development teams, it is expected that design/break down is done by the epic owner.
-But actual work can be picked up by other team member.
-Epic owner must:
+For development teams, it is expected that design/break down is done by the *Deliverable* and/or *Task* owner.
+But actual work can be picked up by other team members.
+Task owner must:
 
 - Understand the change and its implications,
 - Liaise with researcher for any doubt or questions or design issues related to specific client/use case,
 - Create issues (_Tasks_) to break down work in client repo, include an _acceptance criteria_ in each issue to ensure that the objective/end goal/behaviour is clearly described.
 
-It is likely that the epic owner will do the core change or first change for a given epic.
+It is likely that the task owner will do the core change or first change for a given task.
 However, subsequent/other changes may be picked up in parallel or sequentially by other team members.
 
 Hence:
@@ -83,10 +53,10 @@ Hence:
 - Team members must assign _Task_ issues to themselves when work starts
 - Team members must update issues to track progress
 
-The program manager should ensure that epics are getting the right assignee in a timely fashion.
-For example, when research work starts for a given milestone, epic owners from development team should be assigned, so they know to participate in discussions.
+The program manager should ensure that Deliverables are getting the right assignee in a timely fashion.
+For example, when research work starts for a given milestone, Deliverable owners from development team should be assigned, so they know to participate in discussions.
 
-Program manager should also ensure that issues are being created in a timely fashion, and is encouraged to use client PM call as a forum to check epics to be assigned, for example when a given epic is near completion.
+Program manager should also ensure that issues are being created in a timely fashion, and is encouraged to use client PM call as a forum to check deliverables to be assigned, for example when a given deliverable is near completion.
 
 ### Handovers
 
@@ -99,7 +69,7 @@ The following handovers are defined:
 
 The group or person handing over is expected to initiate a sync (meeting) or async (chat or GitHub) discussion to go through the output and overview.
 
-Once the handover is accepted, the given epic can be closed.
+Once the handover is accepted, the given deliverable can be closed.
 
 ### GitHub Usage
 
@@ -114,14 +84,14 @@ A _Deliverable_:
 - MUST have a `Planned Start` and `Due Date` set
 
 A _Task_:
-- MUST be tracked as a todo item in a GitHub Issue (_Deliverable_ or _Epic_)
+- MUST be tracked as a todo item in a GitHub Issue (_Deliverable_)
 - MUST have an _acceptance criteria_ and/or a list of _tasks_ (that can be other GH issues).
 
-<!-- replace with Maintenance -->
 Finally, for _Tasks_ that do not belong to a _Deliverable_:
-- MUST qualify as, and have one of the following labels:
-  - `bug`: This is a bug, likely reported by a user
-  - `maintenance`: This is maintenance work that is out of the scope of the technical roadmap
+- MUST qualify as
+  - `Bugs` - bugs reported by users or discovered internally.
+  - `Tests` - maintaining and fixing broken tests, if a test must be fixed as a result from a change from a *Deliverable* the work should be tracked and group with that *Deliverable*.
+  - `Releases` - work related to releasing version upgrades.
 
 Which means, in terms of _navigation_:
 - Work for a Milestone is described in the [Roadmap](https://roadmap.logos.co/waku/waku-milestones) and tracked in the GitHub milestone in the pm repo.
@@ -133,9 +103,9 @@ Which means, in terms of _navigation_:
 | ----------------------------------------------------------- | --------------- | --------------- |
 | Set Milestones and Deliverables in master document          | Waku Lead       | Insights       |
 | Create GitHub milestones and deliverables issues in pm repo | Team Leads | Waku Lead       |
-| Create issues, PR (tasks) and link them to **epics**             | Team Member     | Team Lead       |
+| Create issues, PR (tasks) and link them to **deliverables**             | Team Member     | Team Lead       |
 | Close deliverable                                           | Waku Lead       | Program Manager |
-| Handover to Vac-QA, Vac-DST                                 | Team Lead       | Vac PoC (?)     |
+| Handover to Vac-QA, Vac-DST                                 | Team Lead       | Vac PoC     |
 | Proceed with Dogfooding                                     | Team Lead       | Waku Lead       |
 
 Responsible: who does the work
