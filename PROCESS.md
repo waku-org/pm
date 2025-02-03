@@ -127,4 +127,7 @@ Fore each *milestone*, FURPS headlines are defined by the Waku Lead.
 - P: Performance
 - S: Supportability
 
-For each (R) and (P) headline, a grafana dashboard should be produced as output for the given *milestone*.
+- For every `P` (Performance) there must be a Grafana panel (pointed to fleet), and a **Vac-DST** simulation to *sign-off* the `P` (search for “**Vac-DST**”).
+- For every `R` (Reliablity) there should be a test suite by Vac-QA that sign-off the `R` in unreliable network environment (search for “**Vac-QA**”);  and potentially a Grafana panel (pointed to fleet), and a Vac-DST simulation (if relevant).
+- Deliverables deliver a number of FURPS: `deliverable name: FURPS they deliver`
+- Deliverables are owned by one or several teams, specified in parenthesis after deliverable
