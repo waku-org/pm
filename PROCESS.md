@@ -17,7 +17,7 @@ See [Waku Methodology](https://www.notion.so/Waku-Mission-and-Methodology-1a58f9
 
 ## Team Structure
 
-The Waku team is current organized in the following subteams:
+The Waku team is currently organized in the following subteams:
 
 - Core Research
 - nwaku
@@ -26,10 +26,14 @@ The Waku team is current organized in the following subteams:
 - Chat/App Research
 - Business Dev
 
+## Documents
+
+- [Waku FURPS](https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00)
+- [Waku Milestones](https://roadmap.logos.co/waku/waku-milestones)
 
 ## Terminology and Scope
 
-## FURPS
+### FURPS
 
 [FURPS](https://en.wikipedia.org/wiki/FURPS) are used to define software behaviour and property.
 They are defined as:
@@ -47,7 +51,7 @@ Moreover:
 - For every `P` (Performance) there must be a Grafana panel (pointed to fleet), and a **Vac-DST** simulation to *sign-off* the `P` (search for “**Vac-DST**”).
 - For every `R` (Reliability) there should be a test suite by Vac-QA that sign-off the `R` in unreliable network environment (search for “**Vac-QA**”);  and potentially a Grafana panel (pointed to fleet), and a Vac-DST simulation (if relevant).
 
-## Feature
+### Feature
 
 A feature is a specific domain of Waku software behaviour.
 It can be a protocol, or a set of closely-related protocols.
@@ -55,26 +59,26 @@ It has one related set of FURPS.
 
 For example, "End-to-end reliability" is a feature that refers to the SDS protocol.
 
-## Milestone
+### Milestone
 
 A *Milestone* define a completion date and effort estimate for a collection of FURPS within or across given features.
 Milestones are set for the whole Waku team and may involve the effort of one or several Waku subteams.
 Dependencies on other groups to achieve a milestone should be minimalized.
 
-## Deliverable
+### Deliverable
 
 When the **work** is not related to software behaviour (e.g. a contributor guide, some BD activities),
 then a *deliverable* is used to define the expected output.
 
 Deliverables are an alternative to FURPS statements.
 
-## Task
+### Task
 
 A *task* is a piece of work necessary to deliver a FURPS statement.
 A task may be defined as a checkbox, or a GitHub issue.
 It is up to a subteam to decide how they organize their tasks (e.g. whether to use epics, issues per task, etc).
 
-### Rules
+## Rules
 
 Here are some rules to ensure the efficacy of our process.
 What is not explicitly defined is left to the subteam's choice.
@@ -104,7 +108,6 @@ Finally, for _Tasks_ that do not belong to a _FURPS_  or _Deliverable_:
   - `test` - maintaining and fixing broken tests, SHOULD ideally be linked back to a corresponding _FURPS_ and _Milestone_
   - `release` - work related to releasing version upgrades.
   - `dependencies` - work related to releasing version upgrades.
-
 
 ### Responsibilities
 
