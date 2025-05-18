@@ -106,6 +106,7 @@ A _Deliverable_:
 - MUST be defined as an issue in the https://github.com/waku-org/pm repo.
 - MUST be included in its parent _Milestone_.
 - MUST have an _Output_ section in the description detailing the result of work of the Deliverable, this may be a list of FURPS.
+- If tracking FURPS, the FURPS only belong to one feature aka FURPS set.
 - MUST have only one owner, assigned to the GitHub issue.
 
 Finally, for _Tasks_ that do not belong to a _Deliverable_:
