@@ -46,7 +46,6 @@ They are defined as:
 Moreover: 
 
 - A *set of FURPS* define the behaviour of a specific protocol implementation or feature.
-- Individual FURPS (e.g a specific `F`unctionality statement) should be owned by one and only one Waku subteam.
 - "a FURPS" refers to an individual FURPS statement (e.g. "S1. available in libwaku").
 - For every `P` (Performance) there must be a Grafana panel (pointed to fleet), and a **Vac-DST** simulation to *sign-off* the `P` (search for “**Vac-DST**”).
 - For every `R` (Reliability) there should be a test suite by Vac-QA that sign-off the `R` in unreliable network environment (search for “**Vac-QA**”);  and potentially a Grafana panel (pointed to fleet), and a Vac-DST simulation (if relevant).
@@ -59,22 +58,37 @@ It has one related set of FURPS.
 
 For example, "End-to-end reliability" is a feature that refers to the SDS protocol.
 
-### Milestone
-
-A *Milestone* define a completion date and effort estimate for a collection of FURPS within or across given features.
-Milestones are set for the whole Waku team and may involve the effort of one or several Waku subteams.
-Dependencies on other groups to achieve a milestone should be minimalized.
-
 ### Deliverable
 
-When the **work** is not related to software behaviour (e.g. a contributor guide, some BD activities),
-then a *deliverable* is used to define the expected output.
+A deliverable is the work tackled by one subteam in regards to one FURPS set.
+In other words, it tracks the delivery of specific FURP(S), for one feature, by one subteam.
 
-Deliverables are an alternative to FURPS statements.
+For example:
+
+> Light Push FURPS
+> - F1. Light push returns itemized error code when the service node cannot forward a message.
+> - S1. nwaku service node
+> - S2. Browser edge node
+
+To track the work to achieve these FURPS, two deliverables should be created: 
+
+1. [nwaku] Support error code in light push: Implement Light Push FURPS F1, S1.
+2. [js-waku] Support error code in light push: Implement Light Push FURPS F1, S2.
+
+When the **work** is not related to software behaviour (e.g. a contributor guide, some BD activities),
+then a deliverable is used to define the expected output, without referring to specific FURPS.
+
+Deliverables are owned by one, and only one, subteam.
+If a deliverable's execution depends on a group external to Waku, then it should be explicitly stated.
+
+### Milestone
+
+A *Milestone* define a completion date and effort estimate for a collection of deliverables,
+across one or several subteams.
 
 ### Task
 
-A *task* is a piece of work necessary to deliver a FURPS statement.
+A *task* is a piece of work necessary to a deliverable.
 A task may be defined as a checkbox, or a GitHub issue.
 It is up to a subteam to decide how they organize their tasks (e.g. whether to use epics, issues per task, etc).
 
@@ -88,21 +102,13 @@ A _Milestone_:
 - MUST have an *estimated date of completion*
 - MUST have an effort estimate, stating how many CCs are needed to work on this for a given half-year (e.g. one research, half an engineer)
 
-A _Feature_:
-- MUST have corresponding label defined in https://github.com/waku-org/pm repo with format `F: <feature name>`
-
-A _FURPS_ (or FURPS statement):
-- MUST HAVE a GitHub issue in https://github.com/waku-org/pm repo
-  - which MUST be included in its parent _Milestone_.
-  - which MUST have a feature label
-- MUST have an easy way to find the related Pull Requests
- 
 A _Deliverable_:
 - MUST be defined as an issue in the https://github.com/waku-org/pm repo.
 - MUST be included in its parent _Milestone_.
-- MUST have an _Output_ section in the description detailing the result of work of the Deliverable.
+- MUST have an _Output_ section in the description detailing the result of work of the Deliverable, this may be a list of FURPS.
+- MUST have only one owner, assigned to the GitHub issue.
 
-Finally, for _Tasks_ that do not belong to a _FURPS_  or _Deliverable_:
+Finally, for _Tasks_ that do not belong to a _Deliverable_:
 - MUST either qualify as (with related GitHub labels)
   - `bug` - bugs reported by users or discovered internally, SHOULD be linked back to a corresponding _FURPS_ and _Milestone_
   - `test` - maintaining and fixing broken tests, SHOULD ideally be linked back to a corresponding _FURPS_ and _Milestone_
@@ -115,9 +121,9 @@ Finally, for _Tasks_ that do not belong to a _FURPS_  or _Deliverable_:
 |-----------------------------------------------------------|-----------------|------------------|
 | Set Milestones, FURPS and Deliverables in master document | Waku Lead       | Insights         |
 | Create GitHub milestones in pm repo                       | Program Manager | Waku Lead        |
-| Create FURPS and Deliverables issues in pm repo           | Team Leads      | Program Manager  |
+| Create Deliverables issues in pm repo                     | Team Leads      | Program Manager  |
 | Create issues, PR (tasks) and link them to **FURPS**      | Team Member     | Team Lead        |
-| Close FURPS and Deliverables                              | Waku Lead       | Program Manager  |
+| Close Deliverables                                        | Waku Lead       | Program Manager  |
 | Handover to Vac-QA, Vac-DST                               | Team Lead       | Vac PoCs         |
 | Proceed with Dogfooding                                   | Team Lead       | Waku Lead        |
 
