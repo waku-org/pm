@@ -31,12 +31,12 @@ Limited effort will be spent on store performance as its relevance is expected t
 **Feature**: Light Push
 
 **FURPS**:
-- F4: Supports comprehensive error codes for various failure scenarios.
-- U4: Provides descriptive error messages in responses.
-- R3: Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
-- R4: 80% message transmission success rate on live Status network (service node from both Status Desktop and fleet Waku instances)
+- F4. Supports comprehensive error codes for various failure scenarios.
+- U4. Provides descriptive error messages in responses.
+- R3. Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
+- R4. 80% message transmission success rate on live Status network (service node from both Status Desktop and fleet Waku instances)
 
-For S1: nwaku as service node
+For S1. Linux amd64 CLI as service node
 Includes spec delivery
 
 #### Implement Light Push Error codes in The Browser
@@ -46,11 +46,11 @@ Includes spec delivery
 **Feature**: Light Push
 
 **FURPS**:
-- F4: Supports comprehensive error codes for various failure scenarios.
-- U4: Provides descriptive error messages in responses.
-- R3: Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
+- F4. Supports comprehensive error codes for various failure scenarios.
+- U4. Provides descriptive error messages in responses.
+- R3. Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
 
-For S2: js-waku as edge node
+For S2. Browser as client
 Spec delivery not included.
 
 #### PostgreSQL Optimisation Phase 1
@@ -60,11 +60,13 @@ Spec delivery not included.
 **Feature**: Store
 
 **FURPS**:
-- F6: Industry practices are applied to PostgreSQL setup to reach appropriate performance
-- P5:️ Hash query of less than 10 hashes are served under 400ms; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
-- P6:️ Time range queries of less than 24 hours, with less than 10 content topics, are served under 400 ms; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
+- F6. Industry practices are applied to PostgreSQL setup to reach appropriate performance
+- P5. Hash query of less than 10 hashes are served under 400ms; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
+- P6. Time range queries of less than 24 hours, with less than 10 content topics, are served under 400 ms; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
 
-For S1: nwaku support as service node.
+For
+- S1. Linux amd64 CLI as service node; and
+- S2. PostgreSQL as database engine.
 
 #### P2P Reliability Implementation in the Browser
 
