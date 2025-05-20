@@ -2,7 +2,11 @@ Roadmap and milestones can be found on the [Logos roadmap](https://roadmap.logos
 
 ## Draft Milestones
 
-Testing out new format, final roadmap to be pushed in Logos roadmap.
+Testing out new format, once approved:
+
+- Milestones are moved to Logos roadmap
+- Deliverables are moved to GitHub issues
+- Waku FURPS remains in [FURPS](./FURPS.md)
 
 ### Peer-To-Peer Reliability
 
