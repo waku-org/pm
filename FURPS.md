@@ -36,8 +36,8 @@
 
 #### Supportability
 
-1. nwaku as service node
-2. js-waku as edge node
+1. Linux amd64 CLI as service node
+2. Browser as client
 
 ### Store
 
@@ -61,7 +61,8 @@
 #### Reliability
 
 1. Implements DoS protection through request rate limitation.
-2. (limitation) No guarantees in terms of message presence or retention duration
+2. (limitation) No guarantees in terms of message presence or retention duration.
+3. Store node always provide a response; thanks to DoS protection.
 
 #### Performance
 
@@ -74,6 +75,6 @@
 
 #### Supportability
 
-1. nwaku support as service node.
-2. Uses PostgreSQL as database engine.
-3. Browser support (js-waku) as client.
+1. Linux amd64 CLI as service node
+2. PostgreSQL as database engine.
+3. Browser support as client.
