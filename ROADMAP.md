@@ -1,1 +1,0 @@
-Roadmap and milestones can be found on the [Logos roadmap](https://roadmap.logos.co/waku/).
