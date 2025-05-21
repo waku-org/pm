@@ -12,6 +12,7 @@ Software properties are considered *delivered* when:
 - it is ready-to-use
 - the behaviour is documented in [specifications](https://waku.org/specs)
 - the software has been used (dogfooding) by the Waku team
+- documentation on how to use said properties is delivered
 
 See [Waku Methodology](https://www.notion.so/Waku-Mission-and-Methodology-1a58f96fb65c80b9b789c1bbb9e99915) (draft) for more.
 
