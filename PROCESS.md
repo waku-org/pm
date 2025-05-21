@@ -47,7 +47,8 @@ Moreover:
 
 - A *set of FURPS* define the behaviour of a specific protocol implementation or feature.
 - "a FURPS" refers to an individual FURPS statement (e.g. "S1. available in libwaku").
-- For every `P` (Performance) there must be a Grafana panel (pointed to fleet), and a **Vac-DST** simulation to *sign-off* the `P` (search for “**Vac-DST**”).
+- For every `P` (Performance) there should be a Grafana panel (pointed to fleet), and a **Vac-DST** simulation to *sign-off* the `P` (search for “**Vac-DST**”).
+  If it cannot be measured, then it cannot be a statement (in some instances, DST simulation may be enough).
 - For every `R` (Reliability) there should be a test suite by Vac-QA that sign-off the `R` in unreliable network environment (search for “**Vac-QA**”);  and potentially a Grafana panel (pointed to fleet), and a Vac-DST simulation (if relevant).
 
 ### Feature
