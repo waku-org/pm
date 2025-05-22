@@ -114,7 +114,7 @@ A _Deliverable_:
 - MUST be included in its parent _Milestone_.
 - MUST have an _Output_ section in the description detailing the result of work of the Deliverable, this may be a list of FURPS.
 - If tracking FURPS, the FURPS only belong to one feature aka FURPS set.
-- MUST have only one owner, assigned to the GitHub issue.
+- MUST have only one owner, assigned to the GitHub issue; usually a Waku subteam lead.
 - MUST have a checklist to ensure the following items are done:
   - specs
   - code
@@ -130,15 +130,15 @@ Finally, for _Tasks_ that do not belong to a _Deliverable_:
 
 ### Responsibilities
 
-| Task                                                      | Does it         | Ensure it's done |
-|-----------------------------------------------------------|-----------------|------------------|
-| Set Milestones, FURPS and Deliverables in master document | Waku Lead       | Insights         |
-| Create GitHub milestones in pm repo                       | Program Manager | Waku Lead        |
-| Create Deliverables issues in pm repo                     | Team Leads      | Program Manager  |
-| Create issues, PR (tasks) and link them to **FURPS**      | Team Member     | Team Lead        |
-| Close Deliverables                                        | Waku Lead       | Program Manager  |
-| Handover to Vac-QA, Vac-DST                               | Team Lead       | Vac PoCs         |
-| Proceed with Dogfooding                                   | Team Lead       | Waku Lead        |
+| Task                                                 | Does it            | Ensure it's done  |
+|------------------------------------------------------|--------------------|-------------------|
+| Set Milestones, FURPS and Deliverables               | Waku Lead          | Insights          |
+| Create GitHub milestones in pm repo                  | Program Manager    | Waku Lead         |
+| Create Deliverable issues in pm repo                 | Deliverable Owner  | Program Manager   |
+| Create issues, PR (tasks) and link them to **FURPS** | Team Member        | Deliverable Owner |
+| Close Deliverables                                   | Waku Lead          | Program Manager   |
+| Handover to Vac-QA, Vac-DST                          | Deliverable Owner  | Vac PoCs          |
+| Proceed with Dogfooding                              | Deliverable Owner  | Waku Lead         |
 
 - Waku Lead: @fryorcraken
 - Program Manager: @chair28980
