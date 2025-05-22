@@ -12,7 +12,7 @@ Testing out new format, once approved:
 
 Last remains of *Direct Message Reliability* milestone.
 
-Once delivered, the the reliability of the Waku protocols will be maximised when used with decentralised light push and filter service nodes;
+Once delivered, the reliability of the Waku protocols will be maximised when used with decentralised light push and filter service nodes;
 in mostly offline or frequently disconnected environments (mobile, laptop).
 
 This may include some bandwidth overhead that can later be optimized when rolling out enhanced end-to-end reliability strategies.
@@ -28,7 +28,7 @@ Limited effort will be spent on store performance as its relevance is expected t
 
 **Owner**: nwaku
 
-**Feature**: Light Push
+**Feature**: [Light Push](./FURPS.md#light-push)
 
 **FURPS**:
 - F4. Supports comprehensive error codes for various failure scenarios.
@@ -39,11 +39,17 @@ Limited effort will be spent on store performance as its relevance is expected t
 For S1. Linux amd64 CLI as service node
 Includes spec delivery
 
+**Checklist**:
+- [ ] Specs: link to specs
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
 #### Implement Light Push Error codes in The Browser
 
 **Owner**: js-waku
 
-**Feature**: Light Push
+**Feature**: [Light Push](./FURPS.md#light-push)
 
 **FURPS**:
 - F4. Supports comprehensive error codes for various failure scenarios.
@@ -53,11 +59,17 @@ Includes spec delivery
 For S2. Browser as client
 Spec delivery not included.
 
+**Checklist**:
+- [ ] Specs: link to specs
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
 #### PostgreSQL Optimisation Phase 1
 
 **Owner**: nwaku
 
-**Feature**: Store
+**Feature**: [Store](./FURPS.md#store)
 
 **FURPS**:
 - F6. Industry practices are applied to PostgreSQL setup to reach appropriate performance
@@ -67,7 +79,32 @@ Spec delivery not included.
 For
 - S1. Linux amd64 CLI as service node; and
 - S2. PostgreSQL as database engine.
+ 
+**Checklist**:
+- [ ] Specs: link to specs
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
 
 #### P2P Reliability Implementation in the Browser
 
-TBD
+**Owner**: js-waku
+
+**Feature**: [P2P Reliability](./FURPS.md#p2p-reliability)
+
+**FURPS**:
+- F1. Improves probability of message propagation through redundant publishing and receiving.
+- F2. Enables detection and remedy of message losses between peers using Store or Filter based reliability strategies.
+- F3. Enhances Lightpush reliability through service node pooling, redundant publishing, and failure detection.
+- F4. Improves Filter reliability through redundant subscriptions and subscription health monitoring.
+- U1. Provides feedback on message delivery status leveraging store protocol.
+- U2. Automatically handles reconnection and retransmission when failures are detected.
+
+For
+- S1. Within browser environments (edge node mode)
+
+**Checklist**:
+- [ ] Specs: link to specs
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)

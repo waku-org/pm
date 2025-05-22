@@ -4,7 +4,7 @@
 - (Vac-DST): Simulations to verify this property
 - (Vac-QA): Additional test coverage by Vac-QA to verify this property
 
-## Core
+## Core Protocols
 
 ### Light Push
 
@@ -78,3 +78,33 @@
 1. Linux amd64 CLI as service node
 2. PostgreSQL as database engine.
 3. Browser support as client.
+
+## Application Protocols
+
+### P2P Reliability
+
+#### Functionality
+
+1. Improves probability of message propagation through redundant publishing and receiving.
+2. Enables detection and remedy of message losses between peers using Store or Filter based reliability strategies.
+3. Enhances Lightpush reliability through service node pooling, redundant publishing, and failure detection.
+4. Improves Filter reliability through redundant subscriptions and subscription health monitoring.
+
+#### Usability
+
+1. Provides feedback on message delivery status leveraging store protocol.
+2. Automatically handles reconnection and retransmission when failures are detected.
+
+#### Reliability
+
+TBD
+
+#### Performance
+
+TBD
+
+#### Supportability
+
+1. 🏗️ Within browser environments (edge node mode)
+2. Integrated in Status applications
+
