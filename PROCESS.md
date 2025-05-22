@@ -140,7 +140,7 @@ Finally, for _Tasks_ that do not belong to a _Deliverable_:
 | Handover to Vac-QA, Vac-DST                               | Team Lead       | Vac PoCs         |
 | Proceed with Dogfooding                                   | Team Lead       | Waku Lead        |
 
-Waku Lead: @fryorcraken
-Program Manager: @chair28980
-Team Lead: @plopezlpz @Ivansete-status @jm-clius @weboko @jazzz
-VAC PoC: @jm-clius, @stubbsta for Vac-DST
+- Waku Lead: @fryorcraken
+- Program Manager: @chair28980
+- Team Lead: @plopezlpz @Ivansete-status @jm-clius @weboko @jazzz
+- VAC PoC: @jm-clius, @stubbsta for Vac-DST
