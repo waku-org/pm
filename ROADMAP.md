@@ -6,9 +6,9 @@ Testing out new format, once approved:
 
 - Milestones are moved to Logos roadmap
 - Deliverables are moved to GitHub issues
-- Waku FURPS remains in [FURPS](./FURPS.md)
+- Waku FURPS remains in [FURPS](./FURPS/README.md)
 
-### Peer-To-Peer Reliability
+### Define and Implement Peer-To-Peer Reliability Strategies
 
 Last remains of *Direct Message Reliability* milestone.
 
@@ -24,11 +24,16 @@ Limited effort will be spent on store performance as its relevance is expected t
 
 **Deliverables**:
 
+<!--
+Once the deliverables are created as GitHub issues, we can delete the content below
+and just provide a list of GitHub issue, or even simpler, a link to the GitHub milestone that contain them.
+-->
+
 #### Define and Implement Light Push Error codes in nwaku.
 
 **Owner**: nwaku
 
-**Feature**: [Light Push](./FURPS.md#light-push)
+**Feature**: [Light Push](./FURPS/core/light_push.md)
 
 **FURPS**:
 - F4. Supports comprehensive error codes for various failure scenarios.
@@ -49,7 +54,7 @@ Includes spec delivery
 
 **Owner**: js-waku
 
-**Feature**: [Light Push](./FURPS.md#light-push)
+**Feature**: [Light Push](./FURPS/core/light_push.md)
 
 **FURPS**:
 - F4. Supports comprehensive error codes for various failure scenarios.
@@ -69,7 +74,7 @@ Spec delivery not included.
 
 **Owner**: nwaku
 
-**Feature**: [Store](./FURPS.md#store)
+**Feature**: [Store](./FURPS/core/store.md)
 
 **FURPS**:
 - F6. Industry practices are applied to PostgreSQL setup to reach appropriate performance
@@ -90,7 +95,7 @@ For
 
 **Owner**: js-waku
 
-**Feature**: [P2P Reliability](./FURPS.md#p2p-reliability)
+**Feature**: [P2P Reliability](./FURPS/application/p2p_reliability.md)
 
 **FURPS**:
 - F1. Improves probability of message propagation through redundant publishing and receiving.
@@ -108,3 +113,21 @@ For
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+### Introduce E2E Reliability in Status Communities and Web Apps
+
+To solve reliability is to solve two problems:
+
+1. High heuristic that messages are received and sent
+2. Ability to know whether messages are received or sent
+
+Problem (1) can never be 100% reliable in a network environment. The previous milestones focused on it.
+To solve (2), is to create an end-to-end protocol, sender to recipient, that enables the ability to know whether recipient(s) have received messages.
+
+With this milestone, we design and deliver a first PoC for an end-to-end reliability protocol.
+This protocol will be specified and implemented in the Status app for Status Communities chat rooms;
+as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
+
+**deliverables**:
+
+TBD
