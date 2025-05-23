@@ -88,7 +88,7 @@ If a deliverable's execution depends on a group external to Waku, then it should
 A milestone describes a specific objective we aim to achieve.
 It holds the narrative of **why** we are doing this work and what is the value attached to completing the work.
 
-A milestone usually involve effort from most of the Waku team.
+A milestone usually involves effort from most of the Waku team.
 The work should be organized to prioritise the delivery of complete milestones, over individual deliverables.
 
 Milestone have estimation of effort and date of completion defined.
