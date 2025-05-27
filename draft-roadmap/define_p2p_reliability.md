@@ -18,8 +18,6 @@ Limited effort will be spent on store performance as its relevance is expected t
 
 **Deliverables**:
 
-
-
 <!--
 Once the deliverables are created as GitHub issues, we can delete the content below
 and just provide a list of GitHub issues, or even simpler, a link to the GitHub milestone that contain them.

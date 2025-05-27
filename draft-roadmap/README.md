@@ -10,8 +10,13 @@ Testing out new format, once approved:
 
 - [Define and Implement Peer-To-Peer Reliability Strategies](./define_p2p_reliability.md)
 - [Introduce E2E Reliability in Status Communities](./introduce_e2e_reliability_in_status.md)
+- Rendezvous TODO? (may be done)
+- [Deploy RLN onchain tree on L2 testnet](TODO)
+- [Integrate nwaku in Status Desktop, relay mode only](TODO)
 
 #### P2P Reliability Implementation in the Browser
+
+TODO: It's actually done
 
 **Owner**: js-waku
 
