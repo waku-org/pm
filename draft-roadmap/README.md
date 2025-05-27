@@ -12,7 +12,8 @@ Testing out new format, once approved:
 - [Introduce E2E Reliability in Status Communities](./introduce_e2e_reliability_in_status.md)
 - Rendezvous TODO? (may be done)
 - [Deploy RLN onchain tree on L2 testnet](TODO)
-- [Integrate nwaku in Status Desktop, relay mode only](TODO)
+- [Integrate nwaku in Status Desktop, relay mode only](/draft-roadmap/integrate_nwaku_in_status_desktop_relay_mode_only.md)
+- [Define incentivization for RLNaaS](TODO)
 
 #### P2P Reliability Implementation in the Browser
 
