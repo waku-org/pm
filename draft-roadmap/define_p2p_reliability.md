@@ -1,14 +1,6 @@
-Roadmap and milestones can be found on the [Logos roadmap](https://roadmap.logos.co/waku/).
+# Define and Implement Peer-To-Peer Reliability Strategies
 
-## Draft Milestones
-
-Testing out new format, once approved:
-
-- Milestones are moved to Logos roadmap
-- Deliverables are moved to GitHub issues
-- Waku FURPS remains in [FURPS](./FURPS/README.md)
-
-### Define and Implement Peer-To-Peer Reliability Strategies
+**Estimated completion date: TBD**
 
 Last remains of *Direct Message Reliability* milestone.
 
@@ -26,14 +18,14 @@ Limited effort will be spent on store performance as its relevance is expected t
 
 <!--
 Once the deliverables are created as GitHub issues, we can delete the content below
-and just provide a list of GitHub issue, or even simpler, a link to the GitHub milestone that contain them.
+and just provide a list of GitHub issues, or even simpler, a link to the GitHub milestone that contain them.
 -->
 
-#### Define and Implement Light Push Error codes in nwaku.
+## Define and Implement Light Push Error codes in nwaku.
 
 **Owner**: nwaku
 
-**Feature**: [Light Push](./FURPS/core/light_push.md)
+**Feature**: [Light Push](/FURPS/core/light_push.md)
 
 **FURPS**:
 - F4. Supports comprehensive error codes for various failure scenarios.
@@ -50,11 +42,11 @@ Includes spec delivery
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-#### Implement Light Push Error codes in The Browser
+## Implement Light Push Error codes in The Browser
 
 **Owner**: js-waku
 
-**Feature**: [Light Push](./FURPS/core/light_push.md)
+**Feature**: [Light Push](/FURPS/core/light_push.md)
 
 **FURPS**:
 - F4. Supports comprehensive error codes for various failure scenarios.
@@ -70,64 +62,23 @@ Spec delivery not included.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-#### PostgreSQL Optimisation Phase 1
+## PostgreSQL Optimisation Phase 1
 
 **Owner**: nwaku
 
-**Feature**: [Store](./FURPS/core/store.md)
+**Feature**: [Store](/FURPS/core/store.md)
 
 **FURPS**:
 - F6. Industry practices are applied to PostgreSQL setup to reach appropriate performance
 - P5. Hash query of less than 10 hashes are served under 400ms; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
 - P6. Time range queries of less than 24 hours, with less than 10 content topics, are served under 400 ms; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
 
-For
+Fora
 - S1. Linux amd64 CLI as service node; and
 - S2. PostgreSQL as database engine.
- 
-**Checklist**:
-- [ ] Specs: link to specs
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-#### P2P Reliability Implementation in the Browser
-
-**Owner**: js-waku
-
-**Feature**: [P2P Reliability](./FURPS/application/p2p_reliability.md)
-
-**FURPS**:
-- F1. Improves probability of message propagation through redundant publishing and receiving.
-- F2. Enables detection and remedy of message losses between peers using Store or Filter based reliability strategies.
-- F3. Enhances Lightpush reliability through service node pooling, redundant publishing, and failure detection.
-- F4. Improves Filter reliability through redundant subscriptions and subscription health monitoring.
-- U1. Provides feedback on message delivery status leveraging store protocol.
-- U2. Automatically handles reconnection and retransmission when failures are detected.
-
-For
-- S1. Within browser environments (edge node mode)
 
 **Checklist**:
 - [ ] Specs: link to specs
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-### Introduce E2E Reliability in Status Communities and Web Apps
-
-To solve reliability is to solve two problems:
-
-1. High heuristic that messages are received and sent
-2. Ability to know whether messages are received or sent
-
-Problem (1) can never be 100% reliable in a network environment. The previous milestones focused on it.
-To solve (2), is to create an end-to-end protocol, sender to recipient, that enables the ability to know whether recipient(s) have received messages.
-
-With this milestone, we design and deliver a first PoC for an end-to-end reliability protocol.
-This protocol will be specified and implemented in the Status app for Status Communities chat rooms;
-as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
-
-**deliverables**:
-
-TBD
