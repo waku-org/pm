@@ -14,11 +14,17 @@ User experience is catered for, in terms of delay of message retrieval and reten
 which is why store performance is also review and maximized for the current circumstances.
 Limited effort will be spent on store performance as its relevance is expected to reduce mid-long term.
 
+**FURPS** (see deliverables)
+
 **Deliverables**:
+
+
 
 <!--
 Once the deliverables are created as GitHub issues, we can delete the content below
 and just provide a list of GitHub issues, or even simpler, a link to the GitHub milestone that contain them.
+
+Also copy the FURPS from deliverable here.
 -->
 
 ## Define and Implement Light Push Error codes in nwaku.

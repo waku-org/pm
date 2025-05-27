@@ -14,7 +14,11 @@ With this milestone, we design and deliver a first PoC for an end-to-end reliabi
 This protocol will be specified and implemented in the Status app for Status Communities chat rooms;
 as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 
-**deliverables**: https://github.com/waku-org/pm/milestone/29
+**FURPS**:
+
+- [SDS](/FURPS/application/sds.md): F1-2, U1-2, R1-2, P1-2, S1
+
+**GitHub Milestone and deliverables**: https://github.com/waku-org/pm/milestone/29
 
 ## [End-to-end reliability protocol - Status integration]()
 
