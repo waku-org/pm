@@ -14,25 +14,38 @@ With this milestone, we design and deliver a first PoC for an end-to-end reliabi
 This protocol will be specified and implemented in the Status app for Status Communities chat rooms;
 as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 
-**FURPS**:
-
-- [SDS](/FURPS/application/sds.md): F1-2, U1-2, R1-2, P1-2, S1
+**FURPS** (see deliverables)
 
 **GitHub Milestone and deliverables**: https://github.com/waku-org/pm/milestone/29
 
-## [End-to-end reliability protocol - Status integration](https://github.com/waku-org/pm/issues/194)
-
-TODO:
-- modify existing issue to the following template
-- Potentially split this deliverable in two:
-  1. initial integration in Status (this)
-  2. recovery mechanisms (store query, etc) (new deliverable)
+## [SDS protocol in Status - basic integration](https://github.com/waku-org/pm/issues/194)
 
 **Owner**: core research
 
 **Feature**: [SDS](/FURPS/application/sds.md)
 
-**FURPS**: all
+**FURPS**:
+F1. Ability to know that a published message has been received by at least one member of the group (and could therefore eventually be retrieved by other members).
+F2. Ability for participants to know when they have missed a message
+U1. When sending a message to a large group, the application knows whether it was received by other group members, with high probability
+U2. When being part of a large group, the application is able to know whether they are missing messages
+
+**Checklist**:
+- [ ] Specs: link to specs
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+## [SDS protocol in Status - basic recovery]()
+
+**Owner**: chat sdk
+
+**Feature**: [SDS](/FURPS/application/sds.md)
+
+**FURPS**:
+F3. Ability to resend unacknowledged messages
+F2. Ability to retrieve missed messages using Waku store protocol
+U3. When being part of a large group, the application is able to retrieve missed messages
 
 **Checklist**:
 - [ ] Specs: link to specs
