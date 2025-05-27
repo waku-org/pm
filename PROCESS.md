@@ -130,15 +130,15 @@ Finally, for _Tasks_ that do not belong to a _Deliverable_:
 
 ### Responsibilities
 
-| Task                                                             | Does it             | Ensure it's done  |
-|------------------------------------------------------------------|---------------------|-------------------|
-| Set Milestones, FURPS and Deliverables                           | Waku Lead           | Insights          |
-| Create GitHub milestones in pm repo                              | Program Manager     | Waku Lead         |
-| Create Deliverable issues in pm repo                             | Deliverable Owner   | Program Manager   |
-| Create issues, PR (tasks) and link them to the deliverable issue | Deliverable Owner   | Deliverable Owner |
-| Close Deliverables                                               | Waku Lead           | Program Manager   |
-| Handover to Vac-QA, Vac-DST                                      | Deliverable Owner   | Vac PoCs          |
-| Proceed with Dogfooding                                          | Deliverable Owner   | Waku Lead         |
+| Task                                                             | Does it         | Ensure it's done |
+|------------------------------------------------------------------|-----------------|------------------|
+| Set Milestones, FURPS and Deliverables                           | Waku Lead       | Insights         |
+| Create GitHub milestones in pm repo                              | Program Manager | Waku Lead        |
+| Create Deliverable issues in pm repo                             | Team Lead       | Program Manager  |
+| Create issues, PR (tasks) and link them to the deliverable issue | Team Member     | Team Lead        |
+| Handover to Vac-QA, Vac-DST                                      | Team Member     | Team Lead        |
+| Proceed with Dogfooding                                          | Team Member     | Team Lead        |
+| Close Deliverable                                                | Waku Lead       | Program Manager  |
 
 - Waku Lead: @fryorcraken
 - Program Manager: @chair28980
