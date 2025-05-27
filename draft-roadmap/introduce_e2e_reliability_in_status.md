@@ -20,9 +20,13 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 
 **GitHub Milestone and deliverables**: https://github.com/waku-org/pm/milestone/29
 
-## [End-to-end reliability protocol - Status integration]()
+## [End-to-end reliability protocol - Status integration](https://github.com/waku-org/pm/issues/194)
 
-(need to modify existing issue to the following template)
+TODO:
+- modify existing issue to the following template
+- Potentially split this deliverable in two:
+  1. initial integration in Status (this)
+  2. recovery mechanisms (store query, etc) (new deliverable)
 
 **Owner**: core research
 
