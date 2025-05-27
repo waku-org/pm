@@ -24,4 +24,4 @@
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. Status Desktop CI builds binaries with nwaku, alongside go-waku-based binaries.
+1. Status Desktop CI builds binaries with nwsaku, alongside go-waku-based binaries.
