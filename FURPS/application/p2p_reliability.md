@@ -4,7 +4,7 @@
 
 1. Improves probability of message propagation through redundant publishing and receiving.
 2. Enables detection and remedy of message losses between peers using Store or Filter based reliability strategies.
-3. Enhances Lightpush reliability through service node pooling, redundant publishing, and failure detection.
+3. Enhances Light Push reliability through service node pooling, redundant publishing, and failure detection.
 4. Improves Filter reliability through redundant subscriptions and subscription health monitoring.
 
 ## Usability

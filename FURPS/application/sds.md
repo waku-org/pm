@@ -2,8 +2,8 @@
 
 ## Functionality
 
-1. 🏗️ Ability to know that a published message has been received by at least one member of the group (and could therefore eventually be retrieved by other members).
-2. 🏗️ Ability for participants to know when they have missed a message, and to retrieve them using Waku store protocol
+1. Ability to know that a published message has been received by at least one member of the group (and could therefore eventually be retrieved by other members).
+2. Ability for participants to know when they have missed a message, and to retrieve them using Waku store protocol
 
 ## Usability
 
