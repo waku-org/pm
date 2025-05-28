@@ -25,10 +25,10 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 **Feature**: [SDS](/FURPS/application/sds.md)
 
 **FURPS**:
-F1. Ability to know that a published message has been received by at least one member of the group (and could therefore eventually be retrieved by other members).
-F2. Ability for participants to know when they have missed a message
-U1. When sending a message to a large group, the application knows whether it was received by other group members, with high probability
-U2. When being part of a large group, the application is able to know whether they are missing messages
+- F1. Ability to know that a published message has been received by at least one member of the group (and could therefore eventually be retrieved by other members).
+- F2. Ability for participants to know when they have missed a message
+- U1. When sending a message to a large group, the application knows whether it was received by other group members, with high probability
+- U2. When being part of a large group, the application is able to know whether they are missing messages
 
 **Checklist**:
 - [ ] Specs: link to specs
