@@ -38,14 +38,14 @@ U2. When being part of a large group, the application is able to know whether th
 
 ## [SDS protocol in Status - basic recovery]()
 
-**Owner**: chat sdk
+**Owner**: chat app dev
 
 **Feature**: [SDS](/FURPS/application/sds.md)
 
 **FURPS**:
-F3. Ability to resend unacknowledged messages
-F2. Ability to retrieve missed messages using Waku store protocol
-U3. When being part of a large group, the application is able to retrieve missed messages
+- F3. Ability to resend unacknowledged messages
+- F2. Ability to retrieve missed messages using Waku store protocol
+- U3. When being part of a large group, the application is able to retrieve missed messages
 
 **Checklist**:
 - [ ] Specs: link to specs
