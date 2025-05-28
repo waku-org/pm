@@ -29,6 +29,10 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 - F2. Ability for participants to know when they have missed a message
 - U1. When sending a message to a large group, the application knows whether it was received by other group members, with high probability
 - U2. When being part of a large group, the application is able to know whether they are missing messages
+- R1. When sending a message in a group, the publisher can ascertain the message was received by at least one recipient **(Vac-QA)**
+- R2. When receiving messages in a group, the receiver can ascertain most missed messages by receiving one recent message from the group. **(Vac-QA)**
+- P1. When sending a message in a group, the publisher can ensure the message was received by at least one recipient within `S` seconds **(Vac-DST)**
+- P2. When receiving messages in a group, the receiver can detect 90% of missed messages within `3*S` seconds
 
 **Checklist**:
 - [ ] Specs: link to specs
@@ -44,8 +48,9 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 
 **FURPS**:
 - F3. Ability to resend unacknowledged messages
-- F2. Ability to retrieve missed messages using Waku store protocol
+- F4. Ability to retrieve missed messages using Waku store protocol
 - U3. When being part of a large group, the application is able to retrieve missed messages
+- P3. When receiving messages in group, the receiver can reach eventual consistency within `6*S` seconds **(Vac-DST)**
 
 **Checklist**:
 - [ ] Specs: link to specs
