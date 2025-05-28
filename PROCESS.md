@@ -2,132 +2,145 @@
 
 ## Motivation and Goal
 
-Implement the following attribute when delivering:
+Provide a clear visibility to anyone (CCs or not) of:
+  - What work is planned
+  - What work is in progress
+  - What work is done
 
-1. Clear tracking of work across the teams so that when we says that a milestone is delivered, then:
-   - it is usable by all types of users (operators, web devs, system devs).
-   - It is documented (docs, dev rel)
-   - It is of high quality (QA, Dogfooding)
-2. Items (Milestones, Deliverables, Tasks) can easily be closed and marked as complete thanks to:
-    - Minimal external dependencies
-    - Minimal intra-team dependency
-    - Finite, well-define scope.
-3. Each milestone and the effort needed to achieve it has a clear value thanks to a well-defined, value-driven, and minimal scope.
+Software properties are considered *delivered* when:
+
+- it is ready-to-use
+- the behaviour is documented in [specifications](https://waku.org/specs)
+- the software has been used (dogfooding) by the Waku team
+- documentation on how to use said properties is delivered
+
+See [Waku Methodology](https://www.notion.so/Waku-Mission-and-Methodology-1a58f96fb65c80b9b789c1bbb9e99915) (draft) for more.
+
+## Team Structure
+
+The Waku team is currently organized in the following subteams:
+
+- Core Research
+- nwaku
+- js-waku
+- Chat/App Dev
+- Chat/App Research
+- Business Dev
+
+## Documents
+
+- [Waku FURPS](https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00)
+- [Waku Milestones](https://roadmap.logos.co/waku/waku-milestones)
 
 ## Terminology and Scope
 
-| Name         | Number of             | Timeframe                                      | Team Scope                                      | Owner                  | Description                                           |
-|--------------|-----------------------|------------------------------------------------|-------------------------------------------------|------------------------|-------------------------------------------------------|
-| Milestone    | ?                     | Pencilled for the year, planned for 2 quarters | Most subteams                                   | Waku Lead              | A, or cohesive set of, feature(s).                    |
-| Deliverable         | Several per milestone | Set for a milestone                            | Subteam leads | Waku Lead | Deliverable may be the result of the work of one, some or all Waku subteams.                   |
-| Task         | Several per Deliverable         | Set monthly-ish, delivered weekly***              | One subteam or individual                       | Team Member            | May be one or several pieces of work, client specific. |
+### FURPS
 
-## Milestone Definition
-
-A *Milestone*:
-
-1. **Provides a tangible user benefit:** The milestone should aim to provide a distinct benefit or feature to the user, whether they are end users, operators, or developers. In some cases, a milestone may be a bundle of small features. The bundle of features should be cohesive and the benefit to the users should be easy to summarize. Most likely, a bundled milestone will be scoped to a given track.
-2. **Minimal Scope:** The milestone should be trimmed to a minimal scope, encompassing only what is *just enough* to assess the potential impact of these features on the project's metrics (e.g. number of users, revenue). This means descoping any advanced features and aiming for a MVP-level delivery.
-3. **Transversal:** While the vertical scope of a milestone should be minimal, the delivery should be complete in terms of research, engineering, QA, documentation and dev rel assets so that the feature can be pushed to users once the milestone is marked as complete. Feedback loops should be as small as possible to ensure the value of a milestone is measured in a timely manner.
-4. **Attached Estimate:** An estimate should be associated with the milestone to facilitate the measurement of potential ROI. Additionally, tracking the estimate versus the actual progress is crucial for identifying any deviation and making informed decisions (e.g., deciding whether to continue if we learn the estimate is likely to be overrun).
-
-## Workflow
-
-A *Milestone* is divided into *Deliverables*. A *Deliverable* is divided into *Tasks* that are assigned to a given subteam.
-
-### Accountability
-
-For development teams, it is expected that design/break down is done by the *Deliverable* and/or *Task* owner.
-But actual work can be picked up by other team members.
-Task owner must:
-
-- Understand the change and its implications,
-- Liaise with researcher for any doubt or questions or design issues related to specific client/use case,
-- Create issues (_Tasks_) to break down work in client repo, include an _acceptance criteria_ in each issue to ensure that the objective/end goal/behaviour is clearly described.
-
-It is likely that the task owner will do the core change or first change for a given task.
-However, subsequent/other changes may be picked up in parallel or sequentially by other team members.
-
-Hence:
-- dependencies must be clearly stated in _Task_ issue description
-- Team members must assign _Task_ issues to themselves when work starts
-- Team members must update issues to track progress
-
-The program manager should ensure that Deliverables are getting the right assignee in a timely fashion.
-For example, when research work starts for a given milestone, Deliverable owners from development team should be assigned, so they know to participate in discussions.
-
-Program manager should also ensure that issues are being created in a timely fashion, and is encouraged to use client PM call as a forum to check deliverables to be assigned, for example when a given deliverable is near completion.
-
-### Handovers
-
-The following handovers are defined:
-
-| Handover                      | Expectations when handing over                                                                           | Expectations when accepting handover                                                                  |
-|-------------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Research to development teams | - RFC PR is merged <br /> - PoC PR is merged                                                             | - RFC content and PoC are reviewed <br /> - Own code and functionality <br /> - Own minor RFC changes |  
-| Development teams to QA       | - Happy path and selected error path tests exist <br /> - APIs are implemented to enable interop testing | - Review RFC <br /> - Review existing tests                                                           |
-
-The group or person handing over is expected to initiate a sync (meeting) or async (chat or GitHub) discussion to go through the output and overview.
-
-Once the handover is accepted, the given deliverable can be closed.
-
-### GitHub Usage
-
-A _Milestone_:
-- MUST have a GitHub Milestone in https://github.com/waku-org/pm repo, to which relevant _Deliverables_ are added.
-- The GitHub milestone MUST be used to track progress.
-
-A _Deliverable_:
-- MUST be defined as an issue in the https://github.com/waku-org/pm repo.
-- MUST be included in its parent _Milestone_.
-- MUST have an _Output_ section in the description detailing the result of work of the Deliverable.
-- MUST have a `Planned Start` and `Due Date` set
-
-A _Task_:
-- MUST be tracked as a todo item in a GitHub Issue (_Deliverable_)
-- MUST have an _acceptance criteria_ and/or a list of _tasks_ (that can be other GH issues).
-
-Finally, for _Tasks_ that do not belong to a _Deliverable_:
-- MUST qualify as
-  - `Bugs` - bugs reported by users or discovered internally.
-  - `Tests` - maintaining and fixing broken tests, if a test must be fixed as a result from a change from a *Deliverable* the work should be tracked and group with that *Deliverable*.
-  - `Releases` - work related to releasing version upgrades.
-
-Which means, in terms of _navigation_:
-- Work for a Milestone is described in the [Roadmap](https://roadmap.logos.co/waku/waku-milestones) and tracked in the GitHub milestone in the pm repo.
-- In the GitHub milestone, we have a list of _Deliverables_ to be achieved, the _Deliverables_ are being closed as the work is done and handed over.
-
-### Responsibilities
-
-| Task                                                        | Responsible     | Accountable     |
-| ----------------------------------------------------------- | --------------- | --------------- |
-| Set Milestones and Deliverables in master document          | Waku Lead       | Insights       |
-| Create GitHub milestones and deliverables issues in pm repo | Team Leads | Waku Lead       |
-| Create issues, PR (tasks) and link them to **deliverables**             | Team Member     | Team Lead       |
-| Close deliverable                                           | Waku Lead       | Program Manager |
-| Handover to Vac-QA, Vac-DST                                 | Team Lead       | Vac PoC     |
-| Proceed with Dogfooding                                     | Team Lead       | Waku Lead       |
-
-Responsible: who does the work
-Accountable:  delegates and reviews
-
-Waku Lead: @fryorcraken
-Program Manager: @chair28980
-Team Lead: @plopezlpz @Ivansete-status @jm-clius @weboko
-VAC PoC: @jm-clius
-
-## FURPS
-
-Fore each *milestone*, FURPS headlines are defined by the Waku Lead.
-
-[FURPS](https://www.marcinziemek.com/blog/content/articles/8/article_en.html) are defined as:
+[FURPS](https://en.wikipedia.org/wiki/FURPS) are used to define software behaviour and property.
+They are defined as:
 - F: Functionality
 - U: Usability
 - R: Reliability
 - P: Performance
 - S: Supportability
 
-- For every `P` (Performance) there must be a Grafana panel (pointed to fleet), and a **Vac-DST** simulation to *sign-off* the `P` (search for “**Vac-DST**”).
-- For every `R` (Reliablity) there should be a test suite by Vac-QA that sign-off the `R` in unreliable network environment (search for “**Vac-QA**”);  and potentially a Grafana panel (pointed to fleet), and a Vac-DST simulation (if relevant).
-- Deliverables deliver a number of FURPS: `deliverable name: FURPS they deliver`
-- Deliverables are owned by one or several teams, specified in parenthesis after deliverable
+Moreover: 
+
+- A *set of FURPS* define the behaviour of a specific protocol implementation or feature.
+- "a FURPS" refers to an individual FURPS statement (e.g. "S1. available in libwaku").
+- For every `P` (Performance) there should be a Grafana panel (pointed to fleet), and a **Vac-DST** simulation to *sign-off* the `P` (search for “**Vac-DST**”).
+  If it cannot be measured, then it cannot be a statement (in some instances, DST simulation may be enough).
+- For every `R` (Reliability) there should be a test suite by Vac-QA that sign-off the `R` in unreliable network environment (search for “**Vac-QA**”);  and potentially a Grafana panel (pointed to fleet), and a Vac-DST simulation (if relevant).
+
+### Feature
+
+A feature is a specific domain of Waku software behaviour.
+It can be a protocol, or a set of closely-related protocols.
+It has one related set of FURPS.
+
+For example, "End-to-end reliability" is a feature that refers to the SDS protocol.
+
+### Deliverable
+
+A deliverable is the work tackled by one subteam in regards to one FURPS set.
+In other words, it tracks the delivery of specific FURP(S), for one feature, by one subteam.
+
+For example:
+
+> Light Push FURPS
+> - F1. Light push returns itemized error code when the service node cannot forward a message.
+> - S1. nwaku service node
+> - S2. Browser edge node
+
+To track the work to achieve these FURPS, two deliverables should be created: 
+
+1. [nwaku] Support error code in light push: Implement Light Push FURPS F1, S1.
+2. [js-waku] Support error code in light push: Implement Light Push FURPS F1, S2.
+
+When the **work** is not related to software behaviour (e.g. a contributor guide, some BD activities),
+then a deliverable is used to define the expected output, without referring to specific FURPS.
+
+Deliverables are owned by one, and only one, subteam.
+If a deliverable's execution depends on a group external to Waku, then it should be explicitly stated.
+
+### Milestone
+
+A milestone describes a specific objective we aim to achieve.
+It holds the narrative of **why** we are doing this work and what is the value attached to completing the work.
+
+A milestone usually involves effort from most of the Waku team.
+The work should be organized to prioritise the delivery of complete milestones, over individual deliverables.
+
+Milestone have estimation of effort and date of completion defined.
+
+### Task
+
+A *task* is a piece of work necessary to a deliverable.
+A task may be defined as a checkbox, or a GitHub issue.
+It is up to a subteam to decide how they organize their tasks (e.g. whether to use epics, issues per task, etc).
+
+## Rules
+
+Here are some rules to ensure the efficacy of our process.
+What is not explicitly defined is left to the subteam's choice.
+
+A _Milestone_:
+- MUST have a GitHub Milestone in https://github.com/waku-org/pm repo, to which relevant _FURPS_ statements or _Deliverables_ are added.
+- MUST have an *estimated date of completion*
+- MUST have an effort estimate, stating how many CCs are needed to work on this for a given half-year (e.g. one research, half an engineer)
+
+A _Deliverable_:
+- MUST be defined as an issue in the https://github.com/waku-org/pm repo.
+- MUST be included in its parent _Milestone_.
+- MUST have an _Output_ section in the description detailing the result of work of the Deliverable, this may be a list of FURPS.
+- If tracking FURPS, the FURPS only belong to one feature aka FURPS set.
+- MUST have only one owner, assigned to the GitHub issue; a Waku subteam lead or team member.
+- MUST have a checklist to ensure the following items are done:
+  - specs
+  - code
+  - dogfooding
+  - docs
+
+Finally, for _Tasks_ that do not belong to a _Deliverable_:
+- MUST qualify either as (with related GitHub labels)
+  - `bug`: bugs reported by users or discovered internally, SHOULD be linked back to a corresponding _FURPS_ and _Milestone_
+  - `test`: maintaining and fixing broken tests, SHOULD ideally be linked back to a corresponding _FURPS_ and _Milestone_
+  - `release`: work associated with releasing new versions.
+  - `dependencies`: work associated with updating dependency versions.
+
+### Responsibilities
+
+| Task                                                             | Does it         | Ensure it's done |
+|------------------------------------------------------------------|-----------------|------------------|
+| Set Milestones, FURPS and Deliverables                           | Waku Lead       | Insights         |
+| Create GitHub milestones in pm repo                              | Program Manager | Waku Lead        |
+| Create Deliverable issues in pm repo                             | Team Lead       | Program Manager  |
+| Create issues, PR (tasks) and link them to the deliverable issue | Team Member     | Team Lead        |
+| Handover to Vac-QA, Vac-DST                                      | Team Member     | Team Lead        |
+| Proceed with Dogfooding                                          | Team Member     | Team Lead        |
+| Close Deliverable                                                | Waku Lead       | Program Manager  |
+
+- Waku Lead: @fryorcraken
+- Program Manager: @chair28980
+- Team Lead: @plopezlpz @Ivansete-status @jm-clius @weboko @jazzz
+- VAC PoC: @jm-clius, @stubbsta for Vac-DST
