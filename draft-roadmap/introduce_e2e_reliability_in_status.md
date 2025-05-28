@@ -34,6 +34,8 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 - P1. When sending a message in a group, the publisher can ensure the message was received by at least one recipient within `S` seconds **(Vac-DST)**
 - P2. When receiving messages in a group, the receiver can detect 90% of missed messages within `3*S` seconds
 
+For S1. Applied to Communities channels on Status Desktop
+
 **Checklist**:
 - [ ] Specs: link to specs
 - [ ] Code: link to GitHub issues/PRs/Epic
@@ -51,6 +53,8 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 - F4. Ability to retrieve missed messages using Waku store protocol
 - U3. When being part of a large group, the application is able to retrieve missed messages
 - P3. When receiving messages in group, the receiver can reach eventual consistency within `6*S` seconds **(Vac-DST)**
+
+For S1. Applied to Communities channels on Status Desktop
 
 **Checklist**:
 - [ ] Specs: link to specs
