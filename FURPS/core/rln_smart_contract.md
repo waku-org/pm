@@ -12,7 +12,6 @@
 1. Application developers can set RLN rate limit at insertion.
 2. User do not need to wait for merkle tree synchronization and building to start relaying
    or sending messages.
-3. 
 
 ## Reliability
 
@@ -20,7 +19,8 @@
 
 ## Performance
 
-1. ...
+1. New node setup with an RLN membership can be ready to verify RLN proof within 5s,
+   no matter the size of the tree **(Vac-DST)**.
 
 ## Supportability
 
@@ -28,7 +28,6 @@
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. Smart Contracts are deployed on Status Network Testnet.
-2. TWN uses smart contracts deployed on Status Network Testnet.
-3. Smart Contracts have been audited.
+1. Smart Contracts are deployed on Linea Testnet.
+2. TWN uses smart contracts deployed on Linea Testnet.
 

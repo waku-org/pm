@@ -15,11 +15,9 @@
 
 ## Performance
 
-1. New relay node setup with an RLN membership can be ready to verify RLN rpoof within 5s,
-   no matter the size of the tree **(Vac-DST)**.
-2. In a network of 10k RLN Relay nodes with each node sending one 1-100KB message every 10-30s,
+1. In a network of 10k RLN Relay nodes with each node sending one 1-100KB message every 10-30s,
    messages are propagated within 500ms, with 99.9% success **(Vac-DST)**.
-3. In a network of 10k RLN Relay nodes,
+2. In a network of 10k RLN Relay nodes,
    a spamming node will be disconnected from its peers in under 1 min. **(Vac-DST)**
 
 ## Supportability

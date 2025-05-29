@@ -15,7 +15,7 @@
 **Feature**: [<Feature Name (only 1)>](<path/to/furps/file>)
 
 **FURPS**:
-- <F1. copy-paste full furp statement>
+- <F1. copy-paste full furps statement>
 
 **Checklist**:
 - [ ] Specs: link to specs
