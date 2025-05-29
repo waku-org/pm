@@ -5,7 +5,7 @@
 1. Developers can create an account in a permissionless way, to communicate on the network.
 2. Accounts can send messages to conversations with one other participant.
 3. All conversations benefit from forward secrecy and post-compromise security.
-4. SDK provides read-receipt functionality.
+4. Sender gets confirmation of message reception by recipient device.
 5. Developers can create their own payload types or use supplied basic types.
 6. SDK provides default MessageStore for developers.
 
