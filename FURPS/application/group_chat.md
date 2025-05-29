@@ -1,20 +1,16 @@
-# ChatSDK Extension: MultiInstallations + Groups
+# Group Chat
 
 ## Functionality
 
 1. Accounts can receive a message in multiple locations by registering new installations.
 2. Accounts can view and remove installations as needed.
 3. Accounts can create GroupChats between multiple accounts.
-6. There is a default  
-SDK provides default MessageStore for developers.
 7. Participants can set a group name and description for all participants in the group. 
 8. Account can view all installations provisioned for themselves account.
 9. Account can manage and revoke other installations incase of a lost device.
 
 ## Usability
 
-1. Senders can use account level addresses to send messages.
-2. Developers can create secure groupchats asynchronously without needing remote accounts to come online
 
 ## Reliability
 

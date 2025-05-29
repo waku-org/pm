@@ -1,4 +1,4 @@
-# ChatSDK: MVP
+# Chat SDK
 
 ## Functionality
 
@@ -7,13 +7,15 @@
 3. All conversations benefit from forward secrecy and post-compromise security.
 4. Sender gets confirmation of message reception by recipient device.
 5. Developers can create their own payload types or use supplied basic types.
-6. SDK provides default MessageStore for developers.
+6. Sdk contains a default message database for developers.
+7. Sdk contains a default secrets database for developers.
 
 ## Usability
 
 1. Senders can use account level addresses to send messages.
 2. Developers can create secure sessions asynchronously without needing remote accounts to come online.
 4. Conversations are initiated by sharing invite links out-of-band.
+3. Minimal example of the ChatSDK is no more than 25 lines of code.
 
 ## Reliability
 
@@ -25,7 +27,7 @@
 
 ## Supportability
 
-1. Messaging integrates WAKU:RLN, supporting configuration, and minimizing payloads on network.
+1. Messaging integrates Waku RLN, supporting configuration, and limited outbound message per epoch.
 2. Payload definitions are versioned to support future protocol updates.
 
 ## +Privacy
