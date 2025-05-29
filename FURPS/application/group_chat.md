@@ -6,7 +6,7 @@
 2. Accounts can view and remove installations as needed.
 3. Accounts can create GroupChats between multiple accounts.
 7. Participants can set a group name and description for all participants in the group. 
-8. Account can view all installations provisioned for their account.
+8. Account can view all provisioned installations.
 9. Account can revoke other installations in case of a lost device.
 
 ## Usability
