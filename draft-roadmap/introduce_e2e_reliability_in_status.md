@@ -42,7 +42,7 @@ For S1. Applied to Communities channels on Status Desktop
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## [SDS protocol in Status - basic recovery]()
+## [SDS protocol in Status - basic recovery](https://github.com/waku-org/pm/issues/304)
 
 **Owner**: chat app dev
 
