@@ -13,7 +13,6 @@
 
 1. Senders can use account level addresses to send messages.
 2. Developers can create secure sessions asynchronously without needing remote accounts to come online.
-3. Developers can send messages without wallet signatures or friction to user.
 4. Conversations are initiated by sharing invite links out-of-band.
 
 ## Reliability
