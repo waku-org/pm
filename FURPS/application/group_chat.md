@@ -2,12 +2,12 @@
 
 ## Functionality
 
-1. Accounts can receive a message in multiple locations by registering new installations.
+1. Accounts can receive a message in multiple locations (e.g. devices) by registering new installations.
 2. Accounts can view and remove installations as needed.
 3. Accounts can create GroupChats between multiple accounts.
 7. Participants can set a group name and description for all participants in the group. 
-8. Account can view all installations provisioned for themselves account.
-9. Account can manage and revoke other installations incase of a lost device.
+8. Account can view all installations provisioned for their account.
+9. Account can revoke other installations in case of a lost device.
 
 ## Usability
 
