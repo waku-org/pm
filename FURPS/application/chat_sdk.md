@@ -23,7 +23,7 @@
 
 ## Performance
 
-1. TBD.
+1. Group chats can support 100 Installations.
 
 ## Supportability
 
