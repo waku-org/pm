@@ -7,12 +7,14 @@
 3. RLNaaS clients can use local reputation of RLNaaS providers to select what provider to use.
 4. Payments can be done by batch.
 5. Service node cannot take whole batch payment without providing the expected service.
+   (TODO: may be dropped, see [deliverable](/draft-roadmap/define_incentivization_for_rlnaas.md#-privacy-preserving-payment-streaming-f5-u3-s1-research) )
 
 ## Usability
 
 1. A consumer node can pay a service node for RLNaaS.
 2. A consumer node can select an RLNaaS provider based on their price and local reputation.
 3. A user can pay a service provider without revealing their wallet address.
+   (TODO: may be dropped, see [deliverable](/draft-roadmap/define_incentivization_for_rlnaas.md#-privacy-preserving-payment-streaming-f5-u3-s1-research) )
 
 ## Reliability
  

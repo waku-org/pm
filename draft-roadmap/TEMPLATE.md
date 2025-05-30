@@ -1,5 +1,7 @@
 # <Milestone Title - use verb>
 
+**Estimated date of completion**: <Enter date>
+
 <Milestone Description - what do we get once done>
 
 **FURPS**:
