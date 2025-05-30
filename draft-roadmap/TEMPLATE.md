@@ -1,23 +1,29 @@
-# <Milestone Title - use verb>
+# {Milestone Title - use verb}
 
-**Estimated date of completion**: <Enter date>
+**Estimated date of completion**: {Enter date}
 
-<Milestone Description - what do we get once done>
+**Resources Required**:
+- {roles and % application to it}
+- {external services consumed (Vac/IFT)}
+- {infrastructure}
+
+
+{Milestone Description - what do we get once done}
 
 **FURPS**:
 
-- [<Feature Name>](<path/to/furps/file>): <list of furps: F1, etc>
+- [{Feature Name}]({path/to/furps/file}): {list of furps: F1, etc}
 
 **deliverables**: 
 
-## <Name of deliverable 1 - eg "improve feature X for the browser">
+## {Name of deliverable 1 - eg "improve feature X for the browser"}
 
-**Owner**: <one waku subteam>
+**Owner**: {one waku subteam}
 
-**Feature**: [<Feature Name (only 1)>](<path/to/furps/file>)
+**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
 
 **FURPS**:
-- <F1. copy-paste full furps statement>
+- {F1. copy-paste full furps statement}
 
 **Checklist**:
 - [ ] Specs: link to specs

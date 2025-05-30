@@ -1,4 +1,4 @@
-# <Feature Name> FURPS
+# {Feature Name} FURPS
 
 ## Functionality
 
