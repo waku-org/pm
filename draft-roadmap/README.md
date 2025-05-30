@@ -10,9 +10,9 @@ Testing out new format, once approved:
 
 - [Define and Implement Peer-To-Peer Reliability Strategies](./define_p2p_reliability.md)
 - [Introduce E2E Reliability in Status Communities](./introduce_e2e_reliability_in_status.md)
-- [Deploy RLN onchain tree on L2 testnet](/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md)
+- [Deploy RLN Onchain Tree on L2 Testnet](/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md)
 - [Integrate nwaku in Status Desktop, relay mode only](/draft-roadmap/integrate_nwaku_in_status_desktop_relay_mode_only.md)
-- [Define incentivization for RLNaaS](TODO)
+- [Define Incentivization for RLNaaS](/draft-roadmap/define_incentivization_for_rlnaas.md)
 
 #### P2P Reliability Implementation in the Browser
 
