@@ -8,6 +8,7 @@
 4. Supports pagination for efficient retrieval of large message sets, and resuming retrieval after disconnection.
 5. Supports comprehensive error codes for various failure scenarios.
 6. Industry practices are applied to PostgreSQL setup to reach appropriate performance
+7. Provides a retention policy mechanism that allows keeping the disk occupation constant.
 
 ## Usability
 
