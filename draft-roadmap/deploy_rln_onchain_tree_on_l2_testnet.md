@@ -78,14 +78,16 @@ It will then be possible to design the usage of RLN in Chat SDK.
 
 **FURPS**:
 
-- F1. User can generate and insert an RLN membership.
-- F2. User can extend an RLN membership.
-- F3. User can withdraw an RLN membership deposit.
-- F4. The generated credentials can be exported and then imported into `wakunode2`.
-- U1. User can see the state of their RLN membership.
-- U2. User can manage their membership (register, extend, withdraw).
+- F1. Can generate RLN credentials.
+- F2. Can insert RLN membership in smart contract, with accompanying deposit.
+- F3. Can extend RLN membership on smart contract.
+- F4. Can withdraw deposit from smart contract.
+- F5. Membership credentials are encrypted by default on local disk.
+- U1. RLN membership details can be exported and imported.
+- U2. Deployment details (address, chain id) are persisted by library and in exports.
+- R1. Import and exports are interoperable across all implementations.
 - +1. Deployed on https://rln.waku.org
-- +2. Available for Status Network Testnet contracts.
+- +2. Available for Linea Sepolia Testnet contracts.
 - +3. Proof generation and validation is out of scope.
 
 For S1. Browser application, using web3 wallet browser extensions.
