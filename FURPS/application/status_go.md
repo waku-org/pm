@@ -6,7 +6,7 @@
 
 ## Usability
 
-1. Status Desktop CI builds with 
+1. Status Desktop CI run additional builds that uses nwaku. 
 
 ## Reliability
 
