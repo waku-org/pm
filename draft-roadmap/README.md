@@ -82,9 +82,11 @@ Testing out new format, once approved:
 - [Define and Implement Peer-To-Peer Reliability Strategies](./define_p2p_reliability.md)
 - [Introduce E2E Reliability in Status Communities](./introduce_e2e_reliability_in_status.md)
 - [Foundation for Communities Optimisation](/draft-roadmap/foundation_for_communities_optimisation.md)
+- [Hardening and Scaling Foundations for Private Chat]()
 - [Deploy RLN Onchain Tree on L2 Testnet](/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md)
 - [Integrate nwaku in Status Desktop, relay mode only](/draft-roadmap/integrate_nwaku_in_status_desktop_relay_mode_only.md)
 - [Define Incentivisation for RLNaaS](/draft-roadmap/define_incentivisation_for_rlnaas.md)
+- [Measure Waku Usage](/draft-roadmap/measure_waku_usage.md)
 
 #### P2P Reliability Implementation in the Browser
 

@@ -2,7 +2,7 @@
 
 **Estimated date of completion**: {Enter date}
 
-**Resources Required**:
+**Resources Required for 2025H2**:
 - {roles and % application to it}
 - {external services consumed (Vac/IFT)}
 - {infrastructure}

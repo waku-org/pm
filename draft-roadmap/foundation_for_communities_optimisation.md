@@ -17,6 +17,6 @@ enabling future bandwidth or performance optimization such as setting up differe
 reducing retention time for control messages, or disabling the usage of relay for large messages.
 
 
-**FURPS**: [Status Communities](/FURPS/application/statuscommunities.md): all.
+**FURPS**: [Status Communities](/FURPS/application/status_communities.md): all.
 
 **Milestone and deliverables**: https://github.com/waku-org/pm/milestone/31 
