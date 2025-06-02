@@ -5,16 +5,11 @@
 1. RLNaaS clients proceed to pay RLNaaS providers for attaching RLN proof to published messages.
 2. RLNaaS clients can assess of the quality of a provisioned RLNaaS and use it to build local reputation.
 3. RLNaaS clients can use local reputation of RLNaaS providers to select what provider to use.
-4. Payments can be done by batch.
-5. Service node cannot take whole batch payment without providing the expected service.
-   (TODO: may be dropped, see [deliverable](/draft-roadmap/define_incentivization_for_rlnaas.md#-privacy-preserving-payment-streaming-f5-u3-s1-research) )
 
 ## Usability
 
 1. A consumer node can pay a service node for RLNaaS.
 2. A consumer node can select an RLNaaS provider based on their price and local reputation.
-3. A user can pay a service provider without revealing their wallet address.
-   (TODO: may be dropped, see [deliverable](/draft-roadmap/define_incentivization_for_rlnaas.md#-privacy-preserving-payment-streaming-f5-u3-s1-research) )
 
 ## Reliability
  
@@ -34,5 +29,3 @@
 1. A nwaku-based CLI on a testnet, interaction with a custodial wallet is out-of-scope.
 
 ## + (Privacy, Anonymity, Deployments)
-
-1. Wallet address and IP address are un-linkable (privacy-preserving payment streaming).
