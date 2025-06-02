@@ -1,4 +1,4 @@
-# [Define Incentivization for RLNaaS](https://github.com/waku-org/pm/milestone/35)
+# [Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/35)
 
 By the end of this milestone, we will have defined a roadmap and implemented a working proof of concept to incentivise node operators running Waku infrastructure for shared shards.
 
@@ -18,7 +18,7 @@ This is the first step to providing a sustainable way to scale the Status applic
 
 **Owner**: core research
 
-**Feature**: [Incentivization](/FURPS/core/incentivization.md)
+**Feature**: [Incentivisation](/FURPS/core/incentivisation.md)
 
 **FURPS**:
 - F1. RLNaaS clients proceed to pay RLNaaS providers for attaching RLN proof to published messages.

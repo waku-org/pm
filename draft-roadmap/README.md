@@ -30,8 +30,8 @@ Period in planning: 2025 H2
 #### Research Items
 
 1. RLN (as above)
-2. **Incentivization:** Deliver incentivization PoC for reliability, scalability, risk (running own fleet) and sustainability.
-3. **Decentralization and privacy**: continue research work to further decentralized Waku protocols, specifically store, and increase anonymity properties with libp2p-mixnet
+2. **Incentivisation:** Deliver incentivisation PoC for reliability, scalability, risk (running own fleet) and sustainability.
+3. **Decentralisation and privacy**: continue research work to further decentralised Waku protocols, specifically store, and increase anonymity properties with libp2p-mixnet
 
 ### Chat/App Team
 
@@ -83,7 +83,7 @@ Testing out new format, once approved:
 - [Introduce E2E Reliability in Status Communities](./introduce_e2e_reliability_in_status.md)
 - [Deploy RLN Onchain Tree on L2 Testnet](/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md)
 - [Integrate nwaku in Status Desktop, relay mode only](/draft-roadmap/integrate_nwaku_in_status_desktop_relay_mode_only.md)
-- [Define Incentivization for RLNaaS](/draft-roadmap/define_incentivization_for_rlnaas.md)
+- [Define Incentivisation for RLNaaS](/draft-roadmap/define_incentivisation_for_rlnaas.md)
 
 #### P2P Reliability Implementation in the Browser
 

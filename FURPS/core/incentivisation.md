@@ -1,4 +1,4 @@
-# Incentivization FURPS
+# Incentivisation FURPS
 
 ## Functionality
 
