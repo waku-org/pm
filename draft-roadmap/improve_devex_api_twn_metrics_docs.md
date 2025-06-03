@@ -3,7 +3,7 @@
 **Estimated date of completion**: {Enter date}
 
 **Resources Required for 2025H2**:
-- {roles and % application to it}
+- 1 js-waku engineer TODO
 - {external services consumed (Vac/IFT)}
 - {infrastructure}
 
@@ -130,11 +130,13 @@ Spec delivery not included.
 - F2. Support edge node operation mode.
 - F4. Does automatic peer discovery based on the node platform and operation mode.
 - F5. Returns health and connectivity information using proven heuristics.
+- F6. Previously discovered peers are persisted across restarted, and potentially used for future connections.
 - U1. When setting up a Waku node, no need to specify what protocols to mount, only an operational mode (edge or relay).
 - U2. Disconnection detection and recovery, and other peer management matters are automatically handled.
 - U3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
 - U4. Developers pass and receive data to the API in types native to the wrapping language.
 - U5. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
+- U6. Developers only need to handle errors in cases of irretrievable failure requiring end-user action. Internal errors are not bubbled up if they can be recovered internally.
 - R1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 
@@ -157,11 +159,13 @@ For S3. Browser; distribution via npmjs.com.
 - F3. Support relay node operation mode.
 - F4. Does automatic peer discovery based on the node platform and operation mode.
 - F5. Returns health and connectivity information using proven heuristics.
+- F6. Previously discovered peers are persisted across restarted, and potentially used for future connections.
 - U1. When setting up a Waku node, no need to specify what protocols to mount, only an operational mode (edge or relay).
 - U2. Disconnection detection and recovery, and other peer management matters are automatically handled.
 - U3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
 - U4. Developers pass and receive data to the API in types native to the wrapping language.
 - U5. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
+- U6. Developers only need to handle errors in cases of irretrievable failure requiring end-user action. Internal errors are not bubbled up if they can be recovered internally.
 - R1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 
@@ -194,6 +198,23 @@ For:
 
 **FURPS**:
 - S4. QUIC transport is supported for peer-to-peer message routing connections.
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+## Optimise Browser Bootstrapping
+
+**Owner**: js-waku
+
+**Feature**: [js-waku](/FURPS/application/js-waku.md)
+
+**FURPS**:
+
+- R1. From an operating state, a node can resume transmitting messages within 1 second after disconnection; in a network with 1 bootstrap node, 100 service nodes and 500 browser nodes (**Vac-DST**)
+- P1. From a cold start, a node can start transmitting messages within 5 seconds; in a network with 1 bootstrap node, 100 service nodes and 500 browser nodes (**Vac-DST**)
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

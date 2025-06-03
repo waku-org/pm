@@ -9,6 +9,7 @@
 3. Support relay node operation mode.
 4. Does automatic peer discovery based on the node platform and operation mode.
 5. Returns health and connectivity information using proven heuristics.
+6. Previously discovered peers are persisted across restarted, and potentially used for future connections.
 
 ## Usability
 
@@ -17,6 +18,7 @@
 3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
 4. Developers pass and receive data to the API in types native to the wrapping language.
 5. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
+6. Developers only need to handle errors in cases of irretrievable failure requiring end-user action. Internal errors are not bubbled up if they can be recovered internally.
 
 ## Reliability
 
