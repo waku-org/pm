@@ -83,7 +83,8 @@ Spec delivery not included.
 - F5. Returns health and connectivity information using proven heuristics.
 - U1. When setting up a Waku node, no need to specify what protocols to mount, only an operational mode (edge or relay).
 - U2. Disconnection detection and recovery, and other peer management matters are automatically handled.
-- U3. Developers do not need to specificy the protocols used to send and receive messages; it is deduced from the mode of operation.
+- U3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
+- U4. Developers pass and receive data to the API in types native to the wrapping language.
 - R1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 
@@ -108,7 +109,8 @@ For S3. Browser
 - F5. Returns health and connectivity information using proven heuristics.
 - U1. When setting up a Waku node, no need to specify what protocols to mount, only an operational mode (edge or relay).
 - U2. Disconnection detection and recovery, and other peer management matters are automatically handled.
-- U3. Developers do not need to specificy the protocols used to send and receive messages; it is deduced from the mode of operation.
+- U3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
+- U4. Developers pass and receive data to the API in types native to the wrapping language.
 - R1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 
@@ -132,6 +134,21 @@ For:
 - [ ] And contributor doc
 - [ ] Define a guideline for Waku teams to follow when contributing to documentation
 - [ ] Setup an initial structure
+
+## Use Protobuf to transfer data from Wrapper to nwaku library PoC TBC  
+
+**Owner**: {one waku subteam}
+
+**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+
+**FURPS**:
+- {F1. copy-paste full furps statement}
+
+**Checklist**:
+- [ ] Specs: link to specs
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
 
 ## {Name of deliverable 1 - eg "improve feature X for the browser"}
 

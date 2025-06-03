@@ -14,7 +14,8 @@
 
 1. When setting up a Waku node, no need to specify what protocols to mount, only an operational mode (edge or relay).
 2. Disconnection detection and recovery, and other peer management matters are automatically handled.
-3. Developers do not need to specificy the protocols used to send and receive messages; it is deduced from the mode of operation.   
+3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
+4. Developers pass and receive data to the API in types native to the wrapping language.
 
 ## Reliability
 
