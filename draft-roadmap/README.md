@@ -84,15 +84,21 @@ Testing out new format, once approved:
 8. [Introduce mixnet for message sending]()
 9. [Formalize Logos Web Apps]()
 10. [Introduce Chat SDK by enabling basic one-to-one chats]()
-11. [Streamline DevEx: Mobile, Rust and Web dev]()
+11. [Deliver RLN as a Library Usable with Waku API]()
+12. [Streamline DevEx: Mobile, Rust and Web dev]()
 
-not planned yet:
-- Move DST/QA to Waku API (REST API)
-- Performance for mobile
-- webtransport
-- quic
+Pushed to 2026
+- WebTransport: depending on nim-libp2p (delivery Q4)
+- REST API for Waku API: Useful for DST/QA, but let's focus on Status, Chat SDK, and Rust first
+
+Not yet planned/not sure:
+- nwaku performance on mobile: let's focus on finishing desktop integration and getting API ready for Chat SDK + RLN 
+- quic: need to review where to put it, should be easy.
+- Follow-up steps in incentivization: part of current milestone is to produce a roadmap.
 
 ## Gantt
+
+TODO: fix dates
 
 ```mermaid
 gantt
@@ -100,13 +106,22 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %b
     section core research
-        e2e reliability: 2025-07-01, 2025-08-01
+        E2E Reliability: 2025-07-01, 2025-08-01
         RLN: 2025-07-01, 2025-08-01
         Incentivization: 2025-07-01, 2025-08-01
         Mixnet: 2025-07-01, 2025-12-31
     section nwaku
-        p2p reliability: 2025-07-01, 2025-08-01
         Status Desktop: 2025-07-01, 2025-08-01
         RLN: 2025-07-01, 2025-08-01
-        Dev
+        Improve DevEx: 2025-07-01, 2025-09-01
+        Streamline DevEx: 2025-09-01, 2025-12-31
+    section js-waku
+        
+    section app-chat
+        E2E Reliability: 2025-07-01, 2025-08-01
+        Communities Opt: 2025-07-01, 2025-08-01
+        Foundations Private Chats: 2025-07-01, 2025-08-01
+        Improve Dex (metrics): 2025-07-01, 2025-09-01
+        Logos Web Apps: 2025-07-01, 2025-12-31
+        Chat SDK: 2025-07-01, 2025-12-31
 ```
