@@ -29,3 +29,4 @@ Assuming messages in a group are sent at least every `S` seconds.
 ## Supportability
 
 1. Applied to Communities channels on Status Desktop
+2. For Web apps as a developer library.

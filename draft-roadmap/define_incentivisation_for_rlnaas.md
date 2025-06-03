@@ -1,5 +1,12 @@
 # [Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/35)
 
+**Estimated date of completion**: {Enter date}
+
+**Resources Required for 2025H2**:
+- {roles and % application to it}
+- {external services consumed (Vac/IFT)}
+- {infrastructure}
+
 By the end of this milestone, we will have defined a roadmap and implemented a working proof of concept to incentivise node operators running Waku infrastructure for shared shards.
 
 In general, Waku infrastructure consists of RLN Relay nodes both forming the decentralised routing backbone for Waku messages and providing a set of services on top of Waku that might be useful for applications.
@@ -28,7 +35,7 @@ This is the first step to providing a sustainable way to scale the Status applic
 - U2. A consumer node can select an RLNaaS provider based on their price and local reputation.
 - R1. A consumer prefers new providers to known unreliable providers.
 - R2. In a stable network, a client can find, pay and send a message via a RLNaaS provider (**Vac-QA**)
-   in 90% of cases **(Vac-DST)**
+   in 90% of cases **(Vac-DST)**.
 - R3. A client can assess whether an RLNaaS provider has relayed their message (**Vac-QA**)
    in 90% of cases **(Vac-DST)**.
 - P1. Assuming a block time of 5 seconds,

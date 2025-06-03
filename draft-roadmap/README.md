@@ -15,14 +15,9 @@ Period in planning: 2025 H2
 ### Core Team
 
 1. **Complete integration of nwaku in Status Desktop**.
-2. **Simplify a reliable Waku API:** aka Messaging API, make it easier to consume Waku library by simplifying the API
-   and including p2p reliability. This is critical to enable fast Chat SDK development.
-   1. Deliver this API in nim (chat SDK), and Rust SDK, identified as the most promising SDK for community adoption;
-      in addition to Browser and nim (libwaku)
-3. **Harden TWN for Web apps**: Web applications built on The Waku Network suffer from unreliable bootstrapping,
-   continue investigation and resolution of this as planned in *Upgrade Waku for the Web* milestone.
-4. **RLN mainnet and API:** Continue RLN migration to onchain tree + L2 testnet, and necessary steps to get RLN on mainnet.
-   Provide simple API for Chat SDK.
+2. **Simplify a reliable Waku API:** aka Messaging API, make it easier to consume Waku library; critical to enable easy development of Chat SDK.
+3. **Upgrade Waku for the Web**: Ensure web applications built on The Waku Network are reliable.
+4. **RLN mainnet and API:** Continue RLN migration to onchain tree + L2 testnet, and necessary steps to get RLN on mainnet; provide simple API for Chat SDK.
 5. **[Nwaku in Status Mobile and Light Mode MVP](https://github.com/waku-org/pm/milestone/39)**: de-prioritised in favour of cleaning up Waku and RLN APIs for Chat SDK first.
 6. **nwaku performance improvement**: Performance on mobile is critical, hence we will review benchmarks and potentially dedicate effort to this topic
 (note there is some ongoing effort from Status fleet behaviour).
@@ -79,36 +74,39 @@ Testing out new format, once approved:
 - Deliverables are moved to GitHub issues
 - Waku FURPS remains in [FURPS](/FURPS/README.md)
 
-- [Define and Implement Peer-To-Peer Reliability Strategies](./define_p2p_reliability.md)
-- [Introduce E2E Reliability in Status Communities](./introduce_e2e_reliability_in_status.md)
-- [Foundation for Communities Optimisation](/draft-roadmap/foundation_for_communities_optimisation.md)
-- [Hardening and Scaling Foundations for Private Chat]()
-- [Deploy RLN Onchain Tree on L2 Testnet](/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md)
-- [Integrate nwaku in Status Desktop, relay mode only](/draft-roadmap/integrate_nwaku_in_status_desktop_relay_mode_only.md)
-- [Define Incentivisation for RLNaaS](/draft-roadmap/define_incentivisation_for_rlnaas.md)
-- [Measure Waku Usage](/draft-roadmap/measure_waku_usage.md)
+1. [Introduce E2E Reliability in Status Communities](./introduce_e2e_reliability_in_status.md)
+2. [Foundation for Communities Optimisation](/draft-roadmap/foundation_for_communities_optimisation.md)
+3. [Hardening and Scaling Foundations for Private Chat](/draft-roadmap/hardening_and_scaling_foundation_for_private_chat.md)
+4. [Integrate nwaku in Status Desktop, relay mode only](/draft-roadmap/integrate_nwaku_in_status_desktop_relay_mode_only.md)
+5. [Deploy RLN Onchain Tree on L2 Testnet](/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md)
+6. [Define Incentivisation for RLNaaS](/draft-roadmap/define_incentivisation_for_rlnaas.md)
+7. [Improve DevEx: API, TWN, Metrics, Docs](/draft-roadmap/improve_devex_api_twn_metrics_docs.md)
+8. [Introduce mixnet for message sending]()
+9. [Formalize Logos Web Apps]()
+10. [Introduce Chat SDK by enabling basic one-to-one chats]()
+11. [Streamline DevEx: Mobile, Rust and Web dev]()
 
-#### P2P Reliability Implementation in the Browser
+not planned yet:
+- Move DST/QA to Waku API (REST API)
+- Performance for mobile
+- webtransport
+- quic
 
-TODO: It's actually done?
+## Gantt
 
-**Owner**: js-waku
-
-**Feature**: [P2P Reliability](/FURPS/application/p2p_reliability.md)
-
-**FURPS**:
-- F1. Improves probability of message propagation through redundant publishing and receiving.
-- F2. Enables detection and remedy of message losses between peers using Store or Filter based reliability strategies.
-- F3. Enhances Lightpush reliability through service node pooling, redundant publishing, and failure detection.
-- F4. Improves Filter reliability through redundant subscriptions and subscription health monitoring.
-- U1. Provides feedback on message delivery status leveraging store protocol.
-- U2. Automatically handles reconnection and retransmission when failures are detected.
-
-For
-- S1. Within browser environments (edge node mode)
-
-**Checklist**:
-- [ ] Specs: link to specs
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
+```mermaid
+gantt
+    title Waku 2025H2
+    dateFormat YYYY-MM-DD
+    axisFormat %b
+    section core research
+        e2e reliability: 2025-07-01, 2025-08-01
+        RLN: 2025-07-01, 2025-08-01
+        Incentivization: 2025-07-01, 2025-08-01
+        Mixnet: 2025-07-01, 2025-12-31
+    section nwaku
+        p2p reliability: 2025-07-01, 2025-08-01
+        Status Desktop: 2025-07-01, 2025-08-01
+        RLN: 2025-07-01, 2025-08-01
+        Dev
+```

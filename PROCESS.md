@@ -122,9 +122,9 @@ A _Deliverable_:
   - docs
 
 Finally, for _Tasks_ that do not belong to a _Deliverable_:
-- MUST qualify either as (with related GitHub labels)
-  - `bug`: bugs reported by users or discovered internally, SHOULD be linked back to a corresponding _FURPS_ and _Milestone_
-  - `test`: maintaining and fixing broken tests, SHOULD ideally be linked back to a corresponding _FURPS_ and _Milestone_
+- MUST qualify either as (with related GitHub labels):
+  - `bug`: bugs reported by users or discovered internally, SHOULD be linked back to a corresponding _FURPS_ and _Milestone_.
+  - `test`: maintaining and fixing broken tests, SHOULD ideally be linked back to a corresponding _FURPS_ and _Milestone_.
   - `release`: work associated with releasing new versions.
   - `dependencies`: work associated with updating dependency versions.
 
