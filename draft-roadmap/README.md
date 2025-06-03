@@ -98,10 +98,7 @@ Not yet planned/not sure:
 - nwaku performance on mobile: let's focus on finishing desktop integration and getting API ready for Chat SDK + RLN 
 - quic: need to review where to put it, should be easy.
 - Follow-up steps for incentivization: part of current milestone is to produce a roadmap.
-- I overlooked some RLN improvements:
-  - Deploy on Status L2 testnet
-  - reduce RPC calls per user
-  - mainnet/audit -> probably wait for Status L2 mainnet?
+- RLN mainnet and audit -> probably wait for Status L2 mainnet?
 
 ### Business Development Milestones
 
