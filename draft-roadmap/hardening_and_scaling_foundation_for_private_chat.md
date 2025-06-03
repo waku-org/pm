@@ -30,3 +30,10 @@ either removed or disabled by default to ensure accurate testing and evaluation.
 - [Status Private Chats](/FURPS/application/status_private_chats.md): all
 
 **Milestone and deliverables**: https://github.com/waku-org/pm/milestone/40
+
+TODO: [clean-up the deliverables](https://discord.com/channels/1110799176264056863/1337300409412489290/1379311090302980097):
+- specify private chat: drop
+- rate limit poc: finish it
+- network metrics: move it
+- baseline benchmarks: handover to DST
+- status-cli: review with QA

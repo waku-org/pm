@@ -81,11 +81,12 @@ Testing out new format, once approved:
 5. [Deploy RLN Onchain Tree on L2 Testnet](/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md)
 6. [Define Incentivisation for RLNaaS](/draft-roadmap/define_incentivisation_for_rlnaas.md)
 7. [Improve DevEx: API, TWN, Metrics, Docs](/draft-roadmap/improve_devex_api_twn_metrics_docs.md)
-8. [Introduce mixnet for message sending]()
-9. [Formalize Logos Web Apps]()
-10. [Introduce Chat SDK by enabling basic one-to-one chats]()
-11. [Deliver RLN as a Library Usable with Waku API]()
-12. [Streamline DevEx: Mobile, Rust and Web dev]()
+8. [Introduce mixnet for message sending]() TODO: refining definition with @jm-clius. Suggesting mixnet relay deployed on TWN + light push over mixnet available in nwaku cli.
+9. [Formalize Logos Web Apps](/draft-roadmap/formalize_logos_web_apps.md)
+10. [Introduce Chat SDK by enabling basic one-to-one chats]() TODO: should be added via https://github.com/waku-org/pm/pull/303
+11. [Integrate RLN with Waku API](/draft-roadmap/integrate_rln_with_waku_api.md)
+12. [Streamline DevEx: Mobile, Rust and Web dev](/draft-roadmap/streamline_dev_ex_local_dev_rust.md)
+13. Incentivization follow-up
 
 Pushed to 2026
 - WebTransport: depending on nim-libp2p (delivery Q4)
@@ -94,7 +95,11 @@ Pushed to 2026
 Not yet planned/not sure:
 - nwaku performance on mobile: let's focus on finishing desktop integration and getting API ready for Chat SDK + RLN 
 - quic: need to review where to put it, should be easy.
-- Follow-up steps in incentivization: part of current milestone is to produce a roadmap.
+- Follow-up steps for incentivization: part of current milestone is to produce a roadmap.
+
+### Business Development Milestones
+
+TODO
 
 ## Gantt
 
@@ -107,21 +112,25 @@ gantt
     axisFormat %b
     section core research
         E2E Reliability: 2025-07-01, 2025-08-01
-        RLN: 2025-07-01, 2025-08-01
+        RLN Onchain Tree: 2025-07-01, 2025-08-01
         Incentivization: 2025-07-01, 2025-08-01
         Mixnet: 2025-07-01, 2025-12-31
     section nwaku
         Status Desktop: 2025-07-01, 2025-08-01
-        RLN: 2025-07-01, 2025-08-01
-        Improve DevEx: 2025-07-01, 2025-09-01
-        Streamline DevEx: 2025-09-01, 2025-12-31
+        RLN Onchain Tree: 2025-07-01, 2025-08-01
+        Improve DevEx (API): 2025-07-01, 2025-10-01
+        Improve DevEx (TWN): 2025-07-01, 2025-09-01
+        Streamline DevEx (Mobile, Rust): 2025-09-01, 2025-12-31
+        RLN Library: 2025-08-01, 2025-12-31
     section js-waku
-        
+        Improve DevEx (API): 2025-07-01, 2025-10-01
+        Improve DevEx (TWN): 2025-07-01, 2025-10-01
+        Streamline DevEx (Local dev): 2025-10-01, 2025-12-31
     section app-chat
         E2E Reliability: 2025-07-01, 2025-08-01
         Communities Opt: 2025-07-01, 2025-08-01
         Foundations Private Chats: 2025-07-01, 2025-08-01
-        Improve Dex (metrics): 2025-07-01, 2025-09-01
+        Improve DevEx (metrics): 2025-07-01, 2025-09-01
         Logos Web Apps: 2025-07-01, 2025-12-31
         Chat SDK: 2025-07-01, 2025-12-31
 ```

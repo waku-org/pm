@@ -1,5 +1,10 @@
 # Integrate nwaku in Status Desktop, relay mode only
 
+**Estimated date of completion**: TODO new date
+
+**Resources Required for 2025H2**:
+- 1 nwaku engineer for 1 month TBC
+
 With this milestone, Status Desktop builds can use nwaku instead of go-waku.
 However, it should be seen as a MVP as further hardening and implementation of light client mode will be missing.
 Go-waku will still be used for Status Mobile.

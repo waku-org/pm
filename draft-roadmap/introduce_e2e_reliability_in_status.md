@@ -1,6 +1,12 @@
 # Introduce E2E Reliability in Status Communities
 
-(Rename e2e reliability, but work as per scope)
+**Estimated date of completion**: {Enter date}
+
+**Resources Required for 2025H2**:
+- 1 app chat engineer for 1 month (TBC)
+- (core research work finishes by end of June)
+
+(Renamed "e2e reliability protocol " milestone, but work as per scope, only split a deliverable)
 
 To solve reliability is to solve two problems:
 

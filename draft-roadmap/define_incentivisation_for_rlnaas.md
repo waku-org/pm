@@ -1,6 +1,6 @@
 # [Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/35)
 
-**Estimated date of completion**: {Enter date}
+**Estimated date of completion**: TODO: new date
 
 **Resources Required for 2025H2**:
 - {roles and % application to it}
@@ -19,7 +19,7 @@ This is the first step to providing a sustainable way to scale the Status applic
 
 **FURPS**: TODO
 
-**deliverables**:
+**deliverables**: https://github.com/waku-org/pm/milestone/35 TODO adjust deliverables with FURPS
 
 ## [Pay for RLN provision PoC](https://github.com/waku-org/pm/issues/245)
 
@@ -51,10 +51,6 @@ For S1. A nwaku-based CLI on a testnet, interaction with a custodial wallet is o
 
 ## [Service incentivisation roadmap & spec](https://github.com/waku-org/pm/issues/246)
 
-**Owner**: research
+**Owner**: core research
 
 **Output**: a roadmap document.
-
-##  🏗️ Privacy-preserving payment streaming: F5, U3, S1 (research)
-
-**Probably need to drop due to core research team member's departure earlier this year.**
