@@ -74,6 +74,8 @@ Testing out new format, once approved:
 - Deliverables are moved to GitHub issues
 - Waku FURPS remains in [FURPS](/FURPS/README.md)
 
+In order of priority.
+
 1. [Introduce E2E Reliability in Status Communities](./introduce_e2e_reliability_in_status.md)
 2. [Foundation for Communities Optimisation](/draft-roadmap/foundation_for_communities_optimisation.md)
 3. [Hardening and Scaling Foundations for Private Chat](/draft-roadmap/hardening_and_scaling_foundation_for_private_chat.md)
@@ -83,7 +85,7 @@ Testing out new format, once approved:
 7. [Improve DevEx: API, TWN, Metrics, Docs](/draft-roadmap/improve_devex_api_twn_metrics_docs.md)
 8. [Introduce mixnet for message sending]() TODO: refining definition with @jm-clius. Suggesting mixnet relay deployed on TWN + light push over mixnet available in nwaku cli.
 9. [Formalize Logos Web Apps](/draft-roadmap/formalize_logos_web_apps.md)
-10. [Introduce Chat SDK by enabling basic one-to-one chats]() TODO: should be added via https://github.com/waku-org/pm/pull/303
+10. [Introduce Chat SDK by enabling basic one-to-one chats]() TODO: should be added by https://github.com/waku-org/pm/pull/303
 11. [Integrate RLN with Waku API](/draft-roadmap/integrate_rln_with_waku_api.md)
 12. [Streamline DevEx: Mobile, Rust and Web dev](/draft-roadmap/streamline_dev_ex_local_dev_rust.md)
 13. Incentivization follow-up
@@ -96,6 +98,10 @@ Not yet planned/not sure:
 - nwaku performance on mobile: let's focus on finishing desktop integration and getting API ready for Chat SDK + RLN 
 - quic: need to review where to put it, should be easy.
 - Follow-up steps for incentivization: part of current milestone is to produce a roadmap.
+- I overlooked some RLN improvements:
+  - Deploy on Status L2 testnet
+  - reduce RPC calls per user
+  - mainnet/audit -> probably wait for Status L2 mainnet?
 
 ### Business Development Milestones
 
