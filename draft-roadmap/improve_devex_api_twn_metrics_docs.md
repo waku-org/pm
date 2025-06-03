@@ -103,7 +103,7 @@ For S3. Browser
 
 **FURPS**:
 - F1. Setup, start and stop a Waku node.
-- F. Support edge node operation mode.
+- F3. Support relay node operation mode.
 - F4. Does automatic peer discovery based on the node platform and operation mode.
 - F5. Returns health and connectivity information using proven heuristics.
 - U1. When setting up a Waku node, no need to specify what protocols to mount, only an operational mode (edge or relay).
