@@ -83,7 +83,7 @@ In order of priority.
 5. [Deploy RLN Onchain Tree on L2 Testnet](/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md)
 6. [Define Incentivisation for RLNaaS](/draft-roadmap/define_incentivisation_for_rlnaas.md)
 7. [Improve DevEx: API, TWN, Metrics, Docs](/draft-roadmap/improve_devex_api_twn_metrics_docs.md)
-8. [Introduce mixnet for message sending]() TODO: refining definition with @jm-clius. Suggesting mixnet relay deployed on TWN + light push over mixnet available in nwaku cli.
+8. [Introduce mixnet for message sending](/draft-roadmap/introduce_mixnet_for_message_sending.md)
 9. [Formalize Logos Web Apps](/draft-roadmap/formalize_logos_web_apps.md)
 10. [Introduce Chat SDK by enabling basic one-to-one chats]() TODO: should be added by https://github.com/waku-org/pm/pull/303
 11. [Integrate RLN with Waku API](/draft-roadmap/integrate_rln_with_waku_api.md)
