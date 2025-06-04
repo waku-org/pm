@@ -26,7 +26,7 @@ It will then be possible to design the usage of RLN in Chat SDK.
 - U1. Application developers can set RLN rate limit at insertion.
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -48,7 +48,7 @@ It will then be possible to design the usage of RLN in Chat SDK.
 - +2. TWN uses smart contracts deployed on Linea Testnet.
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -65,7 +65,7 @@ It will then be possible to design the usage of RLN in Chat SDK.
   if the primary Web3 RPC provider becomes unavailable.
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -93,7 +93,7 @@ It will then be possible to design the usage of RLN in Chat SDK.
 For S1. Browser application, using web3 wallet browser extensions.
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)

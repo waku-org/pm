@@ -44,7 +44,7 @@ This is the first step to providing a sustainable way to scale the Status applic
 For S1. A nwaku-based CLI on a testnet, interaction with a custodial wallet is out-of-scope.
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)

@@ -47,7 +47,7 @@ For S1. Linux amd64 CLI as service node
 Includes spec delivery
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -67,7 +67,7 @@ For S2. Browser as client
 Spec delivery not included.
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -93,7 +93,7 @@ Spec delivery not included.
 For S3. Browser
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -121,7 +121,7 @@ For:
 - S2. Golang library; used by status-go
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -147,7 +147,7 @@ For:
 - {F1. copy-paste full furps statement}
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -162,7 +162,7 @@ For:
 - {F1. copy-paste full furps statement}
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)

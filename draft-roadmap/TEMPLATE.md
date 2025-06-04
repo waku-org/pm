@@ -26,7 +26,7 @@
 - {F1. copy-paste full furps statement}
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)

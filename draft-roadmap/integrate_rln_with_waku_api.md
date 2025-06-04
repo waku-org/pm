@@ -37,7 +37,7 @@ Finally, migrate to Status network L2 testnet and improve UX issues discovered v
 - {F1. copy-paste full furps statement}
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -52,7 +52,7 @@ Finally, migrate to Status network L2 testnet and improve UX issues discovered v
 - {F1. copy-paste full furps statement}
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -67,7 +67,7 @@ Finally, migrate to Status network L2 testnet and improve UX issues discovered v
 - {F1. copy-paste full furps statement}
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -82,7 +82,7 @@ Finally, migrate to Status network L2 testnet and improve UX issues discovered v
 - {F1. copy-paste full furps statement}
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -99,7 +99,7 @@ TODO: other improvements may be flagged as we dogfood the previous RLN milestone
 - {F1. copy-paste full furps statement}
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
@@ -114,7 +114,7 @@ TODO: other improvements may be flagged as we dogfood the previous RLN milestone
 - {F1. copy-paste full furps statement}
 
 **Checklist**:
-- [ ] Specs: link to specs
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
