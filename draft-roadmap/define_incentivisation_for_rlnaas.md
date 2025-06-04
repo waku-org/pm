@@ -29,10 +29,10 @@ This is the first step to providing a sustainable way to scale the Status applic
 
 **FURPS**:
 - F1. RLNaaS clients proceed to pay RLNaaS providers for attaching RLN proof to published messages.
-- F2. RLNaaS clients can assess of the quality of a provisioned RLNaaS and use it to build local reputation.
+- F2. RLNaaS clients can assess the quality of a provisioned RLNaaS and use it to build local reputation.
 - F3. RLNaaS clients can use local reputation of RLNaaS providers to select what provider to use.
 - U1. A consumer node can pay a service node for RLNaaS.
-- U2. A consumer node can select an RLNaaS provider based on their price and local reputation.
+- U2. A consumer node can select an RLNaaS provider based on local reputation.
 - R1. A consumer prefers new providers to known unreliable providers.
 - R2. In a stable network, a client can find, pay and send a message via a RLNaaS provider (**Vac-QA**)
    in 90% of cases **(Vac-DST)**.

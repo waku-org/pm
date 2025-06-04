@@ -4,7 +4,7 @@
 
 1. RLN rate limit can be defined in terms of multiple messages per epoch.
 2. RLN rate limit is set at membership insertion
-3. RLN initialization only requires Web3 RPC `call`s, no blockchain events are needed.
+3. RLN proof generation and validation only requires Web3 RPC `call`s, no blockchain events or initialisation are needed.
 4. An ERC-20 token deposit is needed to insert a membership
 
 ## Usability

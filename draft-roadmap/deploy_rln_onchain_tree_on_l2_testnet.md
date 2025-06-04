@@ -21,7 +21,7 @@ It will then be possible to design the usage of RLN in Chat SDK.
 
 - F1. RLN rate limit can be defined in terms of multiple messages per epoch.
 - F2. RLN rate limit is set at membership insertion
-- F3. RLN initialization only requires Web3 RPC `call`s, no blockchain events are needed.
+- F3. RLN proof generation and validation only requires Web3 RPC `call`s, no blockchain events or initialisation are needed.
 - F4. An ERC-20 token deposit is needed to insert a membership
 - U1. Application developers can set RLN rate limit at insertion.
 
@@ -46,23 +46,6 @@ It will then be possible to design the usage of RLN in Chat SDK.
   no matter the size of the tree **(Vac-DST)**.
 - +1. Smart Contracts are deployed on Linea Testnet.
 - +2. TWN uses smart contracts deployed on Linea Testnet.
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-## [Fallback strategy for Web3 RPC endpoints are implemented in nwaku]()
-
-**Owner**: nwaku
-
-**Feature**: [nwaku](/FURPS/application/nwaku.md)
-
-**FURPS**:
-
-- R1. Relay node can fallback to alternative RPC endpoints
-  if the primary Web3 RPC provider becomes unavailable.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

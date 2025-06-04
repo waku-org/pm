@@ -3,13 +3,13 @@
 ## Functionality
 
 1. RLNaaS clients proceed to pay RLNaaS providers for attaching RLN proof to published messages.
-2. RLNaaS clients can assess of the quality of a provisioned RLNaaS and use it to build local reputation.
+2. RLNaaS clients can assess the quality of a provisioned RLNaaS and use it to build local reputation.
 3. RLNaaS clients can use local reputation of RLNaaS providers to select what provider to use.
 
 ## Usability
 
 1. A consumer node can pay a service node for RLNaaS.
-2. A consumer node can select an RLNaaS provider based on their price and local reputation.
+2. A consumer node can select an RLNaaS provider based on local reputation.
 
 ## Reliability
  
