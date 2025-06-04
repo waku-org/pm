@@ -1,11 +1,9 @@
 # [Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/35)
 
-**Estimated date of completion**: TODO: new date
+**Estimated date of completion**: 31 July 2025
 
 **Resources Required for 2025H2**:
-- {roles and % application to it}
-- {external services consumed (Vac/IFT)}
-- {infrastructure}
+- 1.5 core researchers for 1 month
 
 By the end of this milestone, we will have defined a roadmap and implemented a working proof of concept to incentivise node operators running Waku infrastructure for shared shards.
 
