@@ -1,7 +1,9 @@
 # Waku FURPS
 
-- (Vac-DST): Simulations to verify this property
-- (Vac-QA): Additional test coverage by Vac-QA to verify this property
+Some FURPS statement may contain the following postfixes:
+
+- (**Vac-DST**): Simulations to attest of this statement.
+- (**Vac-QA**): Additional test coverage by Vac-QA to verify this statement.
 
 ## Core Protocols
 
