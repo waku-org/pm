@@ -29,6 +29,8 @@ This includes:
 - [Improved Browser Bootstrap](https://github.com/waku-org/pm/issues/290)
 - [Waku Sync](https://github.com/waku-org/pm/issues/132)
 
+TODO: quic PoC
+
 ## Define and Implement Light Push Error codes in nwaku
 
 **Owner**: nwaku
