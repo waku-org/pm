@@ -15,4 +15,6 @@
 
 ## Supportability
 
+1. nwaku CLI
+
 ## + (Privacy, Anonymity, Deployments)
