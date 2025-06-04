@@ -128,6 +128,7 @@ gantt
     section js-waku
         Improve DevEx (API): 2025-07-01, 2025-10-01
         Improve DevEx (TWN): 2025-07-01, 2025-10-01
+        RLN Library: 2025-07-01, 2025-09-01
         Streamline DevEx (Local dev): 2025-10-01, 2025-12-31
     section app-chat
         E2E Reliability: 2025-07-01, 2025-08-01

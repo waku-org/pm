@@ -4,10 +4,10 @@
 
 **Resources Required for 2025H2**:
 - nwaku engineer TODO
-- js-waku engineer TODO
+- 1 js-waku engineer for 2 months (til 30 Aug)
 - core research/test engineer? TODO
 - chat sdk engineer TODO
-- {external services consumed (Vac/IFT)}
+- Support from Vac/ACZ to get zerokit working in the browser.
 - {infrastructure}
 
 Deliver a native RLN library with a deliberate API to manage RLN memberships, as well as proof verification and generation.
@@ -44,7 +44,7 @@ Finally, migrate to Status network L2 testnet and improve UX issues discovered v
 
 ## Implement RLN Onchain Tree Proof generation and verification in the Browser 
 
-**Owner**: {one waku subteam}
+**Owner**: js-waku
 
 **Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
 
