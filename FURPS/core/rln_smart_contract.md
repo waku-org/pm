@@ -10,7 +10,7 @@
 ## Usability
 
 1. Application developers can set RLN rate limit at insertion.
-2. User do not need to wait for merkle tree synchronization and building to start relaying
+2. User does not need to wait for merkle tree synchronization and building to start relaying
    or sending messages.
 
 ## Reliability

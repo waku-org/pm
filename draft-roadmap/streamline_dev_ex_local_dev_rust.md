@@ -7,9 +7,9 @@
 - {external services consumed (Vac/IFT)}
 - {infrastructure}
 
-Complete the Waku API implementation in nwaku by implement edge node mode (Status' Light Mode).
+Complete the Waku API implementation in nwaku by implementing edge node mode (Status' Light Mode).
 
-Stream the Developer Experience by delivering a Rust SDK that implements the full Waku API and is available on crates.io.
+Streamline the Developer Experience by delivering a Rust SDK that implements the full Waku API and is available on crates.io.
 As well as building an easy-to-use local dev environment from the browser, enabling developers to build web apps without
 relying on external connectivity; as well as opting in and out of RLN, and include a local RLN dev environment.
 
@@ -55,7 +55,7 @@ Finalize the integration of nwaku in Status application by setting up nwaku-base
 
 **Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [{Feature Name (only 1)}]({path/to/furps/file}) TODO
 
 **FURPS**:
 - {F1. copy-paste full furps statement}
