@@ -34,3 +34,6 @@
 ## + (Privacy, Anonymity, Deployments)
 
 1. No IP or Peer Ids are tracked or displayed.
+2. Dashboard deployed for The Waku Network
+3. Dashboard deployed for Status Waku Network
+4. Dashboard deployed for RAILGUN Waku Network
