@@ -28,8 +28,6 @@ Waku specific FURPS, before Chat SDK integration.
 ## Supportability
 
 1. Status Mobile, Desktop, Light and relay modes.
-2. Newly created communities only.
-   (TODO: confirm this is still the plan)
 
 ## + (Privacy, Anonymity, Deployments)
 
