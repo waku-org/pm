@@ -18,10 +18,11 @@ A PoC implementation to improve anonymity in Waku message publishing by mixing W
 **Feature**: [Mix](/FURPS/core/mix.md)
 
 **FURPS**:
-- F1. Relay nodes can mount mixnet protocol, acting as entry, exit or mixnet nodes
-- F2. Nodes can discover mixnet relay and exit nodes using existing peer discovery mechanisms
-- F3. Client nodes can send lightpush requests over the mixnet before delivery to a service node
-- F4. Client nodes can receive a response to a lightpush request over the mixnet
+- F1. Relay nodes can mount mixnet protocol, acting as entry, exit or mixnet nodes.
+- F2. Nodes can discover mixnet relay and exit nodes using available peer discovery mechanisms.
+- F3. Client nodes can send light push requests over the mixnet before delivery to a service node.
+- F4. Client nodes can receive a response to a light push request over the mixnet.
+
 
 **Checklist**:
 - [ ] Specs: link to specs
