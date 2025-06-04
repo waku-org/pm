@@ -40,8 +40,8 @@ TODO: quic PoC
 **FURPS**:
 - F4. Supports comprehensive error codes for various failure scenarios.
 - U4. Provides descriptive error messages in responses.
-- R3. Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
-- R4. 80% message transmission success rate on live Status network (service node from both Status Desktop and fleet Waku instances)
+- R2. Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
+- R3. 80% message transmission success rate on live Status network (service node from both Status Desktop and fleet Waku instances)
 
 For S1. Linux amd64 CLI as service node
 Includes spec delivery
@@ -61,7 +61,7 @@ Includes spec delivery
 **FURPS**:
 - F4. Supports comprehensive error codes for various failure scenarios.
 - U4. Provides descriptive error messages in responses.
-- R3. Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
+- R2. Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
 
 For S2. Browser as client
 Spec delivery not included.

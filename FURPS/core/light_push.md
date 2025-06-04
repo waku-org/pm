@@ -16,10 +16,9 @@
 
 ## Reliability
 
-1. Implements retransmission on failure with exponential backoff.
-2. Implements DoS protection through request rate limitation.
-3. Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
-4. 80% message transmission success rate on live Status network (service node from both Status Desktop and fleet Waku instances)
+1. Implements DoS protection through request rate limitation.
+2. Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
+3. 80% message transmission success rate on live Status network (service node from both Status Desktop and fleet Waku instances)
 
 ## Performance
 
