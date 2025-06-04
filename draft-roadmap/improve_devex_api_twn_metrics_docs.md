@@ -87,6 +87,7 @@ Spec delivery not included.
 - U2. Disconnection detection and recovery, and other peer management matters are automatically handled.
 - U3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
 - U4. Developers pass and receive data to the API in types native to the wrapping language.
+- U5. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
 - R1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 
@@ -113,6 +114,7 @@ For S3. Browser
 - U2. Disconnection detection and recovery, and other peer management matters are automatically handled.
 - U3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
 - U4. Developers pass and receive data to the API in types native to the wrapping language.
+- U5. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
 - R1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 

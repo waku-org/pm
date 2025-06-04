@@ -3,7 +3,7 @@
 ## Functionality
 
 1. Enables light nodes to push messages to service nodes for relay to the network.
-2. Requests service nodes to publish messages to WAKU2-RELAY pubsub-topics.
+2. Requests service nodes to publish messages to WAKU2-RELAY shards.
 3. Provides confirmation that a message has been received by at least one node.
 4. Supports comprehensive error codes for various failure scenarios.
 

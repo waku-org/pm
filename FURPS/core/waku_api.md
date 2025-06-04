@@ -16,6 +16,7 @@
 2. Disconnection detection and recovery, and other peer management matters are automatically handled.
 3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
 4. Developers pass and receive data to the API in types native to the wrapping language.
+5. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
 
 ## Reliability
 
