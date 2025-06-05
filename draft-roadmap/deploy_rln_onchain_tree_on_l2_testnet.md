@@ -1,5 +1,12 @@
 # Deploy RLN onchain tree on L2 Testnet
 
+**Estimated date of completion**: 30 June 2025
+
+**Resources Required for 2025H2**:
+- {roles and % application to it}
+- {external services consumed (Vac/IFT)}
+- {infrastructure}
+
 This is a split of RLN mainnet milestone which grew too large in scope.
 
 Once complemented, the economical behaviour of RLN will have been specified,
@@ -9,7 +16,7 @@ Finally, the smart contract will be deployed on a Linea-based L2 testnet and use
 
 It will then be possible to design the usage of RLN in Chat SDK.
 
-**deliverables**: TODO
+**deliverables**: https://github.com/waku-org/pm/milestone/34
 
 ## [Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/228)
 
