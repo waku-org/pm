@@ -1,9 +1,9 @@
 # Introduce E2E Reliability in Status Communities
 
-**Estimated date of completion**: {Enter date}
+**Estimated date of completion**: 08 Aug 2025
 
 **Resources Required for 2025H2**:
-- 1 app chat engineer for 1 month (TBC)
+- 1 app chat engineer for 2 months
 - (core research work finishes by end of June)
 
 (Renamed "e2e reliability protocol " milestone, but work as per scope, only split a deliverable)
