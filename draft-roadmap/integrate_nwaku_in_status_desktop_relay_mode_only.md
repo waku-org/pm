@@ -1,9 +1,12 @@
-# Integrate nwaku in Status Desktop, relay mode only
+# [Integrate nwaku in Status Desktop, relay mode only](https://github.com/waku-org/pm/milestone/33)
 
 **Estimated date of completion**: 30 June
 
 **Resources Required for 2025H2**:
-- 1 nwaku engineer
+- 1 nwaku engineer for maintenance and support
+- Vac-QA to run status-backend tests on a nwaku-based build
+- Vac-DST to complete benchmark works and proceed with nwaku-based vs go-waku-based status-backend comparisons
+- Status-QA to include nwaku-based builds in tests
 
 With this milestone, Status Desktop builds can use nwaku instead of go-waku.
 However, it should be seen as a MVP as further hardening and implementation of light client mode will be missing.
