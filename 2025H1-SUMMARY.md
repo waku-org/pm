@@ -34,10 +34,10 @@ From the list of planned items
 | Headline 1                     | FURPS Doneness                      | Link          |
 |--------------------------------|-------------------------------------|---------------|
 | Direct Message Reliability     | F(8/9) U(4/4) R(2/3) P(0/2) S(1/2) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8042b6d6d9fadb0ddcef |
-| End-to-End Reliability Protocol | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c803ca2acf006cd9aa6bd |
-| Scale Up Number of Communities |  F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8017bf15c825908fca8d |
-| RLN Mainnet                    |  F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c80309c8dddc660273baa |
-| Nwaku in Status Desktop (Relay mode) | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8012916fe63b1a244df1 |
+| End-to-End Reliability Protocol | F(0/2) U(0/2) R(0/2) P(0/2) S(0/1) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c803ca2acf006cd9aa6bd |
+| Scale Up Number of Communities |  F(1/2) U(1/2) R(0/2) P(0/1) S(0/3) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8017bf15c825908fca8d |
+| RLN Mainnet                    |  F(3/5) U(1/4) R(0/3) P(0/4) S(1/3) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c80309c8dddc660273baa |
+| Nwaku in Status Desktop (Relay mode) | F(0/2) U(0/2) R(0/2) P(0/1) S(0/2) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8012916fe63b1a244df1 |
 | Incentivise running a Waku infrastructure node | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c805e9345f2c1e59da62f |
 | Foundation for Communities Optimization | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1858f96fb65c803cbc0ddb6cbde6282f |
 | Hardening and scaling foundations for private chats | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1518f96fb65c801383e4c0a65b9ae5f5 |
