@@ -14,22 +14,69 @@ This includes:
 - simplifying the Waku API
 - measuring Waku usage across all integrations
 - review and setting strategy for Waku documentation
-
-
-**FURPS**:
-
-- [{Feature Name}]({path/to/furps/file}): {list of furps: F1, etc}
-- [Network Metrics Tracker](/FURPS/application/network_metrics_tracker.md): all
+- Testing quic as new transport
 
 **deliverables**:
 
-(TODO: adjust FURPS for existing deliverables)
-- [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
-- [Scalable Data Sync in Browser](https://github.com/waku-org/pm/issues/280)
-- [Improved Browser Bootstrap](https://github.com/waku-org/pm/issues/290)
-- [Waku Sync](https://github.com/waku-org/pm/issues/132)
+## [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
 
-TODO: quic PoC
+**Owner**: App/Chat Dev
+
+**Feature**: [Network Metrics Tracker](/FURPS/application/network_metrics_tracker.md)
+
+**FURPS**:
+- all
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+## [Scalable Data Sync in Browser](https://github.com/waku-org/pm/issues/280)
+
+**Owner**: js-waku
+
+**Feature**: [SDS](/FURPS/application/sds.md)
+
+**FURPS**:
+- all
+
+For S2. For Web apps as a developer library.
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+## [Improved Browser Bootstrap](https://github.com/waku-org/pm/issues/290)
+
+**Owner**: js-waku
+
+**Feature**: TODO see https://github.com/waku-org/pm/pull/308
+
+**FURPS**: TODO
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+## [Waku Sync](https://github.com/waku-org/pm/issues/132)
+
+**Owner**: core research
+
+**Feature**: [Store Sync](/FURPS/core/store_sync.md)
+
+**FURPS**: all
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
 
 ## Define and Implement Light Push Error codes in nwaku
 
@@ -139,14 +186,14 @@ For:
 - [ ] Define a guideline for Waku teams to follow when contributing to documentation
 - [ ] Setup an initial structure
 
-## Use Protobuf to transfer data from Wrapper to nwaku library PoC TBC  
+## Trial QUIC
 
-**Owner**: {one waku subteam}
+**Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [nwaku](/FURPS/application/nwaku.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- S4. QUIC transport is supported for peer-to-peer message routing connections.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -154,11 +201,11 @@ For:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## {Name of deliverable 1 - eg "improve feature X for the browser"}
+## Use Protobuf to transfer data from Wrapper to nwaku library PoC TBC  
 
-**Owner**: {one waku subteam}
+**Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: TODO
 
 **FURPS**:
 - {F1. copy-paste full furps statement}
