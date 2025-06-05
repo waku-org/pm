@@ -1,6 +1,6 @@
 # Introduce E2E Reliability in Status Communities
 
-**Estimated date of completion**: 08 Aug 2025
+**Estimated date of completion**: 31 Aug 2025
 
 **Resources Required for 2025H2**:
 - 1 app chat engineer for 2 months
