@@ -3,9 +3,10 @@
 **Estimated date of completion**: 30 June 2025
 
 **Resources Required for 2025H2**:
-- {roles and % application to it}
-- {external services consumed (Vac/IFT)}
-- {infrastructure}
+- 1 nwaku engineer
+- 1 js-waku engineer
+- 1 core research engineer
+All for maintenance and dogfooding related activities.
 
 This is a split of RLN mainnet milestone which grew too large in scope.
 
