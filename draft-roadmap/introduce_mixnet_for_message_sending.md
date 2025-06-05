@@ -1,6 +1,6 @@
 # Introduce Mixnet For Message Sending
 
-**Estimated date of completion**: {Enter date}
+**Estimated date of completion**: 30 Sep 2025
 
 **Resources Required for 2025H2**:
 - 1 core research engineer for 3 months
