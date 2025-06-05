@@ -177,7 +177,7 @@ For:
 
 ## Review Documentation and Define Guidelines
 
-**Owner**: {one waku subteam}
+**Owner**: core research
 
 (No FURPS)
 
