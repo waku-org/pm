@@ -4,6 +4,8 @@
 
 **Resources Required for 2025H2**:
 - 1 app chat engineer for 2 months
+- Status dev for review support
+- Status-QA and Vac-QA for new tests
 - (core research work finishes by end of June)
 
 (Renamed "e2e reliability protocol " milestone, but work as per scope, only split a deliverable)
