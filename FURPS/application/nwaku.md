@@ -21,6 +21,8 @@
 
 1. libwaku, wakunode2 can build on Windows
 2. libwaku supports relay functionalities.
+3. TCP transport is supported for peer-to-peer message routing connections.
+4. QUIC transport is supported for peer-to-peer message routing connections.
 
 ## + (Privacy, Anonymity, Deployments)
 
