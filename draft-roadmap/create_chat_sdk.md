@@ -73,7 +73,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
 
-## [ChatSDK - Bindings ](https://github.com/waku-org/pm/issues/<TODO>)
+## ChatSDK Bindings
 
 **Owner**: App/Chat Dev
 
