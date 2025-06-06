@@ -1,4 +1,4 @@
-# Extend ChatSDK with Group Chat
+# Extend Chat SDK with Group Conversations
 
 **Estimated date of completion**: 18 Nov 2025
 
@@ -13,7 +13,7 @@ The features to said group chat will be limited, and extended with further miles
 
 **Risks**:
 
-- (Schedule)(Medium) - Task Dependency: This task is dependent on [ChatSDK - Developer Preview](/draft-roadmap/create_chat_sdk.md).
+- (Schedule)(Medium) - Task Dependency: This task is dependent on [ChatSDK - Developer Preview](create_chat_sdk_mvp.md).
   Delays there will translate into delays to this milestone.
 - (Technical)(Medium) - Lack of Libraries: There currently does not exist the required libraries in Nim to build group
   chat. This will involve evaluating the potential of calling an existing library via FFI or implementing it from
@@ -64,8 +64,8 @@ The features to said group chat will be limited, and extended with further miles
 
 **FURPS**:
 
-- S1. Developers can create group conversations from Go Applications
-- S2. Developers can create group conversations from Rust Applications
+- S1. Developers can create group conversations from Go Applications; available on pkg.go.dev.
+- S2. Developers can create group conversations from Rust Applications; available on crates.io.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
