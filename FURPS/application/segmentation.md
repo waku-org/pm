@@ -24,8 +24,6 @@
 ## Supportability
 
 1. Nim
-2. Golang
-3. Rust
 
 ## + (Privacy, Anonymity, Deployments)
 

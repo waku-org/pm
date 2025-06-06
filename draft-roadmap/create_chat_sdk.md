@@ -115,8 +115,6 @@ For library ChatSDK:
 - P1. The payload overhead does not exceed 12.5% overall, and 100 bytes per segment.
 
 - S1. Nim
-- S2. Golang
-- S3. Rust
 
 - +1. Segmentation metadata should not reveal information about the original message content
 - +2. Relevant for all Waku nodes
