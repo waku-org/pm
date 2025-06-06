@@ -20,7 +20,7 @@
 ## Performance
 
 1. New node setup with an RLN membership can be ready to verify RLN proof within 5s,
-   no matter the size of the tree **(Vac-DST)**.
+   no matter the size of the membership set **(Vac-DST)**.
 
 ## Supportability
 
@@ -28,6 +28,6 @@
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. Smart Contracts are deployed on Linea Testnet.
-2. TWN uses smart contracts deployed on Linea Testnet.
+1. Smart Contracts are deployed on Linea Sepolia.
+2. TWN uses smart contracts deployed on Linea Sepolia.
 

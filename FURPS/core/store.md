@@ -2,7 +2,7 @@
 
 ## Functionality
 
-1. Provides historical message retrieval from the Waku network, enabling nodes to query for messages they missed while offline.
+1. Provides historical message retrieval from the relay network, enabling nodes to query for messages they missed while offline.
 2. Supports multiple query types: time-based, content-topic filtered, and message hash lookups.
 3. Enables message presence verification without retrieving full message content.
 4. Supports pagination for efficient retrieval of large message sets, and resuming retrieval after disconnection.
@@ -26,7 +26,7 @@
 
 ## Performance
 
-1. Only one network round trip is required for operation; including both configuration and message retrieval.
+1. Only one network round trip is required for operation.
 2. Implements pagination to manage resource usage on both client and server.
 3. Allows presence queries to verify message existence without transferring full content.
 4. Targets query response times under 2 seconds for typical requests.
