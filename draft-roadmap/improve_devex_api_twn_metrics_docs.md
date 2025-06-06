@@ -138,7 +138,7 @@ Spec delivery not included.
 - R1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 
-For S3. Browser
+For S3. Browser; distribution via npmjs.com.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -166,8 +166,8 @@ For S3. Browser
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 
 For:
-- S1. Nim library; used by chat SDK
-- S2. Golang library; used by status-go
+- S1. Nim library; import via git path.
+- S2. Golang library; available on pkg.go.dev.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

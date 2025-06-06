@@ -2,7 +2,7 @@
 
 ## Functionality
 
-1. Accounts can be created in a permissionless way, to communicate on the network.
+1. Accounts can be created in a permission-less way, to communicate on the network.
 2. Accounts can send messages to conversations with one other participant.
 3. All conversations benefit from forward secrecy and post-compromise security.
 4. Sender gets confirmation of message reception by recipient device.
@@ -28,11 +28,12 @@
 
 1. Messaging integrates RLN-like rate limit, limiting outbound messages per epoch.
 2. Payload definitions are versioned to support future protocol updates.
-3. library can be used in Go applications
-4. library can be used in Rust applications
+3. library can be used in Go applications; available on pkg.go.dev.
+4. library can be used in Rust applications; import via git path.
 
-## +Privacy
+## + (Privacy, Anonymity, Deployments)
 
 1. Non-participants in the conversation cannot correlate individual messages to a sender.
 2. Non-participants in the conversation cannot correlate conversation to participants.
 3. Network observers cannot aggregate account holder activity.
+4. Nimble package manager is used to build.

@@ -28,8 +28,8 @@
 
 ## Supportability
 
-1. ...
+1. Nim library.
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. ...
+1. Nimble package manager is used to build.
