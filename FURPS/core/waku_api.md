@@ -27,9 +27,9 @@
 
 ## Supportability
 
-1. Nim library
-2. Golang library
-3. Browser
+1. Nim library; import via git path.
+2. Golang library; available on pkg.go.dev.
+3. Browser; distribution via npmjs.com.
 
 ## + (Privacy, Anonymity, Deployments)
 

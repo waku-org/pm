@@ -1,4 +1,4 @@
-# Create MVP ChatSDK
+# Create Chat SDK MVP
 
 **Estimated date of completion**: 19 Aug 2025
 
@@ -47,7 +47,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 **Feature**: [Chat SDK](/FURPS/application/chat_sdk.md)
 
 **FURPS**:
-- F1. Accounts can be created in a permissionless way, to communicate on the network.
+- F1. Accounts can be created in a permission-less way, to communicate on the network.
 - F2. Accounts can send messages to conversations with one other participant.
 - F3. All conversations benefit from forward secrecy and post-compromise security.
 - F4. Sender gets confirmation of message reception by recipient device.
@@ -65,6 +65,8 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 - S1. Messaging integrates RLN-like rate limit, limiting outbound messages per epoch.
 - S2. Payload definitions are versioned to support future protocol updates.
+
+- +4. Nimble package manager is used to build.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -85,8 +87,9 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 For library ChatSDK:
 - U3. Minimal example of the ChatSDK is no more than 25 lines of code.
-- S3. library can be used in Go applications. 
-- S4. library can be used in Rust applications
+
+- S3. library can be used in Go applications; available on pkg.go.dev.
+- S4. library can be used in Rust applications; import via git path.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -114,10 +117,11 @@ For library ChatSDK:
 
 - P1. The payload overhead does not exceed 12.5% overall, and 100 bytes per segment.
 
-- S1. Nim
+- S1. Nim library.
 
 - +1. Segmentation metadata should not reveal information about the original message content
 - +2. Relevant for all Waku nodes
+- +3. Nimble package manager is used to build.
 
 **Checklist**:
 - [ ] Specs: link to specs
@@ -148,6 +152,8 @@ For library ChatSDK:
 - R2. Queued messages are persisted across restart.
 - R3. Quota status is persisted across restart.
 
+- S1. Nim library.
+- +1. Nimble package manager is used to build.
 
 **Checklist**:
 - [ ] Specs: link to specs

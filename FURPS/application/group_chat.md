@@ -21,10 +21,10 @@
 
 ## Supportability
 
-1. Developers can create group conversations from Go Applications
-2. Developers can create group conversations from Rust Applications
+1. Developers can create group conversations from Go Applications; available on pkg.go.dev.
+2. Developers can create group conversations from Rust Applications; available on crates.io.
 
-## +Privacy
+## + (Privacy, Anonymity, Deployments)
 
 1. Non-participants cannot correlate a group conversation to any of its participants.
 2. No identifying information is visible when registering an installation.

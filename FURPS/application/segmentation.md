@@ -23,9 +23,10 @@
 
 ## Supportability
 
-1. Nim
+1. Nim library.
 
 ## + (Privacy, Anonymity, Deployments)
 
 1. Segmentation metadata should not reveal information about the original message content
-2. Relevant for all Waku nodes
+2. Relevant for all Waku nodes.
+3. Nimble package manager is used to build.
