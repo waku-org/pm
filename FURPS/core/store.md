@@ -31,7 +31,7 @@
 3. Allows presence queries to verify message existence without transferring full content.
 4. Targets query response times under 2 seconds for typical requests.
 5. Hash query of less than 10 hashes are served under 400ms; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
-6. Time range queries of less than 24 hours, with less than 10 content topics, are served under 400 ms; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
+6. Time range queries of less than 1 hour, using up to 10 content topics, are served under 60 ms; for a database less than 250 GB size and average message size under 500KiB  **(Vac-DST)**.
 
 ## Supportability
 
