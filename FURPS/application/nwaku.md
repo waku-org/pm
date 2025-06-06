@@ -4,6 +4,7 @@
 
 1. nwaku can be compiled as a library, `libwaku`.
 2. libwaku exposes c-bindings.
+3. Metrics can be enabled in libwaku.
 
 ## Usability
 
@@ -21,6 +22,8 @@
 
 1. libwaku, wakunode2 can build on Windows
 2. libwaku supports relay functionalities.
+3. TCP transport is supported for peer-to-peer message routing connections.
+4. QUIC transport is supported for peer-to-peer message routing connections.
 
 ## + (Privacy, Anonymity, Deployments)
 

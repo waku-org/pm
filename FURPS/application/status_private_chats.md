@@ -1,4 +1,4 @@
-# {Feature Name} FURPS
+# Status Private Chats FURPS
 
 Waku specific FURPS, **before** integration of the Chat SDK.
 
