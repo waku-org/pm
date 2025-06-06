@@ -76,21 +76,21 @@ Testing out new format, once approved:
 
 In order of priority.
 
-| Priority | Milestone                                                                                                                                                | core res | js-waku | nwaku | app-chat |
-|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------|-------|----------|  
-| 1        | [Introduce E2E Reliability in Status Communities](introduce_e2e_reliability_in_status.md)                                                                | ✔        |         |       | ✔        | 
-| 2        | [Foundation for Communities Optimisation](foundation_for_communities_optimisation.md)                                                                    |          |         |       |          | 
-| 3        | [Hardening and Scaling Foundations for Private Chat](hardening_and_scaling_foundation_for_private_chat.md)                                               |          |         |       |          | 
-| 4        | [Integrate nwaku in Status Desktop, relay mode only](integrate_nwaku_in_status_desktop_relay_mode_only.md)                                               |          |         |       |          |
-| 5        | [Deploy RLN Onchain Tree on L2 Testnet](deploy_rln_onchain_tree_on_l2_testnet.md)                                                                        |          |         |       |          |
-| 6        | [Define Incentivisation for RLNaaS](define_incentivisation_for_rlnaas.md)                                                                                |          |         |       |          |
-| 7        | [Improve DevEx: API, TWN, Metrics, Docs](improve_devex_api_twn_metrics_docs.md)                                                                          |          |         |       |          |
-| 8        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)                                                                          |          |         |       |          |
-| 9        | [Formalize Logos Web Apps](formalize_logos_web_apps.md)                                                                                                  |          |         |       |          |
-| 10       | [Introduce Chat SDK by enabling basic one-to-one chats]() TODO (see https://github.com/waku-org/pm/pull/303 and https://github.com/waku-org/pm/pull/309) |          |         |       |          |
-| 11       | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                                                                                            |          |         |       |          |
-| 12       | [Streamline DevEx: Mobile, Rust and Web dev](streamline_dev_ex_local_dev_rust.md)                                                                        |          |         |       |          |
-| 13       | Incentivisation follow-up                                                                                                                                |          |         |       |          |
+| Priority | Milestone                                                                                                  | End Date | core res | js-waku | nwaku | app-chat |
+|----------|------------------------------------------------------------------------------------------------------------|----------|----------|---------|-------|----------|  
+| 1        | [Introduce E2E Reliability in Status Communities](introduce_e2e_reliability_in_status.md)                  | 31 Aug   |          |         |       | 1*2m     | 
+| 2        | [Foundation for Communities Optimisation](foundation_for_communities_optimisation.md)                      | 31 Oct   |          |         |       | 1*2w     | 
+| 3        | [Hardening and Scaling Foundations for Private Chat](hardening_and_scaling_foundation_for_private_chat.md) | Drop     |          |         |       |          | 
+| 4        | [Integrate nwaku in Status Desktop, relay mode only](integrate_nwaku_in_status_desktop_relay_mode_only.md) | 20 Jun   |          |         |       |          |
+| 5        | [Deploy RLN Onchain Tree on L2 Testnet](deploy_rln_onchain_tree_on_l2_testnet.md)                          | 30 Jun   |          |         |       |          |
+| 6        | [Define Incentivisation for RLNaaS](define_incentivisation_for_rlnaas.md)                                  | 31 Jul   | 1.5*1m   |         |       |          |
+| 7        | [Improve DevEx: API, TWN, Metrics, Docs](improve_devex_api_twn_metrics_docs.md)                            | TBD      | TBD      | TBD     | TBD   | TBD      |
+| 8        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)                            | 30 Sep   | 1*3m     |         |       |          |
+| 9        | [Formalize Logos Web Apps](formalize_logos_web_apps.md)                                                    | 19 Dec   |          |         |       | 1.5*6m   |
+| 10       | [Introduce Chat SDK by enabling basic one-to-one chats]() TODO                                             | TBD      |          |         |       | TBD      |
+| 11       | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                                              | TBD      | TBD      | 1*2m    | TBD   |          |
+| 12       | [Streamline DevEx: Mobile, Rust and Web dev](streamline_dev_ex_local_dev_rust.md)                          | TBD      | TBD?     | TBD     | TBD   |          |
+| 13       | Incentivisation follow-up                                                                                  | TBD      | TBD      |         |       |          |
 
 Pushed to 2026
 - WebTransport: depending on nim-libp2p (delivery Q4)
@@ -115,11 +115,14 @@ gantt
     title Waku 2025H2
     dateFormat YYYY-MM-DD
     axisFormat %b
-    section core research
-        E2E Reliability: 2025-07-01, 2025-08-01
-        RLN Onchain Tree: 2025-07-01, 2025-08-01
-        Incentivization: 2025-07-01, 2025-08-01
-        Mixnet: 2025-07-01, 2025-12-31
+    section core research (6)
+        Define Incentivization for RLNaaS: 2025-07-01, 2025-08-01
+        Define Incentivization for RLNaaS: 2025-07-01, 2025-08-01
+        Improve DevEx: 2025-08-01, 2025-09-30
+        Mixnet: 2025-07-01, 2025-09-30
+        Integrate RLN with Waku API: 2025-07-01, 2025-09-01
+        Streamline DevEx: 2025-09-01, 2025-12-31
+        Incentivization follow-up: 2025-10-01, 2025-12-31
     section nwaku
         Status Desktop: 2025-07-01, 2025-08-01
         RLN Onchain Tree: 2025-07-01, 2025-08-01
