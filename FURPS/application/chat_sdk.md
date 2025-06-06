@@ -22,7 +22,7 @@
 
 ## Performance
 
-1. 10K active SDK users on a single shard add no more than an average of 10Mbps to the total bandwidth; based on clients generating 100 Character ChatMessages, 4 times per minute.
+1. 10K active SDK users on a single shard add no more than an average of 10Mbps to the total bandwidth; based on clients generating 100 character chat messages, 4 times per minute.
 
 ## Supportability
 
