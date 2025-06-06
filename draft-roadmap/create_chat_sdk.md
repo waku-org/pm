@@ -40,7 +40,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 **GitHub Milestone and deliverables**: <TODO>
 
-## [ChatSDK - Developer Preview ](https://github.com/waku-org/pm/issues/<TODO>)
+## ChatSDK Developer Preview
 
 **Owner**: App/Chat Research
 
@@ -98,10 +98,28 @@ For library ChatSDK:
 
 **Owner**: App/Chat Dev
 
-**Feature**: [Segmentation](<path/to/furps/file>) TODO
+**Feature**: [Segmentation](/FURPS/application/segmentation.md)
 
 **FURPS**:
-- <F1. copy-paste full furps statement>
+- F1. Outbound messages larger than the maximum Waku message size are partitioned in several messages to fit in Waku messages.
+- F2. Inbound partitioned messages are reconstructed in a whole message.
+- F3. A capping limit is applied to pre-segmented messages (e.g. 100MB).
+- F4. Messages under the maximum message size are not modified. 
+
+- U1. Only takes a maximum message size as a parameter.
+
+- R1. Reconstruction can be performed even when parts are received out or order.
+- R2. Reconstruction can be performed as long as 87.5% of the segments is received.
+- R3. If too many parts missing to reconstruct an informative error should be logged.
+
+- P1. The payload overhead does not exceed 12.5% overall, and 100 bytes per segment.
+
+- S1. Nim
+- S2. Golang
+- S3. Rust
+
+- +1. Segmentation metadata should not reveal information about the original message content
+- +2. Relevant for all Waku nodes
 
 **Checklist**:
 - [ ] Specs: link to specs
