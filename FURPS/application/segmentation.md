@@ -19,7 +19,7 @@
 
 ## Performance
 
-1. The payload overhead does not exceed 12.5% + 100 bytes.
+1. The payload overhead does not exceed 12.5% overall, and 100 bytes per segment.
 
 ## Supportability
 
