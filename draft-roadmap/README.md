@@ -91,6 +91,7 @@ In order of priority.
 | 11       | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                                              | TBD      | TBD      | 1*2m    | TBD   |          |
 | 12       | [Streamline DevEx: Mobile, Rust and Web dev](streamline_dev_ex_local_dev_rust.md)                          | TBD      | TBD?     | TBD     | TBD   |          |
 | 13       | Incentivisation follow-up                                                                                  | TBD      | TBD      |         |       |          |
+| 14       | [Nim Usage Improvements](nim_usage_improvements.md)                                                        | TBD      |          |         | TBD   |          | 
 
 Pushed to 2026
 - WebTransport: depending on nim-libp2p (delivery Q4)
