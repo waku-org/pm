@@ -22,7 +22,7 @@
 
 ## Performance
 
-1. Only one network round trip is required for operation; including both configuration and message transmission.
+1. Only one network round trip is required per operation; including both configuration and message transmission.
 2. Minimizes protocol overhead for efficient resource usage.
 
 ## Supportability
