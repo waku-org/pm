@@ -4,6 +4,7 @@
 
 1. nwaku can be compiled as a library, `libwaku`.
 2. libwaku exposes c-bindings.
+3. Metrics can be enabled in libwaku.
 
 ## Usability
 
