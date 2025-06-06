@@ -20,7 +20,7 @@
 
 ## Performance
 
-Assuming messages in a group are sent at least every `S` seconds.
+Assuming messages in a group are sent at least every `S` seconds, with `S` being no longer than `5 sec`.
 
 1. When sending a message in a group, the publisher can ensure the message was received by at least one recipient within `S` seconds **(Vac-DST)**.
 2. When receiving messages in a group, the receiver can detect 90% of missed messages within `3*S` seconds.
