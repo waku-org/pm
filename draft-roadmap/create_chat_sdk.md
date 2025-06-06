@@ -1,28 +1,40 @@
 # Create MVP ChatSDK
 
-**Estimated date of completion**: 2025/08/19
+**Estimated date of completion**: 19 Aug 2025
 
 **Resources Required for 2025H2**:
-- 1 Chat Research 
-- 1 Engineer
+- 1 App/Chat Researcher 
+- 2 App/Chat Engineers
 
-**Risks**
-- (Schedule)(High) - Lack of Nim experience: Nim is a new language to many who will be performing this work, and will require skillup to be effective. Delays and high bug counts are possible due to underestimating effort required to become proficient. Leveraging existing nim knowledge on the team will help mitigate this risk.
+The SDK is intentionally minimal—focused solely on proving the usability of the core approach. It supports 1:1 chat with
+out-of-band contact discovery and includes supporting implementations to help developers get up and running quickly.
 
-- (Organizational)(Medium) - Direction Alignment: Currently the chat usecase does not have a  Security Model and Privacy Model defined from which to drive development. These will need to be drafted while work begins. Given these documents will have wider impact in the org and community there is a risk that consensus will take longer than anticipated, stalling development. Mitigation involves documenting the targeted approach and socializing it as early as possible. Following the Protocol Design Framework outlined for chat usecases will help decompose work areas making partial consensus easier to reach. 
+The primary goal is to deliver a usable library that developers can build with today, while laying a flexible foundation
+for future extensions such as group chats and identity. Releasing early as possible maximizes feedback time and
+interaction speed.
 
-- (Schedule)(Medium) - Cryptographic Primitives: There is an assumption that the cryptographic libraries needed for the success of this project are available and in a usuable state. To mitigate, early tasks will involve spikes to find appropriate libraries and derisk their usage their state. Extra time spent preparing crypto libraries / porting will result in delays. 
+Motivations for development of a new chat protocol are described [here](https://forum.vac.dev/t/chatsdk-motivations/501).
 
-- (Technical)(Low) - Uncertain Performance: Performance targets for bandwidth are hard to quantify at this stage. They are listed as `P1` in the FURPS. While these targets appear reasonable (125 bytes per second per user) that remains to be seen. This is hard to mitigate as the SDK cannot be profiled until late in the developement cycle, making adjustments difficult.
+**Risks**:
+
+- (Schedule)(High) - Lack of Nim experience: Nim is a new language to many who will be performing this work, and will
+  require skill-up to be effective. Delays and high bug counts are possible due to underestimating effort required to
+   become proficient. Leveraging existing Nim knowledge in the team will help mitigate this risk.
+- (Organizational)(Medium) - Direction Alignment: Currently the chat use case does not have a Security Model and Privacy
+  Model defined from which to drive development. These will need to be drafted while work begins. Given these documents
+  will have wider impact in the org and community there is a risk that consensus will take longer than anticipated,
+  stalling development. Mitigation involves documenting the targeted approach and socializing it as early as possible.
+  Following the Protocol Design Framework outlined for chat use cases will help decompose work areas making partial consensus easier to reach.
+- (Schedule)(Medium) - Cryptographic Primitives: There is an assumption that the cryptographic libraries needed for the
+  success of this project are available and in a usable state. To mitigate, early tasks will involve spikes to find
+  appropriate libraries and de-risk their usage their state. Extra time spent preparing crypto libraries / porting will
+  result in delays.
+- (Technical)(Low) - Uncertain Performance: Performance targets for bandwidth are hard to quantify at this stage. They
+  are listed as `P1` in the FURPS. While these targets appear reasonable (125 bytes per second per user) that remains to
+  be seen. This is hard to mitigate as the SDK cannot be profiled until late in the development cycle, making
+  adjustments difficult.
 
 This milestone is complete when a development preview of the Chat SDK is published and made available to the community.
-
-The SDK is intentionally minimal—focused solely on proving the usability of the core approach. It supports 1:1 chat with out-of-band contact discovery and includes supporting implementations to help developers get up and running quickly.
-
-The primary goal is to deliver a usable library that developers can build with today, while laying a flexible foundation for future extensions such as group chats and identity. Releasing early as possible maximizes feedback time and interation speed.
-
-Motivations for the work are described [here](https://forum.vac.dev/t/chatsdk-motivations/501).
-
 
 **FURPS**: [ChatSDK](/FURPS/application/chat_sdk.md)
 
@@ -30,7 +42,7 @@ Motivations for the work are described [here](https://forum.vac.dev/t/chatsdk-mo
 
 ## [ChatSDK - Developer Preview ](https://github.com/waku-org/pm/issues/<TODO>)
 
-**Owner**: Chat Research
+**Owner**: App/Chat Research
 
 **Feature**: [Chat SDK](/FURPS/application/chat_sdk.md)
 
@@ -49,9 +61,9 @@ Motivations for the work are described [here](https://forum.vac.dev/t/chatsdk-mo
 
 - R1. Participants in a conversation can eventually determine whether they missed messages.
 
-- P1. 10K active SDK users on a single shard add no more than an average of 10Mbps to the total bandwidth; based on clients generating 100 Character ChatMessages, 4 times per minute.
+- P1. 10K active SDK users on a single shard add no more than an average of 10Mbps to the total bandwidth; based on clients generating 100 character chat messages, 4 times per minute.
 
-- S1. Messaging integrates Waku RLN, supporting configuration, and limited outbound message per epoch.
+- S1. Messaging integrates RLN-like rate limit, limiting outbound messages per epoch.
 - S2. Payload definitions are versioned to support future protocol updates.
 
 **Checklist**:
@@ -63,9 +75,9 @@ Motivations for the work are described [here](https://forum.vac.dev/t/chatsdk-mo
 
 ## [ChatSDK - Bindings ](https://github.com/waku-org/pm/issues/<TODO>)
 
-**Owner**: Chat Eng
+**Owner**: App/Chat Dev
 
-**Feature**: [Bindings](/FURPS/application/chat_sdk.md)
+**Feature**: [Chat SDK](/FURPS/application/chat_sdk.md)
 
 **Dependencies**: [ChatSDK - Developer Preview ]
 
@@ -78,6 +90,51 @@ For library ChatSDK:
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+## Create Segmentation Library
+
+**Owner**: App/Chat Dev
+
+**Feature**: [Segmentation](<path/to/furps/file>) TODO
+
+**FURPS**:
+- <F1. copy-paste full furps statement>
+
+**Checklist**:
+- [ ] Specs: link to specs
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+## Create Rate Limit Manager
+
+**Owner**: App/Chat Dev
+
+**Feature**: [Rate Limit Manager](/FURPS/application/rate_limit_manager.md)
+
+**FURPS**:
+- F1. Rate limit the number of messages passed to the delivery service.
+- F2. The rate limit is set in a form of number of messages per epoch; same format as RLN Relay.
+- F3. Tracks current quota and usage.
+- F4. Messages can be flagged with three priorities level: critical, normal, optional.
+- F5. When remaining message quota is low, critical messages are sent, normal messages are queued and optional messages are dropped.
+- F6. When message quote is exhausted, critical messages are queued on top, normal messages are queued, optional messages are dropped.
+
+- U1. Developer can mark messages with relevant priority.
+- U2. Developer can pass messages by batch; with an all-or-none sending strategy.
+- U3. Developer can access total quota and remaining quota values.
+- U4. Message status is available to the developer (queued, dropped, passed to delivery service).
+
+- R1. Errors and status from the underlying delivery service are available to the developer.
+- R2. Queued messages are persisted across restart.
+- R3. Quota status is persisted across restart.
+
+
+**Checklist**:
+- [ ] Specs: link to specs
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
