@@ -26,7 +26,7 @@
 
 ## Supportability
 
-1. Messaging integrates Waku RLN, supporting configuration, and limited outbound message per epoch.
+1. Messaging integrates RLN-like rate limit, limiting outbound messages per epoch.
 2. Payload definitions are versioned to support future protocol updates.
 3. library can be used in Go applications
 4. library can be used in Rust applications
