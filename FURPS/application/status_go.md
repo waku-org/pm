@@ -2,7 +2,7 @@
 
 ## Functionality
 
-1. Nwaku is the used Waku implementation for relay mode.
+1. Nwaku is the used Waku implementation for relay mode. 
 
 ## Usability
 

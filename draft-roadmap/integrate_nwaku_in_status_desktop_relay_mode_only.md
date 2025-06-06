@@ -25,9 +25,26 @@ meaning that if Status were to use RLN (see Scale 1:1 chat messages PoC), then i
 
 **FURPS**:
 
-- [nwaku](/FURPS/application/nwaku.md): F1-2, S1-2, +1
+- [nwaku](/FURPS/application/nwaku.md): F1-3, S1-2, +1
 - [status-go](/FURPS/application/status_go.md): F1, U1, R1, P1, S1-2, +1
 
 **GitHub Milestone and deliverables**: https://github.com/waku-org/pm/milestone/33
 
-TODO: add https://github.com/waku-org/nwaku/issues/3202
+## Enable Waku Metrics in libwaku 
+
+**Owner**: nwaku
+
+**Feature**: [nwaku](/FURPS/application/nwaku.md)
+
+**FURPS**:
+- F3. Metrics can be enabled in libwaku.
+
+https://github.com/waku-org/nwaku/issues/3202
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+https://github.com/waku-org/nwaku/issues/3202
