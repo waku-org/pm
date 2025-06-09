@@ -1,4 +1,4 @@
-# Nim Usage Improvements
+# Upgrade Nim Usage
 
 **Estimated date of completion**: {Enter date}
 
@@ -7,7 +7,7 @@
 - {external services consumed (Vac/IFT)}
 - {infrastructure}
 
-Progress on improving usage of Nim related tooling by proceed with PoCs and collaborating with Nim teams.
+Improve usage of Nim related tooling and design patterns by proceedings with PoCs to discover potential gains and caveats.
 This includes adoption of Nimble, usage of VSCode plugin and iteration on C-Binding methodology.
 
 **FURPS**:
