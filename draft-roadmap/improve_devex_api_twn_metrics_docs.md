@@ -50,20 +50,6 @@ For S2. For Web apps as a developer library.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## [Improved Browser Bootstrap](https://github.com/waku-org/pm/issues/290)
-
-**Owner**: js-waku
-
-**Feature**: TODO see https://github.com/waku-org/pm/pull/308
-
-**FURPS**: TODO
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
 ## [Waku Sync](https://github.com/waku-org/pm/issues/132)
 
 **Owner**: core research

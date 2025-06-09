@@ -82,7 +82,7 @@ In order of priority.
 | 2        | [Foundation for Communities Optimisation](foundation_for_communities_optimisation.md)                      | 31 Oct         |          |         |       | 1*2w     | 
 | 3        | [Hardening and Scaling Foundations for Private Chat](hardening_and_scaling_foundation_for_private_chat.md) | Completed/Drop |          |         |       |          | 
 | 4        | [Integrate nwaku in Status Desktop, relay mode only](integrate_nwaku_in_status_desktop_relay_mode_only.md) | 20 Jun (TBC)   |          |         |       |          |
-| 5        | [Deploy RLN Onchain Tree on L2 Testnet](deploy_rln_onchain_tree_on_l2_testnet.md)                          | 30 Jun         |          |         |       |          |
+| 5        | [Deploy RLN Onchain Tree on L2 Testnet](deploy_rln_onchain_tree_on_l2_testnet.md)                          | 30 Jun (H1)    |          |         |       |          |
 | 6        | [Define Incentivisation for RLNaaS](define_incentivisation_for_rlnaas.md)                                  | 31 Jul         | 1.5*1m   |         |       |          |
 | 7        | [Improve DevEx: API, TWN, Metrics, Docs](improve_devex_api_twn_metrics_docs.md)                            | TBD            | TBD      | TBD     | TBD   | TBD      |
 | 8        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)                            | 30 Sep         | 1*3m     |         |       |          |
