@@ -19,6 +19,7 @@
 15. The relevance index is increased if the author owns an ENS or Logos ordinal.
 16. The relevance index is increased if the post or comment is upvoted by an ENS or Logos ordinal owner.
 17. The relevance index is increased if the post has a comment from an ENS or Logos ordinal owner.
+18. Anonymous users can upvote, comments and post.
 
 ## Usability
 

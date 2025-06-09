@@ -125,6 +125,7 @@ TODO
 - F15. The relevance index is increased if the author owns an ENS or Logos ordinal.
 - F16. The relevance index is increased if the post or comment is upvoted by an ENS or Logos ordinal owner.
 - F17. The relevance index is increased if the post has a comment from an ENS or Logos ordinal owner.
+- F18. Anonymous users can upvote, comments and post.
 
 - U11. ENS holders can choose to use an ENS for display purposes.
 - U12. The relevance index is used to push most relevant posts and comments on top.
