@@ -1,6 +1,7 @@
 # Improve DevEx: API, TWN, Metrics, Docs
 
 **Estimated date of completion**: {Enter date}
+- js-waku 31 Aug
 
 **Resources Required for 2025H2**:
 - 1 js-waku engineer TODO
@@ -172,9 +173,11 @@ For:
 (No FURPS)
 
 - [ ] Review the current developer documentation
-- [ ] And contributor doc
-- [ ] Define a guideline for Waku teams to follow when contributing to documentation
-- [ ] Setup an initial structure
+  - [ ] And contributor doc
+- [ ] Define a guideline for Waku teams to
+  - [ ] Minimum requirements to consider "doc done" for any future deliverable
+  - [ ] How to contribute to documentation: location, format
+- [ ] Setup an initial structure to enable the guideline
 
 ## Trial QUIC
 
