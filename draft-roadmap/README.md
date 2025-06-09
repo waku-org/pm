@@ -86,7 +86,7 @@ In order of priority.
 | 6        | [Define Incentivisation for RLNaaS](define_incentivisation_for_rlnaas.md)                                  | 31 Jul         | 1.5*1m   |         |       |          |
 | 7        | [Improve DevEx: API, TWN, Metrics, Docs](improve_devex_api_twn_metrics_docs.md)                            | TBD            | TBD      | TBD     | TBD   | TBD      |
 | 8        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)                            | 30 Sep         | 1*3m     |         |       |          |
-| 9        | [Formalize Logos Web Apps](formalize_logos_web_apps.md)                                                    | 19 Dec         |          |         |       | 1.5*6m   |
+| 9        | [Formalize and Expand Waku Web Apps](formalize_and_expand_waku_web_apps.md)                                | 19 Dec         |          |         |       | 1.5*6m   |
 | 10       | [Create Chat SDK MVP](create_chat_sdk_mvp.md)                                                              | TBD            |          |         |       | TBD      |
 | 11       | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                                              | TBD            | TBD      | 1*2m    | TBD   |          |
 | 12       | [Streamline DevEx: Mobile, Rust and Web dev](streamline_dev_ex_local_dev_rust.md)                          | TBD            | TBD?     | TBD     | TBD   |          |
