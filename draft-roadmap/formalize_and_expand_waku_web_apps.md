@@ -1,4 +1,4 @@
-# Formalize and Expand Waku Web Apps
+# Logos Web Apps
 
 **Estimated date of completion**: 19 Dec 2025
 
@@ -21,9 +21,39 @@ to build over Waku.
 
 **Deliverables**:  
 
-## [Codex for message archival PoC](https://github.com/waku-org/pm/issues/293)
+## [Forum PoC](https://github.com/waku-org/pm/issues/292) 
+
+**Owner**: App/Chat Dev
+
+**Feature**: [Waku Forum](/FURPS/application/forum.md)
+
+**FURPS**:
+- F1-11
+- U1-10
+- R1-2
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+## [Codex for Message Archival PoC](https://github.com/waku-org/pm/issues/293)
 
 TODO
+
+**Owner**: {one waku subteam}
+
+**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+
+**FURPS**:
+- {F1. copy-paste full furps statement}
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
 
 ## [Reliable Qaku & library](https://github.com/waku-org/pm/issues/287)
 
@@ -80,3 +110,22 @@ TODO
 - [ ] Dogfood: link to dogfooding session/artefact
 - ~[ ] Docs: links to README.md or docs.waku.org (TBD)~
 - [ ] Promote the app
+
+## Expand Waku Forum MVP
+
+TODO
+
+**Owner**: App/Chat Dev
+
+**Feature**: [Waku Forum](/FURPS/application/forum.md)
+
+**FURPS**:
+- F1-11
+- U1-10
+- R1-2
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
