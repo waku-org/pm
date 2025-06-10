@@ -19,7 +19,7 @@ See deliverables.
 
 | Risk                                    | (Accept, Own, Mitigation)                                          |
 |-----------------------------------------|--------------------------------------------------------------------|
-| Dependency on nim-libp2p-mix            | Strong collaboration, integrate early, get involved behind the API |
+| Dependency on mix library               | Strong collaboration, integrate early, get involved behind the API |
 | Impact on latency and other UX elements | Run simulations and studies to understand impact                   |
 
 ## Deliverables

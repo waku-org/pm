@@ -15,7 +15,6 @@
 
 ## Performance
 
-
 ## Supportability
 
 1. Linux and Mac development environments.
