@@ -24,9 +24,11 @@
 ## Supportability
 
 1. Browser application, using web3 wallet browser extensions.
+2. library can be used in Go applications; available on pkg.go.dev.
+3. library can be used in Rust applications; import via git path.
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. Deployed on https://rln.waku.org
+1. Web version deployed on https://rln.waku.org
 2. Available for Linea Sepolia Testnet contracts.
-3. Proof generation and validation is out of scope.
+3. Proof generation and validation is out of scope for this FURPS.

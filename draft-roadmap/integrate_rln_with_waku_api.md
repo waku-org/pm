@@ -42,10 +42,24 @@ TODO
 
 **Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [RLN Membership Management](/FURPS/application/rln_membership_management.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- F1. Can generate RLN credentials.
+- F2. Can insert RLN membership in smart contract, with accompanying deposit.
+- F3. Can extend RLN membership on smart contract.
+- F4. Can withdraw deposit from smart contract.
+- F5. Membership credentials are encrypted by default on local disk.
+
+- U1. RLN membership details can be exported and imported.
+- U2. Deployment details (address, chain id) are persisted by library and in exports.
+
+- R1. Import and exports are interoperable across all implementations.
+
+- S2. library can be used in Go applications; available on pkg.go.dev.
+- S3. library can be used in Rust applications; import via git path.
+
+- +2. Available for Linea Sepolia Testnet contracts.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
