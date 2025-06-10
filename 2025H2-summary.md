@@ -61,7 +61,7 @@ Sustainable, scalable, secure and usable Chat protocol: Enables anyone to build 
 | Project / Community | Specific                                                        | Confirmed with Project(Yes/No) | 
 |---------------------|-----------------------------------------------------------------|--------------------------------|
 | Status Application  | Create Chat SDK MVP, Extend Chat SDK, Integrate RLN w/ Waku API | Yes                            |
-| Logos Core          | Formalize and Expand Waku Web Apps: Logos core app              | Pending                        |
+| Logos Core          | Formalize and Expand Waku Web Apps: Logos core app              | Yes                            |
 | Logos Movement      | Formalize and Expand Waku Web Apps: Forum                       | Yes                            | 
 | Status Application  | Streamline DevEx: Mobile                                        | Yes                            |
 | Codex               | Formalize and Expand Waku Web Apps: More Codex Integrations     | Pending                        |
