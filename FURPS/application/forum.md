@@ -30,7 +30,7 @@
 5. The ordinal picture and information are used to identify user, in addition to the custom nickname.
 6. Moderated users, comments, and posts are hidden.
 7. Users do not need to sign every message with their wallet.
-8. Users do not need any software beyond a Bitcoin wallet browser extension.
+8. Users do not need any software beyond a browser to use the forum.
 9. This includes a prototype UI to dogfood the PoC; Nice UI will be handled by Comms Hubs team.
 10. A library with clear API is produced to enable frontend developers to use it with a nice UI.
 11. ENS holders can choose to use an ENS for display purposes.
@@ -47,7 +47,7 @@ None
 
 ## Supportability
 
-1. Web app with Bitcoin wallet browser extension
+1. Web app; bitcoin and ethereum wallets optional.
 
 ## + (Privacy, Anonymity, Deployments)
 
