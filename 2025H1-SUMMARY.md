@@ -81,10 +81,8 @@
 | Explore Peer Discovery Gap: Mixnet                  | F(0/5) U(0/0) R(0/0) P(0/0) S(0/2)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1898f96fb65c8045bc67c5fa7d806bd9 |
 | Nwaku in Status Mobile and Light Mode               | F(0) U(0) R(0) P(0) S(0)             | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c808abb35d6242895d72e |
 | Debugging Tools: log parser                         | F(0) U(0) R(0) P(0) S(0)             | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c80a8abd6f5d37a273657 |
-| Debugging Tools: local metrics                      | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1538f96fb65c8029b5b1fd0054c78bb4 |
+| Debugging Tools: local metrics                      | F(7/7) U(2/2) R(0/0) P(0/0) S(0/1)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1538f96fb65c8029b5b1fd0054c78bb4 |
 | Messaging API                                       | F(0) U(0) R(0) P(0) S(0)             | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1578f96fb65c80c3afb3d6538a98139a |
-
-TODO: finish furps
 
 ## Funding and Resources
 
