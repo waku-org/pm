@@ -8,7 +8,7 @@
 ## Usability
 
 1. Developer only need to run a script or preset to start local Waku node and have their web app connect to it.
-2. Potential WSS/HTTPS issues are worked around so that developer does need to manually generate or import SSL certificates.
+2. Potential WSS/HTTPS issues are worked around so that developers do not need to manually generate or import SSL certificates.
 3. There is an easy option for the developer to bootstrap and connect to local node, instead of external peers.
 
 ## Reliability
