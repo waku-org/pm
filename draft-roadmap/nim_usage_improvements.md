@@ -8,7 +8,7 @@
 - {infrastructure}
 
 Improve usage of Nim related tooling and design patterns by proceedings with PoCs to discover potential gains and caveats.
-This includes adoption of Nimble, usage of VSCode plugin and iteration on C-Binding methodology.
+This includes adoption of Nimble, dogfooding VSCode plugin and iteration on C-Binding methodology.
 
 ## Strategic Objective
 
@@ -27,18 +27,9 @@ TODO
 
 ## Deliverables
 
-### Dogfood VSCode Plugin and Nimsuggest
-
-**Owner**: nwaku
-
-**No FURPS**
-
-**Output**:
-- [ ] Test nimsuggest in the nwaku codebase
-- [ ] Create reproducible setup for crashes and poor performance, open upstream issues.
-- [ ] Optional: provide a plan to make nwaku better compatible with nimsuggest (eg. no git submodule, less macros, etc)
-
 ### Migrate nwaku to Nimble PoC
+
+Note: maybe taken over by Vac-Nim
 
 **Owner**: nwaku
 
@@ -53,7 +44,19 @@ TODO
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Use Protobuf to transfer data from Wrapper to nwaku library PoC
+### Dogfood VSCode Plugin and Nimsuggest
+
+**Owner**: nwaku
+
+**No FURPS**
+
+**Output**:
+- [ ] Test nimsuggest in the nwaku codebase
+- [ ] Create reproducible setup for crashes and poor performance, open upstream issues.
+- [ ] Optional: provide a plan to make nwaku better compatible with nimsuggest (eg. no git submodule, less macros, etc)
+
+
+### Use Protobuf to transfer data from Wrapper to nwaku library PoC
 
 **Owner**: nwaku
 

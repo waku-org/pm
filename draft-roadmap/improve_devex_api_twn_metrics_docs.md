@@ -19,7 +19,7 @@ This includes:
 
 ## Strategic Objective
 
-TODO: Clarify with Leonard
+Logos Movement Community Enabling via Dev-X + Telemetry
 
 ## FURPS
 

@@ -28,31 +28,33 @@ Strategy changes:
 
 ## 🚩 Proposed Milestones(s)
 
-| Milestone Headline                                                                                    | Strategic Objective (Short form) ** | Capacity* | Business Val (0/10) | FURPS |
-|-------------------------------------------------------------------------------------------------------|-------------------------------------|-----------|---------------------|-------|
-| [Define Incentivisation for RLNaaS](draft-roadmap/define_incentivisation_for_rlnaas.md)               | Logos Vision                        | 1.5       | 7                   | TODO  |
-| [Improve DevEx: API, TWN, Metrics, Docs](draft-roadmap/improve_devex_api_twn_metrics_docs.md)         | Logos Vision, Status (via Chat SDK) | TODO      | 8                   |       |
-| [Introduce mixnet for message sending](draft-roadmap/introduce_mixnet_for_message_sending.md)         | Logos Vision                        | 1         | 6                   |       |             
-| [Formalize and Expand Waku Web Apps](draft-roadmap/formalize_and_expand_waku_web_apps.md)             | Logos Movement                      | 1.5       | 7                   |       |
-| [Create Chat SDK MVP](draft-roadmap/create_chat_sdk_mvp.md)                                           | Logos Movement, Status              | 3         | 9                   |       | 
-| [Integrate RLN with Waku API](draft-roadmap/integrate_rln_with_waku_api.md)                           | Logos Movement, Status              | 0.5       | 9                   |       |
-| [Streamline DevEx: Mobile, Rust and Web dev](draft-roadmap/streamline_dev_ex_local_dev_rust.md)       | Logos Movement, Status              | TBD       | 9                   |       |             
-| [Extend Chat SDK with Group Conversations](draft-roadmap/extend_chat_sdk_with_group_conversations.md) | Logos Movement, Status              |           | 9                   |       | 
-| Incentivisation follow-up                                                                             | TBD                                 | TBD       | 7                   |       |             
-| [Nim Usage Improvements](draft-roadmap/nim_usage_improvements.md)                                     | TBD                                 |           | 5                   | TBD   |             
+| Milestone Headline                                                                                    | Strategic Objective                                     | Capacity* | Business Val (0/10) | FURPS |
+|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------|-----------|---------------------|-------|
+| [Define Incentivisation for RLNaaS](draft-roadmap/define_incentivisation_for_rlnaas.md)               | Logos Vision: Core Values Alignment                     | 1.5       | 7                   | TODO  |
+| [Improve DevEx: API, TWN, Metrics, Docs](draft-roadmap/improve_devex_api_twn_metrics_docs.md)         | Logos Movement Community Enabling via Dev-X + Telemetry | TODO      | 8                   | FU__+ |
+| [Introduce mixnet for message sending](draft-roadmap/introduce_mixnet_for_message_sending.md)         | Logos Vision: Core Values Alignment                     | 1         | 6                   |       |             
+| [Formalize and Expand Waku Web Apps](draft-roadmap/formalize_and_expand_waku_web_apps.md)             | Logos Movement Community Enabling                       | 1.5       | 7                   |       |
+| [Create Chat SDK MVP](draft-roadmap/create_chat_sdk_mvp.md)                                           | Logos Movement Module Build Out                         | 3         | 9                   |       | 
+| [Integrate RLN with Waku API](draft-roadmap/integrate_rln_with_waku_api.md)                           | Logos Movement Module Build Out                         | 0.5       | 9                   |       |
+| [Streamline DevEx: Mobile, Rust and Web dev](draft-roadmap/streamline_dev_ex_local_dev_rust.md)       | Logos Movement Community Enabling via Dev-X             | TBD       | 9                   |       |             
+| [Extend Chat SDK with Group Conversations](draft-roadmap/extend_chat_sdk_with_group_conversations.md) | Logos Movement Module Build Out                         |           | 9                   |       | 
+| Incentivisation follow-up (write outline)                                                             | Logos Vision: Core Values Alignment                     | TBD       | 7                   |       |             
+| [Nim Usage Improvements](draft-roadmap/nim_usage_improvements.md)                                     | Logos Movement Community Enabling: Dev Journey          |           | 5                   | TBD   |             
 
 ## 🧩 Strategic Benefits Realisable from coming Half-Year (Top 5)
 
+- **Logos Vision - Core Values Alignment**: Progress on making Waku sustainably scalable, resilient, private and censorship-resistant.
+
+TODO: more like above
+
+Sustainable, scalable, secure and usable Chat protocol: Enables anyone to build private native chat application, and set sustainable foundations for Status application.
+
 - Deliver better APIs and SDKs: Broadens utility of Waku protocol, including RLN, enable building desktop, browser and mobile app using a unified, simple, Waku and RLN API.
-- Sustainable, scalable, secure and usable Chat protocol: Enables anyone to build private native chat application, and set sustainable foundations for Status application.
+
 - Waku web apps: demonstrate how to build on Waku, and iterate on dev ex and UX of Waku APIs and protocols, including RLN.
-- Roadmap to incentivisation: Explore how the Waku network can be sustainably scalable, resilient, private and censorship-resistant.
+
 - Introduce mixnet: Deliver on our promise of network level anonymity, starting with sender anonymity.
 - Improve Nim usage: improve the efficiency of Waku nim developers, to better delivery our commitments and "make it easy to contribute".
-
-##### Optional link to Full Strategic Benefits - href
-
-N/A
 
 ## 🚩 Key Cross Project Alignments (Top-5)
 
@@ -65,9 +67,6 @@ N/A
 | Codex               | Formalize and Expand Waku Web Apps: More Codex Integrations     | Pending                        |
 | Status L2           | Integrate RLN With the Waku API: Deploy SC on Sepolia           | Yes                            | 
 
-##### Optional link to Full Cross Alignments - href
-
-N/A
 
 ## 🚩 Key Cross Project/Shared Service Dependency (Top-5)
 
@@ -81,15 +80,11 @@ N/A
 | Infra          | Maintain Waku fleet, apply config changes requests, deploy new nodes for metrics        | TODO                           |
 | Vac-SC         | Support of functional extension of RLN Smart Contract                                   | Yes                            |
 
-##### Optional link to Full Dependency - href
-
-N/A
-
 ## Funding and Resources (By Strategic Objective)
 
 ### Rolled-Up By Strategic Objective
 
-TODO
+TODO: copy from strategic objectives in milestone table.
 
 | Strategic Objective               | People Costs | Infra Costs | Other Costs | 
 |-----------------------------------|--------------|-------------|-------------| 
@@ -107,11 +102,11 @@ TODO
 
 ### By Resource
 
-| Resource Headline Item  | People  | Comment   |
-|-------------------------|---------|-----------|
-| Present Resource        |   20    |           |
-| Additional Resource Ask |    2    | backfills |
-| PeopleOps Informed      |  Yes    |           |
+| Resource Headline Item  | People  | Comment                                         |
+|-------------------------|---------|-------------------------------------------------|
+| Present Resource        |   20    |                                                 |
+| Additional Resource Ask |    2    | backfills (more to ...TODO strategic objhectve) |
+| PeopleOps Informed      |  Yes    |                                                 |
 
 ### PeopleOps Consultation
 TODO
@@ -120,6 +115,12 @@ TODO
 | Review Comments | [new,renew,review,approved]|
 
 ## ⚠️ Keys Risks Identified & Controls
+
+TODO: big ones
+
+Accept: you accept the risk and it may realize
+Own: you spend effort to resolve the risk
+Mitigation: you find a way to reduce the risk impact
 
 | Risk               | (Accept, Own, Mitigation)                           |
 |--------------------|-----------------------------------------------------|
@@ -131,9 +132,13 @@ TODO
 **[Specific observations from this last execution window]**
 
 TO CLARIFY
+Lessons, strategic observations, other improvements. 
+"Key Improvements"/retrospective.
 
-#Appendix As Needed
 
+---
+
+TODO: remove below
 ## 🛠️ FURPS Reference by Proposed Milestone
 
 TO CLARIFY
