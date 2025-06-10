@@ -19,7 +19,7 @@ See deliverables.
 
 | Risk                                    | (Accept, Own, Mitigation)                                          |
 |-----------------------------------------|--------------------------------------------------------------------|
-| Dependency on nim-libp2p                | Strong collaboration, integrate early, get involved behind the API |
+| Dependency on nim-libp2p-mix            | Strong collaboration, integrate early, get involved behind the API |
 | Impact on latency and other UX elements | Run simulations and studies to understand impact                   |
 
 ## Deliverables
@@ -31,10 +31,13 @@ See deliverables.
 **Feature**: [Mix](/FURPS/core/mix.md)
 
 **FURPS**:
-- F1. Relay nodes can mount mixnet protocol, acting as entry, exit or mixnet nodes.
-- F2. Nodes can discover mixnet relay and exit nodes using available peer discovery mechanisms.
+- F1. Relay nodes can mount mixnet protocol, acting as sender, intermediary or exit nodes.
+- F2. Nodes can discover other nodes that support mix using available peer discovery mechanisms
 - F3. Client nodes can send light push requests over the mixnet before delivery to a service node.
 - F4. Client nodes can receive a response to a light push request over the mixnet.
+
+- S1. `wakunode2` for intermediary and exit nodes.
+- S2. nwaku CLI for sender nodes.
 
 **Checklist**:
 - [ ] Specs: link to specs
