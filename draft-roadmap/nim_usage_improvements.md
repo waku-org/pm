@@ -50,6 +50,8 @@ Note: maybe taken over by Vac-Nim
 
 **No FURPS**
 
+**Depends on Migrate nwaku to Nimble PoC** 
+
 **Output**:
 - [ ] Test nimsuggest in the nwaku codebase
 - [ ] Create reproducible setup for crashes and poor performance, open upstream issues.
