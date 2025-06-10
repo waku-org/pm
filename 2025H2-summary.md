@@ -78,6 +78,8 @@ N/A
 | Status Network     | Support usage of Sepolia                                                                | Yes                            |
 | Vac-ACZ            | Assist with using zerokit in the Browser                                                | Yes                            |
 | Vac-ACZ Think Tank | Assist in determining best libraries to use for cryptography in new Chat SDK            | Pending                        |
+| Infra              | Maintain Waku fleet, apply config changes requests, deploy new nodes for metrics        | TODO                           |
+| Vac-SC             | Support of functional extension of RLN Smart Contract                                   | TODO                           |
 
 ##### Optional link to Full Dependency - href
 

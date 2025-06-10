@@ -1,6 +1,6 @@
 # Create Chat SDK MVP
 
-**Estimated date of completion**: 19 Aug 2025
+**Estimated date of completion**: 30 Sep 2025
 
 **Resources Required for 2025H2**:
 - 1 App/Chat Researcher 
@@ -15,32 +15,34 @@ interaction speed.
 
 Motivations for development of a new chat protocol are described [here](https://forum.vac.dev/t/chatsdk-motivations/501).
 
-**Risks**:
-
-- (Schedule)(High) - Lack of Nim experience: Nim is a new language to many who will be performing this work, and will
-  require skill-up to be effective. Delays and high bug counts are possible due to underestimating effort required to
-   become proficient. Leveraging existing Nim knowledge in the team will help mitigate this risk.
-- (Organizational)(Medium) - Direction Alignment: Currently the chat use case does not have a Security Model and Privacy
-  Model defined from which to drive development. These will need to be drafted while work begins. Given these documents
-  will have wider impact in the org and community there is a risk that consensus will take longer than anticipated,
-  stalling development. Mitigation involves documenting the targeted approach and socializing it as early as possible.
-  Following the Protocol Design Framework outlined for chat use cases will help decompose work areas making partial consensus easier to reach.
-- (Schedule)(Medium) - Cryptographic Primitives: There is an assumption that the cryptographic libraries needed for the
-  success of this project are available and in a usable state. To mitigate, early tasks will involve spikes to find
-  appropriate libraries and de-risk their usage their state. Extra time spent preparing crypto libraries / porting will
-  result in delays.
-- (Technical)(Low) - Uncertain Performance: Performance targets for bandwidth are hard to quantify at this stage. They
-  are listed as `P1` in the FURPS. While these targets appear reasonable (125 bytes per second per user) that remains to
-  be seen. This is hard to mitigate as the SDK cannot be profiled until late in the development cycle, making
-  adjustments difficult.
-
 This milestone is complete when a development preview of the Chat SDK is published and made available to the community.
 
-**FURPS**: [ChatSDK](/FURPS/application/chat_sdk.md)
+## Strategic Objective
 
-**GitHub Milestone and deliverables**: <TODO>
+TODO: Clarify with Leonard
 
-## ChatSDK Developer Preview
+## Risks
+
+| Type/Level            | Risk                     | (Accept, Own, Mitigation)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-----------------------|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Schedule/High         | Lack of Nim experience   | Nim is a new language to many who will be performing this work, and will require skill-up to be effective. Delays and high bug counts are possible due to underestimating effort required to become proficient. Leveraging existing Nim knowledge in the team will help mitigate this risk.                                                                                                                                                                                                                                                                                      |
+| Organisational/Medium | Direction Alignment      | Currently the chat use case does not have a Security Model and Privacy Model defined from which to drive development. These will need to be drafted while work begins. Given these documents will have wider impact in the org and community there is a risk that consensus will take longer than anticipated, stalling development. Mitigation involves documenting the targeted approach and socializing it as early as possible. Following the Protocol Design Framework outlined for chat use cases will help decompose work areas making partial consensus easier to reach. |
+| Schedule/Medium       | Cryptographic Primitives | There is an assumption that the cryptographic libraries needed for the success of this project are available and in a usable state. To mitigate, early tasks will involve spikes to find appropriate libraries and de-risk their usage their state. Collaboration with ACZ Think Tank. Extra time spent preparing crypto libraries / porting will result in delays.                                                                                                                                                                                                              |
+| Technical/Low         | Uncertain Performance    | Performance targets for bandwidth are hard to quantify at this stage. They are listed as `P1` in the FURPS. While these targets appear reasonable (125 bytes per second per user) that remains to be seen. This is hard to mitigate as the SDK cannot be profiled until late in the development cycle, making adjustments difficult.                                                                                                                                                                                                                                             |
+
+## FURPS
+
+[ChatSDK](/FURPS/application/chat_sdk.md)
+
+## Risks
+
+| Risk   | (Accept, Own, Mitigation)     |
+|--------|-------------------------------|
+| [Risk] | [how to we address this risk] |
+
+## Deliverables
+
+### ChatSDK Developer Preview
 
 **Owner**: App/Chat Research
 
@@ -74,8 +76,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-
-## ChatSDK Bindings
+### ChatSDK Bindings
 
 **Owner**: App/Chat Dev
 
@@ -92,12 +93,12 @@ For library ChatSDK:
 - S4. library can be used in Rust applications; import via git path.
 
 **Checklist**:
-- [ ] Specs: link to specs and/or API definition
+- [ ] Specs: API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
+- [ ] Docs: links to README.md or docs.waku.orgAPI definition? (TBD)
 
-## Create Segmentation Library
+### Create Segmentation Library
 
 **Owner**: App/Chat Dev
 
@@ -129,7 +130,7 @@ For library ChatSDK:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Create Rate Limit Manager
+### Create Rate Limit Manager
 
 **Owner**: App/Chat Dev
 

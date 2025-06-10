@@ -11,17 +11,36 @@
 Proceed with a number of improvements to the developer experience on Waku, for both internal and external purposes.
 This includes:
 
-- improving The Waku Network reliability for Logos apps and other web apps
-- simplifying the Waku API
-- measuring Waku usage across all integrations
-- review and setting strategy for Waku documentation
+- Improving The Waku Network reliability for Logos apps and other web apps
+- Simplifying the Waku API
+- Measuring Waku usage across all integrations
+- Review and setting strategy for Waku documentation
 - Testing quic as new transport
 
-**deliverables**:
+## Strategic Objective
 
-## [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
+TODO: Clarify with Leonard
+
+## FURPS
+
+TODO (see deliverables)
+
+## Risks
+
+| Risk                                                                            | (Accept, Own, Mitigation)                                                                      |
+|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| Define collaboration with BI for metrics                                        | Communicate                                                                                    |
+| Browser reliability is a multi-prong problem (js-waku/libp2p, nwaku/nim-libp2p) | Strong collaboration                                                                           |
+| No "documentation" expert or dedicated resources                                | outsource help from doc experts in IFT, focus on setting guidelines for all Waku CCs to follow |
+
+
+## Deliverables
+
+### [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
 
 **Owner**: App/Chat Dev
+
+TODO: Pablo to confirm dependency on BI and what they do vs what we do.
 
 **Feature**: [Network Metrics Tracker](/FURPS/application/network_metrics_tracker.md)
 
@@ -34,7 +53,7 @@ This includes:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## [Scalable Data Sync in Browser](https://github.com/waku-org/pm/issues/280)
+### [Scalable Data Sync in Browser](https://github.com/waku-org/pm/issues/280)
 
 **Owner**: js-waku
 
@@ -51,7 +70,7 @@ For S2. For Web apps as a developer library.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## [Waku Sync](https://github.com/waku-org/pm/issues/132)
+### [Waku Sync](https://github.com/waku-org/pm/issues/132)
 
 **Owner**: core research
 
@@ -65,7 +84,7 @@ For S2. For Web apps as a developer library.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Define and Implement Light Push Error codes in nwaku
+### Define and Implement Light Push Error codes in nwaku
 
 **Owner**: nwaku
 
@@ -86,7 +105,7 @@ Includes spec delivery
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Implement Light Push Error codes in The Browser
+### Implement Light Push Error codes in The Browser
 
 **Owner**: js-waku
 
@@ -106,7 +125,7 @@ Spec delivery not included.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Introduce Waku API in the Browser
+### Introduce Waku API in the Browser
 
 **Owner**: js-waku
 
@@ -135,7 +154,7 @@ For S3. Browser; distribution via npmjs.com.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Introduce Waku API in nwaku
+### Introduce Waku API in nwaku
 
 **Owner**: nwaku
 
@@ -166,7 +185,7 @@ For:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Review Documentation and Define Guidelines
+### Review Documentation and Define Guidelines
 
 **Owner**: core research
 
@@ -179,7 +198,7 @@ For:
   - [ ] How to contribute to documentation: location, format
 - [ ] Setup an initial structure to enable the guideline
 
-## Trial QUIC
+### Trial QUIC
 
 **Owner**: nwaku
 
@@ -194,7 +213,7 @@ For:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Optimise Browser Bootstrapping
+### Optimise Browser Bootstrapping
 
 **Owner**: js-waku
 

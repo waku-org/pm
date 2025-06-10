@@ -7,11 +7,24 @@
 
 A PoC implementation to improve anonymity in Waku message publishing by mixing Waku Lightpush requests and responses.
 
-**FURPS** (see deliverables)
+## Strategic Objective
 
-**GitHub Milestone and deliverables**:
+TODO: Clarify with Leonard
 
-## [Integrate libp2p mix into lightpush](https://github.com/waku-org/nwaku/issues/3280)
+## FURPS
+
+See deliverables.
+
+## Risks
+
+| Risk                                    | (Accept, Own, Mitigation)                                          |
+|-----------------------------------------|--------------------------------------------------------------------|
+| Dependency on nim-libp2p                | Strong collaboration, integrate early, get involved behind the API |
+| Impact on latency and other UX elements | Run simulations and studies to understand impact                   |
+
+## Deliverables
+
+### [Integrate libp2p mix into lightpush](https://github.com/waku-org/nwaku/issues/3280)
 
 **Owner**: core research
 
@@ -22,7 +35,6 @@ A PoC implementation to improve anonymity in Waku message publishing by mixing W
 - F2. Nodes can discover mixnet relay and exit nodes using available peer discovery mechanisms.
 - F3. Client nodes can send light push requests over the mixnet before delivery to a service node.
 - F4. Client nodes can receive a response to a light push request over the mixnet.
-
 
 **Checklist**:
 - [ ] Specs: link to specs

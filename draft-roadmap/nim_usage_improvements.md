@@ -10,21 +10,35 @@
 Improve usage of Nim related tooling and design patterns by proceedings with PoCs to discover potential gains and caveats.
 This includes adoption of Nimble, usage of VSCode plugin and iteration on C-Binding methodology.
 
-**FURPS**:
+## Strategic Objective
 
-- [{Feature Name}]({path/to/furps/file}): TODO 
+TODO: Clarify with Leonard
 
-**deliverables**: 
+## FURPS
 
-## Dogfood VSCode Plugin and Nimsuggest
+TODO
+
+## Risks
+
+| Risk                | (Accept, Own, Mitigation)                                                                                                                                                                                           |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Maturity of tooling | This milestone focusing on trying out fresh Nim tooling, hence it may not be possible to output a PoC, but instead raising a series of upstream issues.                                                             |
+| Actual value/impact | The direct value on dev ex is not always clear, especially for Nimble. There is hope on bette contributor experience, but the end impact may mostly be on improving Nim tooling by providing constructive feedback. |
+
+## Deliverables
+
+### Dogfood VSCode Plugin and Nimsuggest
 
 **Owner**: nwaku
 
 **No FURPS**
 
-**Output**: Open issues and report on nimsuggest crashes and poor performance when used with nwaku codebase.
+**Output**:
+- [ ] Test nimsuggest in the nwaku codebase
+- [ ] Create reproducible setup for crashes and poor performance, open upstream issues.
+- [ ] Optional: provide a plan to make nwaku better compatible with nimsuggest (eg. no git submodule, less macros, etc)
 
-## Migrate nwaku to Nimble PoC
+### Migrate nwaku to Nimble PoC
 
 **Owner**: nwaku
 

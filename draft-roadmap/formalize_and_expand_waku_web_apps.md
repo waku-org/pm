@@ -17,11 +17,23 @@ Explore Codex x Waku integration, in Qaku and one other application.
 Develop 10 Waku Web Apps PoC, and push them to the community to "teach them how to hunt" as well as inspire developers
 to build over Waku.
 
-**FURPS**: See deliverables
+## Strategic Objective
 
-**Deliverables**:  
+TODO: Clarify with Leonard
 
-## [Forum PoC](https://github.com/waku-org/pm/issues/292) 
+## FURPS
+
+## Risks
+
+| Risk                                               | (Accept, Own, Mitigation)                                      |
+|----------------------------------------------------|----------------------------------------------------------------|
+| Logos Core Readiness                               | Get involed early with Logos Core, tinker and provide feedback |
+| Experimental application spam protection for Forum | Focus on MVP to get user feedback early                        | 
+| Spec writing by non-researchers                    | Push for early specs, to enabling feedback and mentoring       |
+
+## Deliverables
+
+### [Forum PoC](https://github.com/waku-org/pm/issues/292) 
 
 **Owner**: App/Chat Dev
 
@@ -33,14 +45,14 @@ to build over Waku.
 - R1-2
 
 **Checklist**:
-- [ ] Specs: link to specs and/or API definition
+- [ ] Specs: link to specs
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## [Codex for Message Archival PoC](https://github.com/waku-org/pm/issues/293)
+### [Codex for Message Archival PoC](https://github.com/waku-org/pm/issues/293)
 
-TODO
+TODO - Hanno is defining some FURPS and we can review.
 
 **Owner**: {one waku subteam}
 
@@ -55,7 +67,7 @@ TODO
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## [Reliable Qaku & library](https://github.com/waku-org/pm/issues/287)
+### [Reliable Qaku & library](https://github.com/waku-org/pm/issues/287)
 
 **Owner**: App/Chat Dev 
 
@@ -74,7 +86,7 @@ TODO
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Build Ten Waku Web Apps
+### Build Ten Waku Web Apps
 
 **Owner**: App/Chat Dev
 
@@ -82,7 +94,7 @@ TODO
 
 **Output**: 10 working Waku Web apps of various sort.
 
-- The apps needs to be functioning and deployed, PoC level.
+- The apps need to be functioning and deployed, PoC level.
 - Broadcast to the community must happen (Logos/Waku Discord, Logos/Vac Forums, conference talks, Twitter, etc). 
 
 **Checklist**:
@@ -92,7 +104,7 @@ TODO
 - ~[ ] Docs: links to README.md or docs.waku.org (TBD)~
 - [ ] Promote the app
 
-## Build One Waku Logos Core App
+### Build One Waku Logos Core App
 
 **Owner**: App/Chat Dev
 
@@ -100,7 +112,7 @@ TODO
 
 **Output**: 1 working Logos Core App.
 
-- The apps needs to be functioning, PoC level.
+- The app needs to be functioning, PoC level.
 - Broadcast to the community must happen (Logos/Waku Discord, Logos/Vac Forums, conference talks, Twitter, etc).
 - May use Waku SDK or Chat SDK.
 
@@ -111,7 +123,7 @@ TODO
 - ~[ ] Docs: links to README.md or docs.waku.org (TBD)~
 - [ ] Promote the app
 
-## Open Forum to Web3 Users and Anons
+### Open Forum to Web3 Users and Anons
 
 **Owner**: App/Chat Dev
 

@@ -1,6 +1,6 @@
 # Extend Chat SDK with Group Conversations
 
-**Estimated date of completion**: 18 Nov 2025
+**Estimated date of completion**: 19 Dec 2025
 
 **Resources Required for 2025H2**:
 - 1 App/Chat Research 
@@ -11,22 +11,28 @@ participants in a given group chat.
 
 The features to said group chat will be limited, and extended with further milestones.
 
-**Risks**:
+Support to plug Status Communities on top of this SDK is **not** expected.
+Further group size scaling and extension of membership management API would be needed. 
 
-- (Schedule)(Medium) - Task Dependency: This task is dependent on [ChatSDK - Developer Preview](create_chat_sdk_mvp.md).
-  Delays there will translate into delays to this milestone.
-- (Technical)(Medium) - Lack of Libraries: There currently does not exist the required libraries in Nim to build group
-  chat. This will involve evaluating the potential of calling an existing library via FFI or implementing it from
-  scratch. This can be mitigated by vetting existing library potential should occur early or finding security reviewers
-  for nim implemented cryptography.
-- (Technical)(Low) - Group chat is prone to bugs, even when using existing encryption protocols. Extra time has been
-  allocated to testing and debugging in an effort to mitigate this, however it still remains a risk. 
+## Strategic Objective
 
-**FURPS**: [Group Chat](/FURPS/application/group_chat.md)
+TODO: Clarify with Leonard
 
-**GitHub Milestone and deliverables**: <TODO>
+## FURPS
 
-## Add Group Chat
+[Group Chat](/FURPS/application/group_chat.md)
+
+## Risks
+
+| Type/Level       | Risk                                                                                                                                                                                               | (Accept, Own, Mitigation)                                                                                                                                                                                                                                                                                                                           |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Schedule/Medium  | Milestone Dependency                                                                                                                                                                               | This milestone is dependent on [ChatSDK - Developer Preview](create_chat_sdk_mvp.md).   Delays there will translate into delays to this milestone.                                                                                                                                                                                                  |
+| Technical/Medium | Lack of NimLibraries                                                                                                                                                                               | There currently does not exist the required libraries in Nim to build group chat. This will involve evaluating the potential of calling an existing library via FFI or implementing it from scratch. This can be mitigated by vetting existing library potential should occur early or finding security reviewers for nim implemented cryptography. |
+| Technical/Low    | Group chat is prone to bugs, even when using existing encryption protocols. Extra time has been allocated to testing and debugging in an effort to mitigate this, however it still remains a risk. | 
+
+## Deliverables
+
+### Add Group Chat
 
 **Owner**: App/Chat Research
 
@@ -55,8 +61,7 @@ The features to said group chat will be limited, and extended with further miles
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-
-## Group Chat Bindings
+### Group Chat Bindings
 
 **Owner**: App/Chat Dev
 

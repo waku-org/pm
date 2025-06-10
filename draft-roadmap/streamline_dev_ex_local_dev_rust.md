@@ -15,28 +15,25 @@ relying on external connectivity; as well as opting in and out of RLN, and inclu
 
 Finalize the integration of nwaku in Status application by setting up nwaku-based build for Mobile platforms.
 
-**FURPS**:
+## Strategic Objective
 
-- [{Feature Name}]({path/to/furps/file}): {list of furps: F1, etc}
+TODO: Clarify with Leonard
 
-**deliverables**:
+## FURPS
 
-## Edge Mode in Nwaku
+TODO
 
-**Owner**: nwaku
+## Risks
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file}) TODO
+| Risk                    | (Accept, Own, Mitigation)                                                                                                                                                |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| nwaku performance       | Performance of nwaku in comparison to go-waku will be measured by DST during H2 and may raise issues that will become blockers for pratical usage of nwaku in Mobile.    |
+| Publishing to crates.io | One of the challenge to publish libwaku on crates.io is the package size. Several strategy may be developed and tried to find a way to distribute Nim-based Rust crates. |
+| Local dev harness       | Creating a local dev environment may be a challenge due to the nature of Waku and RLN, as we would need to locally coordinate bootstrap and blockchain emulation.        |
 
-**FURPS**:
-- {F1. copy-paste full furps statement}
+## Deliverables
 
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-## Nwaku in Status Mobile
+### Edge Mode in Nwaku
 
 **Owner**: nwaku
 
@@ -51,7 +48,7 @@ Finalize the integration of nwaku in Status application by setting up nwaku-base
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Waku Rust SDK
+### Nwaku in Status Mobile
 
 **Owner**: nwaku
 
@@ -66,7 +63,22 @@ Finalize the integration of nwaku in Status application by setting up nwaku-base
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-## Local RLN Dev Harness
+### Waku Rust SDK
+
+**Owner**: nwaku
+
+**Feature**: [{Feature Name (only 1)}]({path/to/furps/file}) TODO
+
+**FURPS**:
+- {F1. copy-paste full furps statement}
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+### Local RLN Dev Harness
 
 **Owner**: ? (nwaku? core-research?) TODO
 
@@ -81,7 +93,7 @@ Finalize the integration of nwaku in Status application by setting up nwaku-base
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)\
 
-## Local Web Dev Harness
+### Local Web Dev Harness
 
 **Owner**: js-waku
 
