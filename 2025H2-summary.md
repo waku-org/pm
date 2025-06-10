@@ -154,11 +154,13 @@ See links in [Proposed Milestones(s)](#-proposed-milestoness). Each milestone ha
 
 TO CLARIFY: is this per milestone?
 
-| Risk               | (Accept, Own, Mitigation)                           |
-|--------------------|-----------------------------------------------------|
-| [Risk]             | [how to we address this risk]                               |
-| [Risk]             | [how to we address this risk]                               |
-| [Risk]             | [how to we address this risk]                               |
+TO CLARIFY: What does "(Accept, Own, Mitigation)" mean?
+
+| Risk                                            | (Accept, Own, Mitigation)                                                                                                                     |
+|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Readiness of status-go for Chat SDK integration | Weekly sync up on chat sdk and status-go refactoring topic between Waku and Status teams, collaborative planning done to align goals and API. |
+| [Risk]                                          | [how to we address this risk]                                                                                                                 |
+| [Risk]                                          | [how to we address this risk]                                                                                                                 |
 
 
 
