@@ -20,21 +20,47 @@
 
 ## 🚩 Key Achievement(s)
 From the list of planned items
-| Milestone Headline         | Strategic Objective                          | Realised Value (0/10)|
-|----------------------------|----------------------------------------------|----------------------|
-| Waku Store Database Metric | Objective link, We Need One, ND(Not defined) |                      |
+
+| Milestone Headline                                  | Strategic Objective                                                                                                                 | Realised Value (0/10) |
+|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
+| Direct Message Reliability                          | Improve p2p reliability of edge nodes                                                                                               | 8/10                  |
+| End-to-end reliability protocol                     | Provide agnostic protocol for reliability in group chats                                                                            | 5/10                  | 
+| Foundation for Communities Optimization             | Simplify use of Waku to enable cheap optimization if needed                                                                         | 8/10                  |
+| Scale up number of Communities                      | Introduce rendezvous as additional peer discovery mechanism                                                                         | 1/10                  |
+| Nwaku in Status Desktop (Relay mode)                | Demonstrate usage of nwaku/nim-library in Status Desktop/Golang Application                                                         | 10/10                 |
+| RLN Mainnet                                         | Introduce economics to DoS protection smart contract and improve UX                                                                 | 7/10                  | 
+| Hardening and scaling foundations for private chats | Understand chat protocol to define roadmap, increase QA coverage for chat protocols                                                 | 7/10                  |
+| Upgrade Waku for the Web                            | Delivered end-to-end protocol to Web applications                                                                                   | 5/10                  | 
+| Logos Web apps                                      | Decentralized Forum PoC, Qaku library, demonstration of Codex integration w/ Waku and more resilience to Web3 RPC outages for nwaku | 7/10                  |
+| Explore Peer Discovery Gap                          | Partial Mixnet PoC, dogfooding store sync for network message consistency                                                           | 6/10                  |
+| Debugging Tools                                     | Local metrics dashboard to enable study of software behaviour and usage of Waku                                                     | 5/10                  | 
 
 ## 🧩 Strategic Benefits Realised
-- **[e.g. Protocol Responsiveness]**: [Broadens utility of Waku protocol]
-- **[e.g. Rate Limited Nullifier PoC]**: [helps anti-spam and network load]
-- **[Differentiator 3]**: [Explanation]
+- Network DoS Protection: Improved UX and defined economic parameters
+- P2P reliability: Improve recovery on network disconnection
+- E2E reliability: Introduced scalable protocol for large group chat, that can extended to 1:1 chats. Both for native and browser applications.
+- Nwaku in Golan application: Open the path to multi-language SDKs to fulfill needs of any application developers, including Logos Core.
+- Various Waku Apps: teach them how to hunt by demonstrating potential Waku use-cases in different platforms and context.
+- Mixnet PoC: Pave the path to increase anonymity property of Waku to a TOR-like (or above) level.
 
 ## 🚩 Non-Realised Item(s)
 From the list of planned items
-| Headline                   | Reason for not being realised | Carry(Yes/No)   |
-|----------------------------|-------------------------------|-----------------|
-| SDS phase 1 rollout        | e.g. descoped by sponsor      |                 |
 
+| Headline                                          | Reason for not being realised                                                                                                   | Carry(Yes/No)    |
+|---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|------------------|
+| Local rate limit in Status Chat                   | No clear pathway to Status integration, new Chat SDK makes it irrelevant                                                        | No               |
+| Formal specs for Status chat protocols            | New Chat SDK means new protocols, making proper documentation of existing protocols unnecessary                                 | No               |
+| E2e reliability integration in Status Communities | Underestimation of effort to onboard developer to Nim, challenges to build FFI API (now solved), staffing issues                | Yes              |
+| RLN audited and deployed on mainnet               | Gross underestimation of the work needed, should have instead focus on needs to proceed with next dogfooding iteration          | Yes with caveats |
+| Incentivise running a Waku infrastructure         | Onboarding to Nim, staffing issue which led to re-prioritizing RLN work instead of this                                         | Yes              | 
+| Global network metrics                            | Under-estimation + time to bootstrap collaboration with BI                                                                      | Yes              |  
+| Improved browser boostrap                         | TWN old RLN contract (no deposit) being spammed, blocking progress on this item                                                 | Yes              | 
+| Browser simulations                               | Does not fit Vac-DST initial framework, increasing effort                                                                       | Unclear          |
+| Formalize Codex integration with Waku             | Unclear of benefit to progress beyond the current working integration in Qaku, refining needed, new FURPS to be proposed for H2 | Unclear          |
+| Mixnet PoC and MVP Roadmap                        | Dependency on Vac to complete libp2p-mixnet library                                                                             | Yes              |
+| Nwaku in Status Mobile and Light Mode MVP         | Underestimated work for desktop integration, reprioritized for H2 behind Chat SDK work                                          | Yes              |
+| Debugging tools, log parser                       | Handed over to Vac-DST who already have similar log tool and just need to extend its functionality                              | No               |
+| Messaging API                                     | Work was expected to only start in H1, which it did. Milestone was re-worked for H2 to better fit team resources                | Yes              |
 
 ## 🛠️ FURPS Execution Snapshot
 
