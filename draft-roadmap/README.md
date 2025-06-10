@@ -1,5 +1,7 @@
 # Waku Draft Roadmap
 
+**Most of the below is being moved to [2025H2 Summary](../2025H2-summary.md)**, which is now the master document.
+
 Finalised roadmap and milestones can be found on the [Logos roadmap](https://roadmap.logos.co/waku/).
 
 Period in planning: 2025 H2
@@ -14,7 +16,7 @@ Period in planning: 2025 H2
 
 ### Core Team
 
-1. **Complete integration of nwaku in Status Desktop**.
+1. **Complete integration of nwaku in Status Desktop** (H1)
 2. **Simplify a reliable Waku API:** aka Messaging API, make it easier to consume Waku library; critical to enable easy development of Chat SDK.
 3. **Upgrade Waku for the Web**: Ensure web applications built on The Waku Network are reliable.
 4. **RLN mainnet and API:** Continue RLN migration to onchain tree + L2 testnet, and necessary steps to get RLN on mainnet; provide simple API for Chat SDK.
