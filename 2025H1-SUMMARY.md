@@ -13,7 +13,7 @@
 - Greatly improved RLN UX with onchain tree reducing resource costs on Waku Nodes, actioning lessons from previous dogfooding in The Waku Network. Deployed on Linea Sepolia.
 - Defined and delivered first economic cost for RLN membership acquisition via stable coin deposits; including a web app for membership management to allow further dogfooding https://rln.waku.org/.
 - Defined first incentivisation mechanism including payment and local reputation (PoC incomplete as of H1)
-- Delivered 7 new Waku PoC Applications, as part of Waku internal hackathon (6) and Dev Rel effort to show how to build over Waku. This includes PoC Opchan Forum over Waku (FURPS not complete as of H1).
+- Delivered 11 new Waku PoC Applications, as part of Waku internal hackathon (6) and Dev Rel effort to show how to build over Waku (5). This includes PoC Opchan Forum over Waku (FURPS not complete as of H1).
 - Collaborated with Vac-QA to migrate status-lib chat testing to status-backend, and include more mobile environment scenarios to improve QA of Waku and Chat protocols.
 - Delivered mixnet PoC (partial functionality) to increase sender anonymity, collaborating closely with Vac to mature nim-libp2p implementation.
 - Delivered Waku Rust SDK PoC and handed over to a couple community projects.
