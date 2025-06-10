@@ -71,10 +71,13 @@ TODO
 
 **Owner**: js-waku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [RLN Relay](/FURPS/core/rln_relay.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- F4. Light push client can be configured to generate proof for outbound messages.
+- F5. Filter client can be configured to verify proof for inbound messages.
+
+- S2. Browser edge nodes can be configured to verify and generate proofs.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -86,7 +89,8 @@ TODO
 
 **Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+TODO
+**Feature**: [Waku RLN API](/FURPS/core/rln_api.md)
 
 **FURPS**:
 - {F1. copy-paste full furps statement}

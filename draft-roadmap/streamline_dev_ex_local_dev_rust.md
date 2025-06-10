@@ -95,12 +95,27 @@ TODO
 
 ### Local Web Dev Harness
 
+TODO: update milestone
+1 js-waku engineer, 70% cap allocated;
+start 1st Sep, end 19th Sep;
+
+
 **Owner**: js-waku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [Local Web Dev Harness](/FURPS/application/local_web_dev_harness.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+
+- F1. Runs local Waku node to test Web application without relying on external connectivity.
+- F2. js-waku runs in NodeJS for testing and CI purposes.
+
+- U1. Developer only need to run a script or preset to start local Waku node and have their web app connect to it.
+- U2. Potential WSS/HTTPS issues are worked around so that developer does need to manually generate or import SSL certificates.
+- U3. There is an easy option for the developer to bootstrap and connect to local node, instead of external peers.
+
+- S1. Linux and Mac development environments.
+- S2. Local network without RLN.
+- S3. Chrome and Firefox browsers.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
