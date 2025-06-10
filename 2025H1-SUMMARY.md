@@ -1,15 +1,22 @@
 # Execution Summary (Half-Year to June-2025): Waku
 
 ## 🧭 Key Outcome(s)
-Describe the key outcomes targeted by Team in this half year.
-What problems were we solving its importance now?
-We are likely delivering Strategic Objectives (A piece of the strategy e.g. Lets deliver a v1 of chat)
-Where there are no Strategic Objectives just say 'WNO - we need one'
 
-e.g. These are high level statements on the Outcomes
-- deliver stability to Waku protocol 1-1 and group chat to support Status App
-- deliver Logos supporting chatSDK encouraging other CCs to build on Waku
-
+- Integrated nwaku in Status Desktop, progress towards decommissioning go-waku and pave the way for nim libraries to be integrated in any native desktop application.   
+- Stabilized store performance for Status Communities usage, understood the best usage patterns and design around limitations.
+- Delivered an end-to-end reliability protocol adapted to Waku's restriction (RLN), applicable for large group chat (Communities) and extensible to small chats (1:1s); progressed on integration in Status Communities and delivered browser library.
+- Understood the limitations of in-app, centralized, telemetry and delivered sustainable local metrics approach to analyse usage behaviour.
+- Understood working and limitation of existing Status Private Chat protocol. Line out work to use Waku securely and at scale (RLN) and various security limitations and inadequacies
+- Delivered new peer discovery protocol (rendezvous) to enable further scaling of Waku applications in terms of number of nodes and node capabilities.
+- Integrated local DoS protection mechanisms to all Waku service node, fleet and Status Desktop apps.
+- Bd achievements TODO https://discord.com/channels/1110799176264056863/1111541918585868348/1381801780949553183
+- Greatly improved RLN UX with onchain tree reducing resource costs on Waku Nodes, actioning lessons from previous dogfooding in The Waku Network. Deployed on Linea Sepolia.
+- Defined and delivered first economic cost for RLN membership acquisition via stable coin deposits; including a web app for membership management to allow further dogfooding https://rln.waku.org/.
+- Defined first incentivisation mechanism including payment and local reputation (PoC incomplete as of H1)
+- Delivered 7 new Waku PoC Applications, as part of Waku internal hackathon (6) and Dev Rel effort to show how to build over Waku. This includes PoC Opchan Forum over Waku (FURPS not complete as of H1).
+- Collaborated with Vac-QA to migrate status-lib chat testing to status-backend, and include more mobile environment scenarios to improve QA of Waku and Chat protocols.
+- Delivered mixnet PoC (partial functionality) to increase sender anonymity, collaborating closely with Vac to mature nim-libp2p implementation.
+- Delivered Waku Rust SDK PoC and handed over to a couple community projects.
 
 ## 🚩 Key Achievement(s)
 From the list of planned items
