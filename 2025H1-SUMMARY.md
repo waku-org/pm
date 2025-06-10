@@ -9,7 +9,7 @@
 - Understood working and limitation of existing Status Private Chat protocol. Line out work to use Waku securely and at scale (RLN) and various security limitations and inadequacies
 - Delivered new peer discovery protocol (rendezvous) to enable further scaling of Waku applications in terms of number of nodes and node capabilities.
 - Integrated local DoS protection mechanisms to all Waku service node, fleet and Status Desktop apps.
-- Bd achievements TODO https://discord.com/channels/1110799176264056863/1111541918585868348/1381801780949553183
+- BD achievements TODO https://discord.com/channels/1110799176264056863/1111541918585868348/1381801780949553183
 - Greatly improved RLN UX with onchain tree reducing resource costs on Waku Nodes, actioning lessons from previous dogfooding in The Waku Network. Deployed on Linea Sepolia.
 - Defined and delivered first economic cost for RLN membership acquisition via stable coin deposits; including a web app for membership management to allow further dogfooding https://rln.waku.org/.
 - Defined first incentivisation mechanism including payment and local reputation (PoC incomplete as of H1)
@@ -96,9 +96,7 @@
 
 ## ⚠️ Keys Risks & Controls
 
-TODO: CLARIFY WITH LEONARD
-> I assume this was for H1 risk and how we mitigated? The section seems to be present focus when the document is a H1 summary.
-> Wouldn't it be more interesting to discuss whether any risks were realized and if the mitigation strategy were effective?
+TODO: Risks you mitigated and how you did that.
 
 | Risk                       | Control                                                                                                                                                   |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
