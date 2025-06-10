@@ -19,7 +19,6 @@
 - Delivered Waku Rust SDK PoC and handed over to a couple community projects.
 
 ## 🚩 Key Achievement(s)
-From the list of planned items
 
 | Milestone Headline                                  | Strategic Objective                                                                                                                 | Realised Value (0/10) |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
@@ -36,6 +35,7 @@ From the list of planned items
 | Debugging Tools                                     | Local metrics dashboard to enable study of software behaviour and usage of Waku                                                     | 5/10                  | 
 
 ## 🧩 Strategic Benefits Realised
+
 - Network DoS Protection: Improved UX and defined economic parameters
 - P2P reliability: Improve recovery on network disconnection
 - E2E reliability: Introduced scalable protocol for large group chat, that can extended to 1:1 chats. Both for native and browser applications.
@@ -44,7 +44,6 @@ From the list of planned items
 - Mixnet PoC: Pave the path to increase anonymity property of Waku to a TOR-like (or above) level.
 
 ## 🚩 Non-Realised Item(s)
-From the list of planned items
 
 | Headline                                          | Reason for not being realised                                                                                                   | Carry(Yes/No)    |
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|------------------|
