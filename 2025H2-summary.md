@@ -77,6 +77,7 @@ Sustainable, scalable, secure and usable Chat protocol: Enables anyone to build 
 | Status Network | Support usage of Sepolia                                                                | Yes                            |
 | Vac-ACZ        | Assist with using zerokit in the Browser                                                | Yes                            |
 | Vac-ACZ        | Assist in determining best libraries to use for cryptography in new Chat SDK            | Yes                            |
+| Vac-ACZ        | libp2p-mix protocol development                                                         | Yes                            |
 | Infra          | Maintain Waku fleet, apply config changes requests, deploy new nodes for metrics        | TODO                           |
 | Vac-SC         | Support of functional extension of RLN Smart Contract                                   | Yes                            |
 
