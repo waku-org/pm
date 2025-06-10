@@ -1,9 +1,9 @@
 # Integrate RLN With the Waku API
 
-**Estimated date of completion**: {Enter date} TODO
+**Estimated date of completion**: 30 Sep
 
 **Resources Required for 2025H2**:
-- nwaku engineer TODO
+- 1 nwaku engineer for 2 months 
 - 1 js-waku engineer for 2 months (til 30 Aug)
 - core research/test engineer? TODO
 - chat sdk engineer TODO

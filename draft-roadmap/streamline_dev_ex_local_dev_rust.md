@@ -4,6 +4,8 @@
 
 **Resources Required for 2025H2**:
 - {roles and % application to it}
+- nwaku 1 eng during 1 month 70% until 30 Sep - start 1st Sep
+- js-waku 1 eng 70% 1-19th Sep
 - {external services consumed (Vac/IFT)}
 - {infrastructure}
 
@@ -78,21 +80,6 @@ TODO
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Local RLN Dev Harness
-
-**Owner**: ? (nwaku? core-research?) TODO
-
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
-
-**FURPS**:
-- {F1. copy-paste full furps statement}
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)\
-
 ### Local Web Dev Harness
 
 TODO: update milestone
@@ -122,3 +109,18 @@ start 1st Sep, end 19th Sep;
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+### Local RLN Dev Harness
+
+**Owner**: nwaku
+
+**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+
+**FURPS**:
+- {F1. copy-paste full furps statement}
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)\
