@@ -71,15 +71,15 @@ N/A
 
 ## 🚩 Key Cross Project/Shared Service Dependency (Top-5)
 
-| Project            | Specific                                                                                | Confirmed with Project(Yes/No) |
-|--------------------|-----------------------------------------------------------------------------------------|--------------------------------|
-| Vac-DST            | Proceed with status-backend benchmarks for nwaku and new chat sdk migration             | Yes                            |
-| Vac-QA             | Proceed with status-backend non-regression testing for nwaku and new chat sdk migration | Yes                            |
-| Status Network     | Support usage of Sepolia                                                                | Yes                            |
-| Vac-ACZ            | Assist with using zerokit in the Browser                                                | Yes                            |
-| Vac-ACZ Think Tank | Assist in determining best libraries to use for cryptography in new Chat SDK            | Pending                        |
-| Infra              | Maintain Waku fleet, apply config changes requests, deploy new nodes for metrics        | TODO                           |
-| Vac-SC             | Support of functional extension of RLN Smart Contract                                   | TODO                           |
+| Project        | Specific                                                                                | Confirmed with Project(Yes/No) |
+|----------------|-----------------------------------------------------------------------------------------|--------------------------------|
+| Vac-DST        | Proceed with status-backend benchmarks for nwaku and new chat sdk migration             | Yes                            |
+| Vac-QA         | Proceed with status-backend non-regression testing for nwaku and new chat sdk migration | Yes                            |
+| Status Network | Support usage of Sepolia                                                                | Yes                            |
+| Vac-ACZ        | Assist with using zerokit in the Browser                                                | Yes                            |
+| Vac-ACZ        | Assist in determining best libraries to use for cryptography in new Chat SDK            | Yes                            |
+| Infra          | Maintain Waku fleet, apply config changes requests, deploy new nodes for metrics        | TODO                           |
+| Vac-SC         | Support of functional extension of RLN Smart Contract                                   | Yes                            |
 
 ##### Optional link to Full Dependency - href
 
