@@ -89,11 +89,24 @@ TODO
 
 **Owner**: nwaku
 
-TODO
 **Feature**: [Waku RLN API](/FURPS/core/rln_api.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- F1. Accepts RLN network configuration at initialization.
+- F2. API to pass messages for proof validation.
+- F3. API to import RLN credentials, compatible with RLN Membership management.
+- F4. API to accept Waku Message and generate proof.
+- F5. API to inform on configured rate limit parameters and remaining quota.
+
+- U1. TWN RLN configuration is applied by default.
+- U2. No boilerplate code beyond initialization is necessary to pass RLN instance in a Waku API implementation.
+- U3. Rate usage is persisted across restarts.
+
+- S1. library can be used in Go applications; available on pkg.go.dev.
+- S2. library can be used in Rust applications; import via git path.
+- S3. library can be used in Nim applications; import via git path.
+
+- +1. Only one set of credentials can be used at a given t
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

@@ -93,7 +93,7 @@ In order of priority.
 |----------|-----------------------------------------------------------------------------------------|----------|----------|---------|-------|-------------|
 | 1        | [Define Incentivisation for RLNaaS](define_incentivisation_for_rlnaas.md)               | 31 Jul   | 1.5      |         |       |             |
 | 2        | [Improve DevEx: API, TWN, Metrics, Docs](improve_devex_api_twn_metrics_docs.md)         | TBD      | TBD      | TBD     | TBD   | 0.16..      |
-| 3        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)         | 30 Sep   | 1*3m     |         |       |             |
+| 3        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)         | 30 Sep   | 0.5      |         |       |             |
 | 4        | [Formalize and Expand Waku Web Apps](formalize_and_expand_waku_web_apps.md)             | 19 Dec   |          |         |       | 1.5         |
 | 5        | [Create Chat SDK MVP](create_chat_sdk_mvp.md)                                           | 30 Sep   |          |         |       | 2 dev/1 res |
 | 6        | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                           | TBD      | TBD      | 1*2m    | TBD   |             |
