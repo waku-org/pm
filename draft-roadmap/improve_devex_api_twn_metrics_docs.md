@@ -5,7 +5,7 @@
 
 **Resources Required for 2025H2**:
 - 1 js-waku engineer, 31 Aug
-- 1.5 nwaku eng, 31 Aug
+- 1.5 nwaku eng, 31 Aug (API)
 - {external services consumed (Vac/IFT)}
 - {infrastructure}
 
@@ -78,27 +78,6 @@ For S2. For Web apps as a developer library.
 **Feature**: [Store Sync](/FURPS/core/store_sync.md)
 
 **FURPS**: all
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-### Define and Implement Light Push Error codes in nwaku
-
-**Owner**: nwaku
-
-**Feature**: [Light Push](/FURPS/core/light_push.md)
-
-**FURPS**:
-- F4. Supports comprehensive error codes for various failure scenarios.
-- U4. Provides descriptive error messages in responses.
-- R2. Status codes indicate the best recovery method (retry, discard service node or irrecoverable failure).
-- R3. 80% message transmission success rate on live Status network (service node from both Status Desktop and fleet Waku instances)
-
-For S1. Linux amd64 CLI as service node
-Includes spec delivery
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
