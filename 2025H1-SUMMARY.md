@@ -9,7 +9,7 @@
 - Understood working and limitation of existing Status Private Chat protocol. Line out work to use Waku securely and at scale (RLN) and various security limitations and inadequacies
 - Delivered new peer discovery protocol (rendezvous) to enable further scaling of Waku applications in terms of number of nodes and node capabilities.
 - Integrated local DoS protection mechanisms to all Waku service node, fleet and Status Desktop apps.
-- BD achievements TODO https://discord.com/channels/1110799176264056863/1111541918585868348/1381801780949553183
+- Waku integration started in at least 2 new projects: [chrom.ar](https://x.com/McGee_noodle/status/1915893489151447269), [Portrait](https://openinternetprotocol.com/networking-layer/waku); commitment from 2 other projects (stealth mode).
 - Greatly improved RLN UX with onchain tree reducing resource costs on Waku Nodes, actioning lessons from previous dogfooding in The Waku Network. Deployed on Linea Sepolia.
 - Defined and delivered first economic cost for RLN membership acquisition via stable coin deposits; including a web app for membership management to allow further dogfooding https://rln.waku.org/.
 - Defined first incentivisation mechanism including payment and local reputation (PoC incomplete as of H1)
@@ -96,14 +96,13 @@
 
 ## ⚠️ Keys Risks & Controls
 
-TODO: Risks you mitigated and how you did that.
-
-| Risk                       | Control                                                                                                                                                   |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| FFI form Nim library       | Drive collaboration, share knowledge and push more knowledgeable devs to jump in for assistance                                                           |
-| Status' undefined strategy | Focus on foundational work that has value no matter the direction, building in a modular manner to deliver re-usable components over specialized delivery |
-| RLN's challenging UX       | Focus on tight feedback loops, push for integration wherever possible (eg Status AND web apps)                                                            |
-| Store centralization       | Reduce importance of store with e2e reliability, tweak API to avoid usage of store as CDN by developers, continue progressing on Codex integration        | 
+| Risk                       | Control                                                                                                                                                    |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| FFI for Nim libraries      | Drive collaboration, share knowledge and push more experience devs to jump in for assistance                                                               |
+| Departure of RLN experts   | Close collaboration with Vac-ACZ, dedicated 3 engineers to the task to work collaboratively and unblock each others.                                       | 
+| Status' undefined strategy | Focus on foundational work that has value no matter the direction, building in a modular manner to deliver re-usable components over specialized delivery. |
+| RLN's challenging UX       | Focus on tight feedback loops, push for integration wherever possible (eg Status AND web apps),                                                            |
+| Store centralization       | Reduce importance of store with e2e reliability, tweak API to avoid usage of store as CDN by developers, continue progressing on Codex integration.        | 
 
 ## ✅ Key Observations
 
