@@ -84,22 +84,38 @@
 | Debugging Tools: local metrics                      | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1538f96fb65c8029b5b1fd0054c78bb4 |
 | Messaging API                                       | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1578f96fb65c80c3afb3d6538a98139a |
 
+TODO: finish furps
+
 ## Funding and Resources
 
-| Headline Budget Ask    | k-USD   |
-| Final Budget Used      | k-USD   |
-| Resource Count Initial | ####### |
-| Resource Count Final   | ####### |
-| Open Positions         | ####### |
-
+| Name                   | Amount              |
+|------------------------|---------------------|
+| Headline Budget Ask    | k-USD               |
+| Final Budget Used      | k-USD               |
+| Resource Count Initial | 21                  |
+| Resource Count Final   | 20                  |
+| Open Positions         | 0 (2 backfill lost) |
 
 ## ⚠️ Keys Risks & Controls
 
-| Risk               | Control                                |
-|--------------------|----------------------------------------|
-| [Risk]             | [Mitigation strategy]                  |
-| [Risk]             | [Mitigation strategy]                  |
-| [Risk]             | [Mitigation strategy]                  |
+TODO: get answer to question
+
+> I assume this was for H1 risk and how we mitigated? The section seems to be present focus when the document is a H1 summary.
+> Wouldn't it be more interesting to discuss whether any risks were realized and if the mitigation strategy were effective?
+
+| Risk                       | Control                                                                                                                                                   |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| FFI form Nim library       | Drive collaboration, share knowledge and push more knowledgeable devs to jump in for assistance                                                           |
+| Status' undefined strategy | Focus on foundational work that has value no matter the direction, building in a modular manner to deliver re-usable components over specialized delivery |
+| RLN's challenging UX       | Focus on tight feedback loops, push for integration wherever possible (eg Status AND web apps)                                                            |
+| Store centralization       | Reduce importance of store with e2e reliability, tweak API to avoid usage of store as CDN by developers, continue progressing on Codex integration        | 
 
 ## ✅ Key Observations
-**[Specific observations from this last execution window]**
+
+- "RLN Mainnet" was too premature of a goal, the focus has shifted to focus on the next iteration of dogfooding (to be started soon). Next goals will be pushing on Status L2 Sepolia and continue iterating on UX, to provide accompanying library to Chat SDK.
+- We aimed to be flexible with Status' dynamic strategy, by dropping items whose value became unclear, and focusing on modular, long-term, sustainable and re-usable work.
+- It was too early to formalize integration with Codex. Nonetheless, Waku apps produced by app/chat team have Codex integration and dogfooding of Waku x Codex will continue.
+- We attempted to put in place a process with Vac-QA and Vac-DST respectively "certify" `R`s and `P`s. While good on principle, the tracking processes are not there.
+- It was a first round of planning with FURPS. Lessons have been learned and being applied for H2.
+- The "Waku (Messaging) API" was initially a tidy up, as Waku was already integrated in Status. With a focus towards Chat SDK and growing a developer community, it became an urgent-important item.
+- The Waku internal hackathon was a great experiment to identify use-case but also improvements to the Waku dev ex. With a focus on building (developer) tribes, its strategic value has increased.
