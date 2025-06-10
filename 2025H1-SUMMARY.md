@@ -77,12 +77,12 @@
 | Upgrade Waku for the Web                            | F(1/3) U(1/2) R(2/2) P(2/3) S(1/1)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1898f96fb65c80bf9614d520301a1e60 |
 | Logos Web apps: Qaku                                | F(22/22) U(6/6) R(1/1) P(1/1) S(4/4) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1828f96fb65c80db9d98d5f2f8aaef52 |
 | Logos Web apps: Forum                               | F(8/10) U(5/10) R(1/2) P(0/0) S(1/1) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1578f96fb65c80d18d2be483e8c3ba28 |
-| Explore Peer Discovery Gap: Store Sync              | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c80d88942cbd0bfb91ce5 |
-| Explore Peer Discovery Gap: Mixnet                  | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1898f96fb65c8045bc67c5fa7d806bd9 |
-| Nwaku in Status Mobile and Light Mode               | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c808abb35d6242895d72e |
-| Debugging Tools: log parser                         | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c80a8abd6f5d37a273657 |
+| Explore Peer Discovery Gap: Store Sync              | F(1/1) U(2/2) R(1/1) P(1/1) S(1/1)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c80d88942cbd0bfb91ce5 |
+| Explore Peer Discovery Gap: Mixnet                  | F(0/5) U(0/0) R(0/0) P(0/0) S(0/2)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1898f96fb65c8045bc67c5fa7d806bd9 |
+| Nwaku in Status Mobile and Light Mode               | F(0) U(0) R(0) P(0) S(0)             | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c808abb35d6242895d72e |
+| Debugging Tools: log parser                         | F(0) U(0) R(0) P(0) S(0)             | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c80a8abd6f5d37a273657 |
 | Debugging Tools: local metrics                      | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1538f96fb65c8029b5b1fd0054c78bb4 |
-| Messaging API                                       | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1578f96fb65c80c3afb3d6538a98139a |
+| Messaging API                                       | F(0) U(0) R(0) P(0) S(0)             | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1578f96fb65c80c3afb3d6538a98139a |
 
 TODO: finish furps
 
@@ -98,8 +98,7 @@ TODO: finish furps
 
 ## ⚠️ Keys Risks & Controls
 
-TODO: get answer to question
-
+TODO: CLARIFY WITH LEONARD
 > I assume this was for H1 risk and how we mitigated? The section seems to be present focus when the document is a H1 summary.
 > Wouldn't it be more interesting to discuss whether any risks were realized and if the mitigation strategy were effective?
 
