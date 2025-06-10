@@ -2,7 +2,7 @@
 
 ## Functionality
 
-1. Users identify themselves by signing with their Bitcoin key.
+1. Users can identify themselves by signing with their Bitcoin key.
 2. Only users owning Logos ordinal or an ENS can create a cell.
 3. Any user (authenticated or not) can see the content; basic encryption functionality.
 4. Existing cells can be listed.
