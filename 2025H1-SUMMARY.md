@@ -63,26 +63,26 @@
 
 ## 🛠️ FURPS Execution Snapshot
 
-| Headline 1                     | FURPS Doneness                      | Link          |
-|--------------------------------|-------------------------------------|---------------|
-| Direct Message Reliability     | F(8/9) U(4/4) R(2/3) P(0/2) S(1/2) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8042b6d6d9fadb0ddcef |
-| End-to-End Reliability Protocol | F(0/2) U(0/2) R(0/2) P(0/2) S(0/1) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c803ca2acf006cd9aa6bd |
-| Scale Up Number of Communities |  F(1/2) U(1/2) R(0/2) P(0/1) S(0/3) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8017bf15c825908fca8d |
-| RLN Mainnet                    |  F(3/5) U(1/4) R(0/3) P(0/4) S(1/3) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c80309c8dddc660273baa |
-| Nwaku in Status Desktop (Relay mode) | F(0/2) U(0/2) R(0/2) P(0/1) S(0/2) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8012916fe63b1a244df1 |
-| Incentivise running a Waku infrastructure node | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c805e9345f2c1e59da62f |
-| Foundation for Communities Optimization | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1858f96fb65c803cbc0ddb6cbde6282f |
-| Hardening and scaling foundations for private chats | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1518f96fb65c801383e4c0a65b9ae5f5 |
-| Global network metrics deliverable | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1518f96fb65c8014b396c39edf300af7 |
-| Upgrade Waku for the Web | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1898f96fb65c80bf9614d520301a1e60 |
-| Logos Web apps: Qaku |  F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1828f96fb65c80db9d98d5f2f8aaef52 |
-| Logos Web apps: Forum |  F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1578f96fb65c80d18d2be483e8c3ba28 |
-| Explore Peer Discovery Gap: Store Sync | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c80d88942cbd0bfb91ce5 |
-| Explore Peer Discovery Gap: Mixnet | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1898f96fb65c8045bc67c5fa7d806bd9 |
-| Nwaku in Status Mobile and Light Mode | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c808abb35d6242895d72e |
-| Debugging Tools: log parser | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c80a8abd6f5d37a273657 |
-| Debugging Tools: local metrics |  F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1538f96fb65c8029b5b1fd0054c78bb4 |
-| Messaging API | F() U() R() P() S() | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1578f96fb65c80c3afb3d6538a98139a |
+| Headline 1                                          | FURPS Doneness                       | Link                                                                                                                |
+|-----------------------------------------------------|--------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Direct Message Reliability                          | F(8/9) U(4/4) R(2/3) P(0/2) S(1/2)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8042b6d6d9fadb0ddcef |
+| End-to-End Reliability Protocol                     | F(0/2) U(0/2) R(0/2) P(0/2) S(1/2)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c803ca2acf006cd9aa6bd |
+| Scale Up Number of Communities                      | F(2/2) U(2/2) R(2/2) P(0/1) S(2/3)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8017bf15c825908fca8d |
+| RLN Mainnet                                         | F(4/5) U(4/4) R(2/3) P(1/4) S(1/3)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c80309c8dddc660273baa |
+| Nwaku in Status Desktop (Relay mode)                | F(2/2) U(1/2) R(0/2) P(0/1) S(1/2)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c8012916fe63b1a244df1 |
+| Incentivise running a Waku infrastructure node      | F(0/6) U(0/3) R(0/3) P(0/1) S(0/1)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1498f96fb65c805e9345f2c1e59da62f |
+| Foundation for Communities Optimization             | F(1/4) U(1/3) R(1/1) P(2/3) S(0/1)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1858f96fb65c803cbc0ddb6cbde6282f |
+| Hardening and scaling foundations for private chats | F(0) U(0) R() P(0) S(0)              | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1518f96fb65c801383e4c0a65b9ae5f5 |
+| Global network metrics deliverable                  | F(0) U(0) R(0) P(0) S(0)             | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1518f96fb65c8014b396c39edf300af7 |
+| Upgrade Waku for the Web                            | F(1/3) U(1/2) R(2/2) P(2/3) S(1/1)   | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1898f96fb65c80bf9614d520301a1e60 |
+| Logos Web apps: Qaku                                | F(22/22) U(6/6) R(1/1) P(1/1) S(4/4) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1828f96fb65c80db9d98d5f2f8aaef52 |
+| Logos Web apps: Forum                               | F(8/10) U(5/10) R(1/2) P(0/0) S(1/1) | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1578f96fb65c80d18d2be483e8c3ba28 |
+| Explore Peer Discovery Gap: Store Sync              | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c80d88942cbd0bfb91ce5 |
+| Explore Peer Discovery Gap: Mixnet                  | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1898f96fb65c8045bc67c5fa7d806bd9 |
+| Nwaku in Status Mobile and Light Mode               | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c808abb35d6242895d72e |
+| Debugging Tools: log parser                         | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1508f96fb65c80a8abd6f5d37a273657 |
+| Debugging Tools: local metrics                      | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1538f96fb65c8029b5b1fd0054c78bb4 |
+| Messaging API                                       | F() U() R() P() S()                  | https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00?source=copy_link#1578f96fb65c80c3afb3d6538a98139a |
 
 ## Funding and Resources
 
