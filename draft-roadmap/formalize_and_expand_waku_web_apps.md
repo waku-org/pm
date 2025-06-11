@@ -98,11 +98,13 @@ TODO - Hanno is defining some FURPS and we can review.
 - Broadcast to the community must happen (Logos/Waku Discord, Logos/Vac Forums, conference talks, Twitter, etc). 
 
 **Checklist**:
-- ~[ ] Specs: link to specs and/or API definition~
-- [ ] Code: link to GitHub issues/PRs/Epic
+
+- [ ] Code: a public GitHub repo
 - [ ] Dogfood: link to dogfooding session/artefact
-- ~[ ] Docs: links to README.md or docs.waku.org (TBD)~
 - [ ] Promote the app
+  - [ ] Logos Forum Post
+  - [ ] Walkthrough Video
+  - [ ] Social media post for re-broadcast
 
 ### Build One Waku Logos Core App
 
@@ -117,11 +119,13 @@ TODO - Hanno is defining some FURPS and we can review.
 - May use Waku SDK or Chat SDK.
 
 **Checklist**:
-- ~[ ] Specs: link to specs and/or API definition~
-- [ ] Code: link to GitHub issues/PRs/Epic
+
+- [ ] Code: a public GitHub repo
 - [ ] Dogfood: link to dogfooding session/artefact
-- ~[ ] Docs: links to README.md or docs.waku.org (TBD)~
 - [ ] Promote the app
+  - [ ] Logos Forum Post
+  - [ ] Walkthrough Video
+  - [ ] Social media post for re-broadcast
 
 ### Open Forum to Web3 Users and Anons
 

@@ -29,7 +29,7 @@
 | Nwaku in Status Desktop (Relay mode)                | Demonstrate usage of nwaku/nim-library in Status Desktop/Golang Application                                                         | 10/10                 |
 | RLN Mainnet                                         | Introduce economics to DoS protection smart contract and improve UX                                                                 | 7/10                  | 
 | Hardening and scaling foundations for private chats | Understand chat protocol to define roadmap, increase QA coverage for chat protocols                                                 | 7/10                  |
-| Upgrade Waku for the Web                            | Delivered end-to-end protocol to Web applications                                                                                   | 5/10                  | 
+| Upgrade Waku for the Web                            | Delivered end-to-end reliability protocol and improved peer management to Web applications                                          | 5/10                  | 
 | Logos Web apps                                      | Decentralized Forum PoC, Qaku library, demonstration of Codex integration w/ Waku and more resilience to Web3 RPC outages for nwaku | 7/10                  |
 | Explore Peer Discovery Gap                          | Partial Mixnet PoC, dogfooding store sync for network message consistency                                                           | 6/10                  |
 | Debugging Tools                                     | Local metrics dashboard to enable study of software behaviour and usage of Waku                                                     | 5/10                  | 

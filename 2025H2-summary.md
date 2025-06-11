@@ -2,7 +2,7 @@
 
 ## 🧭 Key Outcome(s) of Vision you are supporting
 
-- Create Chat SDK MVP - one-to-one (Browser, Nim, Rust, Golang), support Status' technical roadmap, supports Logos Movement and Logos Core by enabling secure conversations over Waku
+- Create Chat SDK MVP - one-to-one (Nim, Rust, Golang), support Status' technical roadmap, supports Logos Movement and Logos Core by enabling secure conversations over Waku
 - Simplify a reliable Waku API and SDK (Browser, Nim, Rust, Golang), supports Chat SDK, Logos Movement and Logos Core, make it is easy to integrate
 - Improve Waku Developer Experience by stabilizing The Waku Network and reviewing Docs: Support Logos Movement, make it is easy to integrate
 - Deploy metrics to measure Waku and any Waku app's level of adoption: Support measuring success of Logos Movement
