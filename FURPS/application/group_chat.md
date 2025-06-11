@@ -23,6 +23,7 @@
 
 1. Developers can create group conversations from Go Applications; available on pkg.go.dev.
 2. Developers can create group conversations from Rust Applications; available on crates.io.
+3. SDK can be instantiated with a RLN-enabled Waku node.
 
 ## + (Privacy, Anonymity, Deployments)
 

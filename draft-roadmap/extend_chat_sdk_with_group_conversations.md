@@ -77,3 +77,23 @@ TODO: Clarify with Leonard
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+### Enable usage with RLN SDK
+
+**Owner**: App/Chat Dev
+
+#### **Feature**: [Rate Limit Manager](/FURPS/application/rate_limit_manager.md)
+
+**FURPS**:
+- F7. Can consume RLN API to access rate limit and current quota.
+
+#### **Feature**: [Group Chat](/FURPS/application/group_chat.md)
+
+**FURPS**:
+- S3. SDK can be instantiated with a RLN-enabled Waku node.
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)

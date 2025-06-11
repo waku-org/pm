@@ -4,7 +4,7 @@
 - js-waku 31 Aug
 
 **Resources Required for 2025H2**:
-- 1 js-waku engineer, 31 Aug
+- 2 js-waku engineer, 31 Aug
 - 1.5 nwaku eng, 31 Aug (API)
 - {external services consumed (Vac/IFT)}
 - {infrastructure}
