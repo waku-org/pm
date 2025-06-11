@@ -6,6 +6,7 @@
 - 2 js-waku engineers
 - 1.5 nwaku eng
 - 1 core research
+- 1 app chat eng for 1 month
 
 
 Proceed with a number of improvements to the developer experience on Waku, for both internal and external purposes.
@@ -39,8 +40,6 @@ TODO (see deliverables)
 ### [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
 
 **Owner**: App/Chat Dev
-
-TODO: Pablo to confirm dependency on BI and what they do vs what we do.
 
 **Feature**: [Network Metrics Tracker](/FURPS/application/network_metrics_tracker.md)
 
