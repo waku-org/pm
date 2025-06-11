@@ -26,7 +26,7 @@ Logos Movement Module Build Out
 
 ## FURPS
 
-TODO
+See deliverables.
 
 ## Risks
 

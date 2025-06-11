@@ -85,8 +85,8 @@ In order of priority.
 | [Introduce E2E Reliability in Status Communities](introduce_e2e_reliability_in_status.md)                  | 31 Aug         |          |         |       | 1        | 
 | [Foundation for Communities Optimisation](foundation_for_communities_optimisation.md)                      | 31 Oct         |          |         |       | 1        | 
 | [Hardening and Scaling Foundations for Private Chat](hardening_and_scaling_foundation_for_private_chat.md) | Completed/Drop |          |         |       |          | 
-| [Integrate nwaku in Status Desktop, relay mode only](integrate_nwaku_in_status_desktop_relay_mode_only.md) | 20 Jun (TBC)   |          |         | 2     |          |
-| [Deploy RLN Onchain Tree on L2 Testnet](deploy_rln_onchain_tree_on_l2_testnet.md)                          | 30 Jun (H1)    |          |         |       |          |
+| [Integrate nwaku in Status Desktop, relay mode only](integrate_nwaku_in_status_desktop_relay_mode_only.md) | 30 Jun         |          |         | 2     |          |
+| [Deploy RLN Onchain Tree on L2 Testnet](deploy_rln_onchain_tree_on_l2_testnet.md)                          | 30 Jun         |          |         |       |          |
 
 ### H2 Milestones
 
@@ -109,14 +109,10 @@ Pushed to 2026
 - REST API for Waku API: Useful for DST/QA, but let's focus on Status, Chat SDK, and Rust first
 
 Not yet planned/not sure:
-- nwaku performance on mobile: let's focus on finishing desktop integration and getting API ready for Chat SDK + RLN 
-- quic: need to review where to put it, should be easy.
+- nwaku performance on mobile: let's focus on finishing desktop integration and getting API ready for Chat SDK + RLN
 - Follow-up steps for incentivization: part of current milestone is to produce a roadmap.
 - RLN mainnet and audit -> probably wait for Status L2 mainnet?
-
-### Business Development Milestones
-
-TODO
+- Signal network
 
 ## Gantt
 

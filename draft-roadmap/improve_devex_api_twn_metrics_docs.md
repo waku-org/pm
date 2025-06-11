@@ -24,7 +24,7 @@ Logos Movement Community Enabling via Dev-X + Telemetry
 
 ## FURPS
 
-TODO (see deliverables)
+See deliverables.
 
 ## Risks
 

@@ -1,7 +1,5 @@
 # Milestones Presentation (Half-Year to Dec-2025): Waku
 
-TODO what's up with eco dev grwoth
-
 ## 🧭 Key Outcome(s) of Vision you are supporting
 
 - Create Chat SDK MVP - one-to-one (Nim, Rust, Golang), support Status' technical roadmap, supports Logos Movement and Logos Core by enabling secure conversations over Waku
@@ -72,7 +70,7 @@ Strategy changes:
 | Vac-ACZ        | Assist with using zerokit in the Browser                                                | Yes                            |
 | Vac-ACZ        | Assist in determining best libraries to use for cryptography in new Chat SDK            | Yes                            |
 | Vac-ACZ        | mix protocol development                                                                | Yes                            |
-| Infra          | Maintain Waku fleet, apply config changes requests, deploy new nodes for metrics        | TODO                           |
+| Infra          | Maintain Waku fleet, apply config changes requests, deploy new nodes for metrics        | Pending                        |
 | Vac-SC         | Support of functional extension of RLN Smart Contract                                   | Yes                            |
 
 ## Funding and Resources (By Strategic Objective)

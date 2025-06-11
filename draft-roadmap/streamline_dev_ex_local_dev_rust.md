@@ -22,7 +22,7 @@ Logos Movement Community Enabling via Dev-X
 
 ## FURPS
 
-TODO
+See deliverables.
 
 ## Risks
 
@@ -54,7 +54,6 @@ TODO
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
-TBD
 
 ### Nwaku in Status Mobile
 

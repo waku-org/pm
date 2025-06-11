@@ -1,6 +1,6 @@
 # Incentivisation Follow-Up Outline
 
-**Estimated date of completion**: TBC
+**Estimated date of completion**: TBD
 
 **Resources Required for 2025H2**:
 - 1.5 core research engineer for 5 months
