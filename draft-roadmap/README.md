@@ -100,8 +100,9 @@ In order of priority.
 | 6        | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                           | 30 Sep   | 1*1m     | 1*2m    | 1*2m   |          |
 | 7        | [Streamline DevEx: Mobile, Rust and Web dev](streamline_dev_ex_local_dev_rust.md)       | 30 Nov   |          | 1*1m    | 1*2m   |          |
 | 8        | [Extend Chat SDK with Group Conversations](extend_chat_sdk_with_group_conversations.md) | 19 Dec   |          |         |        | 2*3m     |
-| 9        | Incentivisation follow-up                                                               | TBD      | TBD      |         |        |          |
-| 10       | [Nim Usage Improvements](nim_usage_improvements.md)                                     | 19 Dec   |          |         | 1*2m   |          | 
+| 9        | [Incentivisation follow-up Outline](incentivisation_follow_up.md)                       | TBD      | 1.5*5m   |         |        |          |
+| 10       | [Nim Usage Improvements](nim_usage_improvements.md)                                     | 19 Dec   |          |         | 1*2m   |          |
+| 11       | [BD - Acquire 10 Customers](acquire_first_10_customers.md)                              | 19 Dec   |          |         |        | 0.5*6m   | 
 
 Pushed to 2026
 - WebTransport: depending on nim-libp2p (delivery Q4)

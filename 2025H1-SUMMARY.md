@@ -33,6 +33,7 @@
 | Logos Web apps                                      | Decentralized Forum PoC, Qaku library, demonstration of Codex integration w/ Waku and more resilience to Web3 RPC outages for nwaku | 7/10                  |
 | Explore Peer Discovery Gap                          | Partial Mixnet PoC, dogfooding store sync for network message consistency                                                           | 6/10                  |
 | Debugging Tools                                     | Local metrics dashboard to enable study of software behaviour and usage of Waku                                                     | 5/10                  | 
+| BD - Acquire first 10 Customers                     | 1 additional project has been secured (#5), 2 more are to come out of stealth                                                       | 5/10                  |
 
 ## 🧩 Strategic Benefits Realised
 
@@ -60,6 +61,7 @@
 | Nwaku in Status Mobile and Light Mode MVP         | Underestimated work for desktop integration, reprioritized for H2 behind Chat SDK work                                          | Yes              |
 | Debugging tools, log parser                       | Handed over to Vac-DST who already have similar log tool and just need to extend its functionality                              | No               |
 | Messaging API                                     | Work was expected to only start in H1, which it did. Milestone was re-worked for H2 to better fit team resources                | Yes              |
+| BD - Acquire first 10 Customers                   | Engineering focus on Status over community needs, meaning known gaps (e.g. Rust SDK) creating friction for integration.         | Yes              |
 
 ## 🛠️ FURPS Execution Snapshot
 
@@ -108,3 +110,4 @@ https://notes.status.im/E_bcw7cLR36QKI39k-PlMg#
 - The Waku internal hackathon was a great experiment to identify use-case but also improvements to the Waku dev ex. With a focus on building (developer) tribes, its strategic value has increased.
 - Milestones that involved breaking changes were dragged across several Status release; need to review how this is planned to not postponed milestone completion dates by months.
 - Some research items took time to wrap-up, sort bindings, etc. Will discuss with the team on how we can be better are getting research PoC ready for dogfooding.
+- With a refocus on community, need to improve tracking of BD results.

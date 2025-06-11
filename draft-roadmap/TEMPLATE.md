@@ -11,7 +11,7 @@
 
 ## Strategic Objective
 
-TODO: Clarify with Leonard
+Logos xxx
 
 ## FURPS
 

@@ -3,7 +3,7 @@
 **Estimated date of completion**: 31 July 2025
 
 **Resources Required for 2025H2**:
-- 1.5 core researchers for 1 month = 0.25
+- 1.5 core researchers for 1 month
 
 By the end of this milestone, we will have defined a roadmap and implemented a working proof of concept to incentivise node operators running Waku infrastructure for shared shards.
 
