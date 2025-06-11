@@ -16,7 +16,7 @@ Further group size scaling and extension of membership management API would be n
 
 ## Strategic Objective
 
-TODO: Clarify with Leonard
+Logos Movement Module Build Out
 
 ## FURPS
 

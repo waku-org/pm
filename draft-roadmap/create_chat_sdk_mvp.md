@@ -19,7 +19,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 ## Strategic Objective
 
-TODO: Clarify with Leonard
+Logos Movement Module Build Out
 
 ## Risks
 

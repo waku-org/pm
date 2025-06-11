@@ -19,7 +19,7 @@ to build over Waku.
 
 ## Strategic Objective
 
-TODO: Clarify with Leonard
+Logos Movement Community Enabling
 
 ## FURPS
 

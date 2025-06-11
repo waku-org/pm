@@ -1,18 +1,17 @@
 # Upgrade Nim Usage
 
-**Estimated date of completion**: {Enter date}
+**Estimated date of completion**: 19 Dec
 
 **Resources Required for 2025H2**:
-- {roles and % application to it}
-- {external services consumed (Vac/IFT)}
-- {infrastructure}
+- 1 nwaku eng for 2 months
+- Support from Vac/Nim team
 
 Improve usage of Nim related tooling and design patterns by proceedings with PoCs to discover potential gains and caveats.
 This includes adoption of Nimble, dogfooding VSCode plugin and iteration on C-Binding methodology.
 
 ## Strategic Objective
 
-TODO: Clarify with Leonard
+Logos Movement Community Enabling: Dev Journey
 
 ## FURPS
 
@@ -58,14 +57,16 @@ Note: maybe taken over by Vac-Nim
 - [ ] Optional: provide a plan to make nwaku better compatible with nimsuggest (eg. no git submodule, less macros, etc)
 
 
-### Use Protobuf to transfer data from Wrapper to nwaku library PoC
+### Streamline FFI API Creation by using Protobuf types instead of JSON PoC
 
 **Owner**: nwaku
 
-**Feature**: TODO
+**Feature**: [Waku API](/FURPS/core/waku_api.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- F8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper.
+
+- U7. When wrapping the C API, a protobuf definition can be used to generate native types for the host language.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

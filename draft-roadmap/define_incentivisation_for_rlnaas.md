@@ -3,7 +3,7 @@
 **Estimated date of completion**: 31 July 2025
 
 **Resources Required for 2025H2**:
-- 1.5 core researchers for 1 month
+- 1.5 core researchers for 1 month = 0.25
 
 By the end of this milestone, we will have defined a roadmap and implemented a working proof of concept to incentivise node operators running Waku infrastructure for shared shards.
 
@@ -17,7 +17,7 @@ This is the first step to providing a sustainable way to scale the Status applic
 
 ## Strategic Objective
 
-TODO: Clarify with Leonard
+Logos Vision: Core Values Alignment
 
 ## FURPS
 - [Incentivisation](/FURPS/core/incentivisation.md): F1-3, U1-2, R1-3, P1, for S1

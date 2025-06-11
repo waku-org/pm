@@ -89,18 +89,19 @@ In order of priority.
 | [Deploy RLN Onchain Tree on L2 Testnet](deploy_rln_onchain_tree_on_l2_testnet.md)                          | 30 Jun (H1)    |          |         |       |          |
 
 ### H2 Milestones
-| Priority | Milestone                                                                               | End Date | core res | js-waku | nwaku | app-chat    |
-|----------|-----------------------------------------------------------------------------------------|----------|----------|---------|-------|-------------|
-| 1        | [Define Incentivisation for RLNaaS](define_incentivisation_for_rlnaas.md)               | 31 Jul   | 1.5      |         |       |             |
-| 2        | [Improve DevEx: API, TWN, Metrics, Docs](improve_devex_api_twn_metrics_docs.md)         | TBD      | TBD      | TBD     | TBD   | 0.16..      |
-| 3        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)         | 30 Sep   | 0.5      |         |       |             |
-| 4        | [Formalize and Expand Waku Web Apps](formalize_and_expand_waku_web_apps.md)             | 19 Dec   |          |         |       | 1.5         |
-| 5        | [Create Chat SDK MVP](create_chat_sdk_mvp.md)                                           | 30 Sep   |          |         |       | 2 dev/1 res |
-| 6        | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                           | TBD      | TBD      | 1*2m    | TBD   |             |
-| 7        | [Streamline DevEx: Mobile, Rust and Web dev](streamline_dev_ex_local_dev_rust.md)       | TBD      | TBD?     | TBD     | TBD   |             |
-| 8        | [Extend Chat SDK with Group Conversations](extend_chat_sdk_with_group_conversations.md) | TBD      |          |         |       | 1 dev/1 res |
-| 9        | Incentivisation follow-up                                                               | TBD      | TBD      |         |       |             |
-| 10       | [Nim Usage Improvements](nim_usage_improvements.md)                                     | TBD      |          |         | TBD   |             | 
+
+| Priority | Milestone                                                                               | End Date | core res | js-waku | nwaku  | app-chat |
+|----------|-----------------------------------------------------------------------------------------|----------|----------|---------|--------|----------|
+| 1        | [Define Incentivisation for RLNaaS](define_incentivisation_for_rlnaas.md)               | 31 Jul   | 1.5*1m   |         |        |          |
+| 2        | [Improve DevEx: API, TWN, Metrics, Docs](improve_devex_api_twn_metrics_docs.md)         | 31 Aug   | 1*1m     | 2*2m    | 1.5*2m | 1*1m     |
+| 3        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)         | 30 Sep   | 1*3m     |         |        |          |
+| 4        | [Formalize and Expand Waku Web Apps](formalize_and_expand_waku_web_apps.md)             | 19 Dec   |          |         |        | 1.5*6m   |
+| 5        | [Create Chat SDK MVP](create_chat_sdk_mvp.md)                                           | 30 Sep   |          |         |        | 3*3m     |
+| 6        | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                           | 30 Sep   | 1*1m     | 1*2m    | 1*2m   |          |
+| 7        | [Streamline DevEx: Mobile, Rust and Web dev](streamline_dev_ex_local_dev_rust.md)       | 30 Nov   |          | 1*1m    | 1*2m   |          |
+| 8        | [Extend Chat SDK with Group Conversations](extend_chat_sdk_with_group_conversations.md) | 19 Dec   |          |         |        | 2*3m     |
+| 9        | Incentivisation follow-up                                                               | TBD      | TBD      |         |        |          |
+| 10       | [Nim Usage Improvements](nim_usage_improvements.md)                                     | 19 Dec   |          |         | 1*2m   |          | 
 
 Pushed to 2026
 - WebTransport: depending on nim-libp2p (delivery Q4)

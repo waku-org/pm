@@ -5,8 +5,7 @@
 **Resources Required for 2025H2**:
 - 1 nwaku engineer for 2 months 
 - 1 js-waku engineer for 2 months (til 30 Aug)
-- core research/test engineer? TODO
-- chat sdk engineer TODO
+- 1 core research for 1 month (assuming ownership of RLN UX deliverable)
 - Support from Vac/ACZ to get zerokit working in the browser.
 - {infrastructure}
 
@@ -20,6 +19,10 @@ as API to manage RLN membership.
 Introduce RLN proof generation and validation in the Browser. RLN API should be similar across all implementations.
 
 Finally, migrate to Status network L2 testnet and improve UX issues discovered via dogfooding such as rate of RPC Calls.
+
+## Strategic Objective
+
+Logos Movement Module Build Out
 
 ## FURPS
 
@@ -131,9 +134,9 @@ TODO
 
 ### Improve RLN UX by reducing Web3 RPC calls
 
-TODO: other improvements may be flagged as we dogfood the previous RLN milestone.
+TODO: Clarify ownership
 
-**Owner**: nwaku
+**Owner**: nwaku or core research
 
 **Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
 

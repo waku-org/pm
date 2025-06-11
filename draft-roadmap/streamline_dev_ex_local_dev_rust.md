@@ -1,9 +1,8 @@
 # Streamline DevEx: Mobile, Rust and Web dev
 
-**Estimated date of completion**: {Enter date} TODO
+**Estimated date of completion**: 30 Nov
 
 **Resources Required for 2025H2**:
-- {roles and % application to it}
 - nwaku 1 eng during 1 month 70% until 30 Sep - start 1st Sep
 - js-waku 1 eng 70% 1-19th Sep
 - {external services consumed (Vac/IFT)}
@@ -19,7 +18,7 @@ Finalize the integration of nwaku in Status application by setting up nwaku-base
 
 ## Strategic Objective
 
-TODO: Clarify with Leonard
+Logos Movement Community Enabling via Dev-X
 
 ## FURPS
 
@@ -39,25 +38,35 @@ TODO
 
 **Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file}) TODO
+#### **Feature**: [status-go](/FURPS/application/status_go.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- F2. Nwaku is the used Waku implementation for light mode.
+- S3. Light mode is supported. 
+
+#### **Feature**: [nwaku](/FURPS/application/nwaku.md)
+
+**FURPS**:
+- S6. libwaku support edge node functionalities. 
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
+TBD
 
 ### Nwaku in Status Mobile
 
 **Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file}) TODO
+**Feature**: [status-go](/FURPS/application/status_go.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- S4. Status Mobile binary for Android and iOS.
+- S5. Status Tablet binary for Android and iOS. 
+
+- +2. Status Mobile and Tablet CI builds binaries with nwaku, alongside go-waku-based binaries.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -69,10 +78,10 @@ TODO
 
 **Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file}) TODO
+**Feature**: [Waku API](/FURPS/core/waku_api.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- S4. Rust; available on crates.io.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -81,11 +90,6 @@ TODO
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
 ### Local Web Dev Harness
-
-TODO: update milestone
-1 js-waku engineer, 70% cap allocated;
-start 1st Sep, end 19th Sep;
-
 
 **Owner**: js-waku
 
@@ -110,14 +114,20 @@ start 1st Sep, end 19th Sep;
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Local RLN Dev Harness
+### Local Dev RLN Harness
 
 **Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [Local Dev RLN Harness](/FURPS/application/local_dev_rln_harness.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- F1. Runs local Ethereum environment.
+- F2. Deploys ERC-20 and RLN smart contract.
+- F3. Utility to fund wallet addresses with necessary tokens for deposit for RLN membership registration.
+
+- U1. Developer only need to run a script to setup local blockchain environment.
+- U2. Developers can run documented RPC calls to fund wallet addresses.
+- U3. Developers can run documented RPC calls to interact with RLN smart contract.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

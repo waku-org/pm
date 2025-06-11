@@ -1,13 +1,12 @@
 # Improve DevEx: API, TWN, Metrics, Docs
 
-**Estimated date of completion**: {Enter date}
-- js-waku 31 Aug
+**Estimated date of completion**: 31 Aug
 
 **Resources Required for 2025H2**:
-- 2 js-waku engineer, 31 Aug
-- 1.5 nwaku eng, 31 Aug (API)
-- {external services consumed (Vac/IFT)}
-- {infrastructure}
+- 2 js-waku engineers
+- 1.5 nwaku eng
+- 1 core research
+
 
 Proceed with a number of improvements to the developer experience on Waku, for both internal and external purposes.
 This includes:
@@ -64,20 +63,6 @@ TODO: Pablo to confirm dependency on BI and what they do vs what we do.
 - all
 
 For S2. For Web apps as a developer library.
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-### [Waku Sync](https://github.com/waku-org/pm/issues/132)
-
-**Owner**: core research
-
-**Feature**: [Store Sync](/FURPS/core/store_sync.md)
-
-**FURPS**: all
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

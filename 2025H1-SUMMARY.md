@@ -86,13 +86,7 @@
 
 ## Funding and Resources
 
-| Name                   | Amount              |
-|------------------------|---------------------|
-| Headline Budget Ask    | k-USD               |
-| Final Budget Used      | k-USD               |
-| Resource Count Initial | 21                  |
-| Resource Count Final   | 20                  |
-| Open Positions         | 0 (2 backfill lost) |
+https://notes.status.im/E_bcw7cLR36QKI39k-PlMg#
 
 ## ⚠️ Keys Risks & Controls
 
@@ -111,5 +105,6 @@
 - It was too early to formalize integration with Codex. Nonetheless, Waku apps produced by app/chat team have Codex integration and dogfooding of Waku x Codex will continue.
 - We attempted to put in place a process with Vac-QA and Vac-DST respectively "certify" `R`s and `P`s. While good on principle, the tracking processes are not there.
 - It was a first round of planning with FURPS. Lessons have been learned and being applied for H2.
-- The "Waku (Messaging) API" was initially a tidy up, as Waku was already integrated in Status. With a focus towards Chat SDK and growing a developer community, it became an urgent-important item.
 - The Waku internal hackathon was a great experiment to identify use-case but also improvements to the Waku dev ex. With a focus on building (developer) tribes, its strategic value has increased.
+- Milestones that involved breaking changes were dragged across several Status release; need to review how this is planned to not postponed milestone completion dates by months.
+- Some research items took time to wrap-up, sort bindings, etc. Will discuss with the team on how we can be better are getting research PoC ready for dogfooding.

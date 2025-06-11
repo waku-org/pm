@@ -9,7 +9,7 @@ A PoC implementation to improve anonymity in Waku message publishing by mixing W
 
 ## Strategic Objective
 
-TODO: Clarify with Leonard
+Logos Vision: Core Values Alignment
 
 ## FURPS
 
