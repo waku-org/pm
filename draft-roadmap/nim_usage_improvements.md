@@ -15,7 +15,7 @@ Logos Movement Community Enabling: Dev Journey
 
 ## FURPS
 
-TODO
+See deliverables.
 
 ## Risks
 
@@ -32,10 +32,11 @@ Note: maybe taken over by Vac-Nim
 
 **Owner**: nwaku
 
-**Feature**: TODO
+**Feature**: [nwaku](/FURPS/application/nwaku.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- U1. Uses nimble for package management and build.
+- U2. Can be imported as a nim library using nimble.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

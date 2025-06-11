@@ -8,7 +8,8 @@
 
 ## Usability
 
-1. ...
+1. Uses nimble for package management and build.
+2. Can be imported as a nim library using nimble.
 
 ## Reliability
 
