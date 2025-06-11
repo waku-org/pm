@@ -52,14 +52,14 @@ Logos Movement Community Enabling
 
 ### [Codex for Message Archival PoC](https://github.com/waku-org/pm/issues/293)
 
-TODO - Hanno is defining some FURPS and we can review.
+**Owner**: App/Chat Dev
 
-**Owner**: {one waku subteam}
-
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [Codex Archiving PoC](/FURPS/application/codex.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- F1-5
+- U1-2
+- S1
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
