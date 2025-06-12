@@ -54,12 +54,20 @@ Logos Movement Community Enabling
 
 **Owner**: App/Chat Dev
 
-**Feature**: [Codex Archiving PoC](/FURPS/application/codex.md)
+**Feature**: [Codex Archiving PoC](/FURPS/application/codex_archiving.md)
 
 **FURPS**:
-- F1-5
-- U1-2
-- S1
+
+- F1. Any end user can publish a backup snapshot of the entire SDS log to Codex.
+- F2. End user (may be privileged) can publish the corresponding Codex CID with metadata over Waku to a dedicated snapshot content topic.
+- F3. Participants can query the Waku snapshot topic for the latest CID.
+- F4. Participants can retrieve the archived messages from Codex.
+- F5. Participants can perform a store Query for more recent messages following the snapshot timestamp and SDS state.
+
+- U1. Workflow should be conceptually identical, whether the Codex interaction is via a local node or Codex gateway.
+- U2. Publishing or retrieving via Codex should be optional.
+
+- S1. Developers can use this protocol in web applications.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
