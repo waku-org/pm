@@ -1,6 +1,4 @@
-# Waku API FURPS
-
-(proposing to move away from "messaging api" to avoid confusion)
+# Waku ADK FURPS
 
 ## Functionality
 

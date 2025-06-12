@@ -93,7 +93,7 @@ Spec delivery not included.
 
 **Owner**: js-waku
 
-**Feature**: [Waku API](/FURPS/core/waku_api.md)
+**Feature**: [Waku SDK](/FURPS/core/waku_sdk.md)
 
 **FURPS**: 
 - F1. Setup, start and stop a Waku node.
@@ -122,7 +122,7 @@ For S3. Browser; distribution via npmjs.com.
 
 **Owner**: nwaku
 
-**Feature**: [Waku API](/FURPS/core/waku_api.md)
+**Feature**: [Waku SDK](/FURPS/core/waku_sdk.md)
 
 **FURPS**:
 - F1. Setup, start and stop a Waku node.

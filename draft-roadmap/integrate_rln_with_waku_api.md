@@ -118,14 +118,13 @@ See deliverables.
 
 ### Deploy RLN Contracts to Status L2 testnet
 
-TODO FURPS
-
 **Owner**: nwaku
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [RLN Smart Contract](/FURPS/core/rln_smart_contract.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- +1. Smart Contracts are deployed on Status L2 Sepolia.
+- +2. TWN uses smart contracts deployed on Status L2 Sepolia.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -135,14 +134,12 @@ TODO FURPS
 
 ### Improve RLN UX by reducing Web3 RPC calls
 
-TODO FURPS
-
 **Owner**: core research
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [RLN Smart Contract](/FURPS/core/rln_smart_contract.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- U3. Application does not need to do a Web3 RPC call for every tree change to generate or validate messages.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

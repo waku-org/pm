@@ -78,7 +78,7 @@ See deliverables.
 
 **Owner**: nwaku
 
-**Feature**: [Waku API](/FURPS/core/waku_api.md)
+**Feature**: [Waku SDK(/FURPS/core/waku_sdk.md)
 
 **FURPS**:
 - S4. Rust; available on crates.io.

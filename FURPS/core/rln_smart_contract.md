@@ -12,6 +12,7 @@
 1. Application developers can set RLN rate limit at insertion.
 2. User does not need to wait for merkle tree synchronization and building to start relaying
    or sending messages.
+3. Application does not need to do a Web3 RPC call for every tree change to generate or validate messages.
 
 ## Reliability
 
@@ -28,6 +29,5 @@
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. Smart Contracts are deployed on Linea Sepolia.
-2. TWN uses smart contracts deployed on Linea Sepolia.
-
+1. Smart Contracts are deployed on ~Linea Sepolia~ Status L2 Sepolia.
+2. TWN uses smart contracts deployed on ~Linea Sepolia~ Status L2 Sepolia.

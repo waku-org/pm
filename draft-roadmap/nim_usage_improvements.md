@@ -62,7 +62,7 @@ Note: maybe taken over by Vac-Nim
 
 **Owner**: nwaku
 
-**Feature**: [Waku API](/FURPS/core/waku_api.md)
+**Feature**: [Waku SDK](/FURPS/core/waku_sdk.md)
 
 **FURPS**:
 - F8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper (PoC).
