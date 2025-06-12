@@ -27,6 +27,8 @@ Logos Movement Community Enabling: Growth
 
 ## KPIs for 2025H2
 
+TODO: These are proposed KPI, need to iterate on them. Will review by EOW (13 June.)
+
 - [ ] Identify 15 Highly Qualified Leads
 - [ ] Discuss solution engineering with 10 leads
 - [ ] Bring 5 leads into Discord bridge (will to connect and discuss)
