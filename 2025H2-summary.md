@@ -81,11 +81,13 @@ Strategy changes:
 
 https://notes.status.im/E_bcw7cLR36QKI39k-PlMg#
 
+TODO: update
+
 | Strategic Objective                  | People | 
 |--------------------------------------|--------|
-| Logos Vision - Core Values Alignment |        |
-| Logos Movement Community Enabling    |        |
-| Logos Movement Module Build Out      |        |
+| Logos Vision - Core Values Alignment | 3.58   |
+| Logos Movement Community Enabling    | 3.33   |
+| Logos Movement Module Build Out      | 3.33   |
 
 ### Budget Consultation
 

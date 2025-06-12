@@ -90,8 +90,11 @@ In order of priority.
 
 ### H2 Milestones
 
-| Priority | Milestone                                                                               | End Date | core res | js-waku | nwaku  | app-chat |
-|----------|-----------------------------------------------------------------------------------------|----------|----------|---------|--------|----------|
+Man month: 17.5 * 6 = 105
+(Franck, Aaron full time mgmt/leadership/eco dev/comms, Hanno half-time)
+
+| Priority | Milestone                                                                               | End Date | core res | js-waku | nwaku  | app-chat | BD   |
+|----------|-----------------------------------------------------------------------------------------|----------|----------|---------|--------|----------|------|
 | 1        | [Define Incentivisation for RLNaaS](define_incentivisation_for_rlnaas.md)               | 31 Jul   | 1.5*1m   |         |        |          |
 | 2        | [Improve DevEx: API, TWN, Metrics, Docs](improve_devex_api_twn_metrics_docs.md)         | 31 Aug   | 1*1m     | 2*2m    | 1.5*2m | 1*1m     |
 | 3        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)         | 30 Sep   | 1*3m     |         |        |          |
@@ -102,7 +105,7 @@ In order of priority.
 | 8        | [Extend Chat SDK with Group Conversations](extend_chat_sdk_with_group_conversations.md) | 19 Dec   |          |         |        | 2*3m     |
 | 9        | [Incentivisation follow-up Outline](incentivisation_follow_up.md)                       | TBD      | 1.5*5m   |         |        |          |
 | 10       | [Nim Usage Improvements](nim_usage_improvements.md)                                     | 19 Dec   |          |         | 1*2m   |          |
-| 11       | [BD - Acquire 10 Customers](acquire_first_10_customers.md)                              | 19 Dec   |          |         |        | 0.5*6m   | 
+| 11       | [BD - Acquire 10 Customers](acquire_first_10_customers.md)                              | 19 Dec   |          |         |        | 0.5*6m   | 1*6m | 
 
 Pushed to 2026
 - WebTransport: depending on nim-libp2p (delivery Q4)
