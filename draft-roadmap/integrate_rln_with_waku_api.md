@@ -119,6 +119,8 @@ See deliverables.
 
 ### Deploy RLN Contracts to Status L2 testnet
 
+TODO FURPS
+
 **Owner**: nwaku
 
 **Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
@@ -134,9 +136,9 @@ See deliverables.
 
 ### Improve RLN UX by reducing Web3 RPC calls
 
-TODO: Clarify ownership
+TODO FURPS
 
-**Owner**: nwaku or core research
+**Owner**: core research
 
 **Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
 

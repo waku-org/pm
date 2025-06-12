@@ -5,7 +5,7 @@
 **Resources Required for 2025H2**:
 - 2 js-waku engineers
 - 1.5 nwaku eng
-- 1 core research
+- 1 core research for 1 month
 - 1 app chat eng for 1 month
 
 

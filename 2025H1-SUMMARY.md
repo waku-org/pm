@@ -108,6 +108,6 @@ https://notes.status.im/E_bcw7cLR36QKI39k-PlMg#
 - We attempted to put in place a process with Vac-QA and Vac-DST respectively "certify" `R`s and `P`s. While good on principle, the tracking processes are not there.
 - It was a first round of planning with FURPS. Lessons have been learned and being applied for H2.
 - The Waku internal hackathon was a great experiment to identify use-case but also improvements to the Waku dev ex. With a focus on building (developer) tribes, its strategic value has increased.
-- Milestones that involved breaking changes were dragged across several Status release; need to review how this is planned to not postponed milestone completion dates by months.
+- Milestones that involved breaking changes were dragged across several Status release; need to review how this is planned to not postpone milestone completion dates by months.
 - Some research items took time to wrap-up, sort bindings, etc. Will discuss with the team on how we can be better are getting research PoC ready for dogfooding.
 - With a refocus on community, need to improve tracking of BD results.

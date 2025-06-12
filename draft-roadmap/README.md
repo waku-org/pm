@@ -106,7 +106,7 @@ In order of priority.
 
 Pushed to 2026
 - WebTransport: depending on nim-libp2p (delivery Q4)
-- REST API for Waku API: Useful for DST/QA, but let's focus on Status, Chat SDK, and Rust first
+- Implementing Waku API in REST: Useful for DST/QA, but let's focus on Status, Chat SDK, and Rust first
 
 Not yet planned/not sure:
 - nwaku performance on mobile: let's focus on finishing desktop integration and getting API ready for Chat SDK + RLN

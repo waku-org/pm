@@ -65,9 +65,9 @@ Note: maybe taken over by Vac-Nim
 **Feature**: [Waku API](/FURPS/core/waku_api.md)
 
 **FURPS**:
-- F8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper.
+- F8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper (PoC).
 
-- U7. When wrapping the C API, a protobuf definition can be used to generate native types for the host language.
+- U7. When wrapping the C API, a protobuf definition can be used to generate native types for the host language (PoC).
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

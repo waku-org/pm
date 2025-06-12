@@ -3,7 +3,7 @@
 ## 🧭 Key Outcome(s) of Vision you are supporting
 
 - Create Chat SDK MVP - one-to-one (Nim, Rust, Golang), support Status' technical roadmap, supports Logos Movement and Logos Core by enabling secure conversations over Waku
-- Simplify a reliable Waku API and SDK (Browser, Nim, Rust, Golang), supports Chat SDK, Logos Movement and Logos Core, make it is easy to integrate
+- Simplify the API of the Waku SDK (Browser, Nim, Rust, Golang), supports Chat SDK, Logos Movement and Logos Core, make it is easy to integrate
 - Improve Waku Developer Experience by stabilizing The Waku Network and reviewing Docs: Support Logos Movement, make it is easy to integrate
 - Deploy metrics to measure Waku and any Waku app's level of adoption: Support measuring success of Logos Movement
 - Introduce mixnet for message sending: Support Logos Vision of a private technology stack
@@ -17,9 +17,9 @@
 Strategy changes:
 
 - New Chat protocol over adapting existing code and protocol ([justification](https://forum.vac.dev/t/chatsdk-motivations/501))
-- Prioritized simplifying Waku API/SDK, to enable Chat SDK but also "make it easy to integrate"
-- Prioritized RLN API/SDK, to use with Chat SDK and have early RLN integration in the Chat stack (this time)
-- De-prioritized nwaku on mobile in favour of Waku API and RLN API
+- Prioritized simplifying Waku API, to enable Chat SDK but also "make it easy to integrate"
+- Prioritized RLN SDK, to use with Chat SDK and have early RLN integration in the Chat stack (this time)
+- De-prioritized nwaku on mobile in favour of Waku SDK and RLN SDK
 - Increased commitment to build applications over Waku (Web and Logos Core), to "teach them how to hunt"
 - Introduced Developer Experience items: to support Chat SDK, and "make it easy to integrate"
 - Nim Usage Improvement: increased priority to support new chat sdk, and "make it easy to contribute"
@@ -28,19 +28,21 @@ Strategy changes:
 
 ## 🚩 Proposed Milestones(s)
 
-| Milestone Headline                                                                                    | Strategic Objective                                     | Capacity | Business Val (0/10) | FURPS  |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------|----------|---------------------|--------|
-| [Define Incentivisation for RLNaaS](draft-roadmap/define_incentivisation_for_rlnaas.md)               | Logos Vision: Core Values Alignment                     | 0.25     | 7                   | FURPS_ |
-| [Improve DevEx: API, TWN, Metrics, Docs](draft-roadmap/improve_devex_api_twn_metrics_docs.md)         | Logos Movement Community Enabling via Dev-X + Telemetry | 1.5      | 10                  | FURPS_ |
-| [Introduce mixnet for message sending](draft-roadmap/introduce_mixnet_for_message_sending.md)         | Logos Vision: Core Values Alignment                     | 0.33     | 4                   | F___S_ |             
-| [Formalize and Expand Waku Web Apps](draft-roadmap/formalize_and_expand_waku_web_apps.md)             | Logos Movement Community Enabling                       | 0.25     | 7                   | FURPS_ |
-| [Create Chat SDK MVP](draft-roadmap/create_chat_sdk_mvp.md)                                           | Logos Movement Module Build Out                         | 1.5      | 8                   | FURPS+ | 
-| [Integrate RLN with Waku API](draft-roadmap/integrate_rln_with_waku_api.md)                           | Logos Movement Module Build Out                         | 0.83     | 9                   | FUR_S+ |
-| [Streamline DevEx: Mobile, Rust and Web dev](draft-roadmap/streamline_dev_ex_local_dev_rust.md)       | Logos Movement Community Enabling via Dev-X             | 0.5      | 7                   | FU__S+ |             
-| [Extend Chat SDK with Group Conversations](draft-roadmap/extend_chat_sdk_with_group_conversations.md) | Logos Movement Module Build Out                         | 1        | 8                   | F_RPS+ | 
-| [Incentivisation Follow-up Outline](draft-roadmap/incentivisation_follow_up.md)                       | Logos Vision: Core Values Alignment                     | 3        | 7                   | TBD    |             
-| [Nim Usage Improvements](draft-roadmap/nim_usage_improvements.md)                                     | Logos Movement Community Enabling: Dev Journey          | 0.33     | 5                   | FU____ |             
-| [BD - Acquire first 10 customers](draft-roadmap/acquire_first_10_customers.md)                        | Logos Movement Community Enabling: Growth               | 0.75     | 7                   | N/A    |
+| Milestone Headline                                                                                    | Strategic Objective                                     | Capacity✱ | Business Val (0/10) | FURPS  |
+|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------|-----------|---------------------|--------|
+| [Define Incentivisation for RLNaaS](draft-roadmap/define_incentivisation_for_rlnaas.md)               | Logos Vision: Core Values Alignment                     | 0.25      | 7                   | FURPS_ |
+| [Improve DevEx: API, TWN, Metrics, Docs](draft-roadmap/improve_devex_api_twn_metrics_docs.md)         | Logos Movement Community Enabling via Dev-X + Telemetry | 1.5       | 10                  | FURPS_ |
+| [Introduce mixnet for message sending](draft-roadmap/introduce_mixnet_for_message_sending.md)         | Logos Vision: Core Values Alignment                     | 0.33      | 4                   | F___S_ |             
+| [Formalize and Expand Waku Web Apps](draft-roadmap/formalize_and_expand_waku_web_apps.md)             | Logos Movement Community Enabling                       | 0.25      | 7                   | FURPS_ |
+| [Create Chat SDK MVP](draft-roadmap/create_chat_sdk_mvp.md)                                           | Logos Movement Module Build Out                         | 1.5       | 8                   | FURPS+ | 
+| [Integrate RLN with Waku API](draft-roadmap/integrate_rln_with_waku_api.md)                           | Logos Movement Module Build Out                         | 0.83      | 9                   | FUR_S+ |
+| [Streamline DevEx: Mobile, Rust and Web dev](draft-roadmap/streamline_dev_ex_local_dev_rust.md)       | Logos Movement Community Enabling via Dev-X             | 0.5       | 7                   | FU__S+ |             
+| [Extend Chat SDK with Group Conversations](draft-roadmap/extend_chat_sdk_with_group_conversations.md) | Logos Movement Module Build Out                         | 1         | 8                   | F_RPS+ | 
+| [Incentivisation Follow-up Outline](draft-roadmap/incentivisation_follow_up.md)                       | Logos Vision: Core Values Alignment                     | 3         | 7                   | TBD    |             
+| [Nim Usage Improvements](draft-roadmap/nim_usage_improvements.md)                                     | Logos Movement Community Enabling: Dev Journey          | 0.33      | 5                   | FU____ |             
+| [BD - Acquire first 10 customers](draft-roadmap/acquire_first_10_customers.md)                        | Logos Movement Community Enabling: Growth               | 0.75      | 7                   | N/A    |
+
+✱ Capacity: How may people assigned in a 6 months window.
 
 ## 🧩 Strategic Benefits Realisable from coming Half-Year (Top 5)
 
@@ -119,9 +121,10 @@ https://notes.status.im/E_bcw7cLR36QKI39k-PlMg#
 
 - Exciting 6 months ahead with clear path on how to deliver value to both Status and the Logos Community with the same effort.
 - Improving work tracking with Vac-DST/Vac-QA, discussion is ongoing to better integrate Waku FURPS in Vac planning.
-- We know have a breaking change strategy for Status items.
+- We now have a breaking change strategy for Status items.
 - Aiming more of a team rally behind milestones, dev milestones are now larger and contain more items that can be done in parallel, so that most of the team work on same milestone together.
 - Focus on more frequent milestone delivery, by avoiding intra-dependency of items in milestone.
 - Increasing collaboration between research and engineering teams, to ensure early unblocking and neat wrap-up of items. 
 - The "Waku (Messaging) API" was initially a tidy up task, as Waku was already integrated in Status. With a focus towards Chat SDK and growing a developer community, it became an urgent-important item.
 - Intent to continue internal hackathon initiative with 2 more occurrences in 2025 (tentatively July and October).
+- Will attempt to secure one grant with minimum extra commitments (foreseeable commitments are wrapper for a specific language or writing RLN smart contract in non-EVM language).
