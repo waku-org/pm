@@ -120,15 +120,13 @@ Note: low allocation on nwaku due to
 
 ✱ Capacity: How may people assigned in a 6 months window. Adjusted to 70% allocation for support.
 
-
-Pushed to 2026
+Pushed to 2026H1/Next on the list
 - WebTransport: depending on nim-libp2p (delivery Q4)
 - Implementing Waku API in REST: Useful for DST/QA, but let's focus on Status, Chat SDK, and Rust first
 - Delivering NodeJS SDK.
-
-Not yet planned/not sure:
-- nwaku performance on mobile: let's focus on finishing desktop integration and getting API ready for Chat SDK + RLN
-- RLN mainnet and audit -> probably wait for Status L2 mainnet + focus on iterations
+- nwaku performance on mobile: depending on benchmark results
+- New entry points for RLN, in addition to deposit (e.g. Karma holder or SNT staker)
+- Message caching/database within Waku SDK
 
 ## Gantt
 

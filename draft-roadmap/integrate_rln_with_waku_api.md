@@ -4,7 +4,7 @@
 
 **Resources Required for 2025H2**:
 - 2 nwaku engineer for 2 months 
-- 1 js-waku engineer for 2 months (til 30 Aug)
+- 1 js-waku engineer for 2 months
 - 1 core research for 1 month
 - Support from Vac/ACZ to get zerokit working in the browser.
 
