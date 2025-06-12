@@ -7,16 +7,25 @@
 - {external services consumed (Vac/IFT)}
 - {infrastructure}
 
+{Milestone Narrative - what do we get once done}
 
-{Milestone Description - what do we get once done}
+## Strategic Objective
 
-**FURPS**:
+Logos xxx
+
+## FURPS
 
 - [{Feature Name}]({path/to/furps/file}): {list of furps: F1, etc}
 
-**deliverables**: 
+## Risks
 
-## {Name of deliverable 1 - eg "improve feature X for the browser"}
+| Risk   | (Accept, Own, Mitigation)     |
+|--------|-------------------------------|
+| [Risk] | [how to we address this risk] |
+
+## Deliverables 
+
+### {Name of deliverable 1 - eg "improve feature X for the browser"}
 
 **Owner**: {one waku subteam}
 

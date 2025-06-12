@@ -1,11 +1,11 @@
 # [Hardening and Scaling Foundations for Private Chats](https://github.com/waku-org/pm/milestone/40)
 
-**Estimated date of completion**: TODO
+**Estimated date of completion**: Completed with reduced scope
 
-**Resources Required for 2025H2**: TODO
-- {roles and % application to it}
-- {external services consumed (Vac/IFT)}
-- {infrastructure}
+**Resources Required for 2025H2**: 
+- Waku App/Chat engineer: support Vac-DST and Vac-QA
+- Vac-DST: status-backend benchmarks
+- Vac-QA: Mobile specific scenarios done on status-backend
 
 With this milestone, we establish a foundation for scaling one-to-one and private group chats to support a larger
 number of users. Additionally, we will harden the underlying protocols by studying and refining the current
@@ -31,9 +31,11 @@ either removed or disabled by default to ensure accurate testing and evaluation.
 
 **Milestone and deliverables**: https://github.com/waku-org/pm/milestone/40
 
-TODO: [clean-up the deliverables](https://discord.com/channels/1110799176264056863/1337300409412489290/1379311090302980097):
-- specify private chat: drop
-- rate limit poc: finish it
-- network metrics: move it
-- baseline benchmarks: handover to DST
-- status-cli: review with QA
+## Scope Changes
+
+1. **Specify Private Chat Protocol**: We stop the exercise here, meaning that we don't formally update/add to Status specs/RFC.
+   A justification to write a new protocol stack has been [published](https://forum.vac.dev/t/chatsdk-motivations/501). 
+2. **Private chat rate limit PoC**: Dropped due to higher effort and lower value than anticipated, due to the move towards a new chat protocol. 
+3. **Global Network Metrics**: Moved to a new milestone - [Improve DevEx: API, TWN, Metrics, Docs](improve_devex_api_twn_metrics_docs.md). 
+4. **Baseline benchmarks**: Handing over to Vac/DST
+5. **status-cli**: Handing over to Vac/QA

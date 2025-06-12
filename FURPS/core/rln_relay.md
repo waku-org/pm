@@ -3,10 +3,14 @@
 ## Functionality
 
 1. Light push service node can attach RLN proof for clients.
+2. Relay node can attach RLN proof for outbound messages.
+3. Relay node can verify RLN proof for inbound messages.
+4. Light push client can be configured to generate proof for outbound messages.
+5. Filter client can be configured to verify proof for inbound messages.
 
 ## Usability
 
-1. Light push clients do not need RLN logic.
+1. Light push clients do not need RLN logic when using RLNaaS.
 
 ## Reliability
 
@@ -23,6 +27,7 @@
 ## Supportability
 
 1. Service node proof generation for light push clients is available in `wakunode2` for browser clients.
+2. Browser edge nodes can be configured to verify and generate proofs.
 
 ## + (Privacy, Anonymity, Deployments)
 

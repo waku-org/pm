@@ -14,11 +14,7 @@
 
 ## Reliability
 
-TBD
-
 ## Performance
-
-TBD
 
 ## Supportability
 

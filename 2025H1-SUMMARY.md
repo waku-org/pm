@@ -29,10 +29,11 @@
 | Nwaku in Status Desktop (Relay mode)                | Demonstrate usage of nwaku/nim-library in Status Desktop/Golang Application                                                         | 10/10                 |
 | RLN Mainnet                                         | Introduce economics to DoS protection smart contract and improve UX                                                                 | 7/10                  | 
 | Hardening and scaling foundations for private chats | Understand chat protocol to define roadmap, increase QA coverage for chat protocols                                                 | 7/10                  |
-| Upgrade Waku for the Web                            | Delivered end-to-end protocol to Web applications                                                                                   | 5/10                  | 
+| Upgrade Waku for the Web                            | Delivered end-to-end reliability protocol and improved peer management to Web applications                                          | 5/10                  | 
 | Logos Web apps                                      | Decentralized Forum PoC, Qaku library, demonstration of Codex integration w/ Waku and more resilience to Web3 RPC outages for nwaku | 7/10                  |
 | Explore Peer Discovery Gap                          | Partial Mixnet PoC, dogfooding store sync for network message consistency                                                           | 6/10                  |
 | Debugging Tools                                     | Local metrics dashboard to enable study of software behaviour and usage of Waku                                                     | 5/10                  | 
+| BD - Acquire first 10 Customers                     | 1 additional project has been secured (#5), 2 more are to come out of stealth                                                       | 5/10                  |
 
 ## 🧩 Strategic Benefits Realised
 
@@ -60,6 +61,7 @@
 | Nwaku in Status Mobile and Light Mode MVP         | Underestimated work for desktop integration, reprioritized for H2 behind Chat SDK work                                          | Yes              |
 | Debugging tools, log parser                       | Handed over to Vac-DST who already have similar log tool and just need to extend its functionality                              | No               |
 | Messaging API                                     | Work was expected to only start in H1, which it did. Milestone was re-worked for H2 to better fit team resources                | Yes              |
+| BD - Acquire first 10 Customers                   | Engineering focus on Status over community needs, meaning known gaps (e.g. Rust SDK) creating friction for integration.         | Yes              |
 
 ## 🛠️ FURPS Execution Snapshot
 
@@ -86,13 +88,7 @@
 
 ## Funding and Resources
 
-| Name                   | Amount              |
-|------------------------|---------------------|
-| Headline Budget Ask    | k-USD               |
-| Final Budget Used      | k-USD               |
-| Resource Count Initial | 21                  |
-| Resource Count Final   | 20                  |
-| Open Positions         | 0 (2 backfill lost) |
+https://notes.status.im/E_bcw7cLR36QKI39k-PlMg#
 
 ## ⚠️ Keys Risks & Controls
 
@@ -111,5 +107,7 @@
 - It was too early to formalize integration with Codex. Nonetheless, Waku apps produced by app/chat team have Codex integration and dogfooding of Waku x Codex will continue.
 - We attempted to put in place a process with Vac-QA and Vac-DST respectively "certify" `R`s and `P`s. While good on principle, the tracking processes are not there.
 - It was a first round of planning with FURPS. Lessons have been learned and being applied for H2.
-- The "Waku (Messaging) API" was initially a tidy up, as Waku was already integrated in Status. With a focus towards Chat SDK and growing a developer community, it became an urgent-important item.
 - The Waku internal hackathon was a great experiment to identify use-case but also improvements to the Waku dev ex. With a focus on building (developer) tribes, its strategic value has increased.
+- Milestones that involved breaking changes were dragged across several Status release; need to review how this is planned to not postpone milestone completion dates by months.
+- Some research items took time to wrap-up, sort bindings, etc. Will discuss with the team on how we can be better are getting research PoC ready for dogfooding.
+- With a refocus on community, need to improve tracking of BD results.

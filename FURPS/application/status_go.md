@@ -2,7 +2,8 @@
 
 ## Functionality
 
-1. Nwaku is the used Waku implementation for relay mode.
+1. Nwaku is the used Waku implementation for relay mode. 
+2. Nwaku is the used Waku implementation for light mode.
 
 ## Usability
 
@@ -20,8 +21,12 @@
 ## Supportability
 
 1. Status Desktop binary for Linux, Mac and Windows.
-2. Relay mode is supported; no edge/light mode.
+2. Relay mode is supported.
+3. Light mode is supported.
+4. Status Mobile binary for Android and iOS.
+5. Status Tablet binary for Android and iOS.
 
 ## + (Privacy, Anonymity, Deployments)
 
 1. Status Desktop CI builds binaries with nwaku, alongside go-waku-based binaries.
+2. Status Mobile and Tablet CI builds binaries with nwaku, alongside go-waku-based binaries.
