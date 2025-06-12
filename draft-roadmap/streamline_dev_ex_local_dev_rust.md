@@ -3,18 +3,19 @@
 **Estimated date of completion**: 30 Nov
 
 **Resources Required for 2025H2**:
-- nwaku 1 eng during 1 month 70% until 30 Sep - start 1st Sep
-- js-waku 1 eng 70% 1-19th Sep
-- {external services consumed (Vac/IFT)}
-- {infrastructure}
+- nwaku 3 eng during 6 weeks
+- js-waku 2 eng 6 Week Sep
 
 Complete the Waku API implementation in nwaku by implementing edge node mode (Status' Light Mode).
 
 Streamline the Developer Experience by delivering a Rust SDK that implements the full Waku API and is available on crates.io.
 As well as building an easy-to-use local dev environment from the browser, enabling developers to build web apps without
-relying on external connectivity; as well as opting in and out of RLN, and include a local RLN dev environment.
+relying on external connectivity. Provide a similar harness to deploy a local RLN dev environment.
 
 Finalize the integration of nwaku in Status application by setting up nwaku-based build for Mobile platforms.
+
+Lastly, develop a PoC protocol to demonstrate the usage of Waku as a Signal network, using WebRTC as example.
+This was identified as a demanded demonstration of Waku's capabilities as part of the [Waku MVP analysis](https://www.notion.so/Waku-MVP-1838f96fb65c8039acabf8a6a1e689e7).
 
 ## Strategic Objective
 
@@ -132,4 +133,31 @@ See deliverables.
 - [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)\
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+### [Waku as a Signal Network (WebRTC) PoC](https://github.com/waku-org/pm/issues/298)
+
+**Owner**: js-waku
+
+**Feature**: [Waku as a Signal Network](/FURPS/application/signal_network.md)
+
+**FURPS**:
+
+- F1. Establishes a direct connection between two peers using Waku as a signaling layer
+
+- U1. Developers have access to a simple API: single entry `connect` function and event-based inbound handling.
+
+- R1. End-to-end reliability is implemented for the signaling conversation.
+- R2. No provided reliability for established connections, left to the developer (e.g. keep alive).
+
+- S1. Developers can use this protocol in web application, imported from npmjs.com.
+- S2. Developers can use this protocol to initiate WebRTC connections.
+
+- +1. Signaling payloads are end-to-end encrypted.
+- +2. STUN and TURN servers may be required for WebRTC usage.
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)

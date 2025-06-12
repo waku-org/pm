@@ -30,19 +30,20 @@ Strategy changes:
 
 | Milestone Headline                                                                                    | Strategic Objective                                     | Capacity✱ | Business Val (0/10) | FURPS  |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------|-----------|---------------------|--------|
-| [Define Incentivisation for RLNaaS](draft-roadmap/define_incentivisation_for_rlnaas.md)               | Logos Vision: Core Values Alignment                     | 0.25      | 7                   | FURPS_ |
-| [Improve DevEx: API, TWN, Metrics, Docs](draft-roadmap/improve_devex_api_twn_metrics_docs.md)         | Logos Movement Community Enabling via Dev-X + Telemetry | 1.5       | 10                  | FURPS_ |
-| [Introduce mixnet for message sending](draft-roadmap/introduce_mixnet_for_message_sending.md)         | Logos Vision: Core Values Alignment                     | 0.33      | 4                   | F___S_ |             
-| [Formalize and Expand Waku Web Apps](draft-roadmap/formalize_and_expand_waku_web_apps.md)             | Logos Movement Community Enabling                       | 0.25      | 7                   | FURPS_ |
-| [Create Chat SDK MVP](draft-roadmap/create_chat_sdk_mvp.md)                                           | Logos Movement Module Build Out                         | 1.5       | 8                   | FURPS+ | 
-| [Integrate RLN with Waku API](draft-roadmap/integrate_rln_with_waku_api.md)                           | Logos Movement Module Build Out                         | 0.83      | 9                   | FUR_S+ |
-| [Streamline DevEx: Mobile, Rust and Web dev](draft-roadmap/streamline_dev_ex_local_dev_rust.md)       | Logos Movement Community Enabling via Dev-X             | 0.5       | 7                   | FU__S+ |             
-| [Extend Chat SDK with Group Conversations](draft-roadmap/extend_chat_sdk_with_group_conversations.md) | Logos Movement Module Build Out                         | 1         | 8                   | F_RPS+ | 
+| [Define Incentivisation for RLNaaS](draft-roadmap/define_incentivisation_for_rlnaas.md)               | Logos Vision: Core Values Alignment                     | 0.4       | 7                   | FURPS_ |
+| [Improve DevEx: API, TWN, Metrics, Docs](draft-roadmap/improve_devex_api_twn_metrics_docs.md)         | Logos Movement Community Enabling via Dev-X + Telemetry | 2.1       | 10                  | FURPS_ |
+| [Introduce mixnet for message sending](draft-roadmap/introduce_mixnet_for_message_sending.md)         | Logos Vision: Core Values Alignment                     | 0.7       | 4                   | F___S_ |             
+| [Formalize and Expand Waku Web Apps](draft-roadmap/formalize_and_expand_waku_web_apps.md)             | Logos Movement Community Enabling                       | 2.1       | 7                   | FURPS_ |
+| [Create Chat SDK MVP](draft-roadmap/create_chat_sdk_mvp.md)                                           | Logos Movement Module Build Out                         | 2.1       | 8                   | FURPS+ | 
+| [Integrate RLN with Waku API](draft-roadmap/integrate_rln_with_waku_api.md)                           | Logos Movement Module Build Out                         | 1.7       | 9                   | FUR_S+ |
+| [Streamline DevEx: Mobile, Rust and Web dev](draft-roadmap/streamline_dev_ex_local_dev_rust.md)       | Logos Movement Community Enabling via Dev-X             | 1.2       | 7                   | FU__S+ |             
+| [Extend Chat SDK with Group Conversations](draft-roadmap/extend_chat_sdk_with_group_conversations.md) | Logos Movement Module Build Out                         | 1.4       | 8                   | F_RPS+ | 
 | [Incentivisation Follow-up Outline](draft-roadmap/incentivisation_follow_up.md)                       | Logos Vision: Core Values Alignment                     | 3         | 7                   | TBD    |             
-| [Nim Usage Improvements](draft-roadmap/nim_usage_improvements.md)                                     | Logos Movement Community Enabling: Dev Journey          | 0.33      | 5                   | FU____ |             
-| [BD - Acquire first 10 customers](draft-roadmap/acquire_first_10_customers.md)                        | Logos Movement Community Enabling: Growth               | 0.75      | 7                   | N/A    |
+| [Nim Usage Improvements](draft-roadmap/nim_usage_improvements.md)                                     | Logos Movement Community Enabling: Dev Journey          | 0.5       | 5                   | FU____ |             
+| [BD - Acquire first 10 customers](draft-roadmap/acquire_first_10_customers.md)                        | Logos Movement Community Enabling: Growth               | 2.1       | 7                   | N/A    |
 
 ✱ Capacity: How may people assigned in a 6 months window.
+- 3.5 are applied across all milestones (Franck, Aaron, 1/2 Hanno, Tanya), 1 cc is awol.
 
 ## 🧩 Strategic Benefits Realisable from coming Half-Year (Top 5)
 
@@ -85,9 +86,9 @@ TODO: update
 
 | Strategic Objective                  | People | 
 |--------------------------------------|--------|
-| Logos Vision - Core Values Alignment | 3.58   |
-| Logos Movement Community Enabling    | 3.33   |
-| Logos Movement Module Build Out      | 3.33   |
+| Logos Vision - Core Values Alignment | 4      |
+| Logos Movement Community Enabling    | 8      |
+| Logos Movement Module Build Out      | 5      |
 
 ### Budget Consultation
 
@@ -111,13 +112,14 @@ TODO: update
 
 ## ⚠️ Keys Risks Identified & Controls
 
-| Risk                                            | (Accept, Own, Mitigation)                                                                                                                      |
-|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cryptographic primitives in Nim                 | Expect to nim-wrap existing Rust/C libraries - will consult with Vac to lean towards libraries already used in Nim/IFT ecosystem.              |
-| Timeline uncertainties for research items       | Focus on iterative delivery of usable deliverables, to get early feedback and direction and lower cost of failure.                             |
-| Nim ecosystem and tooling maturity              | New initiative to foster Nim community within IFT, work closely with Vac/Nim re tooling, block time to migrate to Nimble.                      |
-| RLN UX                                          | Integrate in web apps, continue dogfooding and iteration, close collaboration with Status.                                                     |
-| Readiness of status-go for Chat SDK integration | Weekly sync up on chat sdk and status-go refactoring topics between Waku and Status teams, collaborative planning done to align goals and API. |
+| Risk                                            | (Accept, Own, Mitigation)                                                                                                                                  |
+|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cryptographic primitives in Nim                 | Expect to nim-wrap existing Rust/C libraries - will consult with Vac to lean towards libraries already used in Nim/IFT ecosystem.                          |
+| Timeline uncertainties for research items       | Focus on iterative delivery of usable deliverables, to get early feedback and direction and lower cost of failure.                                         |
+| Nim ecosystem and tooling maturity              | New initiative to foster Nim community within IFT, work closely with Vac/Nim re tooling, block time to migrate to Nimble.                                  |
+| RLN UX                                          | Integrate in web apps, continue dogfooding and iteration, close collaboration with Status.                                                                 |
+| Readiness of status-go for Chat SDK integration | Weekly sync up on chat sdk and status-go refactoring topics between Waku and Status teams, collaborative planning done to align goals and API.             |
+| nwaku performance in Status/Chat context        | benchmarks are still wip, we are prepared for potential performance improvement needs in mobile context, as it is a critical point for Status application. |
 
 ## ✅ Key Observations
 
@@ -130,3 +132,4 @@ TODO: update
 - The "Waku (Messaging) API" was initially a tidy up task, as Waku was already integrated in Status. With a focus towards Chat SDK and growing a developer community, it became an urgent-important item.
 - Intent to continue internal hackathon initiative with 2 more occurrences in 2025 (tentatively July and October).
 - Will attempt to secure one grant with minimum extra commitments (foreseeable commitments are wrapper for a specific language or writing RLN smart contract in non-EVM language).
+- Moving one js-waku developer to chat/app team to develop Forum/OpChan app and library for H2.

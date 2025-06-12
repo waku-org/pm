@@ -3,11 +3,10 @@
 **Estimated date of completion**: 30 Sep
 
 **Resources Required for 2025H2**:
-- 1 nwaku engineer for 2 months 
+- 2 nwaku engineer for 2 months 
 - 1 js-waku engineer for 2 months (til 30 Aug)
-- 1 core research for 1 month (assuming ownership of RLN UX deliverable)
+- 1 core research for 1 month
 - Support from Vac/ACZ to get zerokit working in the browser.
-- {infrastructure}
 
 Deliver a native RLN library with a deliberate API to manage RLN memberships, as well as proof verification and generation.
 This includes extracting RLN Relay as a relay plugin validation strategy, that can then be passed internally to nwaku node
