@@ -115,6 +115,7 @@ A _Deliverable_:
 - MUST have an _Output_ section in the description detailing the result of work of the Deliverable, this may be a list of FURPS.
 - If tracking FURPS, the FURPS only belong to one feature aka FURPS set.
 - MUST have only one owner, assigned to the GitHub issue; a Waku subteam lead or team member.
+- SHOULD NOT have a dependency on another deliverable in the **same** milestone.
 - MUST have a checklist to ensure the following items are done:
   - specs
   - code
