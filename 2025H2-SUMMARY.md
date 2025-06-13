@@ -59,7 +59,7 @@ Strategy changes:
 | Logos Core          | Formalize and Expand Waku Web Apps: Logos core app              | Yes                            |
 | Logos Movement      | Formalize and Expand Waku Web Apps: Forum                       | Yes                            | 
 | Status Application  | Streamline DevEx: Mobile                                        | Yes                            |
-| Codex               | Formalize and Expand Waku Web Apps: More Codex Integrations     | Pending                        |
+| Codex               | Formalize and Expand Waku Web Apps: More Codex Integrations     | Yes                            |
 | Status L2           | Integrate RLN With the Waku API: Deploy SC on Sepolia           | Yes                            | 
 
 
