@@ -1,4 +1,4 @@
-# Waku RLN API FURPS
+# Waku RLN SDK FURPS
 
 ## Functionality
 

@@ -1,4 +1,4 @@
-# Waku ADK FURPS
+# Waku SDK FURPS
 
 ## Functionality
 

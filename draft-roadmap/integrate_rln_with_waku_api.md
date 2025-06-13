@@ -91,7 +91,7 @@ See deliverables.
 
 **Owner**: nwaku
 
-**Feature**: [Waku RLN API](/FURPS/core/rln_api.md)
+**Feature**: [Waku RLN API](/FURPS/core/rln_sdk.md)
 
 **FURPS**:
 - F1. Accepts RLN network configuration at initialization.
