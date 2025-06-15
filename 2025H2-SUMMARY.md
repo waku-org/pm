@@ -59,7 +59,7 @@ Strategy changes:
 | Logos Core          | Formalize and Expand Waku Web Apps: Logos core app              | Yes                            |
 | Logos Movement      | Formalize and Expand Waku Web Apps: Forum                       | Yes                            | 
 | Status Application  | Streamline DevEx: Mobile                                        | Yes                            |
-| Codex               | Formalize and Expand Waku Web Apps: More Codex Integrations     | Pending                        |
+| Codex               | Formalize and Expand Waku Web Apps: More Codex Integrations     | Yes                            |
 | Status L2           | Integrate RLN With the Waku API: Deploy SC on Sepolia           | Yes                            | 
 
 
@@ -73,7 +73,7 @@ Strategy changes:
 | Vac-ACZ        | Assist with using zerokit in the Browser                                                | Yes                            |
 | Vac-ACZ        | Assist in determining best libraries to use for cryptography in new Chat SDK            | Yes                            |
 | Vac-ACZ        | mix protocol development                                                                | Yes                            |
-| Infra          | Maintain Waku fleet, apply config changes requests, deploy new nodes for metrics        | Pending                        |
+| Infra          | Maintain Waku fleet, apply config changes requests, deploy new nodes for metrics        | Yes                            |
 | Vac-SC         | Support of functional extension of RLN Smart Contract                                   | Yes                            |
 
 ## Funding and Resources (By Strategic Objective)
