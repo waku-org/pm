@@ -104,6 +104,7 @@ Logos Movement Community Enabling
 
 - The apps need to be functioning and deployed, PoC level.
 - Broadcast to the community must happen (Logos/Waku Discord, Logos/Vac Forums, conference talks, Twitter, etc). 
+- Codex integration should be considered for each app.
 
 **Checklist**:
 
