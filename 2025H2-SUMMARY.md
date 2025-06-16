@@ -85,11 +85,13 @@ https://notes.status.im/E_bcw7cLR36QKI39k-PlMg#
 3.5 are applied across all milestones (Franck, Aaron, 1/2 Hanno, Tanya), 1 core research cc is awol.
 Not full 6 months planned, see above for contingency.
 
-| Strategic Objective                  | People | 
-|--------------------------------------|--------|
-| Logos Vision - Core Values Alignment | 4      |
-| Logos Movement Community Enabling    | 8      |
-| Logos Movement Module Build Out      | 5      |
+| Strategic Objective                  | People† | 
+|--------------------------------------|---------|
+| Logos Vision - Core Values Alignment | 4       |
+| Logos Movement Community Enabling    | 8       |
+| Logos Movement Module Build Out      | 5       |
+
+† Rounded to express relative allocation to the different objectives.
 
 ### Budget Consultation
 
