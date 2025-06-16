@@ -17,6 +17,7 @@
 - Collaborated with Vac-QA to migrate status-lib chat testing to status-backend, and include more mobile environment scenarios to improve QA of Waku and Chat protocols.
 - Delivered mixnet PoC (partial functionality) to increase sender anonymity, collaborating closely with Vac to mature nim-libp2p implementation.
 - Delivered Waku Rust SDK PoC and handed over to a couple community projects.
+- 3 winning projects at Web3Privacy hackathon in Berlin used Waku organically, Waku did not sponsor any prizes.
 
 ## 🚩 Key Achievement(s)
 
