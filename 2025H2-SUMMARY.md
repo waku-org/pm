@@ -102,11 +102,17 @@ Not full 6 months planned, see above for contingency.
 
 ### By Resource
 
-| Resource Headline Item  | People | Comment                                      |
-|-------------------------|--------|----------------------------------------------|
-| Present Resource        | 20     |                                              |
-| Additional Resource Ask | 1      | backfill - Logos Movement Community Enabling |
-| PeopleOps Informed      | Yes    |                                              |
+| Resource Headline Item  | People | Comment                                       |
+|-------------------------|--------|-----------------------------------------------|
+| Present Resource        | 20     |                                               |
+| Additional Resource Ask | 1      | backfill - Logos Movement Community Enabling‡ |
+| PeopleOps Informed      | Yes    |                                               |
+
+‡ This would enable tackling following deliverables earlier:
+
+- Porting new chat protocols to the browser
+- NodeJS SDK, second most demanded SDK - and stabilizing usage of JS in desktop and mobile
+- Dev Ex improvement on Web API (e.g. local first message caching)
 
 ### PeopleOps Consultation
 
