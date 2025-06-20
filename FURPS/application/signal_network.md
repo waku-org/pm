@@ -1,12 +1,17 @@
 # Signal Network PoC FURPS
 
+TODO: Update in deliverable
+
 ## Functionality
 
-1. Establishes a direct connection between two peers using Waku as a signaling layer
+1. Advertise intent to join a given meeting.
+2. Discover remote peers willing to join a given meeting.
+3. Establish direct connection to remote peer with same intent to join a given meeting.
 
 ## Usability
 
-1. Developers have access to a simple API: single entry `connect` function and event-based inbound handling.
+1. Developers sets arbitrary meeting identifier.
+2. Developers selects discovered to connect to. 
 
 ## Reliability
 
@@ -20,5 +25,5 @@
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. Signaling payloads are end-to-end encrypted.
+1. Network observers cannot retrieve node connection details without knowing meeting identifier.
 2. STUN and TURN servers may be required for WebRTC usage.
