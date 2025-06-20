@@ -2,17 +2,11 @@
 
 ## 🧭 Key Outcome(s) of Vision you are supporting
 
-- Create Chat SDK MVP - one-to-one (Nim, Rust, Golang), support Status' technical roadmap, supports Logos Movement and Logos Core by enabling secure conversations over Waku
-- Simplify the API of the Waku SDK (Browser, Nim, Rust, Golang), supports Chat SDK, Logos Movement and Logos Core, make it is easy to integrate
-- Improve Waku Developer Experience by stabilizing The Waku Network and reviewing Docs: Support Logos Movement, make it is easy to integrate
-- Deploy metrics to measure Waku and any Waku app's level of adoption: Support measuring success of Logos Technology adoption
-- Introduce mixnet for message sending: Support Logos Vision of a private technology stack
-- Formalize and Expand Waku Web Apps: Support Logos Movement on teaching them how to hunt
-- Integrate RLN with Waku API: Supports Chat SDK, and Logos Movement to make it easy it to integrate Waku RLN
-- Streamline DevEx: Mobile, and Web dev, supporting Status to have nwaku and chat sdk on mobile, provide tooling to make it easy to integrate js-waku
-- Extend Chat SDK with Group conversations: ditto create chat sdk
-- Nim Usage Improvement: Dedicate time to improve nim usage (nimble usage, iterate on ffi api, study `nimsuggest` behaviour): to improve nwaku contributor experience, enable all goals above and make it easy to contribute
-- Continue Waku Incentivisation: Finish Light push PoC and define next steps, to make Waku infrastructure decentralized and sustainable, as per Logos Vision
+- Developers can use a Chat SDK to enable secure conversations, for one-to-one chat and private groups, that scales over Waku, including RLN.
+- Onboarding on Waku is improved by simplifying the API of the Waku SDK, including RLN, as well as other developer experience improvements.
+- Several applications PoC are built over Waku to demonstrate how to use Waku to developers.
+- Progress on privacy and sustainability tracks with research on mixnet and incentivisation.
+- Deliver nwaku in mobile as the last step to deprecating go-waku.
 
 Strategy changes:
 
