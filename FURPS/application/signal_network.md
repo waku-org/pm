@@ -4,7 +4,7 @@ TODO: Update in deliverable
 
 ## Functionality
 
-1. Advertise intent to join a given meeting.
+1. Advertise intent to join a given session.
 2. Discover remote peers willing to join a given meeting.
 3. Establish direct connection to remote peer with same intent to join a given meeting.
 
