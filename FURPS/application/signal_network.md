@@ -5,12 +5,12 @@ TODO: Update in deliverable
 ## Functionality
 
 1. Advertise intent to join a given session.
-2. Discover remote peers willing to join a given meeting.
-3. Establish direct connection to remote peer with same intent to join a given meeting.
+2. Discover remote peers willing to join a given session.
+3. Establish direct connection to remote peer with same intent to join a given session.
 
 ## Usability
 
-1. Developers sets arbitrary meeting identifier.
+1. Developers sets arbitrary session identifier.
 2. Developers selects discovered to connect to. 
 
 ## Reliability
@@ -25,5 +25,5 @@ TODO: Update in deliverable
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. Network observers cannot retrieve node connection details without knowing meeting identifier.
+1. Network observers cannot retrieve node connection details without knowing session identifier.
 2. STUN and TURN servers may be required for WebRTC usage.
