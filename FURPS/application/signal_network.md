@@ -10,8 +10,7 @@ TODO: Update in deliverable
 
 ## Usability
 
-1. Developers sets arbitrary session identifier.
-2. Developers selects discovered to connect to. 
+1. Developers selects discovered nodes to connect to. 
 
 ## Reliability
 
