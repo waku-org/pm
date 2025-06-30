@@ -4,13 +4,13 @@ TODO: Update in deliverable
 
 ## Functionality
 
-1. Advertise intent to join a given session.
-2. Discover remote peers willing to join a given session.
-3. Establish direct connection to remote peer with same intent to join a given session.
+1. Establish direct connection to remote peer using their public key as identifier.
 
 ## Usability
 
-1. Developers selects discovered nodes to connect to. 
+1. Developers can implement their own application-level discovery method.
+2. Only remote peer's public key is needed to initiate connection.
+3. Hook is provided for developer to filter inbound connection requests.
 
 ## Reliability
 
@@ -21,8 +21,9 @@ TODO: Update in deliverable
 
 1. Developers can use this protocol in web application, imported from npmjs.com.
 2. Developers can use this protocol to initiate WebRTC connections.
+3. Only 1:1 direct connections are supported.
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. Network observers cannot retrieve node connection details without knowing session identifier.
+1. Network observers cannot retrieve node connection details; forward secrecy is **not** included.
 2. STUN and TURN servers may be required for WebRTC usage.
