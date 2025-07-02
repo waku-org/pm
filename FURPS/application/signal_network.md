@@ -1,7 +1,5 @@
 # Signal Network PoC FURPS
 
-TODO: Update in deliverable
-
 ## Functionality
 
 1. Establish direct connection to remote peer using their public key as identifier.
