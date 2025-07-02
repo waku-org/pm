@@ -2,11 +2,13 @@
 
 ## Functionality
 
-1. Establishes a direct connection between two peers using Waku as a signaling layer
+1. Establish direct connection to remote peer using their public key as identifier.
 
 ## Usability
 
-1. Developers have access to a simple API: single entry `connect` function and event-based inbound handling.
+1. Developers can implement their own application-level discovery method.
+2. Only remote peer's public key is needed to initiate connection.
+3. Hook is provided for developer to filter inbound connection requests.
 
 ## Reliability
 
@@ -17,8 +19,9 @@
 
 1. Developers can use this protocol in web application, imported from npmjs.com.
 2. Developers can use this protocol to initiate WebRTC connections.
+3. Only 1:1 direct connections are supported.
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. Signaling payloads are end-to-end encrypted.
+1. Network observers cannot retrieve node connection details; forward secrecy is **not** included.
 2. STUN and TURN servers may be required for WebRTC usage.

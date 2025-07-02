@@ -143,17 +143,20 @@ See deliverables.
 
 **FURPS**:
 
-- F1. Establishes a direct connection between two peers using Waku as a signaling layer
+- F1. Establish direct connection to remote peer using their public key as identifier.
 
-- U1. Developers have access to a simple API: single entry `connect` function and event-based inbound handling.
+- U1. Developers can implement their own application-level discovery method.
+- U2. Only remote peer's public key is needed to initiate connection.
+- U3. Hook is provided for developer to filter inbound connection requests.
 
 - R1. End-to-end reliability is implemented for the signaling conversation.
 - R2. No provided reliability for established connections, left to the developer (e.g. keep alive).
 
 - S1. Developers can use this protocol in web application, imported from npmjs.com.
 - S2. Developers can use this protocol to initiate WebRTC connections.
+- S3. Only 1:1 direct connections are supported.
 
-- +1. Signaling payloads are end-to-end encrypted.
+- +1. Network observers cannot retrieve node connection details; forward secrecy is **not** included.
 - +2. STUN and TURN servers may be required for WebRTC usage.
 
 **Checklist**:
