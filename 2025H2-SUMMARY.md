@@ -37,7 +37,7 @@ Strategy changes:
 | [BD - Acquire first 10 customers](draft-roadmap/acquire_first_10_customers.md)                        | Logos Movement Community Enabling: Growth               | 2.1       | 7                   | N/A    |
 
 ✱ Capacity: How many people assigned in a 6 months window.
-- 3.5 are applied across all milestones (Franck, Aaron, 1/2 Hanno, Tanya), 1 core research cc is awol.
+- 3.5 are applied across all milestones (Franck, Aaron, 1/2 Hanno, Tanya), 1 core research cc was awol for 5 weeks.
 
 ## 🧩 Strategic Benefits Realisable from coming Half-Year (Top 5)
 
