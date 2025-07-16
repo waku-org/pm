@@ -20,6 +20,6 @@
 
 1. ...
 
-## + (Privacy, Anonymity, Deployments)
+## + (Privacy, Anonymity, Censorship-Resistance, Deployments)
 
 1. ...
