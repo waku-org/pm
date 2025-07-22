@@ -10,7 +10,7 @@ The expected flow (feedback welcome to refine it) is:
 
 Note:
 
-Requirements are negotiable and are state explicitly to enable said negotiation.
+Requirements are negotiable and are stated explicitly to enable said negotiation.
 
 B may not be able to deliver all requirements within a half-year,
 a light justification is needed to explain how do we work towards a requirement.
