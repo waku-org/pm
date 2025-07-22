@@ -41,7 +41,7 @@ None
 To be used for
 
 - large messages transfers (such as images, videos, audio) in Chat SDK, Opchan, etc.
-- Enhancement of message archival (uploader does not need to be online).
+- Enhancement of message archival (uploader does not need to be online for messages to be retrieved).
 
 Builds on [Publish Large Messages - Uploader is online](#publish-large-messages---uploader-is-online)
 
