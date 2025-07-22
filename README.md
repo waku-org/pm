@@ -12,7 +12,7 @@ More detailed explanation of proposed roadmap can be found in [draft-roadmap](./
 - Report for 2025H1 in [2025H1-SUMMARY.md](./2025H1-SUMMARY.md)
 - Milestone proposal for 2025H2 in [2025H2-SUMMARY.md](./2025H2-SUMMARY.md)
 
-Outbound requirements, inbound requirements and Waku's response can be found in [REQUIREMENTS.md](./REQUIREMENTS.md)
+Outbound requirements, inbound requirements and Waku's response can be found in [REQUIREMENTS.md](requirements/README.md)
 
 We use the FURPS+ framework to specify software and some non-software requirements.
 Due to the desired properties of our software, `+` is used to express _privacy_, _anonymity_, _censorship-resistance_ and _deployments_ requirements.
