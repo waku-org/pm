@@ -19,6 +19,8 @@ For example: "Building block x, y, z are necessary, and they are being worked on
 Some requirements may be "rejected" as not considered in scope of B's work, ensuring that further discussion happen
 and requirements are adjusted.
 
+Finally, B may challenge some requirements, to ensure their are founded, and have been validated by A, through users and community work.
+
 ## Inbound to Waku
 
 ### Status
