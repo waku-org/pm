@@ -3,6 +3,13 @@
 ## Publish Large Messages - Uploader is online
 
 To be used for messages archival in Chat SDK, Qaku, opchan, etc.
+It assumes that a special user (admin) regularly bundles messages and pushes them to an external system.
+It then pushes the CID (or any other reference to retrieve the bundle) over Waku.
+
+New users retrieve and listen to new messages using Waku.
+Thanks to SDS, they learn whether they miss messages, and if so, can proceed with retrieval from the latest bundle.
+
+(clearly, spec is needed).
 
 ### Functionality
 
