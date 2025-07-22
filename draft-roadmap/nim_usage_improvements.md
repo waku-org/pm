@@ -76,23 +76,25 @@ Note: maybe taken over by Vac-Nim
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
 
-### Create new nim-ffi repository that will allow exposing any Nim library in an easy way
+### Create nim-ffi, a library to easily expose c-bindings from Nim
 
 **Owner**: nwaku
 
 **Feature**:
-- [Waku SDK](/FURPS/core/waku_sdk.md)
-- [RLN SDK](/FURPS/core/rln_sdk.md)
-- [Chat SDK](/FURPS/application/chat_sdk.md)
-- [SDS](/FURPS/application/sds.md)
+- [Nim FFI](/FURPS/application/nim_ffi.md)
 
-**No FURPS**:
+**FURPS**:
 
-**Output**:
- - [ ] The `nim-ffi` repository provides the core logic needed to expose any synchronous or asynchronous Nim library. This involves meta-programming and the introduction of new pragma definitions, such as `{.ffi.}`, to appropriately annotate types and procedures.
+- F1. Provides the core logic needed to expose any synchronous or asynchronous Nim library to FFI.
 
- - [ ] `nim-ffi` can be installed using Nimble.
+- U1.  Introduce new pragma definitions, such as `{.ffi.}`, to appropriately annotate types and procedures.
 
- - [ ] The `nwaku` repository uses `nim-ffi` to expose the existing `libwaku` functionality.
+- S1. Can be installed using Nimble.
 
- - [ ] All Nim libraries should expose their APIs (functions, types, etc.) through `nim-ffi`.
+_ +1. `nwaku` repository uses `nim-ffi` to expose the existing `libwaku` functionality.
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
