@@ -54,7 +54,7 @@ Builds on [Publish Large Messages - Uploader is online](#publish-large-messages-
 
 ### Functionality
 
-1. Message is cached to enable retrieval without sender being online (once uploaded).
+1. After upload, message is retrievable without sender being online.
 2. Best effort in terms of message retention; expectations on restrictions are documented.
 
 ### Usability
