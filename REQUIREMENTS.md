@@ -4,7 +4,7 @@
 
 The expected flow (feedback welcome to refine it) is:
 
-1. Project A writes requirements to B (outbound for A, inbound for A) in FURPS+ format.
+1. Project A writes requirements to B (outbound for A, inbound for B) in FURPS+ format.
 2. Project B responds to A's requirements with their own FURPS+ commitments and roadmap,
    including an overview of which milestones in B's roadmap cover which requirements of A.
 
