@@ -11,15 +11,16 @@ The application should include the least amount of complexity while also effecti
 
 ### Functionality
 
-1. Ability to create Identity
-1. Create new conversations from introductions
-1. View existing Conversations
-
-1. Ability to send messages to a Conversation
-1. Ability to receive messages automatically in the background
+1. Ability to create multiple Identities/Accounts
+1. Ability to sign-in with single chosen Identity.
+1. Ability to view recieved messages by conversation.
+1. Newly created inbound conversations are displayed.
+1. New Oubtound conversations can be created.
+1. Ability to send messages to an existing Conversation.
+1. Ability to receive messages automatically in the background.
 1. Notifications are posted when receiving new messages.
 1. Encoding/encryption errors are logged and retrievable.
-1. Missing messages are displayed to user. 
+1. Missing messages in a conversation are visible to the user. 
 
 ### Usability
 
@@ -28,6 +29,7 @@ The application should include the least amount of complexity while also effecti
 ### Performance
 
 ### Supportability
+
 1. App runs on Mobile
 1. App runs on Desktop 
 
