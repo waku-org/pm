@@ -9,7 +9,7 @@ It then pushes the reference to the bundle over Waku.
 New users retrieve and listen to new messages using Waku upon start up.
 Then, they may retrieve bundles, likely because the know they are missing message via SDS.
 
-The original uploader is the one to determine durability, aka, relevance of data over time.
+The original uploader is the one to determine how much persistence and guarantee they want for the bundle.
 It is application specific (eg until a Q&A is completed), and not related to users having downloaded the data. 
 
 Which means it's a scenario where:
@@ -17,15 +17,32 @@ Which means it's a scenario where:
 - Time from upload to retrieval is **not** critical (latest messages are available on Waku)
 - Several users can seed and download the bundle.
 
-This is very similar to BitTorrent integration in Status. I need to find specs to be more explicit about difference.
-Some notes on BitTorrent integration in Status (AFAIK, asking @osmaczko for help):
+This is very similar to BitTorrent integration in Status ([specs](https://github.com/vacp2p/rfc-index/blob/main/status/61/community-history-service.md))
+Some notes on BitTorrent integration in Status:
 
 1. Known issue is that the bundle is very large, and hence consumes a lot of bandwidth. I don't know if the bundle is "updated" or overridden.
    On Waku app side, we need to be open to have one large bundle vs a series of manageable bundle. The latter offers more flexibility such as attaching bloom filters,
    for selective download.
 2. The bundle download is indiscriminate, meaning every user will download it at some point, with SDS, we can do something smarter
 
+**Technical solutions**
+
+A comment on possible solutions:
+
 Also note (more of a personal opinion), usage of BitTorrent/webtorrent could be an acceptable starting point.
+
+Web is being solved by @vpavlin with vpavlin/qaku-cache which acts as a pinning gateway:
+
+> it is basically a pinning gateway, but instead of using HTTP to upload you use the Codex network itself.
+> It would be cool to add some auth - I was thinking about using Semaphore or RLN to limit who and how much can cache - WDYT?
+
+Or with a Codex web-client that can retrieve and upload from the network:
+
+> I think if we can get a Codex web-client which can upload to the network somehow, we are immediately
+> solving one of the biggest pain points of IPFS and have a great story for anyone "why are you building a new storage
+> and why should I use it?" - I definitely want this to happen:-)
+
+These are inferred in the FURPS below with requirements on web support and censorship-resistance.
 
 ### Functionality
 
@@ -40,7 +57,7 @@ Also note (more of a personal opinion), usage of BitTorrent/webtorrent could be 
 
 1. Download operation can be resumed.
 2. Upload operation can be resumed.
-3. As long as original developer is online, bundle should be retrievable.
+3. As long as original uploader is online, bundle should be retrievable.
 4. As long as N out of M users are online, bundle should be retrievable.
 
 ### Performance
@@ -85,7 +102,7 @@ There is more expectation on timeliness of retrievability, as one would want to 
 1. Download operation can be resumed.
 2. Upload operation can be resumed.
 3. Payload should be retrievable even if original uploader goes offline.
-4. Once all recipients have downloaded the payload, there is no more durability expectations.
+4. Once all recipients have downloaded the payload, there is no more expectations on being able to retrieve the payload.
 
 ### Performance
 
@@ -102,4 +119,4 @@ There is more expectation on timeliness of retrievability, as one would want to 
 
 1. The unavailability of a static host (IP, DNS) does not prevent a user to upload or download (censorship-resistance).
 2. An external observer cannot tie the PIIs of the uploader and downloaders of one payload;
-   it is assumed that the reference to the payload (eg, CID) is not leaked outside the participants. 
+   it is assumed that the reference to the payload (eg, CID) is not leaked outside the participants.
