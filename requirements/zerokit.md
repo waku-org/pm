@@ -4,11 +4,16 @@
 
 Zerokit is the recommended library for cryptographic operations including Poseidon hashing, RLN identity generation, and proof verification. 
 Waku relies on Zerokit, primarily for two implementaions:
-- js-waku (rln-wasm): credentials (now), proof generation and verification (2025H2)
+- js-waku (rln-wasm): credentials registrations, proof generation and verification (planned 2025H2)
 - nwaku: proof generation & verification (now), credentials (2025H2)
 
 Current JS integration faces two main challenges:
-- **WASM cold start/load latency:** The WASM blob load time improved from ~15 seconds (v0.1.0) to ~5 seconds (v0.2.0). Notably, the current `rln-wasm` build includes proof generation and verification, which not all web apps built with Waku require. And even if one web app requires both credentials and proof verification/generation, it is likely done in different areas from a UX and functional PoV. This suggests a smaller, credential-only and proof-handling-only WASM libraries could further reduce load times for js-waku.
+- **WASM cold start/load latency:** The WASM blob load time improved from ~15 seconds (v0.1.0) to ~5 seconds (v0.2.0). 
+  - The split of the 5 seconds is as follows: 
+    - ~1.2 seconds for the WASM files download + decoding/compilation (~1MB)
+    - ~3.6 seconds for the zkey download (~3MB)
+Notably, the current `rln-wasm` build includes proof generation and verification, which not all web apps built with Waku require. And even if one web app requires both credentials and proof verification/generation, it is likely done in different areas from a UX and functional PoV. This suggests a smaller, credential-only and proof-handling-only WASM libraries could further reduce load times for js-waku.
+
 - **Endianness mismatch:** js-waku uses big-endian (BE) throughout, as required by contracts, while Zerokit expects little-endian (LE). This necessitates conversion when interfacing between the two, though this is less critical than load latency.
 
 Additional minor challenges:
@@ -43,7 +48,7 @@ We aim to align expectations and optimize collaboration between the Waku and Vac
 
 ### Performance
 
-- **P1.1:** Cold start under 5s for full WASM blob; ideally under 1s for reduced credential-only blob.
+- **P1.1:** Cold start under 5s for full WASM blob, including the zkey; ideally under 1s for reduced credential-only blob.
 
 ### Supportability
 
