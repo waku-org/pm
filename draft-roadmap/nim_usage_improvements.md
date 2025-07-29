@@ -85,7 +85,7 @@ This deliverable takes care of the following [Nim FFI](/FURPS/application/nim_ff
 
 - F1.
 - U1.
-- S1.
+- U2.
 - +1. `nwaku` repository uses `nim-ffi` to expose the existing `libwaku` functionality.
 
 **Checklist**:
