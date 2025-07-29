@@ -3,7 +3,7 @@
 **Estimated date of completion**: 19 Dec
 
 **Resources Required for 2025H2**:
-- 1 nwaku eng for 2 months
+- 2 nwaku eng for 3 months
 - Support from Vac/Nim team
 
 Improve usage of Nim related tooling and design patterns by proceedings with PoCs to discover potential gains and caveats.
@@ -68,6 +68,25 @@ Note: maybe taken over by Vac-Nim
 - F8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper (PoC).
 
 - U7. When wrapping the C API, a protobuf definition can be used to generate native types for the host language (PoC).
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+
+### Create nim-ffi, a Nim project to easily exposes c-bindings from Nim
+
+**Owner**: nwaku
+
+**FURPS**:
+This deliverable takes care of the following [Nim FFI](/FURPS/application/nim_ffi.md) FURPS:
+
+- F1.
+- U1.
+- U2.
+- +1. `nwaku` repository uses `nim-ffi` to expose the existing `libwaku` functionality.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
