@@ -2,9 +2,10 @@
 
 ## Functionality
 
-1. Admin can mint tokens to any address.
-2. Addresses can be white-listed to freely mint tokens to any address.
-3. Eth (Sepolia) is burnt to mint tokens to any address.
+1. Contract owner can mint tokens to any address for free.
+2. White-listed wallet addresses can mint tokens to any address for free.
+3. Contract owner can add or remove wallet addresses to the white-list.
+4. Eth (Sepolia) is burnt to mint tokens to any address.
 
 ## Usability
 

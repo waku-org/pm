@@ -56,8 +56,10 @@ Logos Vision: Core Values Alignment
 **Feature**: [ERC-20 Testnet Token for RLN Deposit](/FURPS/application/erc-20_testnet_token_for_rln_deposit.md)
 
 **FURPS**:
-- F1. Admin can mint tokens to any address.
-- F2. Addresses can be white-listed to freely mint tokens to any address.
+- F1. Contract owner can mint tokens to any address for free.
+- F2. White-listed wallet addresses can mint tokens to any address for free.
+- F3. Contract owner can add or remove wallet addresses to the white-list.
+- F4. Eth (Sepolia) is burnt to mint tokens to any address.
 
 - U1. Token name is `TST`.
 
