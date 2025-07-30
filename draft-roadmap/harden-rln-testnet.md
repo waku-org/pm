@@ -3,7 +3,7 @@
 **Estimated date of completion**: {Enter date}
 
 **Resources Required for 2025H2**:
-- 1 js-waku dev
+- 1 js-waku dev for 4 weeks.
 - 1 core researcher
 
 The recent deployment and dogfooding of the [new RLN smart contract](https://github.com/waku-org/pm/milestone/34) on Linea Sepolia has unveiled several issues:
