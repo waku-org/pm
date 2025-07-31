@@ -16,6 +16,8 @@
 
 ## Performance
 
+1. Rate limit variables, in combination with good defaults on software side, enable around 10,000 registrations.
+
 ## Supportability
 
 ## + (Privacy, Anonymity, Censorship-Resistance, Deployments)
