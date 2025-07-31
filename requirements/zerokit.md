@@ -38,13 +38,13 @@ We aim to align expectations and optimize collaboration between the Waku and Vac
 
 ### Usability
 
-- **U1.1:** WASM load time should be <5s in cold start on most browsers.
-- **U1.2:** API accepts and return Big-Endian (BE), so data can be passed to Web3 RPC API without manipulation.
-- **U1.3:** Documentation is provided to use APIs to generate and load credentials.
+- **U1.1:** API accepts and return Big-Endian (BE), so data can be passed to Web3 RPC API without manipulation.
+- **U1.2:** Documentation is provided to use APIs to generate and load credentials.
 
 ### Reliability
 
 - **R1.1:** Inter-operability between Zerokit FFI (x86_64, ARM, binaries) and WASI (browser WASM) APIs.
+- **R2.2:** Zerokit must be fully interoperable the RLN EVM smart contract.
 
 ### Performance
 
