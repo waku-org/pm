@@ -76,16 +76,29 @@ Note: maybe taken over by Vac-Nim
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
 
-### Create nim-ffi, a Nim project to easily exposes c-bindings from Nim
+### Create nim-ffi, a library to easily exposes c-bindings from Nim
 
 **Owner**: nwaku
 
-**FURPS**:
-This deliverable takes care of the following [Nim FFI](/FURPS/application/nim_ffi.md) FURPS:
+**Feature**: [Nim FFI](/FURPS/application/nim_ffi.md)
 
-- F1.
-- U1.
-- U2.
+**FURPS**:
+
+- F1. Provides the core logic needed to expose any synchronous or asynchronous Nim library to a C-FFI library.
+
+- U1. Introduce new pragma definitions, such as `{.ffi.}`, to appropriately annotate types and procedures.
+- U2. Any Nim project can use it and can be installed using Nimble,
+   similarly to how nim-chronos is imported.
+- U3. The interaction with the exposed C library can be done using JSON.
+- U4. The interaction with the exposed C library can be done using protobuf.
+
+- R1. Nim-FFI does not leak memory.
+- R2. The exposed C library never hangs when working asynchronously.
+
+- S1. The exposed C library can be used in Golang.
+- S2. The exposed C library can be used in Rust.
+- S3. The exposed C library can be used in Python.
+
 - +1. `nwaku` repository uses `nim-ffi` to expose the existing `libwaku` functionality.
 
 **Checklist**:
