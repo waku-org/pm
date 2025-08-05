@@ -111,12 +111,13 @@ Note: low allocation on nwaku due to
 | 3        | [Introduce mixnet for message sending](introduce_mixnet_for_message_sending.md)         | 30 Sep   | 1*3m     |         |        |          |      | 0.7       |
 | 4        | [Formalize and Expand Waku Web Apps](formalize_and_expand_waku_web_apps.md)             | 19 Dec   |          |         |        | 1.5*6m   |      | 2.1       |
 | 5        | [Create Chat SDK MVP](create_chat_sdk_mvp.md)                                           | 30 Sep   |          |         |        | 3*3m     |      | 2.1       |
-| 6        | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                           | 30 Sep   | 1*1m     | 1*2m    | 2*2m   |          |      | 1.7       |
-| 7        | [Streamline DevEx: Mobile, Rust and Web dev](streamline_dev_ex_local_dev_rust.md)       | 30 Nov   |          | 2*6w    | 3*6w   |          |      | 1.2       |
-| 8        | [Extend Chat SDK with Group Conversations](extend_chat_sdk_with_group_conversations.md) | 19 Dec   |          |         |        | 2*3m     |      | 1.4       |
-| 9        | [Incentivisation and Marketplace Follow-up Outline](incentivisation_follow_up.md)       | TBD      | 2.5*5m   |         |        |          |      | 3         |
-| 10       | [Nim Usage Improvements](nim_usage_improvements.md)                                     | 19 Dec   |          |         | 1*2m   |          |      | 0.5       |
-| 11       | [BD - Acquire 10 Customers](acquire_first_10_customers.md)                              | 19 Dec   |          |         |        | 0.5*6m   | 1*6m | 2.1       |
+| 6        | [Harden RLN Testnet Deployment](harden_rln_testnet.md)                                  | 30 Sep   | 1*1.5m   | 1*1m    |        |          | TODO | 
+| 7        | [Integrate RLN with Waku API](integrate_rln_with_waku_api.md)                           | 30 Sep   | 1*1m     | 1*2m    | 2*2m   |          |      | 1.7       |
+| 8        | [Streamline DevEx: Mobile, Rust and Web dev](streamline_dev_ex_local_dev_rust.md)       | 30 Nov   |          | 2*6w    | 3*6w   |          |      | 1.2       |
+| 9        | [Extend Chat SDK with Group Conversations](extend_chat_sdk_with_group_conversations.md) | 19 Dec   |          |         |        | 2*3m     |      | 1.4       |
+| 10       | [Incentivisation and Marketplace Follow-up Outline](incentivisation_follow_up.md)       | TBD      | 2.5*5m   |         |        |          |      | 3         |
+| 11       | [Nim Usage Improvements](nim_usage_improvements.md)                                     | 19 Dec   |          |         | 1*2m   |          |      | 0.5       |
+| 12       | [BD - Acquire 10 Customers](acquire_first_10_customers.md)                              | 19 Dec   |          |         |        | 0.5*6m   | 1*6m | 2.1       |
 
 ✱ Capacity: How may people assigned in a 6 months window. Adjusted to 70% allocation for support.
 
@@ -138,6 +139,7 @@ gantt
     section core research (6)
         Define Incentivisation for RLNaaS: 2025-07-01, 2025-08-01
         Improve DevEx: 2025-08-01, 2025-08-31
+        Harden RLN Testnet Deployment: 2025-08-01, 2025-09-30
         Integrate RLN with Waku API: 2025-09-01, 2025-09-30
         Mixnet: 2025-07-01, 2025-09-30
         Incentivisation and Marketplace Follow-up: 2025-08-01, 2025-12-31

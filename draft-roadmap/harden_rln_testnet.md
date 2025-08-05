@@ -1,4 +1,4 @@
-# Harden RLN Testnet
+# Harden RLN Testnet Deployment
 
 **Estimated date of completion**: 30 Sep 2025
 
@@ -65,6 +65,10 @@ Logos Vision: Core Values Alignment
 
 - +1. Deployed on Linea Sepolia.
 - +2. Used as ERC-20 deposit token for Linea Sepolia RLN smart contract deployment.
+
+**Feature**: [RLN Smart Contract](/FURPS/core/rln_smart_contract.md)
+
+- P2. Rate limit variables, in combination with good defaults on software side, enable around 5,000 registrations.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
