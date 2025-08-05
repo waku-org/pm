@@ -49,7 +49,7 @@ Logos Vision: Core Values Alignment
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Minting of (Sepolia) ERC-20 Tokens for RLN Deposits is permissioned 
+### [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits is permissioned](https://github.com/waku-org/pm/issues/334)
 
 **Owner**: core research
 
@@ -59,7 +59,6 @@ Logos Vision: Core Values Alignment
 - F1. Contract owner can mint tokens to any address for free.
 - F2. White-listed wallet addresses can mint tokens to any address for free.
 - F3. Contract owner can add or remove wallet addresses to the white-list.
-- F4. Eth (Sepolia) is burnt to mint tokens to any address.
 
 - U1. Token name is `TST`.
 
@@ -76,14 +75,14 @@ Logos Vision: Core Values Alignment
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 - 
-### Minting of (Sepolia) ERC-20 Tokens for RLN Deposits Burns Sepolia Eth
+### [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits Burns Sepolia Eth](https://github.com/waku-org/pm/issues/335)
 
 **Owner**: core research
 
 **Feature**: [ERC-20 Testnet Token for RLN Deposit](/FURPS/application/erc-20_testnet_token_for_rln_deposit.md)
 
 **FURPS**:
-- F3. Eth (Sepolia) is burnt to mint tokens to any address.
+- F4. Eth (Sepolia) is burnt to mint tokens to any address.
 
 - U2. Usage of Metamask Faucet (usually 0.1 Linea Sepolia Eth) should enable enough `TST` token minting to acquire 2-3 RLN memberships.
 
