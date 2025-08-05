@@ -13,9 +13,9 @@ The application should include the least amount of complexity while also effecti
 
 1. Ability to create multiple Identities/Accounts
 1. Ability to sign-in with single chosen Identity.
-1. Ability to view recieved messages by conversation.
+1. Ability to view received messages by conversation.
 1. Newly created inbound conversations are displayed.
-1. New Oubtound conversations can be created.
+1. New Outbound conversations can be created.
 1. Ability to send messages to an existing Conversation.
 1. Ability to receive messages automatically in the background.
 1. Notifications are posted when receiving new messages.
@@ -33,14 +33,14 @@ The application should include the least amount of complexity while also effecti
 1. App runs on Mobile
 1. App runs on Desktop 
 
-**+ (Privacy, Anonymity, Censorship-Resistance, Deployments)**
+### + (Privacy, Anonymity, Censorship-Resistance, Deployments)
 
 ## Migration Preparation
 
 To complete ChatSDK integration without issues, Status needs to prepare the existing code base. 
 Focus is on creating abstractions and planning for breaking changes.
 
-The ChatSDK takes a different approach to managaging conversations, and is incompatible with the existing application. 
+The ChatSDK takes a different approach to managing conversations, and is incompatible with the existing application. 
 Preparing the code base in advance will reduce the integration time, and allow for faster feedback.
 
  To better offer support, it would be helpful for Waku to understand Status' approach to product decisions during this migration.
