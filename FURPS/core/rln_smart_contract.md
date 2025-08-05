@@ -22,6 +22,7 @@
 
 1. New node setup with an RLN membership can be ready to verify RLN proof within 5s,
    no matter the size of the membership set **(Vac-DST)**.
+2. Rate limit variables, in combination with good defaults on software side, enable around 5,000 registrations.
 
 ## Supportability
 

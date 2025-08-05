@@ -41,3 +41,4 @@ All Waku core FURPS are assumed to be deployed and enabled on The Waku Network.
 - [Status Communities](application/status_communities.md)
 - [status-go](application/status_go.md)
 - [Status Private Chats](application/status_private_chats.md)
+- [ERC-20 Testnet Token for RLN Deposit](application/erc-20_testnet_token_for_rln_deposit.md)
