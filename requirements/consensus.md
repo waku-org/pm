@@ -1,4 +1,4 @@
-# Waku's Requirements on a Consensus Provider
+# Waku's Requirements on a Consensus Mechanism
 
 Note: it is unclear at this stage whether those requirements should be fulfilled by Nomos, Status Network, both or neither.
 
