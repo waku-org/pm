@@ -55,6 +55,7 @@ See deliverables.
 
 - U1. RLN membership details can be exported and imported.
 - U2. Deployment details (address, chain id) are persisted by library and in exports.
+- U3. Create script to extend existing memberships.
 
 - R1. Import and exports are interoperable across all implementations.
 

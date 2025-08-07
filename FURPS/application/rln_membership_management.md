@@ -12,6 +12,7 @@
 
 1. RLN membership details can be exported and imported.
 2. Deployment details (address, chain id) are persisted by library and in exports.
+3. Create script to extend existing memberships.
 
 ## Reliability
 
