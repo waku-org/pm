@@ -1,6 +1,6 @@
 # Waku Draft Roadmap
 
-**Most of the below is being moved to [2025H2 Summary](../2025H2-summary.md)**, which is now the master document.
+**Most of the below is being moved to [2025H2 Summary](../2025H2-SUMMARY.md)**, which is now the master document.
 
 Finalised roadmap and milestones can be found on the [Logos roadmap](https://roadmap.logos.co/waku/).
 
@@ -128,6 +128,7 @@ Pushed to 2026H1/Next on the list
 - nwaku performance on mobile: depending on benchmark results
 - New entry points for RLN, in addition to deposit (e.g. Karma holder or SNT staker)
 - Message caching/database within Waku SDK
+- Migration strategy and compliance layer for Status protocol vs Chat SDK 
 
 ## Gantt
 
