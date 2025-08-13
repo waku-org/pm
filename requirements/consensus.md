@@ -17,7 +17,7 @@ The `root` and `getMerkleProof` functions are available on the RLN EVM smart con
 All Waku network nodes must enforce identical message validation rules to prevent network splits at the libp2p-gossipsub layer.
 This necessitates consensus on the Merkle tree’s state across the network.
 
-To achieve this, range validation is employed: a node verifies messages against the current root and a set of previous roots, accommodating proofs generated on recent prior roots.
+To achieve this, a node verifies messages against the current root and a window of previous roots, accommodating proofs generated on recent prior roots.
 However, this requires Waku nodes to constantly track the smart contract’s root, which updates whenever a user registers or withdraws membership.
 On L2 networks, roots may change every few seconds, making Waku a heavy consumer of Web3 RPC APIs.
 
@@ -28,7 +28,7 @@ Event subscriptions (e.g., WebSocket) could also minimize RPC usage, but we aban
 Re-evaluation may occur during migration to Status Network, given potential closer relation with RPC providers.
 
 *Note:* These constraints primarily affect Waku Relay nodes (cloud/laptop-based).
-Edge nodes (mobile/browser) require less frequent RPC access due to lower message volume and relaxed time constraints—since they verify messages without forwarding them (unlike relays, which must validate before propagation).
+Edge nodes (mobile/browser) require less frequent RPC access due to lower message volume and relaxed time constraints—since they verify only the small subset of messages of interest to them.
 
 ### Deposits and RLN Entrypoints
 
