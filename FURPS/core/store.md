@@ -30,8 +30,10 @@
 2. Implements pagination to manage resource usage on both client and server.
 3. Allows presence queries to verify message existence without transferring full content.
 4. Targets query response times under 2 seconds for typical requests.
-5. Hash query of less than 10 hashes are served under 400ms; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
-6. Time range queries of less than 1 hour, using up to 10 content topics, are served under 60 ms; for a database less than 250 GB size and average message size under 500KiB  **(Vac-DST)**.
+5. 95th percentile of hash queries are served in less than 10ms of less than 10 hashes; for a database less than 250 GB size and average message size under 500KiB **(Vac-DST)**.
+6. 90th percentile of time range queries are served in less than 10ms; if the query is less than 1 hour, using up to 10 content topics, for a database less than 250 GB size and average message size under 500KiB  **(Vac-DST)**.
+
+See [dashboards](https://grafana.infra.status.im/goto/kxraQIuNR?orgId=1)
 
 ## Supportability
 
