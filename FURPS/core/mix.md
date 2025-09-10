@@ -6,8 +6,9 @@
 2. Nodes can discover other nodes that support mix using available peer discovery mechanisms
 3. Client nodes can send light push requests over the mixnet before delivery to a service node.
 4. Client nodes can receive a response to a light push request over the mixnet.
-5. Browser clients can send light push requests over the mixnet before delivery to a service node.
-6. Browser clients can receive a response to a light push request over the mixnet.
+5. Browser clients can discover other nodes that support mix using available peer discovery mechanisms
+6. Browser clients can send light push requests over the mixnet before delivery to a service node.
+7. Browser clients can receive a response to a light push request over the mixnet.
 
 ## Usability
 

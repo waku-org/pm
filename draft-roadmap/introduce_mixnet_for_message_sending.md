@@ -58,11 +58,11 @@ See deliverables.
 
 **FURPS**:
 
-- F1. Browser clients can discover other nodes that support mix using available peer discovery mechanisms
-- F2. Browser clients can send light push requests over the mixnet before delivery to a service node.
-- F3. Browser clients can receive a response to a light push request over the mixnet.
+- F5. Browser clients can discover other nodes that support mix using available peer discovery mechanisms
+- F6. Browser clients can send light push requests over the mixnet before delivery to a service node.
+- F6. Browser clients can receive a response to a light push request over the mixnet.
 
-- S1. Browser based apps built using js-waku should support acting as entry nodes.
+- S3. Browser-based apps on js-waku should support acting as entry nodes.
 
 **Checklist**:
 
