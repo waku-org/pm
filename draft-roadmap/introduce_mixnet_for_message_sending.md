@@ -50,7 +50,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Implement libp2p mix in js-libp2p and integrate with lightpush in js-waku](https://github.com/waku-org/js-waku/issues/2634)
+### [Implement and integrate libp2p mix in js-waku for light push](https://github.com/waku-org/js-waku/issues/2634)
 
 **Owner**: TBD
 
@@ -58,11 +58,10 @@ See deliverables.
 
 **FURPS**:
 
-- F5. Browser clients can discover other nodes that support mix using available peer discovery mechanisms
-- F6. Browser clients can send light push requests over the mixnet before delivery to a service node.
-- F6. Browser clients can receive a response to a light push request over the mixnet.
 
-- S3. Browser-based apps on js-waku should support acting as entry nodes.
+- P1. Payload (store query, light push query) are limited to 4kB
+
+- S3. Browser-based apps as sender nodes; light push only.
 
 **Checklist**:
 
