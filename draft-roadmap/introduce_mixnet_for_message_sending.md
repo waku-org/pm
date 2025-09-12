@@ -58,8 +58,7 @@ See deliverables.
 
 **FURPS**:
 
-
-- P1. Payload (store query, light push query) are limited to 4kB
+- P1. Payload (store query, light push message) are limited to 4kB
 
 - S3. Browser-based apps as sender nodes; light push only.
 
