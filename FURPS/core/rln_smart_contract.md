@@ -13,6 +13,7 @@
 2. User does not need to wait for merkle tree synchronization and building to start relaying
    or sending messages.
 3. Application does not need to do a Web3 RPC call for every tree change to generate or validate messages.
+4. Application can transfer tokens and register membership with a single transaction.
 
 ## Reliability
 
