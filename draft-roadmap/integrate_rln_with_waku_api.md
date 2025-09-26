@@ -132,7 +132,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Improve RLN UX by reducing Web3 RPC calls
+### [Improve RLN UX by reducing contract interactions](https://github.com/waku-org/pm/issues/344)
 
 **Owner**: core research
 
@@ -140,6 +140,7 @@ See deliverables.
 
 **FURPS**:
 - U3. Application does not need to do a Web3 RPC call for every tree change to generate or validate messages.
+- U4. Application can transfer tokens and register membership with a single transaction.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
