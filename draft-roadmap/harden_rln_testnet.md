@@ -34,7 +34,7 @@ Logos Vision: Core Values Alignment
 
 ## Deliverables 
 
-### Zerokit is used in the Browser for Credentials Management
+### [Zerokit is used in the Browser for Credentials Management](https://github.com/waku-org/pm/issues/341)
 
 **Owner**: js-waku
 
