@@ -128,7 +128,9 @@ Pushed to 2026H1/Next on the list
 - nwaku performance on mobile: depending on benchmark results
 - New entry points for RLN, in addition to deposit (e.g. Karma holder or SNT staker)
 - Message caching/database within Waku SDK
-- Migration strategy and compliance layer for Status protocol vs Chat SDK 
+- Migration strategy and compliance layer for Status protocol vs Chat SDK
+- ?Reinforced integration of discv5 protocols (mDNS, discv5 feeding from peer-exchange)
+- new discovery protocol
 
 ## Gantt
 
