@@ -1,0 +1,65 @@
+# Improve mixnet usage
+
+**Estimated date of completion**: 31 Jan 2026
+
+**Resources Required for 2025H2**:
+
+- 1 core research engineer for 3 months
+
+Improve Waku mixnet usage by adding browser (js-waku) support and p2p discovery.
+
+## Strategic Objective
+
+Logos Vision: Core Values Alignment
+
+## FURPS
+
+See deliverables.
+
+## Risks
+
+| Risk                                    | (Accept, Own, Mitigation)                                          |
+| --------------------------------------- | ------------------------------------------------------------------ |
+| Impact on latency and other UX elements | Run simulations and studies to understand impact                   |
+| Unknowns on implementing js-mix         | Further study and understanding of js-libp2p internals             |
+
+## Deliverables
+
+### [Implement and integrate libp2p mix in js-waku for light push](https://github.com/waku-org/js-waku/issues/2634)
+
+**Owner**: Core Research
+
+**Feature**: [Mix](/FURPS/core/mix.md)
+
+**FURPS**:
+
+- P1. Payload (store query, light push message) are limited to 4kB
+
+- S3. Browser based apps built using js-waku support acting as entry nodes.
+
+**Checklist**:
+
+- [ ] Specs: link to specs
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
+### [Implement basic discovery for mix](https://github.com/waku-org/js-waku/issues/2634)
+
+**Owner**: Core Research
+
+**Feature**: [Mix](/FURPS/core/mix.md)
+
+**FURPS**:
+
+- F5. Nodes can discover other nodes that support mix using available peer discovery mechanisms.
+
+- S4. Browser based apps built using js-waku support discovering mix nodes using available peer discovery mechanisms.
+
+**Checklist**:
+
+- [ ] Specs: link to specs
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or docs.waku.org (TBD)
+
