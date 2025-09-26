@@ -72,8 +72,8 @@ Period in planning: 2025 H2
 
 Testing out new format, once approved:
 
-- Milestones are moved to Logos roadmap
-- Deliverables are moved to GitHub issues
+- Milestones are copied to Logos roadmap
+- Deliverables are copied to GitHub issues
 - Waku FURPS remains in [FURPS](/FURPS/README.md)
 
 In order of priority.
