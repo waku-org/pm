@@ -33,7 +33,7 @@ Logos Movement Community Enabling
 
 ## Deliverables
 
-### [Forum PoC](https://github.com/waku-org/pm/issues/292) 
+### [Forum PoC](https://github.com/waku-org/pm/issues/292)
 
 **Owner**: App/Chat Dev
 
@@ -94,7 +94,7 @@ Logos Movement Community Enabling
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Build Ten Waku Web Apps
+### [Build Ten Waku Web Apps](https://github.com/waku-org/pm/issues/349)
 
 **Owner**: App/Chat Dev
 
@@ -115,7 +115,7 @@ Logos Movement Community Enabling
   - [ ] Walkthrough Video
   - [ ] Social media post for re-broadcast
 
-### Build One Waku Logos Core App
+### [Build One Waku Logos Core App](https://github.com/waku-org/pm/issues/350)
 
 **Owner**: App/Chat Dev
 
@@ -136,7 +136,7 @@ Logos Movement Community Enabling
   - [ ] Walkthrough Video
   - [ ] Social media post for re-broadcast
 
-### Open Forum to Web3 Users and Anons
+### [Open Forum to Web3 Users and Anons](https://github.com/waku-org/pm/issues/351)
 
 **Owner**: App/Chat Dev
 

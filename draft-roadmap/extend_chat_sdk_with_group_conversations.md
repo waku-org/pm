@@ -32,7 +32,7 @@ Logos Movement Module Build Out
 
 ## Deliverables
 
-### Add Group Chat
+### [Add Group Chat](https://github.com/waku-org/pm/issues/346)
 
 **Owner**: App/Chat Research
 
@@ -61,7 +61,7 @@ Logos Movement Module Build Out
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Group Chat Bindings
+### [Group Chat Bindings](https://github.com/waku-org/pm/issues/348)
 
 **Owner**: App/Chat Dev
 
@@ -78,7 +78,7 @@ Logos Movement Module Build Out
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Enable usage with RLN SDK
+### [Enable usage with RLN SDK](https://github.com/waku-org/pm/issues/347)
 
 **Owner**: App/Chat Dev
 

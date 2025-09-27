@@ -35,7 +35,7 @@ See deliverables.
 
 ## Deliverables
 
-### Edge Mode in Nwaku
+### [Edge Mode in Nwaku](https://github.com/waku-org/pm/issues/357)
 
 **Owner**: nwaku
 
@@ -56,7 +56,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Nwaku in Status Mobile
+### [Nwaku in Status Mobile](https://github.com/waku-org/pm/issues/358)
 
 **Owner**: nwaku
 
@@ -74,7 +74,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Waku Rust SDK
+### [Waku Rust SDK](https://github.com/waku-org/pm/issues/289)
 
 **Owner**: nwaku
 
@@ -89,7 +89,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Local Web Dev Harness
+### [Local Web Dev Harness](https://github.com/waku-org/pm/issues/359)
 
 **Owner**: js-waku
 
@@ -114,7 +114,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Local Dev RLN Harness
+### [Local Dev RLN Harness](https://github.com/waku-org/pm/issues/360)
 
 **Owner**: nwaku
 

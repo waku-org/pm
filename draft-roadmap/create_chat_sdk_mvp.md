@@ -42,7 +42,7 @@ Logos Movement Module Build Out
 
 ## Deliverables
 
-### ChatSDK Developer Preview
+### [ChatSDK Developer Preview](https://github.com/waku-org/pm/issues/316)
 
 **Owner**: App/Chat Research
 
@@ -76,7 +76,7 @@ Logos Movement Module Build Out
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### ChatSDK Bindings
+### [ChatSDK Bindings](https://github.com/waku-org/pm/issues/317)
 
 **Owner**: App/Chat Dev
 
@@ -98,7 +98,7 @@ For library ChatSDK:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.orgAPI definition? (TBD)
 
-### Create Segmentation Library
+### [Create Segmentation Library](https://github.com/waku-org/pm/issues/318)
 
 **Owner**: App/Chat Dev
 
@@ -130,7 +130,7 @@ For library ChatSDK:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Create Rate Limit Manager
+### [Create Rate Limit Manager](https://github.com/waku-org/pm/issues/319)
 
 **Owner**: App/Chat Dev
 

@@ -89,7 +89,7 @@ Spec delivery not included.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Introduce Waku API in the Browser
+### [Introduce Waku API in the Browser](https://github.com/waku-org/pm/issues/283)
 
 **Owner**: js-waku
 
@@ -118,7 +118,7 @@ For S3. Browser; distribution via npmjs.com.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Introduce Waku API in nwaku
+### [Introduce Waku API in nwaku](https://github.com/waku-org/pm/issues/305)
 
 **Owner**: nwaku
 
@@ -149,7 +149,7 @@ For:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Review Documentation and Define Guidelines
+### [Review Documentation and Define Guidelines](https://github.com/waku-org/pm/issues/323)
 
 **Owner**: core research
 
@@ -162,7 +162,7 @@ For:
   - [ ] How to contribute to documentation: location, format
 - [ ] Setup an initial structure to enable the guideline
 
-### Trial QUIC
+### [Trial QUIC](https://github.com/waku-org/pm/issues/324)
 
 **Owner**: nwaku
 
@@ -177,7 +177,7 @@ For:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Optimise Browser Bootstrapping
+### [Optimise Browser Bootstrapping](https://github.com/waku-org/pm/issues/290)
 
 **Owner**: js-waku
 

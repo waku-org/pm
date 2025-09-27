@@ -24,7 +24,7 @@ See deliverables.
 
 ## Deliverables
 
-### [Integrate libp2p mix into lightpush](https://github.com/waku-org/nwaku/issues/3280)
+### [Integrate libp2p mix into lightpush](https://github.com/waku-org/pm/issues/291)
 
 **Owner**: core research
 
