@@ -40,7 +40,7 @@ See deliverables.
 
 ## Deliverables 
 
-### [Implement RLN membership management in nwaku library]()
+### [Implement RLN membership management in nwaku library](https://github.com/waku-org/pm/issues/353)
 
 **Owner**: nwaku
 
