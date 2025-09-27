@@ -40,7 +40,7 @@ See deliverables.
 
 ## Deliverables 
 
-### Implement RLN membership management in nwaku library
+### [Implement RLN membership management in nwaku library]()
 
 **Owner**: nwaku
 
@@ -69,7 +69,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Implement RLN Onchain Tree Proof generation and verification in the Browser 
+### [Implement RLN Onchain Tree Proof generation and verification in the Browser](https://github.com/waku-org/pm/issues/354) 
 
 **Owner**: js-waku
 
@@ -87,7 +87,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Extract RLN as a plug-in library from nwaku 
+### [Extract RLN as a plug-in library from nwaku](https://github.com/waku-org/pm/issues/355) 
 
 **Owner**: nwaku
 
@@ -116,7 +116,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Deploy RLN Contracts to Status L2 testnet
+### [Deploy RLN Contracts to Status L2 testnet](https://github.com/waku-org/pm/issues/356)
 
 **Owner**: nwaku
 
