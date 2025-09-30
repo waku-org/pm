@@ -76,7 +76,7 @@ Note: maybe taken over by Vac-Nim
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
 
-### Create nim-ffi, a library to easily exposes c-bindings from Nim
+### [Create nim-ffi, a library to easily exposes c-bindings from Nim](https://github.com/waku-org/pm/issues/332)
 
 **Owner**: nwaku
 
