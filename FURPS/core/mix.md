@@ -13,9 +13,12 @@
 
 ## Performance
 
+- P1. Payload (store query, light push message) are limited to 4kB
+
 ## Supportability
 
 1. `wakunode2` for intermediary and exit nodes.
 2. nwaku CLI for sender nodes.
+3. Browser based apps built using js-waku should support acting as entry nodes.
 
 ## + (Privacy, Anonymity, Deployments)
