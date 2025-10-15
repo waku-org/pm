@@ -14,7 +14,7 @@
 
 ## Performance
 
-- P1. Payload (store query, light push message) are limited to 4kB
+- P1. Payloads are limited to 4kB
 
 ## Supportability
 

@@ -1,10 +1,10 @@
 # Improve mixnet usage
 
-**Estimated date of completion**: 31 Jan 2026
+**Estimated date of completion**: 31 March 2026
 
 **Resources Required for 2025H2**:
 
-- 1 core research engineer for 3 months
+- 1 core research engineer for 5 months
 
 Improve Waku mixnet usage by adding browser (js-waku) support and p2p discovery.
 
@@ -21,7 +21,8 @@ See deliverables.
 | Risk                                    | (Accept, Own, Mitigation)                                          |
 | --------------------------------------- | ------------------------------------------------------------------ |
 | Impact on latency and other UX elements | Run simulations and studies to understand impact                   |
-| Unknowns on implementing js-mix         | Further study and understanding of js-libp2p internals             |
+| Unknowns in implementing js-mix         | Further study and understanding of js-libp2p internals             |
+| Possible `exit==destination` in dependency library impact existing implementation | Frequent syncing with Vac and p2p team to understand impact and progress |
 
 ## Deliverables
 
@@ -33,7 +34,7 @@ See deliverables.
 
 **FURPS**:
 
-- P1. Payload (store query, light push message) are limited to 4kB
+- P1. Payloads are limited to 4kB
 
 - S3. Browser based apps built using js-waku support acting as entry nodes.
 
@@ -44,7 +45,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Implement basic discovery for mix](https://github.com/waku-org/js-waku/issues/2634)
+### [Implement basic discovery for mix]()
 
 **Owner**: Core Research
 
