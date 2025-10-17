@@ -9,12 +9,15 @@ block-beta
     sc["Secure Conversations (Chat SDK)"]:4
     
     e["Encryption"]:1
-    rc["Reliable Channels"]:3
-    
+    rc["Reliable Channels"]:3    
     space:1
-    sg["Segmentation"]:1
-    rlm["Rate Limit Manager"]:1
-    sds["Scalable Data Sync"]:1
+    
+    block:reliablechannels:3
+        columns 1
+        sg["Segmentation"]:1
+        sds["Scalable Data Sync"]:1
+        rlm["Rate Limit Manager"]:1
+    end
 
     P2PReliability["P2P Reliability (Waku API)"]:4
     block:wakuapi:4
