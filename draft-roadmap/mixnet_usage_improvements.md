@@ -1,4 +1,4 @@
-# Improve mixnet usage
+# Add peer discovery to mixnet and support browser
 
 **Estimated date of completion**: 31 March 2026
 
@@ -6,7 +6,9 @@
 
 - 1 core research engineer for 5 months
 
-Improve Waku mixnet usage by adding browser (js-waku) support and p2p discovery.
+Peer discovery for mixnet was descoped from the previous milestones due to upcoming challenges around ENR usage and modification to libp2p needed to support mix peers in rendezvous.
+
+Web apps have been a strong  dogfooding and adoption driver for Waku, especially for edge nodes. Adding mix will not only enable wider dogfooding, but also increase anonymity for browser users.
 
 ## Strategic Objective
 
