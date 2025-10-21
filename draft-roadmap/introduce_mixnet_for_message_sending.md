@@ -1,8 +1,9 @@
 # Introduce Mixnet For Message Sending
 
-**Estimated date of completion**: 30 Sep 2025
+**Estimated date of completion**: 10 Oct 2025
 
 **Resources Required for 2025H2**:
+
 - 1 core research engineer for 3 months
 
 A PoC implementation to improve anonymity in Waku message publishing by mixing Waku Lightpush requests and responses.
@@ -18,7 +19,7 @@ See deliverables.
 ## Risks
 
 | Risk                                    | (Accept, Own, Mitigation)                                          |
-|-----------------------------------------|--------------------------------------------------------------------|
+| --------------------------------------- | ------------------------------------------------------------------ |
 | Dependency on mix library               | Strong collaboration, integrate early, get involved behind the API |
 | Impact on latency and other UX elements | Run simulations and studies to understand impact                   |
 
@@ -31,8 +32,9 @@ See deliverables.
 **Feature**: [Mix](/FURPS/core/mix.md)
 
 **FURPS**:
+
 - F1. Relay nodes can mount mixnet protocol, acting as sender, intermediary or exit nodes.
-- F2. Nodes can discover other nodes that support mix using available peer discovery mechanisms
+- F2. Nodes can connect to other nodes that support mix using static configuration.
 - F3. Client nodes can send light push requests over the mixnet before delivery to a service node.
 - F4. Client nodes can receive a response to a light push request over the mixnet.
 
@@ -40,6 +42,7 @@ See deliverables.
 - S2. nwaku CLI for sender nodes.
 
 **Checklist**:
+
 - [ ] Specs: link to specs
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
