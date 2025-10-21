@@ -28,7 +28,7 @@ See deliverables.
 
 ## Deliverables
 
-### [Implement and integrate libp2p mix in js-waku for light push](https://github.com/waku-org/js-waku/issues/2634)
+### [Implement and integrate libp2p mix in js-waku for light push](https://github.com/waku-org/pm/issues/365)
 
 **Owner**: Core Research
 
@@ -47,7 +47,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Implement basic discovery for mix]()
+### [Implement basic discovery for mix](https://github.com/waku-org/pm/issues/366)
 
 **Owner**: Core Research
 
