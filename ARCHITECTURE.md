@@ -15,8 +15,8 @@ block-beta
     block:reliablechannels:3
         columns 1
         sg["Segmentation"]:1
-        enc["Encrypt/Decrypt"]:1
         sds["Scalable Data Sync"]:1
+        enc["Encrypt/Decrypt"]:1
         rlm["Rate Limit Manager"]:1
     end
 
