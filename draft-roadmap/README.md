@@ -131,6 +131,7 @@ Pushed to 2026H1/Next on the list
 - Migration strategy and compliance layer for Status protocol vs Chat SDK
 - ?Reinforced integration of discv5 protocols (mDNS, discv5 feeding from peer-exchange)
 - new discovery protocol
+- store simplification and reliable channel API definition: https://forum.vac.dev/t/introducing-the-reliable-channel-api/580/9?u=fryorcraken
 
 ## Gantt
 
