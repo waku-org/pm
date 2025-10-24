@@ -1,6 +1,6 @@
 # Improve DevEx: API, TWN, Metrics, Docs
 
-**Estimated date of completion**: 31 Aug
+**Estimated date of completion**: 27 Oct
 
 **Resources Required for 2025H2**:
 - 2 js-waku engineers

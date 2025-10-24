@@ -1,6 +1,6 @@
 # Integrate RLN With the Waku API
 
-**Estimated date of completion**: 30 Sep
+**Estimated date of completion**: 27 Oct
 
 **Resources Required for 2025H2**:
 - 2 nwaku engineer for 2 months 
